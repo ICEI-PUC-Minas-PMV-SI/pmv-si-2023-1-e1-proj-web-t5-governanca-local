@@ -1,4 +1,4 @@
-# Título do Projeto
+# Governança Local
 
 `CURSO: Sistemas de Informação`
 
@@ -6,19 +6,22 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Como proposta, o projeto de aplicação web `Governança Local` busca, através da ação autônoma de moradores de quaisquer bairros, centralizar e organizar todo e qualquer tipo de ação comunitária local, desde possibilitar divulgações de eventos do bairro e práticas de boas convivências, bem como o registro de sugestões, reclamações e dúvidas dos moradores. 
+
+Essa aplicação possibilitará, em resumo, uma maior integração social organizada e uniforme, colocando o morador/usuário como o centro das pautas.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Gabriel Amorim Santos Maia
+* Lucas Morais Barcelos
+* Paulo Alves Andrade
+* Pedro Henrique Nunes Alves
+* Victor Hugo Vasquez da Silva
+* Wesney Andrade Souza
 
 ## Orientador
 
-* Nome completo do professor 1
+* Luciana de Nardin
 
 # Planejamento
 
