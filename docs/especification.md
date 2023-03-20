@@ -6,7 +6,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+<div>
+<img src="https://user-images.githubusercontent.com/127517961/226222802-3643403b-2d53-4cd0-af17-ce98313f6e93.jpg" width="350px">
+<p> Bruno possui 37 anos. Entretanto, desde quando completou a faculdade, aos 23 anos, nota a existência de um buraco na entrada de sua rua, que a cada vez fica maior e mais fundo. Sua preocupação aconteceu, pois, em um dia de correria, passou em alta velocidade, comprometendo seriamente os amortecedores e os pneus do seu veículo. Como tentativa de finalmente ser notado pela prefeitura, busca novos meios para as reivindicações dos seus direitos.  </p>
+</div>
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
