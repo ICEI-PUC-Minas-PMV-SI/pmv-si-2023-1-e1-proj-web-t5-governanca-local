@@ -31,6 +31,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 <img src="https://user-images.githubusercontent.com/102264520/226626615-e1438119-0c53-46ae-a45c-031cf7672a58.jpg" width="350px">
  <p>Eliza é uma mulher com seus 41 anos, mãe de dois filhos e professora na escola primária do seu bairro, participa ativamente do comitê disciplinar em seu trabalho. E uma pauta abordada nesses comitês foi a segurança de seus alunos em relação ao controle de saída e entrada na escola e trajeto das crianças até suas casas, como mãe e professora, gostaria de trazer mais seguranças para seus filhos e alunos.</p>
 </div>
+
+##
                                                                                                                               
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
