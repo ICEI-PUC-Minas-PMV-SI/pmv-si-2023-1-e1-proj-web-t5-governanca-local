@@ -17,7 +17,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 <p> Manoel é estudante de direito pela PUC-Minas Ead, tem 25 anos e utiliza da biblioteca da cidade para fazer seus estudos diários. Ocorre que em dias de chuva a cidade alaga de modo que, atravessar determinados pontos se torna perigoso. A cidade está com problema de distribuição de lixeiras para o descarte correto do lixo, não há incentivo à coleta seletiva e isto faz com que o lixo seja descartado incorretamente pela população. Consequentemente os bueiros entopem, e a cidade inunda fazendo com que Manoel não possa ir à biblioteca estudar. Como bálsamo para seus problemas está em busca de alguma forma de contatar as autoridades locais para dar sugestões e pedir apoio na solução deste problema. </p>
 </div>
 
-
+<div>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/issues/6#issue-1634186747" width="350px">
+ <p>Paulo de 23 anos que trabalha de home office, reclama que na sua rua sempre passa um caminhão, que mora na vizinhança, solta muita fumaça e acaba tendo que fechar as janelas, se não todos passam mal com o cheiro forte, todos da vizinhança sabem que o dono/motorista do caminhão não tem muita condição, Paulo gostaria que o bairro se unisse para achar uma solução. </p>
+</div>
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
