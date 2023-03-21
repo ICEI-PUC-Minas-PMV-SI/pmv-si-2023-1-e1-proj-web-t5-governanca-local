@@ -53,6 +53,8 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 # Introdução
 
+## Problema
+
 Você já passou por uma rua e observou um canteiro cheio de lixo num bairro onde, mesmo havendo casas próximas e muitas pessoas, e se perguntou como que a comunidade da rua não se organiza para limpar esse espaço? Ou aquele buraco da rua que faz anos que está ali, prejudicando os carros que passam, ou um espaço abandonado, mal cuidado, onde a natureza toma conta sobre um espaço no qual poderia ser usado para instalar um parque, quadra ou uma área para feiras ocasionais? Por que é difícil as pessoas se organizarem num bairro e como facilitar e incentivar as organizações das comunidades locais?  
 
 Nos Estados Unidos há associações locais chamadas BIDs (Business improvement districts
