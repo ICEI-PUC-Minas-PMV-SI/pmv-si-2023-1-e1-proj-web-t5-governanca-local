@@ -27,6 +27,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
  <p>Larissa de 23 anos jogadora de vólei gosta muito de esportes, pratica corrida/caminhada diariamente pela amanhã em seu bairro, mas reclama das dificuldades, pois em seu bairro não tem nem uma rua prepara com pistas de corrida ou uma área de lazer, por esse motivo tendo que correr/caminhar entre os carros ponde causar um acidente, com isto Larissa esta procurando um meio de solucionar esse problema. </p>
 </div>
 
+<div>
+<img src="https://user-images.githubusercontent.com/102264520/226626615-e1438119-0c53-46ae-a45c-031cf7672a58.jpg" width="350px">
+ <p>Eliza é uma mulher com seus 41 anos, mãe de dois filhos e professora na escola primária do seu bairro, participa ativamente do comitê disciplinar em seu trabalho. E uma pauta abordada nesses comitês foi a segurança de seus alunos em relação ao controle de saída e entrada na escola e trajeto das crianças até suas casas, como mãe e professora, gostaria de trazer mais seguranças para seus filhos e alunos.</p>
+</div>
+                                                                                                                              
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
