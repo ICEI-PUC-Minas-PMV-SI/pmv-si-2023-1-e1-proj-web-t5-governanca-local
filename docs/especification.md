@@ -11,6 +11,13 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 <p> Bruno possui 37 anos. Entretanto, desde quando completou a faculdade, aos 23 anos, nota a existência de um buraco na entrada de sua rua, que a cada vez fica maior e mais fundo. Sua preocupação aconteceu, pois, em um dia de correria, passou em alta velocidade, comprometendo seriamente os amortecedores e os pneus do seu veículo. Como tentativa de finalmente ser notado pela prefeitura, busca novos meios para as reivindicações dos seus direitos.  </p>
 </div>
 
+
+<div>
+<img src="https://user-images.githubusercontent.com/128436722/226498313-c08c2c4c-e1f0-471d-b2d1-85aee13018d6.jpg" width="350px">
+<p> Manoel é estudante de direito pela PUC-Minas Ead, tem 25 anos e utiliza da biblioteca da cidade para fazer seus estudos diários. Ocorre que em dias de chuva a cidade alaga de modo que, atravessar determinados pontos se torna perigoso. A cidade está com problema de distribuição de lixeiras para o descarte correto do lixo, não há incentivo à coleta seletiva e isto faz com que o lixo seja descartado incorretamente pela população. Consequentemente os bueiros entopem, e a cidade inunda fazendo com que Manoel não possa ir à biblioteca estudar. Como bálsamo para seus problemas está em busca de alguma forma de contatar as autoridades locais para dar sugestões e pedir apoio na solução deste problema. </p>
+</div>
+
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
