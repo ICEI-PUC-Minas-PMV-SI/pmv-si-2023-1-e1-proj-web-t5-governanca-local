@@ -33,9 +33,7 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Este projeto visa ajudar a população que lida com problemas que podem ser resolvidos através da gestão pública, porém não conseguem reivindicar ou sugerir ações que possam dar fim a tais problemas. Desse modo, a comunicação de ambos os lados será ativa e os problemas poderão ser sanados de modo eficiente e rápido. Para dar voz às pessoas que carecem de contato com órgãos competentes, baseado no incentivo ao diálogo aberto e a participação atuante da comunidade.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
