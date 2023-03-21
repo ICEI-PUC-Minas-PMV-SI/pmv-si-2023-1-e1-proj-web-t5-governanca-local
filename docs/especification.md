@@ -18,7 +18,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 </div>
 
 <div>
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/issues/6#issue-1634186747" width="350px">
+<img src="https://user-images.githubusercontent.com/112134718/226659525-9214e68c-0e13-4dac-9339-ea81751c110a.png" width="350px">
  <p>Paulo de 23 anos que trabalha de home office, reclama que na sua rua sempre passa um caminhão, que mora na vizinhança, solta muita fumaça e acaba tendo que fechar as janelas, se não todos passam mal com o cheiro forte, todos da vizinhança sabem que o dono/motorista do caminhão não tem muita condição, Paulo gostaria que o bairro se unisse para achar uma solução. </p>
 </div>
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
