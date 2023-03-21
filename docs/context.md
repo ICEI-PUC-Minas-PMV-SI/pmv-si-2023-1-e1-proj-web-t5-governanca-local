@@ -80,3 +80,33 @@ Este projeto visa ajudar a população de ruas e bairros a se unirem para a melh
 > **Mateiral para inspiração**:
 > - [Como reverter a crise na RUA AUGUSTA (e não só nela) e ocupar tantos espaços com placas de aluga-se](https://youtu.be/QsHJraQOgAQ)
 > - [What is a Business Improvement District (BID)?](https://www.youtube.com/watch?v=MNb3ieOp_Ec&ab_channel=GFSB)
+
+Introdução
+
+Você já passou por uma rua e observou um canteiro cheio de lixo num bairro onde, mesmo havendo casas próximas e muitas pessoas, e se perguntou como que a comunidade da rua não se organiza para limpar esse espaço? Ou aquele buraco da rua que faz anos que está ali, prejudicando os carros que passam, ou um espaço abandonado, mal cuidado, onde a natureza toma conta sobre um espaço no qual poderia ser usado para instalar um parque, quadra ou uma área para feiras ocasionais? Por que é difícil as pessoas se organizarem num bairro e como facilitar e incentivar as organizações das comunidades locais?  
+
+Nos Estados Unidos há associações locais chamadas BIDs (Business improvement districts
+) em que consiste em organizações do setor privado que se juntam para promover melhorias no bairro, atrair investimento, desenvolver os setores comerciais, divulgar promoções e as lojas do local, zelar pela beleza, limpeza e acessibilidade do bairro etc.
+E em contrapartida aqui no Brasil se observa ruas e bairros decadentes e abandonados, onde é notável má gestão governamental e baixa atividade comunitária, até mesmo em ruas famosas.
+
+Objetivos
+
+O que propomos aqui é desenvolver uma ferramenta que facilite a integração das pessoas nesse bairro, para que se comuniquem, publiquem propostas, discutam melhorias, problemas e zelem pelo lugar que vivem, desenvolvendo a governança local em seus próprios bairros.
+O projeto Web será um site onde a pessoa se cadastrar e o CEP que ela colocar em suas informações de endereço irá alocar a um bairro, após ser alocada e confirmada, ela poderá ter acesso a abas de propostas, publicações e eventos.
+A aba de proposta será como um fórum, e o ideal é que seja dinâmico, possa colocar postagens de votação, ou postagens de discussão, e outros tipos de postagem.
+Posso publicar Planos de Intervenção, como reformas de parque com orçamentos, fotos de projeto etc e abrir para votação local para consulta.
+A aba de publicações será como um jornal local, lá se colocará notícias atrelada ao bairro, ou localização mais próxima, a assuntos como acidentes, eventos, feiras, propostas aprovadas etc.
+Na Aba de Eventos será como uma agenda que irá mostrar de forma organizada os eventos que acontecerão no Bairro.
+Vamos estudar se há possibilidade de criar um sistema de votação e eleição de representantes locais, cargos administrativos do bairro por meio do site.
+
+Público-Alvo
+
+Todo cidadão que morar num bairro, onde se observa baixo nível de organização, presença estatal,  e observa sinais de decadência, como lugares mal aproveitados em desuso, abandono, pouca movimentação e renovação do bairro, não tem eventos, feira, reformas etc.
+
+Justificativa
+
+Este projeto visa ajudar a população de ruas e bairros a se unirem para a melhoria de onde vivem, porém não conseguem reivindicar e sugerir ações e sofrem com a ausência do Estado e Governo. Desse modo procuram medidas que facilitem a comunicação e integração da comunidade, para organizarem-se para enfrentar os problemas locais e aplicar melhorias, quem quer se responsabilizar pelos problemas e pelo local em que vive encontraria no nosso projeto um facilitador para unir pessoas, divulgar propostas e mobilizar seu bairro.
+
+> **Mateiral para inspiração**:
+> - [Como reverter a crise na RUA AUGUSTA (e não só nela) e ocupar tantos espaços com placas de aluga-se](https://youtu.be/QsHJraQOgAQ)
+> - [What is a Business Improvement District (BID)?](https://www.youtube.com/watch?v=MNb3ieOp_Ec&ab_channel=GFSB)
