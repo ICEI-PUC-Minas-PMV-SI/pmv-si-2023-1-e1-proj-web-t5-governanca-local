@@ -11,7 +11,7 @@ Somada com a negligência estatal, a falta de organização comunitária prejudi
 Paralelamente, nos Estados Unidos há associações locais chamadas BIDs (Business Improvement Districts), que consistem em organizações do setor privado que se juntam para promover melhorias no bairro, atrair investimento, desenvolver os setores comerciais, divulgar promoções e as lojas do local, zelar pela beleza, limpeza e acessibilidade do bairro, etc.
 E em contrapartida a isso, aqui no Brasil, se observa ruas e bairros decadentes e abandonados, onde é notável má gestão governamental e baixa atividade comunitária, até mesmo em ruas mais movimentadas.
 
-> **Mateiral para maior entendimento**:
+> **Material para maior entendimento**:
 > - [What is a Business Improvement District (BID)?](https://www.youtube.com/watch?v=MNb3ieOp_Ec&ab_channel=GFSB)
 
 ## Objetivos
