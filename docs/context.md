@@ -26,13 +26,13 @@ A aba de publicações será como um jornal local, lá se colocará notícias at
 Na Aba de Eventos será como uma agenda que irá mostrar de forma organizada os eventos que acontecerão no bairro.
 Vamos estudar se há possibilidade de criar um sistema de votação e eleição de representantes locais, cargos administrativos do bairro por meio do site.
 
-## Público-Alvo
-
-Todo cidadão que mora em um bairro onde se observa baixo nível de organização, presença estatal, e observa sinais de decadência, como lugares mal aproveitados em desuso, abandono, pouca movimentação e renovação do bairro, falta de eventos, feira, reformas e etc.
-
 ## Justificativa
 
 Este projeto visa ajudar a população de ruas e bairros a se unirem para a melhoria de onde vivem, porém não conseguem reivindicar e sugerir ações e sofrem com a ausência do Estado e Governo. Desse modo, procuram medidas que facilitem a comunicação e integração da comunidade, para organizarem-se para enfrentar os problemas locais e aplicar melhorias, quem quer se responsabilizar pelos problemas e pelo local em que vive encontraria no nosso projeto um facilitador para unir pessoas, divulgar propostas e mobilizar seu bairro.
 
 > **Mateiral para inspiração**:
 > - [Como reverter a crise na RUA AUGUSTA (e não só nela) e ocupar tantos espaços com placas de aluga-se](https://youtu.be/QsHJraQOgAQ)
+
+## Público-Alvo
+
+Todo cidadão que mora em um bairro onde se observa baixo nível de organização, presença estatal, e observa sinais de decadência, como lugares mal aproveitados em desuso, abandono, pouca movimentação e renovação do bairro, falta de eventos, feira, reformas e etc.
