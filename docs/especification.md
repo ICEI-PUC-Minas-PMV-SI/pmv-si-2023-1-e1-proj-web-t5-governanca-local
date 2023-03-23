@@ -24,7 +24,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 <div>
 <img src="https://user-images.githubusercontent.com/128329945/226661055-a731bb9d-e3fb-42c1-8f49-ad70df2a94b5.jpg" width="350px">
- <p>Larissa de 23 anos jogadora de vólei gosta muito de esportes, pratica corrida/caminhada diariamente pela amanhã em seu bairro, mas reclama das dificuldades, pois em seu bairro não tem nem uma rua prepara com pistas de corrida ou uma área de lazer, por esse motivo tendo que correr/caminhar entre os carros ponde causar um acidente, com isto Larissa esta procurando um meio de solucionar esse problema. </p>
+ <p>Larissa de 23 anos jogadora de vólei gosta muito de esportes, pratica corrida/caminhada diariamente pela amanhã em seu bairro, mas reclama das dificuldades, pois em seu bairro não tem nenhuma rua preparada com pistas de corrida ou uma área de lazer, por esse motivo, tendo que correr/caminhar entre os carros, pondendo causar um acidente, com isto Larissa esta procurando um meio de solucionar esse problema. </p>
 </div>
 
 <div>
