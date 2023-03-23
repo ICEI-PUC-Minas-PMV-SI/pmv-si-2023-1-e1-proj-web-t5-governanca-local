@@ -16,7 +16,7 @@ E em contrapartida a isso, aqui no Brasil, se observa ruas e bairros decadentes 
 
 ## Objetivos
 
-O que propomos aqui é desenvolver uma ferramenta que facilite a integração das pessoas nesse bairro, para que se comuniquem, publiquem propostas, discutam melhorias, problemas e zelem pelo lugar que vivem, desenvolvendo a governança local em seus próprios bairros.
+Propõe-se a desenvolver uma ferramenta que facilite a integração das pessoas nesse bairro, para que se comuniquem, publiquem propostas, discutam melhorias, problemas e zelem pelo lugar que vivem, desenvolvendo a governança local em seus próprios bairros.
 O projeto Web será um site onde a pessoa se cadastra e o CEP que ela colocar em suas informações de endereço irá alocar a um bairro, após ser alocada e confirmada, ela poderá ter acesso a abas de propostas, publicações e eventos.
 
 A aba de propostas será como um fórum, e o ideal é que seja dinâmico, possa colocar postagens de votação, ou postagens de discussão, e outros tipos de postagem.
