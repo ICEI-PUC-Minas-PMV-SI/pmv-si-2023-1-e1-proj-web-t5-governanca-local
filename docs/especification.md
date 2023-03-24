@@ -6,31 +6,34 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-<div>
-<img src="https://user-images.githubusercontent.com/127517961/226222802-3643403b-2d53-4cd0-af17-ce98313f6e93.jpg" width="350px">
-<p> Bruno possui 37 anos. Entretanto, desde quando completou a faculdade, aos 23 anos, nota a existência de um buraco na entrada de sua rua, que a cada vez fica maior e mais fundo. Sua preocupação aconteceu, pois, em um dia de correria, passou em alta velocidade, comprometendo seriamente os amortecedores e os pneus do seu veículo. Como tentativa de finalmente ser notado pela prefeitura, busca novos meios para as reivindicações dos seus direitos.  </p>
-</div>
 
+| <img src="https://user-images.githubusercontent.com/127517961/226222802-3643403b-2d53-4cd0-af17-ce98313f6e93.jpg" width="350px"> |
+| -------------------------------------------------------------------------------------------------------------------------------- |
+|<p align="justify" > Bruno possui 37 anos. Entretanto, desde quando completou a faculdade, aos 23 anos, nota a existência de um buraco na entrada de sua rua, que a cada vez fica maior e mais fundo. Sua preocupação aconteceu, pois, em um dia de correria, passou em alta velocidade, comprometendo seriamente os amortecedores e os pneus do seu veículo. Como tentativa de finalmente ser notado pela prefeitura, <br> busca novos meios para as reivindicações dos seus direitos.  </p> |
 
-<div>
-<img src="https://user-images.githubusercontent.com/128436722/226498313-c08c2c4c-e1f0-471d-b2d1-85aee13018d6.jpg" width="350px">
-<p> Manoel é estudante de direito pela PUC-Minas Ead, tem 25 anos e utiliza da biblioteca da cidade para fazer seus estudos diários. Ocorre que em dias de chuva a cidade alaga de modo que, atravessar determinados pontos se torna perigoso. A cidade está com problema de distribuição de lixeiras para o descarte correto do lixo, não há incentivo à coleta seletiva e isto faz com que o lixo seja descartado incorretamente pela população. Consequentemente os bueiros entopem, e a cidade inunda fazendo com que Manoel não possa ir à biblioteca estudar. Como bálsamo para seus problemas está em busca de alguma forma de contatar as autoridades locais para dar sugestões e pedir apoio na solução deste problema. </p>
-</div>
+##
 
-<div>
-<img src="https://user-images.githubusercontent.com/112134718/226659525-9214e68c-0e13-4dac-9339-ea81751c110a.png" width="350px">
- <p>Paulo de 23 anos que trabalha de home office, reclama que na sua rua sempre passa um caminhão, que mora na vizinhança, solta muita fumaça e acaba tendo que fechar as janelas, se não todos passam mal com o cheiro forte, todos da vizinhança sabem que o dono/motorista do caminhão não tem muita condição, Paulo gostaria que o bairro se unisse para achar uma solução. </p>
-</div>
+| <img src="https://user-images.githubusercontent.com/128436722/226498313-c08c2c4c-e1f0-471d-b2d1-85aee13018d6.jpg" width="350px"> |
+| -------------------------------------------------------------------------------------------------------------------------------- |
+| <p align="justify"> Manoel é estudante de direito pela PUC-Minas Ead, tem 25 anos e utiliza da biblioteca da cidade para fazer seus estudos diários. Ocorre que em dias de chuva a cidade alaga de modo que, atravessar determinados pontos se torna perigoso. A cidade está com problema de distribuição de lixeiras para o descarte correto do lixo, não há incentivo à coleta seletiva e isto faz com que o lixo seja descartado incorretamente pela população. Consequentemente os bueiros entopem, e a cidade inunda fazendo com que Manoel não possa ir à biblioteca estudar. Como bálsamo para seus problemas está em busca de alguma forma de contatar as autoridades locais para dar sugestões e pedir apoio na solução deste problema. </p> |
 
-<div>
-<img src="https://user-images.githubusercontent.com/128329945/226661055-a731bb9d-e3fb-42c1-8f49-ad70df2a94b5.jpg" width="350px">
- <p>Larissa de 23 anos jogadora de vólei gosta muito de esportes, pratica corrida/caminhada diariamente pela amanhã em seu bairro, mas reclama das dificuldades, pois em seu bairro não tem nenhuma rua preparada com pistas de corrida ou uma área de lazer, por esse motivo, tendo que correr/caminhar entre os carros, pondendo causar um acidente, com isto Larissa esta procurando um meio de solucionar esse problema. </p>
-</div>
+##
 
-<div>
-<img src="https://user-images.githubusercontent.com/102264520/226626615-e1438119-0c53-46ae-a45c-031cf7672a58.jpg" width="350px">
- <p>Eliza é uma mulher com seus 41 anos, mãe de dois filhos e professora na escola primária do seu bairro, participa ativamente do comitê disciplinar em seu trabalho. E uma pauta abordada nesses comitês foi a segurança de seus alunos em relação ao controle de saída e entrada na escola e trajeto das crianças até suas casas, como mãe e professora, gostaria de trazer mais seguranças para seus filhos e alunos.</p>
-</div>
+| <img src="https://user-images.githubusercontent.com/112134718/226659525-9214e68c-0e13-4dac-9339-ea81751c110a.png" width="350px"> |
+| -------------------------------------------------------------------------------------------------------------------------------- |
+| <p align="justify">Paulo de 23 anos que trabalha de home office, reclama que na sua rua sempre passa um caminhão, que mora na vizinhança, solta muita fumaça e acaba tendo que fechar as janelas, se não todos passam mal com o cheiro forte, todos da vizinhança sabem que o dono/motorista do caminhão não tem muita condição, Paulo gostaria que o bairro se unisse para achar uma solução. </p> |
+
+##
+
+| <img src="https://user-images.githubusercontent.com/128329945/226661055-a731bb9d-e3fb-42c1-8f49-ad70df2a94b5.jpg" width="350px"> |
+| -------------------------------------------------------------------------------------------------------------------------------- |
+| <p align="justify">Larissa de 23 anos jogadora de vólei gosta muito de esportes, pratica corrida/caminhada diariamente pela amanhã em seu bairro, mas reclama das dificuldades, pois em seu bairro não tem nenhuma rua preparada com pistas de corrida ou uma área de lazer, por esse motivo, tendo que correr/caminhar entre os carros, pondendo causar um acidente, com isto Larissa esta procurando um meio de solucionar esse problema. </p> |
+
+##
+
+| <img src="https://user-images.githubusercontent.com/102264520/226626615-e1438119-0c53-46ae-a45c-031cf7672a58.jpg" width="350px"> |
+| -------------------------------------------------------------------------------------------------------------------------------- |
+|<p align="justify">Eliza é uma mulher com seus 41 anos, mãe de dois filhos e professora na escola primária do seu bairro, participa ativamente do comitê disciplinar    em seu trabalho. E uma pauta abordada nesses comitês foi a segurança de seus alunos em relação ao controle de saída e entrada na escola e trajeto das crianças até suas  casas, como mãe e professora, gostaria de trazer mais seguranças para seus filhos e alunos.</p> |
 
 ##
                                                                                                                               
