@@ -47,7 +47,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Bruno   `(Usuário)` | Ambiente interativo                | Conhecer mais seus vizinhos e ter mais amigos com gostos parecidos  |
 |Manoel  `(Usuário)` | Contatar catadores locais          | Para coleta de materiais recicláveis   |
 |Manoel  `(Usuário)` | Multirão de Limpeza                | Dia D da limpeza do bairro             |
-|Manoel  `(Usuário)` | Contato com os Comércios do bairro | Brindes de incentivo para voluntários  |
+|Manoel  `(Usuário)` | Contato com o Comércio do bairro   | Brindes de incentivo para voluntários do multirão |
 |Paulo   `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Paulo   `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
 |Paulo   `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
