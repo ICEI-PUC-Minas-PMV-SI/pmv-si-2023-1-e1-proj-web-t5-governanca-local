@@ -6,16 +6,16 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-
 | <img src="https://user-images.githubusercontent.com/127517961/226222802-3643403b-2d53-4cd0-af17-ce98313f6e93.jpg" width="350px"> |
 | -------------------------------------------------------------------------------------------------------------------------------- |
-|<p align="justify" > Bruno possui 37 anos. Entretanto, desde quando completou a faculdade, aos 23 anos, nota a existência de um buraco na entrada de sua rua, que a cada vez fica maior e mais fundo. Sua preocupação aconteceu, pois, em um dia de correria, passou em alta velocidade, comprometendo seriamente os amortecedores e os pneus do seu veículo. Como tentativa de finalmente ser notado pela prefeitura, <br> busca novos meios para as reivindicações dos seus direitos.  </p> |
+|<p align="justify" > Bruno possui 37 anos e desde quando completou a faculdade, se deu o direito de realizar seu sonho de comprar um carro. Sua tristeza aconteceu, pois, em um dia, dirigindo com seu carro novo no seu bairro, passou em cima de um buraco em alta velocidade, comprometendo seriamente os amortecedores e os pneus do seu veículo, trazendo um enorme prejuízo financeiro. Como tentativa de conhecer áreas com buracos no seu bairro, para que se possa evitar passar naqueles pontos futuramente, busca meios que possam mapear seu bairro. </p> |
 
 ##
 
 | <img src="https://user-images.githubusercontent.com/128436722/226498313-c08c2c4c-e1f0-471d-b2d1-85aee13018d6.jpg" width="350px"> |
 | -------------------------------------------------------------------------------------------------------------------------------- |
 | <p align="justify"> Manoel é estudante de direito pela PUC-Minas Ead, tem 25 anos e utiliza da biblioteca da cidade para fazer seus estudos diários. Ocorre que em dias de chuva a cidade alaga de modo que, atravessar determinados pontos se torna perigoso. A cidade está com problema de distribuição de lixeiras para o descarte correto do lixo, não há incentivo à coleta seletiva e isto faz com que o lixo seja descartado incorretamente pela população. Consequentemente os bueiros entopem, e a cidade inunda fazendo com que Manoel não possa ir à biblioteca estudar. Como bálsamo para seus problemas está em busca de alguma forma de contatar as autoridades locais para dar sugestões e pedir apoio na solução deste problema. </p> |
+</div>
 
 ##
 
@@ -37,35 +37,27 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ##
                                                                                                                               
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Bruno   `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Bruno   `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
+|Bruno   `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Manoel  `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
+|Manoel  `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Manoel  `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
+|Paulo   `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Paulo   `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
+|Paulo   `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Larissa `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
+|Larissa `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Larissa `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
+|Eliza   `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Eliza   `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
+|Eliza   `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 
 ## Requisitos
 
