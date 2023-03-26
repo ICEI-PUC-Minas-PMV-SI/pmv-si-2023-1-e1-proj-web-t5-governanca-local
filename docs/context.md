@@ -1,18 +1,18 @@
 # Introdução
 
-Você já passou por uma rua e observou um canteiro cheio de lixo num bairro onde, mesmo havendo casas próximas e muitas pessoas, e se perguntou como que a comunidade da rua não se organiza para limpar esse espaço? Ou aquele buraco da rua que faz anos que está ali, prejudicando os carros que passam, ou um espaço abandonado, mal cuidado, onde a natureza toma conta sobre um espaço no qual poderia ser usado para instalar um parque, quadra ou uma área para feiras ocasionais? Por que é difícil as pessoas se organizarem num bairro e como facilitar e incentivar as organizações das comunidades locais?  
-
-Buscando responder todas essas perguntas, nosso projeto se baseará, com objetivo primário, em facilitar a interação entre moradores do mesmo bairro, para que, de uma forma coesa e totalmente digital, possam buscar aprimoramentos para seu bairro. 
+   Você já passou por uma rua de bairro e observou canteiros cheios de lixo, ou buracos no qual os moradores já estão fazendo festa de aniversário pra eles? Espaços abandonados, mal cuidados, que poderiam ser usados para instalar um parque, quadra ou uma área para feiras ocasionais? 
+   
+   Neste projeto vamos ver que as empresas em conjunto com as comunidades podem somar forças e ter atitudes voluntárias em prol de desenvolver, por sí próprias, aperfeiçoamentos em seus bairros. De boas ações a trabalhos coletivos, o Projeto Governança Local atende demandas de um determinado bairro, para provar que é possível fazer transformações significativas a lugares em que o abandono e descaso são constantes.
+   
+   Para exemplificar melhor existem nos Estados Unidos, associações locais chamadas BIDs (Business Improvement Districts)**, elas consistem em organizações do setor privado que se juntam para promover melhorias no bairro, atrair investimentos, desenvolver os setores comerciais, divulgar promoções e as lojas do local, zelar pela beleza, limpeza e acessibilidade do bairro entre outras atitudes que positivam aquela comunidade. 
+   > **Material para maior entendimento**:
+   > - [What is a Business Improvement District (BID)?](https://www.youtube.com/watch?v=MNb3ieOp_Ec&ab_channel=GFSB)
+   
+   Em contrapartida, no Brasil, observam-se ruas e bairros decadentes e abandonados, onde é notável a má gestão governamental e baixa atividade comunitária, até mesmo em ruas mais movimentadas. Buscando solucionar estes problemas, nosso projeto se baseará prioritáriamente em facilitar a interação entre moradores e até mesmo o setor privado do mesmo bairro, para que, de forma coesa, facilitada e totalmente digital, possam buscar formas de desenvolver e aprimorar o seu bairro. 
 
 ## Problema
 
 Somada com a negligência estatal, a falta de organização comunitária prejudica em muito a vida de residentes daquela região. Em casos cada vez mais frequentes, muitos buracos, falta de infraestrutura em geral, excesso de lixo nas ruas contribuem para uma desvalorização do prestígio do bairro, além de serem relacionados com tema de saúde pública. 
-
-Paralelamente, nos Estados Unidos há associações locais chamadas BIDs (Business Improvement Districts), que consistem em organizações do setor privado que se juntam para promover melhorias no bairro, atrair investimento, desenvolver os setores comerciais, divulgar promoções e as lojas do local, zelar pela beleza, limpeza e acessibilidade do bairro, etc.
-E em contrapartida a isso, aqui no Brasil, se observa ruas e bairros decadentes e abandonados, onde é notável má gestão governamental e baixa atividade comunitária, até mesmo em ruas mais movimentadas.
-
-> **Material para maior entendimento**:
-> - [What is a Business Improvement District (BID)?](https://www.youtube.com/watch?v=MNb3ieOp_Ec&ab_channel=GFSB)
 
 ## Objetivos
 
