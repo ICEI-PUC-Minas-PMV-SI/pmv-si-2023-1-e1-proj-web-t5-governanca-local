@@ -48,9 +48,8 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Manoel  `(Usuário)` | Contatar catadores locais          | Para coleta de materiais recicláveis   |
 |Manoel  `(Usuário)` | Multirão de Limpeza                | Dia D da limpeza do bairro             |
 |Manoel  `(Usuário)` | Contato com o Comércio do bairro   | Brindes de incentivo para voluntários do multirão |
-|Paulo   `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Paulo   `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
-|Paulo   `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Paulo   `(Usuário)` | Filtro nos caminhões que rodam no bairro  | Existem pessoas com problemas respiratórios que podem se prejudicar | 
+|Paulo   `(Usuário)` | Conscientizar veiculos emissores de poluição  | Para termos um bairro mais limpo |
 |Larissa `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
 |Larissa `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Larissa `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
