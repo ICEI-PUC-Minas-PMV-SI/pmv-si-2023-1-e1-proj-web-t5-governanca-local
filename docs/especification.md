@@ -21,7 +21,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 | <img src="https://user-images.githubusercontent.com/112134718/226659525-9214e68c-0e13-4dac-9339-ea81751c110a.png" width="350px"> |
 | -------------------------------------------------------------------------------------------------------------------------------- |
-| <p align="justify">Paulo, de 23 anos, que trabalha de home office, reclama que na sua rua sempre passa um caminhão, que mora na vizinhança, solta muita fumaça e acaba tendo que fechar as janelas, se não todos passam mal com o cheiro forte, todos da vizinhança sabem que o dono/motorista do caminhão não tem muita condição financeira. Paulo gostaria que o bairro se unisse para achar uma solução. </p> |
+| <p align="justify">Paulo, de 23 anos, que trabalha de home office, reclama que na sua rua sempre passa um caminhão que mora na vizinhança, solta muita fumaça e acaba tendo que fechar as janelas, se não todos passam mal com o cheiro forte. Todos da vizinhança sabem que o dono/motorista do caminhão não tem muita condição financeira. Paulo gostaria que o bairro se unisse para achar uma solução. </p> |
 
 ##
 
