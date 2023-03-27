@@ -14,26 +14,26 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 | <img src="https://user-images.githubusercontent.com/128436722/226498313-c08c2c4c-e1f0-471d-b2d1-85aee13018d6.jpg" width="350px"> |
 | -------------------------------------------------------------------------------------------------------------------------------- |
-| <p align="justify"> Manoel é estudante de direito pela PUC-Minas Ead, tem 25 anos e utiliza da biblioteca da cidade para fazer seus estudos diários. Ocorre que em dias de chuva a cidade alaga de modo que, atravessar determinados pontos se torna perigoso. A cidade está com problema de distribuição de lixeiras para o descarte correto do lixo, não há incentivo à coleta seletiva e isto faz com que o lixo seja descartado incorretamente pela população. Consequentemente os bueiros entopem, e a cidade inunda fazendo com que Manoel não possa ir à biblioteca estudar. Como bálsamo para seus problemas está em busca de alguma forma de contatar as autoridades locais para dar sugestões e pedir apoio na solução deste problema. </p> |
+| <p align="justify"> Manoel é estudante de direito pela PUC-Minas Ead, tem 25 anos e utiliza da biblioteca da cidade para fazer seus estudos diários. Ocorre que, em dias de chuva, a cidade alaga, de modo que, atravessar determinados pontos se torna perigoso. A cidade está com problema de distribuição de lixeiras para o descarte correto do lixo, não há incentivo à coleta seletiva e isto faz com que o lixo seja descartado incorretamente pela população. Consequentemente, os bueiros entopem, e a cidade inunda, fazendo com que Manoel não possa ir à biblioteca estudar. Como bálsamo para seus problemas, está em busca de alguma forma de contatar as autoridades locais para dar sugestões e pedir apoio na solução deste problema. </p> |
 </div>
 
 ##
 
 | <img src="https://user-images.githubusercontent.com/112134718/226659525-9214e68c-0e13-4dac-9339-ea81751c110a.png" width="350px"> |
 | -------------------------------------------------------------------------------------------------------------------------------- |
-| <p align="justify">Paulo de 23 anos que trabalha de home office, reclama que na sua rua sempre passa um caminhão, que mora na vizinhança, solta muita fumaça e acaba tendo que fechar as janelas, se não todos passam mal com o cheiro forte, todos da vizinhança sabem que o dono/motorista do caminhão não tem muita condição, Paulo gostaria que o bairro se unisse para achar uma solução. </p> |
+| <p align="justify">Paulo, de 23 anos, que trabalha de home office, reclama que na sua rua sempre passa um caminhão, que mora na vizinhança, solta muita fumaça e acaba tendo que fechar as janelas, se não todos passam mal com o cheiro forte, todos da vizinhança sabem que o dono/motorista do caminhão não tem muita condição financeira. Paulo gostaria que o bairro se unisse para achar uma solução. </p> |
 
 ##
 
 | <img src="https://user-images.githubusercontent.com/128329945/226661055-a731bb9d-e3fb-42c1-8f49-ad70df2a94b5.jpg" width="350px"> |
 | -------------------------------------------------------------------------------------------------------------------------------- |
-| <p align="justify">Larissa de 23 anos jogadora de vólei gosta muito de esportes, pratica corrida/caminhada diariamente pela amanhã em seu bairro, mas reclama das dificuldades, pois em seu bairro não tem nenhuma rua preparada com pistas de corrida ou uma área de lazer, por esse motivo, tendo que correr/caminhar entre os carros, pondendo causar um acidente, com isto Larissa esta procurando um meio de solucionar esse problema. </p> |
+| <p align="justify">Larissa, de 23 anos, jogadora de vôlei, gosta muito de esportes, pratica corrida/caminhada diariamente pela amanhã em seu bairro, mas reclama das dificuldades, pois em seu bairro não tem nenhuma rua preparada com pistas de corrida ou uma área de lazer, por esse motivo, tendo que correr/caminhar entre os carros, podendo causar um acidente. Por isso, Larissa está procurando um meio de solucionar esse problema. </p> |
 
 ##
 
 | <img src="https://user-images.githubusercontent.com/102264520/226626615-e1438119-0c53-46ae-a45c-031cf7672a58.jpg" width="350px"> |
 | -------------------------------------------------------------------------------------------------------------------------------- |
-|<p align="justify">Eliza é uma mulher com seus 41 anos, mãe de dois filhos e professora na escola primária do seu bairro, participa ativamente do comitê disciplinar    em seu trabalho. E uma pauta abordada nesses comitês foi a segurança de seus alunos em relação ao controle de saída e entrada na escola e trajeto das crianças até suas  casas, como mãe e professora, gostaria de trazer mais seguranças para seus filhos e alunos.</p> |
+|<p align="justify">Eliza é uma mulher com seus 41 anos, mãe de dois filhos e professora na escola primária do seu bairro, participa ativamente do comitê disciplinar    em seu trabalho. E uma pauta abordada nesses comitês foi a segurança de seus alunos em relação ao controle de saída e entrada na escola e trajeto das crianças até suas  casas. Como mãe e professora, gostaria de trazer mais segurança para seus filhos e alunos.</p> |
 
 ##
                                                                                                                               
@@ -49,7 +49,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Manoel  `(Usuário)` | Multirão de Limpeza                | Dia D da limpeza do bairro             |
 |Manoel  `(Usuário)` | Contato com o Comércio do bairro   | Brindes de incentivo para voluntários do multirão |
 |Paulo   `(Usuário)` | Filtro nos caminhões que rodam no bairro  | Existem pessoas com problemas respiratórios que podem se prejudicar | 
-|Paulo   `(Usuário)` | Conscientizar veiculos emissores de poluição  | Para termos um bairro mais limpo |
+|Paulo   `(Usuário)` | Conscientizar veículos emissores de poluição  | Para termos um bairro mais limpo |
 |Larissa `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
 |Larissa `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Larissa `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
