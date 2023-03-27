@@ -16,15 +16,13 @@ Somada com a negligência estatal, a falta de organização comunitária prejudi
 
 ## Objetivos
 
-Propõe-se a desenvolver uma ferramenta que facilite a integração das pessoas nesse bairro, para que se comuniquem, publiquem propostas, discutam melhorias, problemas e zelem pelo lugar que vivem, desenvolvendo a governança local em seus próprios bairros.
-O projeto Web será um site onde a pessoa se cadastra e o CEP que ela colocar em suas informações de endereço irá alocar a um bairro, após ser alocada e confirmada, ela poderá ter acesso a abas de propostas, publicações e eventos.
+Propõe-se a desenvolver uma ferramenta que facilite a integração das pessoas em um determinado bairro, para que se comuniquem, publiquem propostas, discutam melhorias, problemas e zelem pelo lugar que vivem, desenvolvendo a governança local em seus próprios bairros.
 
-A aba de propostas será como um fórum, e o ideal é que seja dinâmico, possa colocar postagens de votação, ou postagens de discussão, e outros tipos de postagem.
-Posso publicar Planos de Intervenção, como reformas de parque com orçamentos, fotos de projeto, etc e abrir para votação local para consulta.
-A aba de publicações será como um jornal local, lá se colocará notícias atrelada ao bairro, ou localização mais próxima, a assuntos como acidentes, eventos, feiras, propostas aprovadas, etc.
+### Objetivos específicos: 
+> - Desenvolver uma área de comunicação entre os usuários devidamente cadastrados (fórum);
+> - Criação de páginas estáticas contendo práticas de boas convivências;
+> - Desenvolver uma ferramenta capaz de mapear quaisquer anotações no mapa de um determinado bairro;
 
-Na Aba de Eventos será como uma agenda que irá mostrar de forma organizada os eventos que acontecerão no bairro.
-Vamos estudar se há possibilidade de criar um sistema de votação e eleição de representantes locais, cargos administrativos do bairro por meio do site.
 
 ## Justificativa
 
