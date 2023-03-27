@@ -28,7 +28,7 @@ Propõe-se a desenvolver uma ferramenta que facilite a integração das pessoas 
 
 Este projeto visa ajudar a população de ruas e bairros a se unirem para a melhoria de onde vivem, porém não conseguem reivindicar e sugerir ações e sofrem com a ausência do Estado e Governo. Desse modo, procuram medidas que facilitem a comunicação e integração da comunidade, para organizarem-se para enfrentar os problemas locais e aplicar melhorias, quem quer se responsabilizar pelos problemas e pelo local em que vive encontraria no nosso projeto um facilitador para unir pessoas, divulgar propostas e mobilizar seu bairro.
 
-> **Mateiral para inspiração**:
+> **Material para inspiração**:
 > - [Como reverter a crise na RUA AUGUSTA (e não só nela) e ocupar tantos espaços com placas de aluga-se](https://youtu.be/QsHJraQOgAQ)
 
 ## Público-Alvo
