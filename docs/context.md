@@ -21,7 +21,7 @@ Propõe-se a desenvolver uma ferramenta que facilite a integração das pessoas 
 ### Objetivos específicos: 
 > - Desenvolver uma área de comunicação entre os usuários devidamente cadastrados (fórum);
 > - Criação de páginas estáticas contendo práticas de boas convivências;
-> - Desenvolver uma ferramenta capaz de mapear quaisquer anotações no mapa de um determinado bairro;
+> - Desenvolver uma ferramenta capaz de mapear quaisquer anotações provindas do morador no mapa de seu determinado bairro;
 
 
 ## Justificativa
