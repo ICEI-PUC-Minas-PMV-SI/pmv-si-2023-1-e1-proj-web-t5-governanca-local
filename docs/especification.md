@@ -50,8 +50,8 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Manoel  `(Usuário)` | Contato com o Comércio do bairro   | Brindes de incentivo para voluntários do multirão |
 |Paulo   `(Usuário)` | Filtro nos caminhões que rodam no bairro  | Existem pessoas com problemas respiratórios que podem se prejudicar | 
 |Paulo   `(Usuário)` | Conscientizar veículos emissores de poluição  | Para termos um bairro mais limpo |
-|Larissa `(Usuário)` | pede uma are que seja utilizada para pessoas que querem praticar esportes | para que tenha segurança para os praticantes |
-|Larissa `(Usuário)` | uma area de lazer                  |para ter um bairro com mais qualidade de vida |
+|Larissa `(Usuário)` | Pede uma área que seja utilizada para pessoas que querem praticar esportes | Para que tenha segurança para os praticantes |
+|Larissa `(Usuário)` | Uma área de lazer                  | Para ter um bairro com mais qualidade de vida |
 |Eliza   `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Eliza   `(Usuário)` | Alterar permissões                 | Permitir que possam administrar contas |
 |Eliza   `(Usuário)` | Registrar minhas tarefas           | Não esquecer de fazê-las               |
