@@ -33,5 +33,5 @@ Este projeto visa ajudar a população de ruas e bairros a se unirem para a melh
 
 ## Público-Alvo
 
-Todo cidadão que mora em um bairro onde se observa baixo nível de organização, presença estatal, e observa sinais de decadência, como lugares mal aproveitados em desuso, abandono, pouca movimentação e renovação do bairro, falta de eventos, feira, reformas e etc.
+Todo cidadão que mora em um bairro onde se observa baixo nível de organização, presença estatal, e observa sinais de decadência, como lugares mal aproveitados em desuso, abandono, pouca movimentação e renovação do bairro, falta de eventos, feira, reformas, etc.
 
