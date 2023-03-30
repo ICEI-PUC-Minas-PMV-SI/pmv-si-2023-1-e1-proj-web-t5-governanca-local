@@ -5,9 +5,9 @@
 Neste projeto será possível notar que as empresas em conjunto com as comunidades podem somar forças e ter atitudes voluntárias em prol de desenvolver, por si próprias, aperfeiçoamentos em seus bairros. De boas ações a trabalhos coletivos, o Projeto Governança Local atende demandas de um determinado bairro, para provar que é possível fazer transformações significativas a lugares em que o abandono e descaso são constantes.
 
 Para exemplificar melhor, existe nos Estados Unidos, associações locais chamadas BIDs (Business Improvement Districts). Elas consistem em organizações do setor privado que se juntam para promover melhorias no bairro, atrair investimentos, desenvolver os setores comerciais, divulgar promoções e as lojas do local, zelar pela beleza, limpeza e acessibilidade do bairro, entre outras atitudes que positivam aquela comunidade.
-   > **Material para maior entendimento**:
-   > - GFSB. What is a Business Improvement District (BID)? YouTube, 04 Set. 2020.
-   > Disponível em <https://www.youtube.com/watch?v=MNb3ieOp_Ec&ab_channel=GFSB>
+   **Material para maior entendimento**:
+   [1] GFSB. What is a Business Improvement District (BID)? YouTube, 04 Set. 2020.
+     > Disponível em <https://www.youtube.com/watch?v=MNb3ieOp_Ec&ab_channel=GFSB>
      Acesso: 29 Mar. 2023.
    
    Em contrapartida, no Brasil, observam-se ruas e bairros decadentes e abandonados, onde é notável a má gestão governamental e baixa atividade comunitária, até mesmo em ruas mais movimentadas. Buscando solucionar estes problemas, nosso projeto se baseará prioritariamente em facilitar a interação entre moradores e até mesmo o setor privado do mesmo bairro, para que, de forma coesa, facilitada e totalmente digital, os usuários busquem formas de desenvolver e aprimorar o seu bairro. 
