@@ -6,7 +6,7 @@ Neste projeto será possível notar que as empresas em conjunto com as comunidad
 
 Para exemplificar melhor, existe nos Estados Unidos, associações locais chamadas BIDs (Business Improvement Districts). Elas consistem em organizações do setor privado que se juntam para promover melhorias no bairro, atrair investimentos, desenvolver os setores comerciais, divulgar promoções e as lojas do local, zelar pela beleza, limpeza e acessibilidade do bairro, entre outras atitudes que positivam aquela comunidade.
  
- [Material para maior entendimento]:
+ Material para maior entendimento:
  > - GFSB. What is a Business Improvement District (BID)? YouTube, 04 Set. 2020.
  > - Disponível em <https://www.youtube.com/watch?v=MNb3ieOp_Ec&ab_channel=GFSB>
      Acesso: 29 Mar. 2023.
