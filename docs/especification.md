@@ -53,7 +53,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Larissa `(Usuário)` | Pede uma área que seja utilizada para pessoas que querem praticar esportes | Para que tenha segurança para os praticantes |
 |Larissa `(Usuário)` | Uma área de lazer                  | Para ter um bairro com mais qualidade de vida |
 |Eliza   `(Usuário)` | comunicar autoridades | informar e contribuir sobre situações de risco e imprevistos no bairro |
-|Eliza   `(Usuário)` | controle de entrada e saida de alunos/estudantes em unidades academinas no bairro | previnir situações de risco |
+|Eliza   `(Usuário)` | controle de entrada e saida de alunos/estudantes em unidades academinas no bairro | maior segurança para os jovens/crianças do bairro|
 |Eliza   `(Usuário)` | alertas e comunicados de segurança | trazer maior liberdade nas áreas públicas do bairro |
 
 ## Requisitos
