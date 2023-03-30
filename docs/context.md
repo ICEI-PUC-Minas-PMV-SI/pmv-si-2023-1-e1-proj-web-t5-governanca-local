@@ -6,7 +6,8 @@ Neste projeto será possível notar que as empresas em conjunto com as comunidad
 
 Para exemplificar melhor, existe nos Estados Unidos, associações locais chamadas BIDs (Business Improvement Districts). Elas consistem em organizações do setor privado que se juntam para promover melhorias no bairro, atrair investimentos, desenvolver os setores comerciais, divulgar promoções e as lojas do local, zelar pela beleza, limpeza e acessibilidade do bairro, entre outras atitudes que positivam aquela comunidade.
    > **Material para maior entendimento**:
-   > - GFSB. YouTube 04 Set. 2020 Disponível em [What is a Business Improvement District (BID)?](https://www.youtube.com/watch?v=MNb3ieOp_Ec&ab_channel=GFSB)
+   > - GFSB. YouTube 04 Set. 2020 Disponível em [What is a Business Improvement District (BID)?]
+   > (https://www.youtube.com/watch?v=MNb3ieOp_Ec&ab_channel=GFSB)
    Acesso em 29 Mar. 2023
    
    Em contrapartida, no Brasil, observam-se ruas e bairros decadentes e abandonados, onde é notável a má gestão governamental e baixa atividade comunitária, até mesmo em ruas mais movimentadas. Buscando solucionar estes problemas, nosso projeto se baseará prioritariamente em facilitar a interação entre moradores e até mesmo o setor privado do mesmo bairro, para que, de forma coesa, facilitada e totalmente digital, os usuários busquem formas de desenvolver e aprimorar o seu bairro. 
