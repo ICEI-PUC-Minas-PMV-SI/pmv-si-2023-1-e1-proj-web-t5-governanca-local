@@ -64,8 +64,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-001| A aplicação Web permitirá o usuário se cadastrar | ALTA |  |
+|RF-002| A aplicação Web permitirá o usuário se logar   | ALTA | |
+|RF-003| A aplicação Web permitirá apenas usuários devidamente cadastrados com acesso ao fórum   | ALTA  | |
+|RF-004| A aplicação Web permitirá o usuário (cadastrado) criar, discutir e votar em tópicos do fórum   | ALTA  | |
+|RF-005| A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa | ALTA  | |
+|RF-006| A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa   | ALTA  | |
+|RF-007| A aplicação Web contará com páginas estáticas contendo práticas de boas convivências, podendo ser acessada por usuários cadastrados ou não  | ALTA  | |
+|RF-008| A aplicação Web terá um landing page   | ALTA  | |
+|RF-009| A aplicação Web conterá uma aba sobre os criadores   | ALTA  | |
+|RF-010| A aplicação Web conterá uma aba sobre os criadores   | ALTA  | |
+|RF-011| A aplicação Web conterá uma área de sugestões para o site  | ALTA  | |
+
 
 
 ### Requisitos não Funcionais
@@ -73,7 +83,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| A aplicação Web será integrada à uma API de localização e mapa | ALTA | 
+|RNF-003| A aplicação Web contará com uma interface intuitiva |  ALTA | 
+|RNF-004| A aplicação Web terá como base HTML, CSS e JavaScript | ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
