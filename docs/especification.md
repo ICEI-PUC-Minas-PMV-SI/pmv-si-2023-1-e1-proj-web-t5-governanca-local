@@ -52,9 +52,9 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Paulo   `(Usuário)` | Conscientizar veículos emissores de poluição  | Para termos um bairro mais limpo |
 |Larissa `(Usuário)` | Pede uma área que seja utilizada para pessoas que querem praticar esportes | Para que tenha segurança para os praticantes |
 |Larissa `(Usuário)` | Uma área de lazer                  | Para ter um bairro com mais qualidade de vida |
-|Eliza   `(Usuário)` | comunicar autoridades | informar e contribuir sobre situações de risco e imprevistos no bairro |
-|Eliza   `(Usuário)` | controle de entrada e saida de alunos/estudantes em unidades academinas no bairro | maior segurança para os jovens/crianças do bairro|
-|Eliza   `(Usuário)` | alertas e comunicados de segurança | trazer maior liberdade nas áreas públicas do bairro |
+|Eliza   `(Usuário)` | Comunicar autoridades | Informar e contribuir sobre situações de risco e imprevistos no bairro |
+|Eliza   `(Usuário)` | Controle de entrada e saida de alunos/estudantes em unidades acadêmicas no bairro | Maior segurança para os jovens/crianças do bairro|
+|Eliza   `(Usuário)` | Alertas e comunicados de segurança | Trazer maior liberdade nas áreas públicas do bairro |
 
 ## Requisitos
 
