@@ -1,10 +1,15 @@
 # Governança Local
+<div align="center" text-align="center">
+<img src="https://user-images.githubusercontent.com/127517961/229309432-abd96e10-6494-440d-96c5-02b8a2de773c.png" width="300px"> 
+
 
 `CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Projeto - Aplicações Web`
 
 `SEMESTRE: 1º`
+</div>
+<br>
 
 Como proposta, o projeto de aplicação web `Governança Local` busca, através da ação autônoma de moradores de quaisquer bairros, centralizar e organizar todo e qualquer tipo de ação comunitária local, desde possibilitar divulgações de eventos do bairro e práticas de boas convivências, bem como o registro de sugestões, reclamações e dúvidas dos moradores. 
 
