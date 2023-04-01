@@ -1,10 +1,5 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/referencias/)
-
 Exemplos de referências bibliográficas:
 
 **[1]** - _GFSB. What is a Business Improvement District (BID)? YouTube, 04 Set. 2020.
