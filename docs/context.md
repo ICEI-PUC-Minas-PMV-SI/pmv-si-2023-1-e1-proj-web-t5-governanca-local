@@ -1,6 +1,6 @@
 # Introdução
 
-   Em toda cidade há sempre ruas em bairros com canteiros cheios de lixo, buracos no quais os moradores já estão fazendo festa de aniversário para eles e espaços abandonados, mal cuidados, que poderiam ser usados para instalar um parque, quadra ou uma área para feiras ocasionais.
+   Em toda cidade há sempre ruas em bairros com canteiros cheios de lixo, buracos nos quais os moradores já estão fazendo festa de aniversário para eles e espaços abandonados, mal cuidados, que poderiam ser usados para instalar um parque, quadra ou uma área para feiras ocasionais.
 
 Neste projeto será possível notar que as empresas, em conjunto com as comunidades, podem somar forças e ter atitudes voluntárias em prol de desenvolver, por si próprias, aperfeiçoamentos em seus bairros. De boas ações a trabalhos coletivos, o Projeto Governança Local atende demandas de um determinado bairro, para provar que é possível fazer transformações significativas a lugares em que o abandono e descaso são constantes.
 
