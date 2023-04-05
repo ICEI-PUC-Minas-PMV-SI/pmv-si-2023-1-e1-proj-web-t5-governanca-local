@@ -69,8 +69,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| A aplicação Web contará com páginas estáticas contendo práticas de boas convivências, podendo ser acessada por usuários cadastrados ou não  | ALTA  | |
 |RF-008| A aplicação Web terá um landing page   | ALTA  | |
 |RF-009| A aplicação Web conterá uma aba sobre os criadores   | ALTA  | |
-|RF-010| A aplicação Web conterá uma aba sobre os criadores   | ALTA  | |
-|RF-011| A aplicação Web conterá uma área de sugestões para o site  | ALTA  | |
+|RF-010| A aplicação Web conterá uma área de sugestões para o site  | ALTA  | |
 
 
 
