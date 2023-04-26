@@ -21,8 +21,6 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 ## Tipografia
 ![image](https://user-images.githubusercontent.com/127517961/234681452-40970274-6afd-4823-8dad-45cd77583f70.png)
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
-
 
 ## Iconografia
 
