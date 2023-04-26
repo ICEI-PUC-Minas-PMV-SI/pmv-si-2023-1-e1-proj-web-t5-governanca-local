@@ -10,7 +10,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Logotipo
 
-![image](https://user-images.githubusercontent.com/127517961/234681013-b4e33ad1-3584-4f82-bbef-2fae9db6a451.png)
+![GL - Vetorizada](https://user-images.githubusercontent.com/128436722/234724914-6e5d3711-f001-4c06-8183-66de50f0bf36.svg)
 
 ## Cores
 
