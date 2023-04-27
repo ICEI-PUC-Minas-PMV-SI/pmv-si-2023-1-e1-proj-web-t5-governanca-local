@@ -9,8 +9,11 @@ Explique as guias de estilo utilizadas no seu projeto.
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
 ## Logotipo
-
+<div align="center">
+  
 ![GL - Vetorizada](https://user-images.githubusercontent.com/128436722/234724914-6e5d3711-f001-4c06-8183-66de50f0bf36.svg)
+</div>
+
 
 ## Cores
 
