@@ -16,8 +16,8 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ### Tela de Login 
 A tela de login se baseará através do e-mail e senha criada pelo usuário. Pela página ainda será possível ser redirecionado para a tela de cadastro e para a Landing Page.
-Atende aos Requisitos Funcionais <strong> RF-002 </strong> e base para <strong> RF-004 </strong> e <strong> RF-006 </strong>.
+Atende aos Requisitos Funcionais <strong> RF-002 </strong>.
 
-![image](https://user-images.githubusercontent.com/127517961/234682431-1e569b52-8d37-4a1e-a76a-264c99bee9e4.png)
+![Image](https://user-images.githubusercontent.com/127517961/234961083-9091ff63-c595-42a7-8290-a317a80abd02.png)
 
  #
