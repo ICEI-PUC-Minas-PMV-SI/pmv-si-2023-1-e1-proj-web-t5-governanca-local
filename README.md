@@ -1,6 +1,6 @@
 # Governança Local
 <div align="center" text-align="center">
-<img src="https://cdn.discordapp.com/attachments/997555737490370611/1100952900752134255/GL_-_PGN.png" width="300px"> 
+<img src="https://cdn.discordapp.com/attachments/997555737490370611/1100952900752134255/GL_-_PGN.png" alt="Image" width="300px"> 
 
 
 `CURSO: Sistemas de Informação`
