@@ -27,11 +27,21 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+<div width="100%">
+  
+![image](https://user-images.githubusercontent.com/127517961/235319075-3998ac3c-7702-43c8-9883-2fb6f46bec01.png)
+![image](https://user-images.githubusercontent.com/127517961/235319635-5c807f3e-8094-4f91-b952-1eac0c128630.png)
+![image](https://user-images.githubusercontent.com/127517961/235319313-708f3d5b-093f-4991-bd08-22c948fbe5d6.png)
+![image](https://user-images.githubusercontent.com/127517961/235319426-496e45ec-e6f3-4176-ac04-f2e67614e23d.png)
+![image](https://user-images.githubusercontent.com/127517961/235319473-2c334ea7-38a0-476e-abc4-7a64a638c4c1.png)
+![image](https://user-images.githubusercontent.com/127517961/235319544-8a3d4ef1-15c3-48f8-8446-3e4b5a40bab4.png)
+![image](https://user-images.githubusercontent.com/127517961/235319742-4cc2ad92-f2b1-470a-96a7-63451dfa0446.png)
+![image](https://user-images.githubusercontent.com/127517961/235319788-2bfd3ae6-bf4c-4bed-a1fc-347a3db4611c.png)  
+![image](https://user-images.githubusercontent.com/127517961/235319602-f5408486-3ef9-4277-a19c-270bb60487bf.png)
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
 
+  
+</div>
 
 > **Links Úteis**:
 >
