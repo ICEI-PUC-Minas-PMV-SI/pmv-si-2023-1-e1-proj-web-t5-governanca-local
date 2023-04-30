@@ -21,7 +21,7 @@ Atende aos Requisitos Funcionais <strong> RF-002 </strong>.
 ![Image](https://user-images.githubusercontent.com/127517961/234961083-9091ff63-c595-42a7-8290-a317a80abd02.png)
 
 ### Fórum
-A página Fórum só será utilizada por usuários devidamente cadastrados esse critério atende ao Requisito Funcional <strong> RF-003 <strong> também haverá na página fórum o link para redirecionamento ao cadastro caso o usuário não possua e queira acesso ao fórum.
+A página Fórum só será utilizada por usuários devidamente cadastrados esse critério atende ao Requisito Funcional <strong> RF-003 também haverá na página fórum o link para redirecionamento ao cadastro caso o usuário não possua e queira acesso ao fórum.
  
  ![Image](https://user-images.githubusercontent.com/128436722/235374036-b0e6e64b-7936-4f94-bf8f-6be8433af479.png)
  
