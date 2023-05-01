@@ -59,6 +59,6 @@ A criação de anotações e informações e conteúdo no mapa será por meio da
  
 ### Sobre Nós
 
-O objetivo dessa seção é fornecer aos visitantes do site uma compreensão clara e completa da empresa e de seus objetivos, transmitir credibilidade e confiança, e criar uma conexão emocional com os clientes em potencial.
+O objetivo dessa seção é fornecer aos visitantes do site uma compreensão clara e completa da organização e de seus objetivos, transmitir credibilidade e confiança, e criar uma conexão emocional com os clientes em potencial.
 
 ![image](https://user-images.githubusercontent.com/112134718/234734415-3499ab66-d5e2-4f5b-be20-3565280a1507.png)
