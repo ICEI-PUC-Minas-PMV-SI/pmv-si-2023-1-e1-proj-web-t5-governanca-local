@@ -40,3 +40,16 @@ Ainda sobre o Fórum, ele dará aos usuários <strong> cadastrados </strong>, a 
 ![Image](https://user-images.githubusercontent.com/128436722/235378235-df9c7fb5-df5a-458c-b4a7-0d52aa0981ec.png)
 
  #
+
+### Mapa
+
+O mapa será acessível aos usuários cadastrados e não cadastrados, os usuários <strong> não cadastrados </strong> apenas terão acesso as informações de eventos e contato dos negócios locais, enquanto os usuários <strong> cadastrados </strong> poderão também incluir informações postadas, verificar alertas e informações, pelas do mapa, e se assim  desejarem linkar cada pin postado em um post do fórum.
+
+![image](https://user-images.githubusercontent.com/128330026/235453293-f86bcb1d-7670-42c5-ab69-fd126444081c.png)
+
+RF-005	A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa	ALTA	
+
+RF-006	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa
+![image](https://user-images.githubusercontent.com/128330026/235453458-8190c578-1403-4e75-a23b-e01a6948d298.png)
+
+A criação de anotações e informações e conteúdo no mapa será por meio das ferramentas <strong> "Pin" </strong>
