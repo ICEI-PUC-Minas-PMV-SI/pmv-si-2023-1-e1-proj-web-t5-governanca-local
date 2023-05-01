@@ -15,17 +15,18 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
 ### Tela de Login 
-O login será feito através do e-mail e senha criados pelos usuários. Ao clicar em cadastrar o usuário será redirecionado para a tela de cadastro e para a Landing Page.
-Atende aos Requisitos Funcionais <strong> RF-002 </strong>.
+O login será feito através do e-mail e senha criados pelos usuários. Ao clicar em cadastrar, o usuário será redirecionado para a tela de cadastro. Há ainda a presença de ícones-atalhos para o Fórum, Landing Page e Mapa. Atende aos Requisitos Funcionais <strong> RF-002 </strong>.
 
-![Image](https://user-images.githubusercontent.com/127517961/234961083-9091ff63-c595-42a7-8290-a317a80abd02.png)
+![image](https://user-images.githubusercontent.com/127517961/235466056-7660170c-ade4-4496-8b5d-d260631f072c.png)
+
+#
 
 ### Fórum
 Só terão permissão para utilizar o Fórum usuários devidamente cadastrados. Esse critério atende ao Requisito Funcional <strong> RF-003 </strong>, também haverá na página fórum o link para redirecionamento ao cadastro caso o usuário não possua e queira acesso ao fórum.
  
  ![Image](https://user-images.githubusercontent.com/128436722/235378238-08d558e9-737e-4d72-a624-49f98821a192.png)
  
-O Fórum permitirá que os usuários <strong> cadastrados </strong>, façam comentários, votações e reivindicações para melhorias do seu bairro bem como descrito no Requisito Funcional <strong> RF-004 </strong>.
+O Fórum permitirá que os usuários <strong> cadastrados </strong> façam comentários, votações e reivindicações para melhorias do seu bairro, bem como descrito no Requisito Funcional <strong> RF-004 </strong>.
  
  ![Image](https://user-images.githubusercontent.com/128436722/235378236-a741dfa6-b3ff-4557-afb5-48d23319901b.png)
  
