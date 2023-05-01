@@ -14,15 +14,19 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
+### Tela de cadastro
+No cadastro, o usuário irá iserir um endereço de e-mail, uma senha e a confirmação da senha escolhida. Depois de preencher esses campos, o usuário pode enviar o formulário clicando em um botão continuar. Há ainda a presença de ícone-atalho para a Landing Page. Atende aos requisitos <strong> RF-001 </strong>.
+
+![image](https://user-images.githubusercontent.com/128329945/235469652-5415a606-64d7-48a4-83a3-172e27ceb8c0.png)
+
+#
+
 ### Tela de Login 
 O login será feito através do e-mail e senha criados pelos usuários. Ao clicar em cadastrar, o usuário será redirecionado para a tela de cadastro. Há ainda a presença de ícones-atalhos para o Fórum, Landing Page e Mapa. Atende aos Requisitos Funcionais <strong> RF-002 </strong>.
 
 ![image](https://user-images.githubusercontent.com/127517961/235466056-7660170c-ade4-4496-8b5d-d260631f072c.png)
 
-### Tela de cadastro
-No cadastro o usuário ira iserir um endereço de e-mail, uma senha e a confirmação da senha escolhida. Depois de preencher esses campos, o usuário pode enviar o formulário clicando em um botão continuar. Há ainda a presença de ícone-atalho para a Landing Page.
-
-![image](https://user-images.githubusercontent.com/128329945/235469652-5415a606-64d7-48a4-83a3-172e27ceb8c0.png)
+#
 
 ### Fórum
 Só terão permissão para utilizar o Fórum usuários devidamente cadastrados. Esse critério atende ao Requisito Funcional <strong> RF-003 </strong>, também haverá na página fórum o link para redirecionamento ao cadastro caso o usuário não possua e queira acesso ao fórum.
