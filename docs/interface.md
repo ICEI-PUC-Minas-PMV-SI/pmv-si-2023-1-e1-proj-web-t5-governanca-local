@@ -29,7 +29,7 @@ O login será feito através do e-mail e senha criados pelos usuários. Ao clica
 #
 
 ### Práticas
-No módulo de práticas o acesso será feito por usuários cadastrados e não cadastrados, disponibilizando os principais módulos, ao clicar nesses módulos será aberto um pop-up com os tópicos relacionados sendo navegados em forma de rolagem vertical. Atende os requisitos funcionais <strong> RF-007 </strong>. Contendo duas barras de navegação, primeira com opção de retorno a landing page, acesso ao mapa, fórum, sobre nós e perfil. A segunda com logo do projeto, uma barra de pesquisa utilizada para localizar tópicos específicos dentro do módulo.
+No módulo de práticas o acesso será feito por usuários cadastrados e não cadastrados, disponibilizando os principais módulos estáticos, ao clicar nesses módulos será aberto um pop-up com os tópicos relacionados sendo navegados em forma de rolagem vertical. Atende os requisitos funcionais <strong> RF-007 </strong>. Contendo duas barras de navegação, primeira com opção de retorno a landing page, acesso ao mapa, fórum, sobre nós e perfil. A segunda com logo do projeto, uma barra de pesquisa utilizada para localizar tópicos específicos dentro do módulo.
 
 ![image](https://user-images.githubusercontent.com/102264520/234984438-207444a0-6bc4-4119-b0db-560ed0f4b2a4.jpg)
 
