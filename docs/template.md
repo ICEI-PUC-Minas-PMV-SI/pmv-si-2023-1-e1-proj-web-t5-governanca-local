@@ -6,6 +6,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Logotipo
 <div align="center">
+  
 ![GL - Vetorizada](https://user-images.githubusercontent.com/128436722/234724914-6e5d3711-f001-4c06-8183-66de50f0bf36.svg)
 </div>
 
