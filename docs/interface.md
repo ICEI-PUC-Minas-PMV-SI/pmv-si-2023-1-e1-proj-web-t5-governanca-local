@@ -4,11 +4,14 @@
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
  Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+ 
+-------------------------------------------------------------------------------------------------------
 
 ## User Flow
 
 ![Image](https://user-images.githubusercontent.com/127517961/232878835-7402297e-3377-4053-a313-27f2ac9e75bd.png) 
 
+-------------------------------------------------------------------------------------------------------
 
 ## Wireframes
 
@@ -19,21 +22,23 @@ A Landing page será a págia de entrada do website, nela será contida o cabeç
 
 ![Wireframe-Landingpage](https://user-images.githubusercontent.com/128330026/236060795-1e0de53a-0713-48d1-9dd7-f0b8182a0b6c.png)
 
-### Tela de cadastro
+-------------------------------------------------------------------------------------------------------
+
+### Telas de cadastro e Login
 No cadastro, o usuário irá iserir um endereço de e-mail, uma senha e a confirmação da senha escolhida. Depois de preencher esses campos, o usuário pode enviar o formulário clicando em um botão continuar. Há ainda a presença de ícone-atalho para a Landing Page. Atende aos requisitos <strong> RF-001 </strong>.
 
 ![image](https://user-images.githubusercontent.com/128329945/235469652-5415a606-64d7-48a4-83a3-172e27ceb8c0.png)
 
-#
+
 
 ### Tela de Login 
 O login será feito através do e-mail e senha criados pelos usuários. Ao clicar em cadastrar, o usuário será redirecionado para a tela de cadastro. Há ainda a presença de ícones-atalhos para o Fórum, Landing Page e Mapa. Atende aos Requisitos Funcionais <strong> RF-002 </strong>.
 
 ![image](https://user-images.githubusercontent.com/127517961/235466056-7660170c-ade4-4496-8b5d-d260631f072c.png)
 
-#
+-------------------------------------------------------------------------------------------------------
 
-### Práticas
+### Práticas de boas convivências
 No módulo de práticas o acesso será feito por usuários cadastrados e não cadastrados, disponibilizando os principais módulos estáticos, ao clicar nesses módulos será aberto um pop-up com os tópicos relacionados sendo navegados em forma de rolagem vertical. Atende os requisitos funcionais <strong> RF-007 </strong>. Contendo duas barras de navegação, primeira com opção de retorno a landing page, acesso ao mapa, fórum, sobre nós e perfil. A segunda com logo do projeto, uma barra de pesquisa utilizada para localizar tópicos específicos dentro do módulo.
 
 ![image](https://user-images.githubusercontent.com/102264520/234984438-207444a0-6bc4-4119-b0db-560ed0f4b2a4.jpg)
@@ -41,7 +46,7 @@ No módulo de práticas o acesso será feito por usuários cadastrados e não ca
 ![image](https://user-images.githubusercontent.com/102264520/234984467-3e9e5aab-cc55-4045-812a-e3908ed17d9a.jpg)
 
 
-#
+-------------------------------------------------------------------------------------------------------
 
 ### Fórum
 Só terão permissão para utilizar o Fórum usuários devidamente cadastrados. Esse critério atende ao Requisito Funcional <strong> RF-003 </strong>, também haverá na página fórum o link para redirecionamento ao cadastro caso o usuário não possua e queira acesso ao fórum.
@@ -62,7 +67,7 @@ Ainda sobre o Fórum, ele dará aos usuários <strong> cadastrados </strong>, a 
 
 ![Image](https://user-images.githubusercontent.com/128436722/235378235-df9c7fb5-df5a-458c-b4a7-0d52aa0981ec.png)
 
- #
+-------------------------------------------------------------------------------------------------------
 
 ### Mapa
 
@@ -77,7 +82,7 @@ RF-006	A aplicação Web permitirá apenas aos usuários cadastradados criarem/a
 
 A criação de anotações e informações e conteúdo no mapa será por meio das ferramentas <strong> "Pin" </strong>
 
- #
+-------------------------------------------------------------------------------------------------------
  
 ### Sobre Nós
 
