@@ -33,8 +33,8 @@ No módulo de práticas o acesso será feito por usuários cadastrados e não ca
 
 ![image](https://user-images.githubusercontent.com/102264520/234984438-207444a0-6bc4-4119-b0db-560ed0f4b2a4.jpg)
 
+![image](https://user-images.githubusercontent.com/102264520/234984467-3e9e5aab-cc55-4045-812a-e3908ed17d9a.jpg)
 
-![image]([https://user-images.githubusercontent.com/102264520/234984467-3e9e5aab-cc55-4045-812a-e3908ed17d9a.jpg)
 
 #
 
