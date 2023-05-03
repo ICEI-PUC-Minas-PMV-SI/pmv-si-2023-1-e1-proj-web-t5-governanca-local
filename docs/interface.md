@@ -16,7 +16,9 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## Wireframes
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+
 ### Landing Page
+
 <strong> RF-008 </strong>	A aplicação Web terá um landing page. <br> 
 A Landing page será a págia de entrada do website, nela será contida o cabeçalho com logotipo do projeto, botões hyperlinks para cada sessão do site, no corpo da pagina haverá a apresentação do projeto, uma sessão convite a tela de boas práticas, uma sessão de direcionamento ao mapa e outra sessão ao fórum, uma sessão de informações a respeito dos criadores e a razão do projeto, por fim o rodapé da página com logotipo, direitos autorais e o logo da PUC-Minas.
 
