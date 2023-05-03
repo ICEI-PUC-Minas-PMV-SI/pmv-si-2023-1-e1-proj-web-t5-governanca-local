@@ -1,29 +1,28 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-Explique as guias de estilo utilizadas no seu projeto.
-
 ## Design
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
 ## Logotipo
 <div align="center">
-  
 ![GL - Vetorizada](https://user-images.githubusercontent.com/128436722/234724914-6e5d3711-f001-4c06-8183-66de50f0bf36.svg)
 </div>
 
-
+----------------------------------------------------------------------------------------------------------------------------------
 ## Cores
 
 ![Image](https://user-images.githubusercontent.com/127517961/234970673-d632a688-fb40-449b-87bf-4a1307232f7e.png)
 
+A temática das cores refere-se à uma combinação monocromática, buscando trazer sensações de acolhimento, tais como uma vizinhança deveria ter, como uma participação do verde <strong> [#7EFC00]</strong>, azul <strong> [#20B3AB] </strong>, amarelo <strong> [#FAAC0] </strong> (aspectos ambientais). <br>
+Ademais, são utilizado tons neutros, como preto, cinza e branco, a fim de balancear as tonalidades.
 
+----------------------------------------------------------------------------------------------------------------------------------
 
 ## Tipografia
 ![image](https://user-images.githubusercontent.com/127517961/234681452-40970274-6afd-4823-8dad-45cd77583f70.png)
 
+----------------------------------------------------------------------------------------------------------------------------------
 
 ## Iconografia
 
@@ -40,13 +39,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 ![image](https://user-images.githubusercontent.com/127517961/235319602-f5408486-3ef9-4277-a19c-270bb60487bf.png)
 
 
-  
 </div>
 
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+----------------------------------------------------------------------------------------------------------------------------------
+
