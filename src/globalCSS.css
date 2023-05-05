@@ -10,3 +10,30 @@ body {
 body * {
     box-sizing: border-box;
 }
+
+.botaoexplorar{
+
+   float: center;
+   display: flex;
+   justify-content: left;
+   align-items: left;
+  
+}
+
+#imagempraticas{
+   
+   float: center;
+   display: flex;
+   justify-content: left;
+   align-items: left;
+
+}
+
+#textopraticas{
+   width: 400px;
+   float: center;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+
+}
