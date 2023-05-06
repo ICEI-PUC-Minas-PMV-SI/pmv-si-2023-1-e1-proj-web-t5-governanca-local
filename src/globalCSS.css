@@ -11,6 +11,89 @@ body {
     box-sizing: border-box;
 }
 
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header ul {
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    gap: 30px;
+    list-style: none;
+    display: flex;
+}
+
+@media (max-width:900px) {
+
+    header{
+        flex-direction: column;
+    }
+    header ul{
+        flex-direction: column;
+        place-self: center;
+    }
+}
+
+/* Parte do Lucas */
+
+.frontlanding{
+    background-color: whitesmoke;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+}
+
+.proposta{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 2rem;
+}
+
+.proposta h1{
+    border-bottom: 1px solid black;
+    font-size: 10vh;
+}
+.imagem-inicial{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-inicial img {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+    box-shadow: 1px 0 10px black;
+    border-radius: 4px;
+}
+
+
+@media (max-width:900px) {
+    .frontlanding{
+        flex-direction: column;
+    }
+
+    .proposta{
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .imagem-inicial{
+        place-self: center;
+    }
+
+}
+
 /* Parte do Gabriel */
 .praticas{
 background-color: #ececec;
