@@ -17,17 +17,44 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    background-color: #20b3ab;
 }
 
 header ul {
-    align-items: center;
     justify-content: center;
     margin-right: 20px;
-    gap: 30px;
+    gap: 10px;
     list-style: none;
-    display: flex;
+    display: flex;  
+    width: 100%;
+    padding: 0px;
 }
+header ul img {
+    display: inline;
+    align-self: center;
 
+}
+header ul li {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    transition:0.3s;
+}
+header ul a{
+    display: inline;
+    text-decoration: none;
+    text-align: justify;
+    width: 1vw;   
+    color: black;
+    padding: 1px;
+    margin: 1px;
+}
+header ul a:hover {
+    color: orange;
+}
 @media (max-width:900px) {
 
     header{
@@ -128,22 +155,17 @@ border: 3px solid black;
 cursor: pointer;
 font-family: 'Poppins', sans-serif;
 font-weight: 900;
-background-color: #FAC710
+background-color: #FAC710;
+transition:0.3s;
+}
+.btn:hover{
+    background-color: #20b3ab;
 }
 
 #textopraticas h2 {
 font-size: 40pt;
 }
 
-.btn2{
-width: 50%;
-height: 80px;
-border: 3px solid black;
-cursor: pointer;
-font-family: 'Poppins', sans-serif;
-font-weight: 900;
-background-color: #FAC710
-}
 
 @media (max-width:900px) {
     .praticas{
@@ -189,7 +211,7 @@ Sessão do MAPA da Landing Page */
     max-width: 350px;
     grid-column:1;
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 3;
     outline: 2px solid black;
     place-self: center;
 }
@@ -219,8 +241,7 @@ Sessão do MAPA da Landing Page */
     margin: 1%;
     place-self: center; 
     cursor: pointer;
-
-
+    transition:0.3s;
 }
 .botaoCliqueAqui p {
     margin: 2% 5%;
