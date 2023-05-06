@@ -11,42 +11,71 @@ body {
     box-sizing: border-box;
 }
 
-
-/* PRÁTICAS DE CONVIVENCIA */
+/* Parte do Gabriel */
 .praticas{
 background-color: #ececec;
 display: flex;
-padding: 30px;
 }
 
 #imagempraticas{
-   width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#imagempraticas img{
+width: 50vw;
 align-items: center;
 justify-content: center;
-margin-right: 30px;
 }
    
 #textopraticas {
 align-items: center;
 justify-content: center;
 text-align: center;
-float: center;
-margin-left: 100px;
+padding: 30px;
+width: 50%;
 }
 
 #textopraticas h2 {
 font-size: 40pt;
 }
 
-.btn{
+.btn2{
 width: 50%;
-height: 70px;
+height: 80px;
 border: 3px solid black;
 cursor: pointer;
 font-family: 'Poppins', sans-serif;
 font-weight: 900;
 background-color: #FAC710
 }
+
+@media (max-width:900px) {
+    .praticas{
+        flex-direction: column;
+    }
+
+    #textopraticas h2{
+        font-size: 20pt;
+    }
+
+    #imagempraticas{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #textopraticas{
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
+
+/* Término Gabriel */
 
 /* Começo da parte do Victor
 Sessão do MAPA da Landing Page */
