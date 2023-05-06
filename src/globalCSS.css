@@ -20,6 +20,9 @@ header{
     background-color: #20b3ab;
 
 }
+.imagem-header {
+    margin: 0px;
+}
 
 header ul {
     justify-content: center;
@@ -340,3 +343,33 @@ Sessão do MAPA da Landing Page */
 
 }
 /* Fim parte Pedro Nunes*/
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid grid-template-rows: 1fr;
+    align-items: center;
+    width: 100%;
+    background-color: #20b3ab;
+}
+footer img {
+    width: 30%;
+    display: flex;
+}
+.footer-logo-gov-local {
+    grid-column: 1;
+    width: 50%;
+}
+.footer-logo-github {
+
+    grid-column: 3;
+    grid-row: 1;
+    width: 50%;
+    justify-self: end;
+}
+.footer-logo-pucminas {
+    grid-column: 4;
+    grid-row: 1;
+    width: 50%;
+    float: left;
+    justify-self: end;
+}
