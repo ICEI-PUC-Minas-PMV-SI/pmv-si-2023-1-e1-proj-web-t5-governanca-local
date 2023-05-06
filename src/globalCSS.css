@@ -7,41 +7,75 @@ body {
 
 }
 
-/* PRÁTICAS DE CONVIVENCIA */
+* {
+    box-sizing: border-box;
+}
+
+/* Parte do Gabriel */
 .praticas{
 background-color: #ececec;
 display: flex;
-padding: 30px;
 }
 
 #imagempraticas{
-   width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#imagempraticas img{
+width: 50vw;
 align-items: center;
 justify-content: center;
-margin-right: 30px;
 }
    
 #textopraticas {
 align-items: center;
 justify-content: center;
 text-align: center;
-float: center;
-margin-left: 100px;
+padding: 30px;
+width: 50%;
 }
 
 #textopraticas h2 {
 font-size: 40pt;
 }
 
-.btn{
+.btn2{
 width: 50%;
-height: 70px;
+height: 80px;
 border: 3px solid black;
 cursor: pointer;
 font-family: 'Poppins', sans-serif;
 font-weight: 900;
 background-color: #FAC710
 }
+
+@media (max-width:900px) {
+    .praticas{
+        flex-direction: column;
+    }
+
+    #textopraticas h2{
+        font-size: 20pt;
+    }
+
+    #imagempraticas{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #textopraticas{
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
+
+/* Término Gabriel */
 
 /* Começo da parte do Victor
 Sessão do MAPA da Landing Page */
@@ -105,3 +139,89 @@ Sessão do MAPA da Landing Page */
 }
 /*Fim da parte do Victor*/
 
+/* Parte Pedro Nunes*/
+.section-sobre{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 20px;
+    grid-template-areas: "titulo criadores";
+    background-color: #e6e6e6;
+}
+
+.h1-texto{
+    grid-area: "titulo";
+}
+
+.membros-imagens{
+    grid-area: "criadores";
+}
+
+.h1-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40pt;
+}
+
+.h1-texto span{
+    color: rgb(104, 99, 99);
+}
+
+.membros-imagens{
+    display: flex;
+    grid-template-columns: 33% 33% 33%;
+
+                         
+}
+
+.membros-imagens ul {
+    list-style:none;
+    padding: 0px 10px;
+
+}
+
+.membros-imagens img{
+    border-radius: 1000px;
+    margin-top: 20px;
+    box-shadow: 10px 10px black;
+    width: 100%;
+    transition:0.3s;
+}
+
+.membros-imagens img:hover{
+    box-shadow: 10px 10px orange;
+}
+
+
+@media (max-width:900px) {
+    .section-sobre{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "titulo"
+                             "criadores";
+    }
+    .membros-imagens ul {
+        padding: 0px 10%;
+    }
+    .membros-imagens{
+        display: grid;
+        grid-area: "criadores";
+        place-self: center;
+
+    }
+
+    .h1-texto{
+        grid-area: "titulo";
+        font-size: 30pt;
+    }
+
+    .h1-texto{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+    }
+
+}
+/* Fim parte Pedro Nunes*/
