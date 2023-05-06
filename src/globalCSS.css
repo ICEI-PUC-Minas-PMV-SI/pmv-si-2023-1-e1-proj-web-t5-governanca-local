@@ -43,4 +43,54 @@ font-weight: 900;
 background-color: #FAC710
 }
 
+/* Começo da parte do Victor
+Sessão do MAPA da Landing Page */
+#articlemapa {
+    display: grid;
+    grid-template-columns: 1fr 40px 1fr;
+    grid-template-rows: 40% 40%;
+    background-color: lightgray;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+
+}
+#landingpage-image-mapa {
+    order: 1;
+    width: 80%;
+    grid-column:1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    outline: 2px solid black;
+    place-self: center;
+}
+.TituloMapa {
+    width: 90%;
+    order: 2;
+    grid-column: 3;
+    grid-row: 1;
+    place-self: center;
+    text-align: center;
+}
+.botaoCliqueAqui {
+    order: 3;
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    color: white;
+    border: 20px #20b3ab;
+    outline: 2px solid black;
+    background-color: #20b3ab;
+    font-weight: bolder;
+    padding: 5px 30px;
+    margin: 10px;
+    place-self: center; 
+    text-decoration: none;
+}
+.botaoCliqueAqui:hover {
+    background-color: orange;
+    text-decoration:none;
+}
+/*Fim da parte do Victor*/
 
