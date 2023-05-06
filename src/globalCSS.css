@@ -47,19 +47,19 @@ background-color: #FAC710
 Sessão do MAPA da Landing Page */
 #articlemapa {
     display: grid;
-    grid-template-columns: 1fr 40px 1fr;
-    grid-template-rows: 40% 40%;
+    grid-template-columns: 1fr 20px 1fr;
+    grid-template-rows: 50% 50%;
     background-color: lightgray;
     margin: 0px;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 5%;
     width: 100%;
 
 }
 #landingpage-image-mapa {
     order: 1;
     width: 80%;
-    max-width: 450px;
+    max-width: 350px;
     grid-column:1;
     grid-row-start: 1;
     grid-row-end: 4;
@@ -77,6 +77,7 @@ Sessão do MAPA da Landing Page */
 }
 .TituloMapa h2 {
     font-size: 3vw;
+    margin: 1%;
     }
 .botaoCliqueAqui {
     order: 3;
@@ -85,14 +86,19 @@ Sessão do MAPA da Landing Page */
     text-align: center;
     color: white;
     border: 10px #20b3ab;
-    outline: 3px solid black;
+    outline: 0.5vw solid black;
     background-color: #20b3ab;
-    padding: 0px 30px;
-    margin: 10px;
+    padding: 0px 5%;
+    margin: 1%;
     place-self: center; 
     cursor: pointer;
-    font-family: 'Poppins', sans-serif;
+
+
+}
+.botaoCliqueAqui p {
+    margin: 2% 5%;
     font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
 }
 .botaoCliqueAqui:hover {
     background-color: orange;
