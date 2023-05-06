@@ -59,6 +59,7 @@ Sessão do MAPA da Landing Page */
 #landingpage-image-mapa {
     order: 1;
     width: 80%;
+    max-width: 450px;
     grid-column:1;
     grid-row-start: 1;
     grid-row-end: 4;
@@ -71,26 +72,30 @@ Sessão do MAPA da Landing Page */
     grid-column: 3;
     grid-row: 1;
     place-self: center;
+    align-self:center;
     text-align: center;
 }
+.TituloMapa h2 {
+    font-size: 3vw;
+    }
 .botaoCliqueAqui {
     order: 3;
     grid-column: 3;
     grid-row: 2;
     text-align: center;
     color: white;
-    border: 20px #20b3ab;
-    outline: 2px solid black;
+    border: 10px #20b3ab;
+    outline: 3px solid black;
     background-color: #20b3ab;
-    font-weight: bolder;
-    padding: 5px 30px;
+    padding: 0px 30px;
     margin: 10px;
     place-self: center; 
-    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
 }
 .botaoCliqueAqui:hover {
     background-color: orange;
-    text-decoration:none;
 }
 /*Fim da parte do Victor*/
 
