@@ -7,33 +7,46 @@ body {
 
 }
 
-body * {
-    box-sizing: border-box;
-}
-
-.botaoexplorar{
-
-   float: center;
-   display: flex;
-   justify-content: left;
-   align-items: left;
-  
+/* PRÁTICAS DE CONVIVENCIA */
+.praticas{
+background-color: #ececec;
+display: flex;
+padding: 30px;
 }
 
 #imagempraticas{
+   width: 30%;
+align-items: center;
+justify-content: center;
+margin-right: 30px;
+
+}
    
-   float: center;
-   display: flex;
-   justify-content: left;
-   align-items: left;
+
+#textopraticas {
+align-items: center;
+justify-content: center;
+text-align: center;
+float: center;
+margin-left: 100px;
+
+
 
 }
 
-#textopraticas{
-   width: 400px;
-   float: center;
-   display: flex;
-   justify-content: left;
-   align-items: center;
+#textopraticas h2 {
+font-size: 40pt;
 
 }
+
+.btn{
+width: 50%;
+height: 70px;
+border: 3px solid black;
+cursor: pointer;
+font-family: 'Poppins', sans-serif;
+font-weight: 900;
+background-color: #FAC710
+}
+
+
