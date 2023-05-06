@@ -145,6 +145,11 @@ Sessão do MAPA da Landing Page */
     margin-top: 20px;
     box-shadow: 10px 10px black;
     width: 100%;
+    transition:0.3s;
+}
+
+.membros-imagens img:hover{
+    box-shadow: 10px 10px orange;
 }
 
 
