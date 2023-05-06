@@ -7,6 +7,11 @@ body {
 
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
 /* PRÁTICAS DE CONVIVENCIA */
 .praticas{
 background-color: #ececec;
@@ -95,7 +100,7 @@ Sessão do MAPA da Landing Page */
 /*Fim da parte do Victor*/
 
 /* Parte Pedro Nunes*/
-.section-onde{
+.section-sobre{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 20px;
@@ -107,7 +112,7 @@ Sessão do MAPA da Landing Page */
     grid-area: "titulo";
 }
 
-.imagens-membros{
+.membros-imagens{
     grid-area: "criadores";
 }
 
@@ -122,55 +127,55 @@ Sessão do MAPA da Landing Page */
     color: rgb(104, 99, 99);
 }
 
-.imagens-membros{
+.membros-imagens{
     display: flex;
-    grid-template-columns: 33% 33% 33%;                     
+    grid-template-columns: 33% 33% 33%;
+
+                         
 }
 
-.imagens-membros ul {
+.membros-imagens ul {
     list-style:none;
+    padding: 0px 10px;
+
 }
 
-.imagens-membros img{
+.membros-imagens img{
     border-radius: 1000px;
-    height: 27vh;
     margin-top: 20px;
-    margin-right: 40px;
-    box-shadow: 20px 20px black;
+    box-shadow: 10px 10px black;
+    width: 100%;
 }
 
 
 @media (max-width:900px) {
-    .section-onde{
+    .section-sobre{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "titulo"
                              "criadores";
     }
-    
-    .imagens-membros ul {
+    .membros-imagens ul {
         padding: 0px 10%;
     }
-
-    .imagens-membros{
+    .membros-imagens{
         display: grid;
         grid-area: "criadores";
         place-self: center;
+
     }
-    
+
+    .h1-texto{
+        grid-area: "titulo";
+        font-size: 30pt;
+    }
 
     .h1-texto{
         display: flex;
-        grid-area: "titulo";
-        font-size: 30pt;
         text-align: center;
         justify-content: center;
         align-items: center;
         font-size: 5vw;
-    }
-
-    .linha{
-        display: none;
     }
 
 }
