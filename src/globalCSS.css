@@ -89,7 +89,7 @@ header ul a:hover {
 
 .proposta h1{
     border-bottom: 1px solid black;
-    font-size: 10vh;
+    font-size: 10vw;
 }
 .imagem-inicial{
     width: 50%;
@@ -354,6 +354,11 @@ footer {
 footer img {
     width: 30%;
     display: flex;
+}
+footer h1 {
+    font-size: 3vw;
+    justify-self: center;
+    text-align: center;
 }
 .footer-logo-gov-local {
     grid-column: 1;
