@@ -140,37 +140,37 @@ Sessão do MAPA da Landing Page */
 }
 
 
-@media (max-width:978px) {
+@media (max-width:900px) {
     .section-onde{
         grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr;
+        grid-template-rows: 1fr;
         grid-template-areas: "titulo"
                              "criadores";
     }
     
+    .imagens-membros ul {
+        padding: 0px 10%;
+    }
+
     .imagens-membros{
         display: grid;
         grid-area: "criadores";
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
         place-self: center;
-        margin: 0 auto;
-
     }
     
 
     .h1-texto{
+        display: flex;
         grid-area: "titulo";
         font-size: 30pt;
-        place-self: center;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
     }
 
     .linha{
         display: none;
-    }
-
-    .imagens-membros img{
-        margin: 10px 0px;
     }
 
 }
