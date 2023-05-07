@@ -206,7 +206,7 @@ Sessão do MAPA da Landing Page */
 <details>
   <summary>Práticas HTML</summary>
 ![image](https://user-images.githubusercontent.com/102264520/236702496-641666e3-82eb-444e-9741-2578ce1ea341.png)
-
+![image](https://user-images.githubusercontent.com/102264520/236703221-d33f0113-1d2b-4d92-b4ba-127a1533d2aa.png)
 
   ```html
    </article><!-- Começo da Parte Gabriel-->
