@@ -205,6 +205,8 @@ Sessão do MAPA da Landing Page */
 ## Práticas (Desktop e Mobile)
 <details>
   <summary>Práticas HTML</summary>
+![image](https://user-images.githubusercontent.com/102264520/236702496-641666e3-82eb-444e-9741-2578ce1ea341.png)
+
 
   ```html
    </article><!-- Começo da Parte Gabriel-->
