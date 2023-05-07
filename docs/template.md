@@ -202,6 +202,86 @@ Sessão do MAPA da Landing Page */
 </details>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
+## Práticas (Desktop e Mobile
+<details>
+  <summary>Práticas HTML</summary>
+
+  ```html
+   </article><!-- Começo da Parte Gabriel-->
+        <aside class="imagem-inicial">
+            <img width="250" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/660817046cb4582ce8b6ced350a57e671a3517ae/src/src/Icons/pessoas.png">
+        </aside>    
+    </section>
+    <section class="praticas" id="prat">
+      <aside id="imagempraticas">
+        <img width="600"
+          src="https://user-images.githubusercontent.com/102264520/236566377-9b5c332d-250e-4e46-8bed-cd260c5c7b04.png"
+          alt="Imagem das boa práticas">
+      </aside>
+      <div id="textopraticas">
+        <h2>Confira práticas <br> de boa convivência</h2>
+        <input class="btn" type="button" value="EXPLORE">
+      </div>
+    </section><!--Final da Parte do Gabriel-->  
+  ```
+  </details>
+  
+  <details>
+  <summary>Práticas CSS</summary>
+
+  ```css
+  .praticas{
+display: flex;
+background-color: #ececec;
+padding: 20px 0;
+}
+
+#imagempraticas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#imagempraticas img{
+width: 50vw;
+align-items: center;
+justify-content: center;
+}
+   
+#textopraticas {
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 50%;
+}
+
+.btn{
+    margin-top: 20px ;
+width: 50%;
+height: 70px;
+border: 3px solid black;
+cursor: pointer;
+font-family: 'Poppins', sans-serif;
+font-weight: 900;
+background-color: #FAC710;
+transition:0.3s;
+}
+.btn:hover{
+    background-color: #20b3ab;
+}
+
+#textopraticas h2 {
+font-size: 40pt;
+text-align: center;
+margin: 0;
+}
+
+  ```
+
+
+
+
 
 ## Fórum (Desktop e Mobile)
 
