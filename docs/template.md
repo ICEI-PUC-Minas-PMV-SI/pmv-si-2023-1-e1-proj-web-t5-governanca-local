@@ -106,7 +106,90 @@ header ul a:hover {
   </details>
   
 --------------------------------------------------------------------------------------------------------------------------------------------------
-  
+## Landing Page - Introdução
+<div align="center">
+![image](https://user-images.githubusercontent.com/128330026/236703544-620a7b25-2766-4b14-80f1-5d96c666fce0.png)
+![image](https://user-images.githubusercontent.com/128330026/236703565-8504af19-6ce3-47bd-9163-d61434442629.png)
+</div>
+
+<details>
+ <summary>Introdução HTML</summary>
+ ```html
+     <section class="frontlanding" id="front">
+        <article class="proposta">
+            <h1>Governança Local</h1>
+                <p> A proposta surge pela alta necessidade de organização entre os bairros e de seus moradores, que, em decorrência da negligência estatal, cidadãos como nós 
+                    somos os mais prejudicados. Essa aplicação busca integrar pessoas através do mapa interativo, pelo fórum e também pelas práticas de boas convivências disponibilizadas. <br>
+                    <strong> Venha fazer parte do nosso time!</strong>
+                </p>
+        </article><!-- Começo da Parte Gabriel-->
+        <aside class="imagem-inicial">
+            <img width="250" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/660817046cb4582ce8b6ced350a57e671a3517ae/src/src/Icons/pessoas.png">
+        </aside>    
+    </section>
+ ```
+ </details>
+ <details>
+ <summary>Introdução CSS</summary>
+ 
+ ```css
+ /* Parte do Lucas */
+
+.frontlanding{
+    background-color: whitesmoke;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+}
+
+.proposta{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 2rem;
+}
+
+.proposta h1{
+    border-bottom: 1px solid black;
+    font-size: 6vw;
+}
+.imagem-inicial{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-inicial img {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+    box-shadow: 1px 0 10px black;
+    border-radius: 4px;
+}
+
+
+@media (max-width:900px) {
+    .frontlanding{
+        flex-direction: column;
+    }
+
+    .proposta{
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .imagem-inicial{
+        place-self: center;
+    }
+
+}
+ ```
+ </details>
+
 ## Landing Page - Mapa (Grid responsivo)
 <div align="center">
   
