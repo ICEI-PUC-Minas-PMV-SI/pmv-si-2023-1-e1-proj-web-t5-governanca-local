@@ -106,15 +106,20 @@ header ul a:hover {
   </details>
   
 --------------------------------------------------------------------------------------------------------------------------------------------------
-## Landing Page - Introdução
+## Landing Page - Introdução (Desktop e Mobile)
 <div align="center">
+ 
 ![image](https://user-images.githubusercontent.com/128330026/236703544-620a7b25-2766-4b14-80f1-5d96c666fce0.png)
+ 
 ![image](https://user-images.githubusercontent.com/128330026/236703565-8504af19-6ce3-47bd-9163-d61434442629.png)
+ 
 </div>
 
 <details>
  <summary>Introdução HTML</summary>
+ 
  ```html
+ 
      <section class="frontlanding" id="front">
         <article class="proposta">
             <h1>Governança Local</h1>
@@ -127,7 +132,9 @@ header ul a:hover {
             <img width="250" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/660817046cb4582ce8b6ced350a57e671a3517ae/src/src/Icons/pessoas.png">
         </aside>    
     </section>
+ 
  ```
+ 
  </details>
  <details>
  <summary>Introdução CSS</summary>
