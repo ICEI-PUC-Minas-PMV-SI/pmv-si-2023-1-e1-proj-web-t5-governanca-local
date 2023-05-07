@@ -2,6 +2,96 @@
 
 ## Design
 
+# Landing Page - Mapa ( Grid responsivo )
+<div align="center">
+![Mapa Desktop](https://user-images.githubusercontent.com/128330026/236692092-d5cef249-0387-4ed6-8d1c-3cef1a059e48.png)
+![Mapa Mobile](https://user-images.githubusercontent.com/128330026/236692145-2ffd3b30-349a-40d7-973f-4b04a41fdcaf.png)
+</div>
+<details>
+  <summary>Mapa HTML</summary>
+
+  ```html
+  <section id="mapa"><!-- Começo da Parte do Victor
+    Sessão do MAPA-->
+        <article id="articlemapa">
+            <div class="TituloMapa"><h2>Gostaria de acessar o seu mapa?</h2></div>
+            <img id="landingpage-image-mapa" width="250" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/src/imgs/landingpage-image-mapa.png" alt="Imagem dos mapas">
+            <div class="botaoCliqueAqui">
+                
+                <p>Clique Aqui!</p>
+                
+            </div>
+        </article>
+    </section><!--Fim da Parte do Victor-->
+  ```
+  </details>
+  
+  <details>
+  <summary>MAPA CSS</summary>
+
+  ```css
+/* Começo da parte do Victor
+Sessão do MAPA da Landing Page */
+#articlemapa {
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    grid-template-rows: 50% 50%;
+    background-color: lightgray;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 5%;
+    width: 100%;
+
+}
+#landingpage-image-mapa {
+    order: 1;
+    width: 80%;
+    max-width: 350px;
+    grid-column:1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    outline: 2px solid black;
+    place-self: center;
+}
+.TituloMapa {
+    width: 90%;
+    order: 2;
+    grid-column: 3;
+    grid-row: 1;
+    place-self: center;
+    align-self:center;
+    text-align: center;
+}
+.TituloMapa h2 {
+    font-size: 3vw;
+    margin: 1%;
+    }
+.botaoCliqueAqui {
+    order: 3;
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    color: white;
+    border: 10px #20b3ab;
+    outline: 0.5vw solid black;
+    background-color: #20b3ab;
+    padding: 0px 5%;
+    margin: 1%;
+    place-self: center; 
+    cursor: pointer;
+    transition:0.3s;
+}
+.botaoCliqueAqui p {
+    margin: 2% 5%;
+    font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
+}
+.botaoCliqueAqui:hover {
+    background-color: orange;
+}
+/*Fim da parte do Victor*/
+```
+</details>
 # Fórum (Desktop e Mobile)
 
 <div align="center">
