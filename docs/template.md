@@ -1,8 +1,8 @@
 # Template padrão do site
 
-## Design
+#Design
 
-# Landing Page - Mapa ( Grid responsivo )
+# Landing Page - Mapa (Grid responsivo)
 <div align="center">
   
 ![image](https://user-images.githubusercontent.com/128330026/236692092-d5cef249-0387-4ed6-8d1c-3cef1a059e48.png)
@@ -95,6 +95,9 @@ Sessão do MAPA da Landing Page */
 /*Fim da parte do Victor*/
 ```
 </details>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Fórum (Desktop e Mobile)
 
 <div align="center">
@@ -103,6 +106,103 @@ Sessão do MAPA da Landing Page */
 ![Forum Mobile](https://user-images.githubusercontent.com/128436722/236691431-75e64f3a-f5e2-4169-8576-b3022b015de6.png)
 
 </div>
+
+<details>
+  <summary>Fórum HTML</summary>
+
+  ```html
+   <section class="forum-section" id="forumm"><!--Início Wesney-->
+        <article id="articleforum">
+            <img id="picforum" width="450" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/src/imgs/landingpage-image-forum.png" alt="Imagem do fórum">
+        </article>
+           <div class="Forum">
+            <h2>Tenha acesso ao <br> nosso fórum!</h2>
+           <p>Para prosseguir, faça o seu <a href="#"><strong>cadastro</strong></a>!<br>
+            É rápido e fácil.</p>
+            <input class="btn2" type="button" value="FORUM">
+        </div>
+    </section><!--Fim Wesney-->
+  ```
+  </details>
+  
+  <details>
+  <summary>Fórum CSS</summary>
+
+  ```css
+  .forum-section {
+    display: flex ;
+    background-color: #e6e6e6;
+    width: 100%;
+    padding: 20px 0;
+}
+
+#articleforum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+
+}
+
+.Forum{
+    width: 60%;
+    place-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn2 {
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: 80px;
+        border: 3px solid black;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        color: white;
+        background-color: #20b3ab
+}
+
+.btn2:hover {
+background-color: #FAC710;
+}
+
+.forum h2 {
+    font-size: 40px;
+    justify-content: center ;
+}
+
+@media (max-width:900px) {
+    
+    .forum-section{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .btn2{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #articleforum{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        place-self: center;
+    }
+
+    #picforum{
+        width: 70%;
+    }
+}
+
+  ```
+  </details>
+  
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Sobre Nós (Desktop e Mobile)
 
@@ -115,7 +215,7 @@ Sessão do MAPA da Landing Page */
 
 
 <details>
-  <summary>Sobre Nós</summary>
+  <summary>Sobre Nós HTML</summary>
 
   ```html
 <section class="section-sobre" id="sobre">
@@ -233,6 +333,8 @@ Sessão do MAPA da Landing Page */
 }
   ```
 </details>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Logotipo
 <div align="center">
