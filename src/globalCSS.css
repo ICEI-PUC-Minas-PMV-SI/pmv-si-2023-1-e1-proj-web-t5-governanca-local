@@ -170,30 +170,6 @@ transition:0.3s;
 font-size: 40pt;
 }
 
-
-@media (max-width:900px) {
-    .praticas{
-        flex-direction: column;
-    }
-
-    #textopraticas h2{
-        font-size: 20pt;
-    }
-
-    #imagempraticas{
-        justify-content: center;
-        align-items: center;
-    }
-
-    #textopraticas{
-        width: 100%;
-        padding: 0;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 30px;
-    }
-}
-
 /* Término Gabriel */
 
 /* Começo da parte do Victor
