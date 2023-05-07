@@ -2,6 +2,15 @@
 
 ## Design
 
+# Fórum (Desktop e Mobile)
+
+<div align="center">
+
+![Forum Desktop](https://user-images.githubusercontent.com/128436722/236691427-212c4cee-6cb1-4076-889f-e038fad0f1b3.png)
+![Forum Mobile](https://user-images.githubusercontent.com/128436722/236691431-75e64f3a-f5e2-4169-8576-b3022b015de6.png)
+
+</div>
+
 # Sobre Nós (Desktop e Mobile)
 
 <div align="center">
