@@ -388,7 +388,8 @@ Sessão do MAPA da Landing Page */
 .btn2:hover {
 background-color: #FAC710;
 }
-h2 {
+
+.forum h2 {
     font-size: 40px;
     justify-content: center ;
 }
@@ -406,11 +407,15 @@ h2 {
         align-items: center;
     }
 
-    #picforum{
-        width: 90%;
+    #articleforum{
+        width: 100%;
         align-items: center;
         justify-content: center;
         place-self: center;
+    }
+
+    #picforum{
+        width: 70%;
     }
 }
 
