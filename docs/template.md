@@ -1,8 +1,113 @@
 # Template padrão do site
 
-#Design
+# Design
 
-# Landing Page - Mapa (Grid responsivo)
+
+## Header (Desktop e Mobile)
+<div align="center">
+
+![image](https://user-images.githubusercontent.com/127517961/236696848-bbb42f1a-7735-4ade-9fe4-9bb0531d5a15.png)
+![image](https://user-images.githubusercontent.com/127517961/236696891-f916b20a-e60b-4454-986e-c8a28e748c0a.png)
+
+ </div> 
+ 
+ <details>
+  <summary>Header HTML</summary>
+
+  ```html
+  <header>
+        <div class="imagem-header"> <!-- Paulo -->
+            <img width="200" height="180" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/src/logo/GL%20-%20PGN.png" alt="logo do projeto governança local">
+        </div>
+    <nav>
+        <ul>
+            <li><img widht="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/97c12341bd278b747feafe1f3401eb34059306cb/src/src/Icons/solidariedade.png" alt="Ícone de Projeto">
+                <a href="#front">Projeto</a></li>
+            <li><img widht="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a320ac9e1d7e7b46f4d2bfcab7e85d8bcbc39349/src/src/Icons/ecologia.png" alt="Ícone de Boas Práticas">
+                <a href="#prat">Práticas</a></li>
+            <li><img widht="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/src/Icons/Icon-Pin.png" alt="Ícone do Mapa">
+                <a href="#mapa">Mapa</a></li>
+            <li><img widht="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/src/Icons/Icon-Pessoas.png" alt="Ícone de Pessoas">
+                <a href="#forumm">Fórum</a></li>
+            <li><img widht="30" height="30" src="https://user-images.githubusercontent.com/127517961/234959722-b351f518-23ea-4d90-bce4-0227c61167f5.png" alt="Ícone de Resumo">
+                <a href="#sobre">Sobre nós</a></li>
+            <li><img widht="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/src/Icons/Icon-Conta.png" alt="Ícone de Conta">
+                <a href="#">Entrar</a></li>
+        </ul>
+     </nav>
+    </header>
+  ```
+  </details>
+  
+   <details>
+  <summary>Header CSS</summary>
+
+  ```css
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #20b3ab;
+
+}
+.imagem-header img {
+    margin: 20px 10px;
+    border-radius: 3px;
+    box-shadow: 16px 16px black;
+}
+
+header ul {
+    justify-content: center;
+    margin-right: 20px;
+    gap: 23px;
+    list-style: none;
+    display: flex;  
+    width: 100%;
+    padding: 0px;
+}
+header ul img {
+    display: inline;
+    align-self: center;
+
+}
+header ul li {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    transition:0.3s;
+}
+header ul a{
+    display: inline;
+    text-decoration: none;
+    text-align: justify;
+    width: 1vw;   
+    color: black;
+    padding: 1px;
+    margin: 1px;
+}
+header ul a:hover {
+    color: orange;
+}
+@media (max-width:900px) {
+
+    header{
+        flex-direction: column;
+    }
+    header ul{
+        flex-direction: column;
+        place-self: center;
+    }
+}
+  ```
+  </details>
+  
+--------------------------------------------------------------------------------------------------------------------------------------------------
+  
+## Landing Page - Mapa (Grid responsivo)
 <div align="center">
   
 ![image](https://user-images.githubusercontent.com/128330026/236692092-d5cef249-0387-4ed6-8d1c-3cef1a059e48.png)
@@ -98,7 +203,7 @@ Sessão do MAPA da Landing Page */
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Fórum (Desktop e Mobile)
+## Fórum (Desktop e Mobile)
 
 <div align="center">
 
@@ -204,7 +309,7 @@ background-color: #FAC710;
   
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Sobre Nós (Desktop e Mobile)
+## Sobre Nós (Desktop e Mobile)
 
 <div align="center">
   
@@ -333,6 +438,73 @@ background-color: #FAC710;
 }
   ```
 </details>
+
+## Footer (Desktop e Mobile)
+
+<div align="center">
+  
+![image](https://user-images.githubusercontent.com/127517961/236697155-75a2ad31-6f65-498f-9f4b-660be842cbcb.png)
+![image](https://user-images.githubusercontent.com/127517961/236697220-b7ef01ae-84c1-4547-9dc8-a1e4e8f2f509.png)
+
+</div>
+
+ <details>
+  <summary>Footer HTML</summary>
+
+  ```html
+  <footer>
+        <img width="100" class="footer-logo-gov-local" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/src/logo/GL%20-%20PGN.png" alt="logo do projeto governança local">
+        <h1>© Governança Local</h1>
+        <img width="100" class="footer-logo-github" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/src/logo/logo-github.png" alt="logo do GitHub">
+        <img width="100" class="footer-logo-pucminas" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/src/logo/logo-pucminas.png" alt="logo da PUC-Minas">
+    </footer>
+  ```
+  </details>
+  
+  
+  <details>
+  <summary>Footer CSS</summary>
+
+  ```css
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    width: 100%;
+    background-color: #20b3ab;
+}
+footer img {
+    width: 30%;
+    display: flex;
+}
+footer h1 {
+    font-size: 3vw;
+    justify-self: center;
+    text-align: center;
+}
+.footer-logo-gov-local {
+    grid-column: 1;
+    width: 50%;
+}
+.footer-logo-github {
+    padding-right: 20px;
+    grid-column: 3;
+    grid-row: 1;
+    width: 50%;
+    justify-self: end;
+}
+.footer-logo-pucminas {
+    grid-column: 4;
+    grid-row: 1;
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+    margin-right: 20px;
+    border-left: 1px solid rgb(70, 68, 68);
+}
+  ```
+  </details>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
