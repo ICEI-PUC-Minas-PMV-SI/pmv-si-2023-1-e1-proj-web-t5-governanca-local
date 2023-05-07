@@ -202,7 +202,7 @@ Sessão do MAPA da Landing Page */
 </details>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
-## Práticas (Desktop e Mobile
+## Práticas (Desktop e Mobile)
 <details>
   <summary>Práticas HTML</summary>
 
@@ -276,13 +276,8 @@ font-size: 40pt;
 text-align: center;
 margin: 0;
 }
-
+ </details>
   ```
-
-
-
-
-
 ## Fórum (Desktop e Mobile)
 
 <div align="center">
