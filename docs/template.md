@@ -278,8 +278,9 @@ font-size: 40pt;
 text-align: center;
 margin: 0;
 }
- </details>
   ```
+</details>
+  
 ## Fórum (Desktop e Mobile)
 
 <div align="center">
