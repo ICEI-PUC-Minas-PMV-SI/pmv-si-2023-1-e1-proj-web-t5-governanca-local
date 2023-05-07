@@ -4,9 +4,12 @@
 
 # Landing Page - Mapa ( Grid responsivo )
 <div align="center">
-![Mapa Desktop](https://user-images.githubusercontent.com/128330026/236692092-d5cef249-0387-4ed6-8d1c-3cef1a059e48.png)
-![Mapa Mobile](https://user-images.githubusercontent.com/128330026/236692145-2ffd3b30-349a-40d7-973f-4b04a41fdcaf.png)
+  
+![image](https://user-images.githubusercontent.com/128330026/236692092-d5cef249-0387-4ed6-8d1c-3cef1a059e48.png)
+![image](https://user-images.githubusercontent.com/128330026/236692145-2ffd3b30-349a-40d7-973f-4b04a41fdcaf.png)
+  
 </div>
+
 <details>
   <summary>Mapa HTML</summary>
 
