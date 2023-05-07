@@ -319,6 +319,42 @@ Sessão do MAPA da Landing Page */
 
 }
 /* Fim parte Pedro Nunes*/
+/* Início Wesney*/
+#articleforum {
+display: flex ;
+justify-content: center ;
+align-items: center;
+background-color: #e6e6e6;
+}
+.picForum{
+    display: flex ;
+    justify-content: left ;
+}
+.btn2 {
+        width: 250px;
+        height: 80px;
+        border: 3px solid black;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        margin-top: 50px;
+        margin-left: 80px;
+        color: white;
+        background-color: #20b3ab
+}
+.btn2:hover {
+background-color: #FAC710;
+}
+h2 {
+    font-size: 40px;
+    justify-content: center ;
+    margin-left: 50px ;  
+}
+p {
+    margin-left: 50px ;
+}
+/* Final Wesney*/
+
 footer {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr;
