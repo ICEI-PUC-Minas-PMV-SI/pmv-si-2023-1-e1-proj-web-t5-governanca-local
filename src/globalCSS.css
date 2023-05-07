@@ -176,7 +176,7 @@ transition:0.3s;
 #textopraticas h2 {
 font-size: 40pt;
 text-align: center;
-margin: 0;
+margin: 100px;
 }
 
 @media (max-width:900px) {
