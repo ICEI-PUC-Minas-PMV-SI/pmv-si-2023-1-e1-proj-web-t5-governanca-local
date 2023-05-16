@@ -30,7 +30,7 @@
     }
   
     #bairroflex{
-      background-color: blue;
+      background-color:;
     }
       #bairroflex h1 {
       text-align: center;
@@ -43,17 +43,18 @@
   width: 100%;
 }
 .formulario {
-  background-color: aqua;
+  background-color: ;
   display: grid;
   grid-template-columns: 50% 50%;
+  margin: 40px;
 }
   .primeirasecao {
     grid-column: 1;
-    background-color: azure;
+    background-color: ;
   }
   .segundasecao {
     grid-column: 2;
-    background-color: aquamarine;
+    background-color:;
   }
   @media (max-width: 900px) {
     .gridline1{
@@ -66,10 +67,14 @@
       .icones {
         display: flex;
         grid-row: 1;
+        align-items: center;
+        align-content: center;
       }
       .icones img {
         width: 20%;
         display: flex;
+        align-items: center;
+        align-content: center;
       }
     #descricao{
       grid-row: 2;
@@ -84,7 +89,7 @@
       }
     
       #bairroflex{
-        background-color: blue;
+        background-color: ;
         grid-row: 3;
       }
         #bairroflex h1 {
@@ -92,21 +97,22 @@
         grid-row: 3;
       }
     .formulario {
-      background-color: aqua;
+      background-color: ;
       display: flex;
       flex-direction: column;
       grid-template-columns: 100%;
       align-items: center;
+      margin: 20px;
       
     }
       .primeirasecao {
         grid-column: 1;
-        background-color: azure;
+        background-color: ;
         align-items: center;
       }
       .segundasecao {
         grid-column: 1;
-        background-color: aquamarine;
+        background-color: ;
         align-items: center;
       }
     }
