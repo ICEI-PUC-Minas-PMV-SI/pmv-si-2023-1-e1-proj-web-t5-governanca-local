@@ -55,3 +55,58 @@
     grid-column: 2;
     background-color: aquamarine;
   }
+  @media (max-width: 900px) {
+    .gridline1{
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr 1fr 1fr;
+      width: 100%;
+      background-color: #4d4040;
+    }
+      .icones {
+        display: flex;
+        grid-row: 1;
+      }
+      .icones img {
+        width: 20%;
+        display: flex;
+      }
+    #descricao{
+      grid-row: 2;
+      }
+
+    .localidade{
+        display: flex;
+        width: 100%;
+        grid-row: 3;
+        grid-column: 1;
+
+      }
+    
+      #bairroflex{
+        background-color: blue;
+        grid-row: 3;
+      }
+        #bairroflex h1 {
+        text-align: center;
+        grid-row: 3;
+      }
+    .formulario {
+      background-color: aqua;
+      display: flex;
+      flex-direction: column;
+      grid-template-columns: 100%;
+      align-items: center;
+      
+    }
+      .primeirasecao {
+        grid-column: 1;
+        background-color: azure;
+        align-items: center;
+      }
+      .segundasecao {
+        grid-column: 1;
+        background-color: aquamarine;
+        align-items: center;
+      }
+    }
