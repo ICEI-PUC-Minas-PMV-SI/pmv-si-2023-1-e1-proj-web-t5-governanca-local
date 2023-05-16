@@ -1,0 +1,57 @@
+
+
+.gridline1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    width: 100%;
+    background-color: #4d4040;
+  }
+  .icones {
+      display: flex;
+      grid-column: 1;
+    }
+    .icones img {
+      width: 20%;
+      display: flex;
+    }
+  #descricao{
+    grid-column: 1;
+    }
+
+  .localidade{
+      display: grid;
+      width: 100%;
+      grid-column: 2;
+      align-items: center;
+      justify-content: center;
+      place-self: center;
+      align-self: center;
+    }
+  
+    #bairroflex{
+      background-color: blue;
+    }
+      #bairroflex h1 {
+      text-align: center;
+    }
+.sobre{
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.formulario {
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+  .primeirasecao {
+    grid-column: 1;
+    background-color: azure;
+  }
+  .segundasecao {
+    grid-column: 2;
+    background-color: aquamarine;
+  }
