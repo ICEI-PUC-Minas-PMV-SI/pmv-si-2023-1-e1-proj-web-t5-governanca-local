@@ -1,0 +1,94 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #20b3ab;
+}
+.imagem-header img {
+  margin: 20px 10px;
+  border-radius: 3px;
+  box-shadow: 16px 16px black;
+}
+
+header ul {
+  justify-content: center;
+  margin-right: 20px;
+  gap: 23px;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding: 0px;
+}
+header ul img {
+  display: inline;
+  align-self: center;
+}
+header ul li {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  transition: 0.3s;
+}
+header ul a {
+  display: inline;
+  text-decoration: none;
+  text-align: justify;
+  width: 1vw;
+  color: black;
+  padding: 1px;
+  margin: 1px;
+}
+header ul a:hover {
+  color: orange;
+}
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+  }
+  header ul {
+    flex-direction: column;
+    place-self: center;
+  }
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  width: 100%;
+  background-color: #20b3ab;
+}
+footer img {
+  width: 30%;
+  display: flex;
+}
+footer h1 {
+  font-size: 3vw;
+  justify-self: center;
+  text-align: center;
+}
+.footer-logo-gov-local {
+  grid-column: 1;
+  width: 50%;
+}
+.footer-logo-github {
+  padding-right: 20px;
+  grid-column: 3;
+  grid-row: 1;
+  width: 50%;
+  justify-self: end;
+}
+.footer-logo-pucminas {
+  grid-column: 4;
+  grid-row: 1;
+  width: 50%;
+  float: left;
+  padding-left: 20px;
+  margin-right: 20px;
+  border-left: 1px solid rgb(70, 68, 68);
+}
