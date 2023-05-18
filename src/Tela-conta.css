@@ -78,7 +78,7 @@ input {
     background-color:white;
   }
   @media (max-width: 900px) {
-    .gridline1{
+    .gridline1 {
       display: grid;
       grid-template-columns: 100%;
       grid-template-rows: 1fr 1fr 1fr;
@@ -89,16 +89,18 @@ input {
     .gridline1 h2 {
         grid-row: 1;
         grid-column: 1;
-
+    }
       .icones {
         display: flex;
         grid-row: 2;
         align-items: center;
+        grid-column: 1;
         align-content: center;
       }
       .icones img {
         width: 30%;
         display: flex;
+        grid-column: 1;
         align-items: center;
         align-content: center;
       }
@@ -116,10 +118,12 @@ input {
     
       #bairroflex{
         grid-row: 3;
+        grid-column: 1;
       }
         #bairroflex h1 {
         text-align: center;
         grid-row: 3;
+        grid-column: 1;
       }
     .formulario {
       background-color: white;
@@ -128,6 +132,7 @@ input {
       grid-template-columns: 100%;
       align-items: center;
       margin: 20px;
+      grid-column: 1;
       
     }
       .primeirasecao {
@@ -154,3 +159,4 @@ input {
         width: 100%;
     }
     }
+  }
