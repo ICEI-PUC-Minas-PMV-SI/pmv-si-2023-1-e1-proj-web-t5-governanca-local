@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:ital,wght@0,400;0,500;1,400&family=Tilt+Warp&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #20b3ab;
+}
+.imagem-header img {
+  margin: 20px 10px;
+  border-radius: 3px;
+  box-shadow: 16px 16px black;
+}
+
+header ul {
+  justify-content: center;
+  margin-right: 20px;
+  gap: 23px;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding: 0px;
+}
+header ul img {
+  display: inline;
+  align-self: center;
+}
+header ul li {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  transition: 0.3s;
+}
+header ul a {
+  display: inline;
+  text-decoration: none;
+  text-align: justify;
+  width: 1vw;
+  color: black;
+  padding: 1px;
+  margin: 1px;
+}
+header ul a:hover {
+  color: orange;
+}
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+  }
+  header ul {
+    flex-direction: column;
+    place-self: center;
+  }
+}
+
+/* Parte do Lucas */
+
+.frontlanding {
+  background-color: whitesmoke;
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+}
+
+.proposta {
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin: 0 2rem;
+}
+
+.proposta h1 {
+  border-bottom: 1px solid black;
+  font-size: 6vw;
+}
+.imagem-inicial {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem-inicial img {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-self: center;
+  box-shadow: 1px 0 10px black;
+  border-radius: 4px;
+}
+
+@media (max-width: 900px) {
+  .frontlanding {
+    flex-direction: column;
+  }
+
+  .proposta {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .imagem-inicial {
+    place-self: center;
+  }
+}
+
+/* Parte do Gabriel */
+.praticas {
+  display: flex;
+  background-color: #ececec;
+  padding: 20px 0;
+}
+
+#imagempraticas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#imagempraticas img {
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#textopraticas {
+  grid-template-columns: 1fr 20px 1fr;
+  grid-template-rows: 50% 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 50%;
+  height: 70px;
+  border: 3px solid black;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  background-color: #20b3ab;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #fac710;
+}
+
+#textopraticas h2 {
+  font-size: 40pt;
+  text-align: center;
+  margin: 100px;
+}
+
+@media (max-width: 900px) {
+  .praticas {
+    flex-direction: column;
+  }
+
+  #textopraticas {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #textopraticas h2 {
+    font-size: 3vw;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+/* Término Gabriel */
+
+/* Começo da parte do Victor
+Sessão do MAPA da Landing Page */
+#articlemapa {
+  display: grid;
+  grid-template-columns: 1fr 20px 1fr;
+  grid-template-rows: 50% 50%;
+  background-color: lightgray;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 5%;
+  width: 100%;
+}
+#landingpage-image-mapa {
+  order: 1;
+  width: 80%;
+  max-width: 350px;
+  grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  outline: 2px solid black;
+  place-self: center;
+}
+.TituloMapa {
+  width: 90%;
+  order: 2;
+  grid-column: 3;
+  grid-row: 1;
+  place-self: center;
+  align-self: center;
+  text-align: center;
+}
+.TituloMapa h2 {
+  font-size: 3vw;
+  margin: 1%;
+}
+
+.btn3 {
+  order: 3;
+  grid-column: 3;
+  grid-row: 2;
+  padding: 0px 5%;
+  margin: 1%;
+  place-self: center;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 80px;
+  border: 3px solid black;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  background-color: #20b3ab;
+}
+
+.btn3:hover {
+  background-color: #fac710;
+}
+
+@media (max-width: 900px) {
+    .btn3 {
+        width: 200px;
+    }
+}
+
+/*Fim da parte do Victor*/
+
+/* Parte Pedro Nunes*/
+.section-sobre {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 20px;
+  grid-template-areas: "titulo criadores";
+  background-color: whitesmoke;
+  padding: 20px 0;
+}
+
+.h1-texto {
+  grid-area: "titulo";
+}
+
+.membros-imagens {
+  grid-area: "criadores";
+}
+
+.h1-texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40pt;
+}
+
+.h1-texto span {
+  color: rgb(104, 99, 99);
+}
+
+.membros-imagens {
+  display: flex;
+  grid-template-columns: 33% 33% 33%;
+  margin-right: 30px;
+}
+
+.membros-imagens ul {
+  list-style: none;
+  padding: 0px 10px;
+}
+
+.membros-imagens img {
+  border-radius: 1000px;
+  margin-top: 20px;
+  box-shadow: 10px 10px black;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.membros-imagens img:hover {
+  box-shadow: 10px 10px orange;
+}
+
+@media (max-width: 900px) {
+  .section-sobre {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "titulo"
+      "criadores";
+  }
+  .membros-imagens ul {
+    padding: 0px 10%;
+  }
+  .membros-imagens {
+    display: grid;
+    grid-area: "criadores";
+    place-self: center;
+    margin: 5px;
+  }
+
+  .h1-texto {
+    grid-area: "titulo";
+    font-size: 30pt;
+  }
+
+  .h1-texto {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+  }
+}
+/* Fim parte Pedro Nunes*/
+/* Início Wesney*/
+
+/* LucasTeste */
+#forumforum h2 {
+  font-size: 40pt;
+  text-align: center;
+  margin: 100px;
+}
+
+@media (max-width: 900px) {
+  .forumm {
+    flex-direction: column;
+  }
+
+  #forumforum {
+    width: 100%;
+    display: flex;
+    place-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #forumforum h2 {
+    font-size: 4vw;
+    text-align: center;
+    margin: 0;
+  }
+
+  .btn2 {
+    width: 80%;
+  }
+}
+
+/* fim lucas teste*/
+
+.forum-section {
+  display: flex;
+  background-color: #e6e6e6;
+  padding: 20px 0;
+}
+
+#articleforum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+#forumforum{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2 {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 80px;
+  border: 3px solid black;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  background-color: #20b3ab;
+}
+
+.btn2:hover {
+  background-color: #fac710;
+}
+
+@media (max-width: 900px) {
+  .forum-section {
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+
+  #articleforum {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    place-self: center;
+  }
+
+  #picforum {
+    width: 70%;
+  }
+}
+
+/* Final Wesney*/
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  width: 100%;
+  background-color: #20b3ab;
+}
+footer img {
+  width: 30%;
+  display: flex;
+}
+footer h1 {
+  font-size: 3vw;
+  justify-self: center;
+  text-align: center;
+}
+.footer-logo-gov-local {
+  grid-column: 1;
+  width: 50%;
+}
+.footer-logo-github {
+  padding-right: 20px;
+  grid-column: 3;
+  grid-row: 1;
+  width: 50%;
+  justify-self: end;
+}
+.footer-logo-pucminas {
+  grid-column: 4;
+  grid-row: 1;
+  width: 50%;
+  float: left;
+  padding-left: 20px;
+  margin-right: 20px;
+  border-left: 1px solid rgb(70, 68, 68);
+}
