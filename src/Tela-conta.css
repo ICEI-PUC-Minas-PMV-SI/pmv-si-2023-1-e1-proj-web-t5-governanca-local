@@ -10,7 +10,9 @@
 
 .gridline1 h2 {
     text-align: center;
-    font-size: 5vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
 }
   .icones {
       display: flex;
@@ -86,8 +88,8 @@ input {
 
     .gridline1 h2 {
         grid-row: 1;
-        font-size: 10vw;
-    }
+        grid-column: 1;
+
       .icones {
         display: flex;
         grid-row: 2;
