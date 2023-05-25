@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:ital,wght@0,400;0,500;1,400&family=Tilt+Warp&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #e6e6e6;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* INCIO DA ABA SEMANA */
+#imagemsemana {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagemsemana img {
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#textosemana {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+#textosemana h1 {
+    font-size: 35pt;
+    text-align: center;
+
+}
+
+#textosemana p {
+    display: flex;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.btnsemana {
+    margin-top: 40px;
+    width: 50%;
+    height: 70px;
+    border: 3px solid black;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    background-color: #20b2aa;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btnsemana:hover {
+    background-color: #FAC710;
+}
+
+.popupsemana {
+    height: 90%;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.popupsemana p {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.popupsemana a {
+    color: #000000;
+
+}
+
+.popupsemana img {
+    display: flex;
+    height: 50%;
+    width: 50%;
+}
+
+/* BARRA DE PESQUISA DENTRO DO POP-SEMANA */
+.search-bar-semana {
+    padding: 10px;
+    background-color: #20b2aa;
+}
+
+.search-bar-semana input[type="text"] {
+    padding: 6px;
+    border: none;
+    font-size: 14px;
+    width: 200px;
+}
+
+.search-bar-semana input[type="submit"] {
+    padding: 6px 12px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.praticasdasemana {
+    display: flex;
+    padding: 100px 0;
+    height: 100vh;
+}
+
+/* INICIO DA ABA DE CONQUISTA */
+.abaconquistas {
+    display: flex;
+    height: 105vh;
+    background-color: whitesmoke;
+}
+
+#textoconquista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+
+}
+
+#textoconquista h2 {
+    text-align: center;
+    margin-left: 20px;
+    font-size: 35pt;
+
+}
+
+#textoconquista p {
+    font-size: 40pt;
+    text-align: center;
+    font-size: 15pt;
+}
+
+#textoconquista p span {
+    color: #20b2aa;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.imagemconquista {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagemconquista img {
+    display: flex;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnconquer {
+    margin-top: 40px;
+    width: 40%;
+    height: 70px;
+    border: 3px solid black;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    background-color: #20b2aa;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btnconquer:hover {
+    background-color: #FAC710;
+}
+
+.popupconquer {
+    height: 90%;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.popupconquer p {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.popupconquer a {
+    color: #000000;
+   
+
+}
+
+/* BARRA DE PESQUISA DENTRO DO POP-CONQUISTA */
+.search-bar-conquista {
+    padding: 10px;
+    background-color: #20b2aa;
+}
+
+.search-bar-conquista input[type="text"] {
+    padding: 6px;
+    border: none;
+    font-size: 14px;
+    width: 200px;
+}
+
+.search-bar-conquista input[type="submit"] {
+    padding: 6px 12px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.popupajuda img {
+    display: inline;
+    width: 50%;
+    place-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.popupconquer img {
+    display: flex;
+    height: 50%;
+    width: 50%;
+}
+
+
+/* FINAL DA ABA CONQUISTA */
+
+.abaajuda {
+    display: flex;
+    height: 100vh;
+    padding: 100px 0;
+
+}
+
+#textoajuda {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#textoajuda h3 {
+    display: center;
+    text-align: justify;
+    font-size: 35pt;
+    text-align: center;
+
+}
+
+#textoajuda p {
+    font-size: 40pt;
+    text-align: justify;
+    font-size: 15pt;
+
+}
+
+
+#imagemajuda {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-self: center;
+}
+
+#imagemajuda img {
+    width: 450px;
+    
+}
+
+#textoajuda p span {
+    color: #20b2aa;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+.btnajuda {
+    margin-top: 40px;
+    width: 30%;
+    padding: 20px;
+    border: 3px solid black;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    background-color: #20b2aa;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btnajuda:hover {
+    background-color: #FAC710;
+}
+
+.popupajuda {
+    height: 90%;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.popupajuda p {
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: justify;
+}
+
+.popupajuda a {
+    color: #000000;
+
+}
+
+/* BARRA DE PESQUISA DENTRO DO POP-AJUDA */
+.search-bar-ajuda {
+    padding: 10px;
+    background-color: #20b2aa;
+}
+
+.search-bar-ajuda input[type="text"] {
+    padding: 6px;
+    border: none;
+    font-size: 14px;
+    width: 200px;
+}
+
+.search-bar-ajuda input[type="submit"] {
+    padding: 6px 12px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.popupajuda img {
+    display: flex;
+    height: 50%;
+    width: 50%;
+}
+/* FINAL DA ABA AJUDA */
+
+/* PARTE RESPONSIVA */
+@media (max-width:900px) {
+    .praticasdasemana {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #imagemsemana {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #imagemsemana img {
+        width: 100%;
+    }
+
+    #textosemana {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .btnsemana {
+        width: 60%;
+    }
+
+    .abaconquistas {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #textoconquista {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .imagemconquista {
+        display: flex;
+        place-self: center;
+    }
+
+    .imagemconquista img {
+        width: 150%;
+    }
+
+    .btnconquer {
+        width: 60%;
+    }
+
+    .abaajuda {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100%;
+    }
+
+    #textoajuda {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    
+    #imagemajuda {
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+
+    #imagemajuda img {
+        width: 50%;
+    }
+
+    .btnajuda {
+        width: 60%;
+    }
+}
