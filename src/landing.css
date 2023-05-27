@@ -14,62 +14,6 @@ html {
   scroll-behavior: smooth;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  background-color: #20b3ab;
-}
-.imagem-header img {
-  margin: 20px 10px;
-  border-radius: 3px;
-  box-shadow: 16px 16px black;
-}
-
-header ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  margin-right: 20px;
-  gap: 25px;
-  width: 100%;
-  padding: 0px;
-}
-header ul img {
-  display: inline;
-  align-self: center;
-}
-header ul li {
-  display: flex;
-  align-items: center;
-  width: 100px;
-  cursor: pointer;
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  transition: 0.3s;
-}
-header ul a {
-  display: inline;
-  text-decoration: none;
-  text-align: justify;
-  width: 1vw;
-  color: black;
-  padding: 1px;
-  margin: 1px;
-}
-header ul a:hover {
-  color: orange;
-}
-@media (max-width: 900px) {
-  header {
-    flex-direction: column;
-  }
-  header ul {
-    flex-direction: column;
-    place-self: center;
-  }
-}
 
 /* Parte do Lucas */
 
@@ -128,7 +72,7 @@ header ul a:hover {
 .praticas {
   display: flex;
   background-color: #ececec;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 #imagempraticas {
@@ -213,6 +157,7 @@ Sessão do MAPA da Landing Page */
   box-sizing: border-box;
   padding: 5%;
   width: 100%;
+  padding: 50px 0;
 }
 #landingpage-image-mapa {
   order: 1;

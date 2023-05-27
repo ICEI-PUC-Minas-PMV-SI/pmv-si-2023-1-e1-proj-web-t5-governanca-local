@@ -15,52 +15,81 @@ html {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  background-color: #20b3ab;
-}
-.imagem-header img {
-  margin: 20px 10px;
-  border-radius: 3px;
-  box-shadow: 16px 16px black;
+    display: flex;
+    background-color: #20b3ab;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
 
 header ul {
-  justify-content: center;
-  margin-right: 20px;
-  gap: 23px;
-  list-style: none;
-  display: flex;
-  width: 100%;
-  padding: 0px;
+ display: flex;
+ padding: 0;
+ gap: 15px;
 }
-header ul img {
-  display: inline;
-  align-self: center;
+
+header li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
-header ul li {
-  display: flex;
-  align-items: center;
-  width: 100px;
-  cursor: pointer;
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  transition: 0.3s;
+
+header li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4px;
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+    transition: .2s;
 }
-header ul a {
-  display: inline;
-  text-decoration: none;
-  text-align: justify;
-  width: 1vw;
-  color: black;
-  padding: 1px;
-  margin: 1px;
+
+header li a img {
+    margin-right: 5px;
 }
-header ul a:hover {
-  color: orange;
+
+
+header li a:hover{
+    color: orange;
 }
+
+.imagem-header img {
+    margin: 5px;
+    width: 200px;
+    border-radius: 2px;
+    box-shadow: 20px 20px black;
+}
+
+@media (max-width:933px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    header li {
+        margin-top: 40px;
+        padding: 5px;
+    }
+}
+
+
+
 @media (max-width: 900px) {
   header {
     flex-direction: column;
