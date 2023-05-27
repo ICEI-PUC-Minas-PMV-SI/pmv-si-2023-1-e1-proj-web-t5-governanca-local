@@ -14,6 +14,8 @@ Como proposta, o projeto de aplicação web `Governança Local` busca, através 
 
 Essa aplicação possibilitará, em resumo, uma maior integração social organizada e uniforme, colocando o morador/usuário como o centro das pautas.
 
+Link do projeto: https://pmv-si-2023-1-e1-proj-web-t5-governanca-local-jary.vercel.app/
+
 ## Integrantes
 
 * Gabriel Amorim Santos Maia
