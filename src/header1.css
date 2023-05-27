@@ -14,6 +14,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.mobile-menu-icon{
+  display: none;
+}
+
+.mobile-menu{
+  display: none;
+}
+
 header {
     display: flex;
     background-color: #20b3ab;
@@ -92,12 +100,70 @@ header li a:hover{
 
 @media (max-width: 900px) {
   header {
-    flex-direction: column;
-  }
-  header ul {
+    display: flex;
+    justify-content: space-between;
     flex-direction: column;
     place-self: center;
   }
+
+  .imagem-header {
+    display: inline;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .imagem-header img {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px black;
+    place-self: center;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    justify-content: center;
+    place-self: center;
+    align-items: center;
+    width: 50%;
+    cursor: pointer;
+    
+  }
+
+
+  .mobile-menu-icon button {
+    display: flex;
+    margin: 0 auto;
+    padding: 3px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .mobile-menu ul li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .open {
+    display: block;
+    flex-direction: column;
+  }
+
 }
 
 ::-webkit-scrollbar{

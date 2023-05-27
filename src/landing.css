@@ -83,7 +83,7 @@ html {
 }
 
 #imagempraticas img {
-  width: 50vw;
+  width: 35vw;
   align-items: center;
   justify-content: center;
 }
@@ -113,7 +113,7 @@ html {
 }
 
 #textopraticas h2 {
-  font-size: 40pt;
+  font-size: 35pt;
   text-align: center;
   margin: 100px;
 }
@@ -142,6 +142,17 @@ html {
     justify-content: center;
     width: 100%;
   }
+
+  #imagempraticas img {
+    width: 50%;
+  }
+
+  .btn {
+    margin-top: 10px;
+    height: 50px;
+    width: 40%;
+  }
+
 }
 
 /* Término Gabriel */
@@ -211,7 +222,8 @@ Sessão do MAPA da Landing Page */
 
 @media (max-width: 900px) {
     .btn3 {
-        width: 200px;
+        width: 80%;
+        height: 50px;
     }
 }
 
@@ -392,6 +404,12 @@ Sessão do MAPA da Landing Page */
 
   #picforum {
     width: 70%;
+  }
+
+  .btn2 {
+    margin-top: 10px;
+    height: 50px;
+    width: 80%;
   }
 }
 

@@ -54,6 +54,44 @@
                 </li>
             </ul>
         </nav>
+        
+        
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="https://user-images.githubusercontent.com/127517961/234734922-d18b065d-a405-4491-ba79-c90b4a8e44ce.png" width="35px"></button>
+            </div>
+
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#front"><img widht="30" height="30"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/97c12341bd278b747feafe1f3401eb34059306cb/src/src/Icons/solidariedade.png"
+                        alt="Ícone de Projeto">Projeto</a>
+                </li>
+                <li><a href="#prat"><img widht="30" height="30"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a320ac9e1d7e7b46f4d2bfcab7e85d8bcbc39349/src/src/Icons/ecologia.png"
+                        alt="Ícone de Boas Práticas"> Práticas</a>
+                </li>
+                <li>
+                    <a href="#mapa"><img widht="30" height="30"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pin.png"
+                        alt="Ícone do Mapa"> Mapa</a>
+                </li>
+                <li>
+                    <a href="#forum"><img widht="30" height="30"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pessoas.png"
+                        alt="Ícone de Pessoas">Fórum</a>
+                </li>
+                <li>
+                    <a href="#sobre"><img widht="30" height="30"
+                        src="https://user-images.githubusercontent.com/127517961/234959722-b351f518-23ea-4d90-bce4-0227c61167f5.png"
+                        alt="Ícone de Resumo"> Sobre nós</a>
+                </li>
+                <li>
+                    <a href="login.html"> <img widht="30" height="30"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Conta.png"
+                        alt="Ícone de Conta"> Entrar </a>
+                </li>
+            </ul>
+        </div>
     </header>
     <main>
         <section class="frontlanding" id="front" data-aos="fade-in">
@@ -79,7 +117,7 @@
                     alt="Imagem das boa práticas">
             </aside>
             <div id="textopraticas">
-                <h2>Confira práticas <br> de boa convivência</h2>
+                <h2>Confira práticas <br> de boas convivências</h2>
                 <input class="btn" type="button" value="CLIQUE AQUI" onclick="location.href='praticas.html'">
             </div>
         </section><!--Final da Parte do Gabriel-->
@@ -169,6 +207,21 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <script>
+        function menuShow () {
+            let MenuMobile = document.querySelector('.mobile-menu');
+            if (MenuMobile.classList.contains('open')) {
+                MenuMobile.classList.remove('open');
+                document.querySelector('.icon').src = "https://user-images.githubusercontent.com/127517961/234734922-d18b065d-a405-4491-ba79-c90b4a8e44ce.png"
+            } else {
+                MenuMobile.classList.add('open');
+                document.querySelector('.icon').src = "https://user-images.githubusercontent.com/102264520/234979041-3fbc1d50-9ea4-4498-96e1-5cb78050895d.png"
+
+            }
+        }
+
     </script>
 
 </body>
