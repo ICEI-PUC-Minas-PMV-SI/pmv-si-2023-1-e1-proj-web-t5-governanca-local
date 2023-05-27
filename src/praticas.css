@@ -133,8 +133,8 @@ html {
 /* INICIO DA ABA DE CONQUISTA */
 .abaconquistas {
     display: flex;
-    height: 105vh;
     background-color: whitesmoke;
+    height: 105vh;
 }
 
 #textoconquista {
@@ -424,7 +424,8 @@ html {
     .abaconquistas {
         display: flex;
         flex-direction: column-reverse;
-        padding: 10px 0;
+        height: 100%;
+        padding: 20px 0;
     }
 
     #textoconquista {
