@@ -338,6 +338,15 @@ Sessão do MAPA da Landing Page */
     align-items: center;
     font-size: 5vw;
   }
+
+  .membros-imagens img {
+    border-radius: 1000px;
+    margin-top: 20px;
+    box-shadow: 10px 10px black;
+    width: 90%;
+    transition: 0.4s ease-out;
+  }
+
 }
 
 /* Fim parte Pedro Nunes*/
