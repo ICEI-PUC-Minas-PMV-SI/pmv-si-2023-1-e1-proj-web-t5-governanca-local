@@ -451,9 +451,25 @@ Sessão do MAPA da Landing Page */
 #btnsubir button {
   background: transparent;
   border: none;
-  cursor: pointer
+  cursor: pointer;
+  padding: 5px;
 }
 
+#btnsubir button img {
+  transition: .1s;
+}
+
+#btnsubir button img:hover{
+  border-radius: 1000px;
+  border: 3px solid black;
+  transform: scale(1.2);
+}
+
+@media (max-width: 900px) {
+  #btnsubir img {
+    width: 35px;
+  }
+}
 
 ::-webkit-scrollbar {
   background-color: #e6e6e6;
