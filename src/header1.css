@@ -68,7 +68,15 @@ header li a:hover{
     width: 200px;
     border-radius: 2px;
     box-shadow: 20px 20px black;
+    transition: .3s;
+  }
+
+.imagem-header img:hover {
+  box-shadow: 8px 8px orange;
+  border-radius: 8px;
+  transform: scale(0.9);
 }
+
 
 @media (max-width:933px) {
     header {

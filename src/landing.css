@@ -301,7 +301,7 @@ Sessão do MAPA da Landing Page */
 }
 
 .membros-imagens img:hover {
-  box-shadow: 10px 10px orange;
+  box-shadow: 10px 10px #0b3f3c;
 }
 
 @media (max-width: 900px) {
