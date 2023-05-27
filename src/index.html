@@ -185,6 +185,11 @@
             </article>
         </section>
         <!-- Final Pedro -->
+
+        <div id="btnsubir">
+            <button><img src="https://user-images.githubusercontent.com/127517961/241408771-b4efb048-a1f2-468c-8bea-941154a690d8.png" alt="UpBTN" width="50px"></button>
+        </div>
+
     </main>
     <footer>
         <img width="100" class="footer-logo-gov-local"
@@ -222,6 +227,25 @@
             }
         }
 
+    </script>
+
+    <script>
+        const btn = document.getElementById("btnsubir");
+
+        btn.addEventListener("click",function(){
+            window.scrollTo(0,0);
+        });
+
+        
+        function ocultarBtn(){
+            if(window.scrollY > 500) {
+                btn.style.display = "flex"
+            } else {
+                btn.style.display = "none"
+            }
+        }
+        document.addEventListener('scroll', ocultarBtn);
+        ocultarBtn();
     </script>
 
 </body>
