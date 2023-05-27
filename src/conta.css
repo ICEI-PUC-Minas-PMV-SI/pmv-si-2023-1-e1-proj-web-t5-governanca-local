@@ -66,6 +66,11 @@ input {
   font-family: 'Poppins';
   font-weight: 700;
   margin-top: 8px;
+  transition: .2s;
+}
+
+.submitbtn:hover{
+  background-color: #fac710;
 }
 
 .sobre{
