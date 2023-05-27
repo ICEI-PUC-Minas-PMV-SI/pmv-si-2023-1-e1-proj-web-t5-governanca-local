@@ -33,9 +33,11 @@ html {
 }
 
 .proposta h1 {
+  margin-bottom: 20px;
   border-bottom: 1px solid black;
   font-size: 6vw;
 }
+
 .imagem-inicial {
   width: 50%;
   display: flex;
@@ -61,6 +63,23 @@ html {
     margin: 0 auto;
     width: 100%;
     text-align: center;
+  }
+
+  .proposta h1 {
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  .proposta p {
+    margin: 15px 10px;
+    text-align: justify;
   }
 
   .imagem-inicial {
@@ -108,6 +127,7 @@ html {
   background-color: #20b3ab;
   transition: 0.3s;
 }
+
 .btn:hover {
   background-color: #fac710;
 }
@@ -170,6 +190,7 @@ Sessão do MAPA da Landing Page */
   width: 100%;
   padding: 50px 0;
 }
+
 #landingpage-image-mapa {
   order: 1;
   width: 80%;
@@ -182,6 +203,7 @@ Sessão do MAPA da Landing Page */
   border-radius: 3px;
   box-shadow: 10px 10px black;
 }
+
 .TituloMapa {
   width: 90%;
   order: 2;
@@ -191,6 +213,7 @@ Sessão do MAPA da Landing Page */
   align-self: center;
   text-align: center;
 }
+
 .TituloMapa h2 {
   font-size: 3vw;
   margin: 1%;
@@ -221,10 +244,10 @@ Sessão do MAPA da Landing Page */
 }
 
 @media (max-width: 900px) {
-    .btn3 {
-        width: 80%;
-        height: 50px;
-    }
+  .btn3 {
+    width: 80%;
+    height: 50px;
+  }
 }
 
 /*Fim da parte do Victor*/
@@ -289,9 +312,11 @@ Sessão do MAPA da Landing Page */
       "titulo"
       "criadores";
   }
+
   .membros-imagens ul {
     padding: 0px 10%;
   }
+
   .membros-imagens {
     display: grid;
     grid-area: "criadores";
@@ -312,6 +337,7 @@ Sessão do MAPA da Landing Page */
     font-size: 5vw;
   }
 }
+
 /* Fim parte Pedro Nunes*/
 /* Início Wesney*/
 
@@ -362,16 +388,16 @@ Sessão do MAPA da Landing Page */
   width: 60%;
 }
 
-#forumforum{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#forumforum {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn2 {
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 250px;
@@ -414,11 +440,11 @@ Sessão do MAPA da Landing Page */
 }
 
 /* Final Wesney*/
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   background-color: #e6e6e6;
   width: 7px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: rgb(0, 0, 0);
 }
