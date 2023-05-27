@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:ital,wght@0,400;0,500;1,400&family=Tilt+Warp&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+    display: flex;
+    background-color: #0f0f0fdc;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  footer h1 {
+    color: white;
+    font-weight: 800;
+  }
+  .footer-logo-gov-local{
+    width: 100px;
+    height: 100px;  
+    border-radius: 1000px;
+    margin:10px 20px;
+  }
+  
+  .imagensfooter{
+    margin:10px 20px;
+  }
+  
+  .imagensfooter img {
+    margin: 10px 20px;
+  }
+  
+  @media (max-width: 900px) {
+    footer {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    footer h1 {
+      color: white;
+      font-size: 4vw;
+    }
+    .footer-logo-gov-local{
+      width: 100px;
+      height: 100px;  
+      border-radius: 1000px;
+      margin:10px 20px;
+    }
+    
+    .imagensfooter{
+      margin:10px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .imagensfooter img {
+      margin: 10px 20px;
+    }
+  }
