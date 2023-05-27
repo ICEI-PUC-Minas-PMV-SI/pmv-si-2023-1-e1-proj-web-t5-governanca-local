@@ -255,11 +255,11 @@ Sessão do MAPA da Landing Page */
 /* Parte Pedro Nunes*/
 .section-sobre {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-column-gap: 20px;
   grid-template-areas: "titulo criadores";
   background-color: whitesmoke;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 .h1-texto {
@@ -295,13 +295,15 @@ Sessão do MAPA da Landing Page */
 .membros-imagens img {
   border-radius: 1000px;
   margin-top: 20px;
-  box-shadow: 10px 10px black;
-  width: 100%;
-  transition: 0.3s;
+  box-shadow: 20px 15px black;
+  width: 90%;
+  transition: 0.4s ease-out;
 }
 
 .membros-imagens img:hover {
   box-shadow: 10px 10px #0b3f3c;
+  transform: scale(1.1);
+  border: 1px solid white;
 }
 
 @media (max-width: 900px) {
