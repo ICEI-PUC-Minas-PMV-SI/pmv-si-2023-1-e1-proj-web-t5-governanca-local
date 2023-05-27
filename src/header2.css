@@ -20,6 +20,8 @@ header {
   justify-content: space-between;
   background-color: #20b3ab;
   padding: 10px;
+  position: fixed;
+  width: 100%;
 }
 .left-button,
 .center-button,
@@ -52,7 +54,16 @@ header {
   }
 }
 
+@media (max-width: 900px) {
+  header {
+    position: relative;
+  }
+}
+
+
 @media (max-width: 480px) {
+
+
   .left-button,
   .center-button,
   .right-button {
