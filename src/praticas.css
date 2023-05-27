@@ -433,8 +433,7 @@ html {
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin: 0 5px;
-
+        margin: 0 auto;
     }
 
     #textoconquista h2 {
