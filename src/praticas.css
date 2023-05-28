@@ -186,7 +186,7 @@ html {
 
 .imagemconquista img:hover{
     transform: scale(0.9);
-    box-shadow: 6px 6px 1px black;
+    box-shadow: 6px 6px 1px gray;
 }
 
 .btnconquer {
@@ -495,4 +495,8 @@ html {
     .btnajuda {
         width: 60%;
     }
+}
+
+::selection{
+    background-color: #FAC710;
 }
