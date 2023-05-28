@@ -18,7 +18,7 @@
 
 <body>
 
-    <header>
+    <header id="header">
         <button class="left-button">
             <a href="index.html"><img widht="30" height="30"
                     src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Home.png"></a>
@@ -116,12 +116,15 @@
                 <script>
                     function openPopupsemana() {
                         var popup = document.getElementById('popupsemana');
+                        const header = document.getElementById('header');
                         popup.style.display = 'block';
+                        header.style.display = 'none';
                     }
 
                     function closePopupsemana() {
                         var popup = document.getElementById('popupsemana');
                         popup.style.display = 'none';
+                        header.style.display = 'flex';
                     }
 
                 </script>
@@ -196,12 +199,16 @@
                 <script>
                     function openPopupconquer() {
                         var popup = document.getElementById('popupconquer');
+                        const header = document.getElementById('header');
                         popup.style.display = 'block';
+                        header.style.display = 'none';
+
                     }
 
                     function closePopupconquer() {
                         var popup = document.getElementById('popupconquer');
                         popup.style.display = 'none';
+                        header.style.display = 'flex';
                     }
 
                 </script>
@@ -297,13 +304,17 @@
                 <!-- SCRIPT PARA ABRIR E FECHAR POPUP -->
                 <script>
                     function openPopupajuda() {
+                        const header = document.getElementById('header');
                         var popup = document.getElementById('popupajuda');
                         popup.style.display = 'block';
+                        header.style.display = 'none';
+
                     }
 
                     function closePopupajuda() {
                         var popup = document.getElementById('popupajuda');
                         popup.style.display = 'none';
+                        header.style.display = 'flex';
                     }
                 </script>
 
@@ -323,12 +334,15 @@
             alt="logo do projeto governança local">
         <h1>© Governança Local</h1>
         <div class="imagensfooter">
-            <img width="100" class="footer-logo-github"
+             <a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local"> <img width="100" class="footer-logo-github"
                 src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-github.png"
                 alt="GitHub">
-            <img width="100" class="footer-logo-pucminas"
+            </a>
+            
+            <a href="https://www.pucminas.br/main/Paginas/default.aspx"><img width="100" class="footer-logo-pucminas"
                 src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-pucminas.png"
                 alt="logo da PUC-Minas">
+            </a>
         </div>
     </footer>
 

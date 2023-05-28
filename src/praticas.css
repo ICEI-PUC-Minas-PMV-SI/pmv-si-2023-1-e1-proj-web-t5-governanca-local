@@ -84,6 +84,7 @@ html {
     align-items: center;
     justify-content: center;
     overflow-y: scroll;
+    z-index: 1000;
 }
 
 .popupsemana p {
@@ -214,6 +215,7 @@ html {
     align-items: center;
     justify-content: center;
     overflow-y: scroll;
+    z-index: 1000;
 }
 
 .popupconquer p {
@@ -350,6 +352,7 @@ html {
     align-items: center;
     justify-content: center;
     overflow-y: scroll;
+    z-index: 1000;
 }
 
 .popupajuda p {
