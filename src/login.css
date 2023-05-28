@@ -32,6 +32,14 @@ header ul {
     align-items: center;
 }
 
+header li {
+    transition: .2s ease-in-out;
+}
+
+header li:hover{
+    transform: scale(0.8);
+}
+
 .main-pg {
     display: flex;
     width: 100%;
