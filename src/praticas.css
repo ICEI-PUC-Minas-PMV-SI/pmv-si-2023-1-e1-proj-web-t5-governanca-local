@@ -178,9 +178,15 @@ html {
     width: 40vw;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid gray;
     border-radius: 3px;
     box-shadow: 10px 10px 2px black;
+    transition: .4s;
+}
+
+.imagemconquista img:hover{
+    transform: scale(0.9);
+    box-shadow: 6px 6px 1px black;
 }
 
 .btnconquer {
