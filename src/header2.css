@@ -81,62 +81,6 @@ header img:hover{
   }
 }
 
-footer {
-  display: flex;
-  background-color: #0f0f0fdc;
-  justify-content: space-between;
-  align-items: center;
-}
-
-footer h1 {
-  color: white;
-  font-weight: 800;
-}
-.footer-logo-gov-local {
-  width: 100px;
-  height: 100px;
-  border-radius: 1000px;
-  margin: 10px 20px;
-}
-
-.imagensfooter {
-  margin: 10px 20px;
-}
-
-.imagensfooter img {
-  margin: 10px 20px;
-}
-
-@media (max-width: 900px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  footer h1 {
-    color: white;
-    font-size: 4vw;
-  }
-  .footer-logo-gov-local {
-    width: 100px;
-    height: 100px;
-    border-radius: 1000px;
-    margin: 10px 20px;
-  }
-
-  .imagensfooter {
-    margin: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .imagensfooter img {
-    margin: 10px 20px;
-  }
-}
-
 ::-webkit-scrollbar {
   background-color: #e6e6e6;
   width: 7px;
