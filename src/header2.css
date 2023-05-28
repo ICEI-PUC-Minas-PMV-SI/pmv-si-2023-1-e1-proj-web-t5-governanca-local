@@ -21,6 +21,8 @@ header {
   background-color: #20b3ab;
   padding: 10px;
   width: 100%;
+  position: fixed;
+  z-index: 1000;
 }
 .left-button,
 .center-button,
@@ -42,6 +44,8 @@ header {
 }
 @media (max-width: 768px) {
   header {
+    display: flex;
+    position: relative;
     flex-wrap: wrap;
   }
 
