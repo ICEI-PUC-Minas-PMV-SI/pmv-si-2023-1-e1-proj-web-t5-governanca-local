@@ -202,7 +202,14 @@ Sessão do MAPA da Landing Page */
   place-self: center;
   border-radius: 3px;
   box-shadow: 10px 10px black;
+  transition: .3s ease-in-out;
 }
+
+#landingpage-image-mapa:hover{
+  transform: scale(0.9);
+  box-shadow: 8px 8px gray;
+}
+
 
 .TituloMapa {
   width: 90%;
