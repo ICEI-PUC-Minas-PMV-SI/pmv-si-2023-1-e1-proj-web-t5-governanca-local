@@ -77,10 +77,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
 |RNF-002| A aplicação Web será integrada à uma API de localização e mapa | ALTA | 
 |RNF-003| A aplicação Web contará com uma interface intuitiva |  ALTA | 
 |RNF-004| A aplicação Web terá como base HTML, CSS e JavaScript | ALTA | 
+|RNF-005|aplicação Web conterá um botão de "voltar ao topo" em páginas de conteúdo extenso | ALTA | 
+
 
 - [Requisitos Funcionais
  (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
