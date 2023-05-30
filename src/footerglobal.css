@@ -27,12 +27,19 @@ footer {
     font-weight: 800;
   }
   .footer-logo-gov-local{
-    width: 100px;
-    height: 100px;  
+    width: 120px;
+    height: 120px;  
     border-radius: 4px;
     margin:10px 20px;
+    transition: .3s;
   }
   
+  .footer-logo-gov-local:hover{
+    transform: scale(0.8);
+    box-shadow: -10px 10px gray;
+    border-radius: 100px;
+  }
+
   .imagensfooter{
     margin:10px 20px;
   }
