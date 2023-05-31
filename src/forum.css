@@ -1,0 +1,87 @@
+*   {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0
+    ;
+}
+
+body{
+    background-color: #e6e6e6;
+}
+
+main    {
+    display: flex;
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+    article h1  {
+        margin-left: 5px;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    #sendcoment {
+        display: flex;
+        width: 95%;
+        resize: none;
+        outline: none;
+        border-radius: 2px;
+        box-shadow: 6px 6px 15px black;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .btn2   {
+        display: flex;
+        width: 100%;
+        justify-content: end;
+        margin-right: 30px;
+        margin-bottom: 8px;
+        
+    }
+
+    .btn2 input  {
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        border: none;
+        border-radius: 3px;
+        border: 1px solid rgb(175, 168, 168);
+        background-color: white;
+        transition: 0.2s;
+        padding: 0px 5px;
+    }
+
+    .btn2 input:hover  {
+        background-color: rgb(175, 168, 168);
+        color: black;
+    }
+
+    .blocoesquerda  {
+        background-color: rgb(128, 128, 128, 0.137);
+    }
+
+    .comenta1, .comenta2, .comenta3 {
+        background-color:  white;
+        display: flex;
+        margin: 10px 10px;
+        font-size: 1vw;
+    }
+
+    .comenta1 img, .comenta2 img, .comenta3 img {
+        border-radius: 1000px;
+
+    }
+aside   {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
