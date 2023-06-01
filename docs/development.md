@@ -32,7 +32,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-003| A aplicação Web permitirá apenas usuários devidamente cadastrados com acesso ao fórum   | ALTA  | Wesney | forum.html |
 |RF-004| A aplicação Web permitirá o usuário (cadastrado) criar, discutir em tópicos do fórum   | ALTA  | Wesney | forum.html |
 |RF-005| A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa | ALTA  | Victor | mapa.html |
-|RF-006| A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa   | ALTA  | Victor | mapa.html |
+|RF-006| A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa   | ALTA  | Gabriel, Lucas, Paulo, Pedro, Victor, Wesney | mapa.html |
 |RF-007| A aplicação Web contará com páginas estáticas contendo práticas de boas convivências, podendo ser acessada por usuários cadastrados ou não  | ALTA  | Gabriel | praticas.html |
 |RF-008| A aplicação Web terá um landing page   | ALTA  | Gabriel, Lucas, Paulo, Pedro, Victor, Wesney | index.html |
 |RF-009| A aplicação Web conterá uma aba sobre os criadores   | ALTA  |Pedro | index.html |
