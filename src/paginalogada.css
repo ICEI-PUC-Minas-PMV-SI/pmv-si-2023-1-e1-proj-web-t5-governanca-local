@@ -1,0 +1,16 @@
+.texto{
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.card1{
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.praticas{
+    display: flex;
+    width: 50%;
+}
