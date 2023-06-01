@@ -64,6 +64,26 @@ article h1 {
     color: black;
 }
 
+.btn3 {
+    display: flex;
+    justify-content: end;
+    margin-left: 35vw;
+    border-radius: 3px;
+    border: 1px solid rgb(175, 168, 168);
+    background-color: white;
+    transition: 0.2s;
+    padding: 0px 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    
+}
+
+.btn3:hover {
+    background-color: rgb(175, 168, 168);
+    color: black;
+
+}
+
 .blocoesquerda {
     background-color: rgb(128, 128, 128, 0.137);
     width: 95%;
