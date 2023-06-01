@@ -63,6 +63,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id do usuário  | Numero (Inteiro)  | Identificador de usuário                  | 001                                            |
 | Nome           | Texto             | Nome do usuário                           | Roberto                                        |
-| Data/Hora      | Texto ou Date     | Data de envio dO comentário               | 31/05/2023  ou Há x horas atrás...             |
+| Data/Hora      | Texto ou Date     | Data de envio do comentário               | 31/05/2023  ou Há x horas atrás...             |
 | Descrição      | Texto             | Comentário/sugestão                       | "Oi, alguém sabe de eventos aqui no bairro?"   |
 
