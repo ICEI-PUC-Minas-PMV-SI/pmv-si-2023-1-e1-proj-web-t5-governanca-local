@@ -101,3 +101,52 @@ aside {
     flex-direction: column;
     width: 50%;
 }
+.headloc {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    margin-top: 16px;
+}
+
+.instituicao1,
+.instituicao2,
+.instituicao3 {
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(128, 128, 128, 0.137);
+    width: 95%;
+    margin-block-end: 50px;
+}
+
+.textinstituicao1,
+.textinstituicao2,
+.textinstituicao3 {
+    background-color: white;
+    width: 100%;
+    margin: 10px;
+}
+
+.instituicao1 img,
+.instituicao2 img,
+.instituicao3 img {
+    display: flex;
+    border-radius: 1000%;
+
+
+   
+    
+}
+
+
+}
+}
+
+h3 {
+    margin-left: 50px;
+    font-display: ;
+
+}
+
+
+
+}
