@@ -1,16 +1,287 @@
-.texto{
-    display: flex;
-    width: 100%;
-    margin-left: 20px;
+*{
+    box-sizing: border-box;
 }
 
 .card1{
     display: flex;
+    align-items: center;
     width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.texto{
     margin-left: 20px;
 }
 
 .praticas{
     display: flex;
+    width: 45%;
+    border: 1px solid black;
+    height: 17rem;
+    margin-right: 20px;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    box-sizing: border-box;
+}
+
+.praticasimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-self: center;
     width: 50%;
+}
+
+.praticasimg img {
+    margin: 0 auto;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn h2 {
+    text-align: center;
+    font-size: 15pt;
+    margin: 0 2px;
+}
+
+.btn input {
+    margin-top: 40px;
+    cursor: pointer;
+    width: 50%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: #20b3ab;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: .2s;
+}
+
+.btn input:hover{
+    background-color: #fac710;
+    transform: scale(1.01);
+    box-shadow: 10px 10px black;
+}
+
+
+.forum{
+    display: flex;
+    width: 45%;
+    border: 1px solid black;
+    height: 17rem;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    box-sizing: border-box;
+}
+
+.forumimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-self: center;
+    width: 50%;
+}
+
+.forumimg img {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.btn2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn2 h2 {
+    text-align: center;
+    font-size: 15pt;
+    margin: 0 2px;
+}
+
+.btn2 input {
+    margin-top: 40px;
+    cursor: pointer;
+    width: 50%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: .2s;
+}
+
+.btn2 input:hover{
+    background-color: #fac710;
+    transform: scale(1.01);
+    box-shadow: 10px 10px black;
+}
+
+
+.card2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.mapa{
+    display: flex;
+    width: 50vw;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: #e6e6e6;
+}
+
+.btn3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn3 h2 {
+    text-align: center;
+    font-size: 15pt;
+    margin: 0 2px;
+}
+
+.btn3 input {
+    margin-top: 40px;
+    cursor: pointer;
+    width: 50%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: #0b3f3c;
+    color: white;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: .2s;
+}
+
+.btn3 input:hover{
+    background-color: #20b3ab;
+    transform: scale(1.01);
+    box-shadow: 10px 10px black;
+    color: black;
+}
+
+@media (max-width: 900px){
+    .card1{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .praticas{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        height: 60vh;
+        margin: 10px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .praticasimg img {
+        display: none;
+    }
+
+    .btn  {
+        display: flex;
+        justify-content: center;
+        place-self: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .btn input {
+        margin: 10px 0;
+    }
+
+    .forum{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        height: 60vh;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn2  {
+        display: flex;
+        justify-content: center;
+        place-self: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .btn2 input {
+        margin: 10px 0;
+    }
+
+    .forumimg img {
+        display: none;
+    }
+
+    .mapa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        height: 60vh;
+        width: 45%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .mapaimg img{
+        display: none;
+    }
+
+    .btn3  {
+        display: flex;
+        justify-content: center;
+        place-self: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .btn3 input {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 410px) {
+    .praticas{
+        width: 80%;
+    }
+
+    .forum{
+        width: 80%;
+    }
+
+    .mapa{
+        width: 80%;
+    }
 }
