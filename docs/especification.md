@@ -71,6 +71,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-009| A aplicação Web conterá uma aba sobre os criadores   | ALTA  |Pedro | index.html |
 |RF-010| A aplicação Web conterá uma área de sugestões para o site  | ALTA  | Wesney | forum.html  |
 |RF-011| A aplicação Web permitirá que o usuário tenha acesso atravéns do fórum a páginas externas para fins de doações, contribuições para a página e busca de empregos   | ALTA  | Wesney | forum.html |
+|RF-012| A aplicação Web contará com uma landing page exclusiva para cadastrados   | ALTA  | Pedro | paginalogada.html |
 
 
 ### Requisitos não Funcionais
