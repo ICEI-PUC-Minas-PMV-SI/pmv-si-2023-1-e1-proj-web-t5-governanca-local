@@ -9,7 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Image](https://user-images.githubusercontent.com/127517961/232878835-7402297e-3377-4053-a313-27f2ac9e75bd.png) 
+<img width="787" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/assets/127517961/7dd6d597-d9b9-4b35-ba58-2082395c24b1">
 
 -------------------------------------------------------------------------------------------------------
 
@@ -27,16 +27,11 @@ A Landing page será a págia de entrada do website, nela será contida o cabeç
 -------------------------------------------------------------------------------------------------------
 
 ### Telas de cadastro e Login
-No cadastro, o usuário irá iserir um endereço de e-mail, uma senha e a confirmação da senha escolhida. Depois de preencher esses campos, o usuário pode enviar o formulário clicando em um botão continuar. Há ainda a presença de ícone-atalho para a Landing Page. Atende aos requisitos <strong> RF-001 </strong>.
 
-![image](https://user-images.githubusercontent.com/128329945/235469652-5415a606-64d7-48a4-83a3-172e27ceb8c0.png)
-
-
-
-### Tela de Login 
-O login será feito através do e-mail e senha criados pelos usuários. Ao clicar em cadastrar, o usuário será redirecionado para a tela de cadastro. Há ainda a presença de ícones-atalhos para o Fórum, Landing Page e Mapa. Atende aos Requisitos Funcionais <strong> RF-002 </strong>.
+O login será feito através do e-mail e senha criados pelos usuários. Ao clicar em cadastrar, o usuário será redirecionado para a tela de cadastro. Há ainda a presença de ícones-atalhos para o Fórum, Landing Page e Mapa. Atende aos Requisitos Funcionais <strong> RF-002 </strong>. Ao não possuir conta, o usuário poderá se cadastrar clicando no botão "Criar agora, abrindo um pop-up para tal, atendendo aos Requisitos funcionais <strong> RF-001 </strong>.
 
 ![image](https://user-images.githubusercontent.com/127517961/235466056-7660170c-ade4-4496-8b5d-d260631f072c.png)
+<img width="859" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/assets/127517961/7f121ef4-f87a-4cf0-9136-eb5c61768e04">
 
 -------------------------------------------------------------------------------------------------------
 
