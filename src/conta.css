@@ -1,0 +1,180 @@
+
+
+.gridline1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 30px 0;
+  }
+
+.gridline1 h2 {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+}
+  .icones {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-column: 1;
+      margin-bottom: 50px;
+    }
+    .icones img {
+      width: 30%;
+      display: flex;
+    }
+
+  .localidade{
+      display: grid;
+      width: 100%;
+      grid-column: 2;
+      align-items: center;
+      justify-content: center;
+      place-self: center;
+      align-self: center;
+    }
+  
+    #bairroflex{
+      background-color:white;
+    }
+      #bairroflex h1 {
+      text-align: center;
+    }
+
+label {
+    font-weight: 800;
+}
+
+input {
+    outline: none;
+    padding: 2px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+.submitbtn{
+  background-color: #20b3ab;
+  border: gray;
+  width: 20%;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  margin-top: 8px;
+  transition: .2s;
+}
+
+.submitbtn:hover{
+  background-color: #fac710;
+}
+
+.sobre{
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.formulario {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 40px;
+}
+  .primeirasecao {
+    grid-column: 1;
+    background-color: white;
+  }
+  .segundasecao {
+    grid-column: 2;
+    background-color:white;
+  }
+  @media (max-width: 900px) {
+    .gridline1 {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr 1fr 1fr;
+      width: 100%;
+      background-color: #f5f5f5;
+    }
+
+    .gridline1 h2 {
+        grid-row: 1;
+        grid-column: 1;
+    }
+      .icones {
+        display: flex;
+        grid-row: 2;
+        align-items: center;
+        grid-column: 1;
+        align-content: center;
+      }
+      .icones img {
+        width: 30%;
+        display: flex;
+        grid-column: 1;
+        align-items: center;
+        align-content: center;
+      }
+    #descricao{
+      grid-row: 2;
+      }
+
+    .localidade{
+        display: flex;
+        width: 100%;
+        grid-row: 3;
+        grid-column: 1;
+
+      }
+    
+      #bairroflex{
+        grid-row: 3;
+        grid-column: 1;
+      }
+        #bairroflex h1 {
+        text-align: center;
+        grid-row: 3;
+        grid-column: 1;
+      }
+    .formulario {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      grid-template-columns: 100%;
+      align-items: center;
+      margin: 20px;
+      grid-column: 1;
+      
+    }
+      .primeirasecao {
+        grid-column: 1;
+        background-color:white;
+        align-items: center;
+      }
+      .segundasecao {
+        grid-column: 1;
+        background-color:white;
+        align-items: center;
+      }
+
+      label {
+        font-weight: 800;
+    }
+    
+    input {
+        outline: none;
+        padding: 2px;
+        border: none;
+        border-bottom: 1px solid black;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    }
+  

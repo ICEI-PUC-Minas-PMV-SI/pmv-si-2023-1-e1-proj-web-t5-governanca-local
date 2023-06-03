@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Usuário | Gov Local</title>
+    <link rel="stylesheet" href="footerglobal.css">
+    <link rel="stylesheet" href="conta.css">
+    <link rel="stylesheet" href="header2.css">
+    <link rel="shortcut icon"
+        href="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <header>     
+        <button class="left-button">
+        <a href="index.html"><img widht="30" height="30"
+                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Home.png"
+                ></a> 
+
+                <div>
+                <button class="center-button">
+        <a href="praticas.html"><img widht="30" height="30"
+                    src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a320ac9e1d7e7b46f4d2bfcab7e85d8bcbc39349/src/src/Icons/ecologia.png"
+                    ></a>
+               
+                    <button class="center-button">
+            <a href="#mapa"><img widht="30" height="30"
+                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pin.png"
+               ></a>
+       
+               <button class="center-button">
+            <a href="forum.html"><img widht="30" height="30"
+                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pessoas.png"
+                ></a>
+            </div>
+        
+        <button class="right-button">
+            <a href="index.html"> <img widht="30" height="30"
+                src="https://user-images.githubusercontent.com/127517961/242750283-d5a27e99-aa33-40d4-a678-626b6ce7a5ee.png"
+                > </a> 
+</header>
+    <main>
+
+
+
+        <aside class="gridline1">
+            <h2>Sobre Você</h2>
+                <div class="icones">
+                    <img 
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a0682cbcf31678aa61f3f7246cb85e4b7055cd7e/src/src/Icons/feminino.png"
+                        alt="Ícone Feminino" width="300px">
+                    <img 
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a0682cbcf31678aa61f3f7246cb85e4b7055cd7e/src/src/Icons/masculino.png"
+                        alt="Ícone Masculino" width="300px">
+                    <img src="https://user-images.githubusercontent.com/127517961/243020729-226d7d9f-68f6-4cf5-90fd-da38fd910b5a.png" alt="Ícone Outros">
+                </div>
+            </div>
+            <div class="localidade">
+                <span id="bairroflex"><h1>VILA .....</h1></span>
+            </div>
+        </aside>
+        <div class="sobre"><h1>Seus dados</h1></div>
+        <article class="formulario" id="form">
+        <div class="primeirasecao">
+            <form class="genero">
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="#" required>
+                    <option value="">Selecione seu sexo</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </form>
+            
+            <form>
+                <label for="fname">Nome:</label><br>
+                <input type="text" id="pnome" name="pnome" required><br>
+                <label for="lname">Sobrenome:</label><br>
+                <input type="text" id="snome" name="snome" required><br>
+                <label for="dtnascimento">Data de Nascimento</label><br>
+                <input type="date" id="dtnascimento" name="Data de Nascimento" required>
+            </form>
+            <form>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required><br>
+            </form>
+            <form>
+                <label for="cpf">CPF:</label><br>
+                <input type="number" id="cpf" name="cpf" maxlength="11" placeholder="000.000.000-00"
+                    pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"><br>
+                <small>Formato: 000.000.000-00</small><br>
+            </form>
+        </div>
+        <div class="segundasecao">
+            <form>
+                <label for="cep">CEP:</label><br>
+                <input type="number" id="cep" name="cep" maxlength="8" placeholder="00000-000" pattern="[0-9]{5}-[0-9]{3}"
+                    required><br>
+                <small>Formato: 00000-000</small><br>
+                <label for="rua">Rua:</label><br>
+                    <input type="text" id="rua" name="rua" required><br>
+                <label for="nrua">Numero:</label><br>
+                <input type="number" id="nrua" name="nrua" required><br>
+                <label for="bairro">Bairro:</label><br>
+                <input type="text" id="bairro" name="bairro" required><br>
+                <label for="cidade">Cidade:</label><br>
+                <input type="text" id="cidade" name="cidade" required><br>
+                <label for="estado">Estado:</label><br>
+                <select id="estado" name="estado">
+                  <option value="acre">Acre - AC</option>
+                  <option value="alagoas">Alagoas - AL</option>
+                  <option value="amapa">Amapá - AP</option>
+                  <option value="amazonas">Amazonas - AM</option>
+                  <option value="bahia">Bahia - BA</option>
+                  <option value="ceara">Ceará - CE</option>
+                  <option value="distritofederal">Distrito Federal - DF</option>
+                  <option value="espiritosanto">Espírito Santo - ES</option>
+                  <option value="goias">Goiás - GO</option>
+                  <option value="maranhao">Maranhão - MA</option>
+                  <option value="matogrosso">Mato Grosso - MT</option>
+                  <option value="matogrossodosul">Mato Grosso do Sul - MS</option>
+                  <option value="minasgerais">Minas Gerais - MG</option>
+                  <option value="para">Pará - PA</option>
+                  <option value="paraiba">Paraíba - PB</option>
+                  <option value="parana">Paraná - PR</option>
+                  <option value="pernambuco">Pernambuco - PE</option>
+                  <option value="piaui">Piauí - PI</option>
+                  <option value="roraima">Roraima - RR</option>
+                  <option value="rondonia">Rondônia - RO</option>
+                  <option value="riodejaneiro">Rio de Janeiro - RJ</option>
+                  <option value="riograndedonorte">Rio Grande do Norte - RN</option>
+                  <option value="riograndedosul">Rio Grande do Sul - RS</option>
+                  <option value="santacatarina">Santa Catarina - SC</option>
+                  <option value="saopaulo">São Paulo - SP</option>
+                  <option value="sergipe">Sergipe - SE</option>
+                  <option value="tocantins">Tocantins - TO</option>
+                  </select>
+            </div>
+
+            <input type="submit" value="Salvar" class="submitbtn">
+            </form>
+        </article>
+        
+        
+        
+    </main>
+</body>
+
+
+<footer>
+    <img width="100" class="footer-logo-gov-local"
+        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png"
+        alt="logo do projeto governança local">
+    <h1>© Governança Local</h1>
+    <div class="imagensfooter">
+         <a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local"> <img width="100" class="footer-logo-github"
+            src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-github.png"
+            alt="GitHub">
+        </a>
+        
+        <a href="https://www.pucminas.br/main/Paginas/default.aspx"><img width="100" class="footer-logo-pucminas"
+            src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-pucminas.png"
+            alt="logo da PUC-Minas">
+        </a>
+    </div>
+</footer>
+
+
+</html>

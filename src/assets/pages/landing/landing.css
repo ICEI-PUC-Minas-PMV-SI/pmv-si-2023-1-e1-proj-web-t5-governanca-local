@@ -28,11 +28,11 @@ header {
 }
 
 header ul {
+  display: flex;
+  list-style: none;
   justify-content: center;
   margin-right: 20px;
-  gap: 23px;
-  list-style: none;
-  display: flex;
+  gap: 25px;
   width: 100%;
   padding: 0px;
 }
@@ -135,6 +135,7 @@ header ul a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 50%;
 }
 
 #imagempraticas img {
@@ -190,6 +191,13 @@ header ul a:hover {
     text-align: center;
     margin: 0;
   }
+
+  #imagempraticas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
 
 /* Término Gabriel */
@@ -200,7 +208,7 @@ Sessão do MAPA da Landing Page */
   display: grid;
   grid-template-columns: 1fr 20px 1fr;
   grid-template-rows: 50% 50%;
-  background-color: lightgray;
+  background-color: whitesmoke;
   margin: 0px;
   box-sizing: border-box;
   padding: 5%;
@@ -213,8 +221,10 @@ Sessão do MAPA da Landing Page */
   grid-column: 1;
   grid-row-start: 1;
   grid-row-end: 3;
-  outline: 2px solid black;
+  outline: 2px solid rgba(0, 0, 0, 0.603);
   place-self: center;
+  border-radius: 3px;
+  box-shadow: 10px 10px black;
 }
 .TituloMapa {
   width: 90%;
@@ -247,6 +257,7 @@ Sessão do MAPA da Landing Page */
   font-weight: 900;
   color: rgb(0, 0, 0);
   background-color: #20b3ab;
+  transition: 0.3s;
 }
 
 .btn3:hover {
@@ -349,7 +360,7 @@ Sessão do MAPA da Landing Page */
 
 /* LucasTeste */
 #forumforum h2 {
-  font-size: 40pt;
+  font-size: 3vw;
   text-align: center;
   margin: 100px;
 }
@@ -369,7 +380,7 @@ Sessão do MAPA da Landing Page */
   }
 
   #forumforum h2 {
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: center;
     margin: 0;
   }
@@ -414,6 +425,7 @@ Sessão do MAPA da Landing Page */
   font-weight: 900;
   color: rgb(0, 0, 0);
   background-color: #20b3ab;
+  transition: 0.3s;
 }
 
 .btn2:hover {
@@ -439,41 +451,11 @@ Sessão do MAPA da Landing Page */
 }
 
 /* Final Wesney*/
+::-webkit-scrollbar{
+  background-color: #e6e6e6;
+  width: 7px;
+}
 
-footer {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  align-items: center;
-  width: 100%;
-  background-color: #20b3ab;
-}
-footer img {
-  width: 30%;
-  display: flex;
-}
-footer h1 {
-  font-size: 3vw;
-  justify-self: center;
-  text-align: center;
-}
-.footer-logo-gov-local {
-  grid-column: 1;
-  width: 50%;
-}
-.footer-logo-github {
-  padding-right: 20px;
-  grid-column: 3;
-  grid-row: 1;
-  width: 50%;
-  justify-self: end;
-}
-.footer-logo-pucminas {
-  grid-column: 4;
-  grid-row: 1;
-  width: 50%;
-  float: left;
-  padding-left: 20px;
-  margin-right: 20px;
-  border-left: 1px solid rgb(70, 68, 68);
+::-webkit-scrollbar-thumb{
+  background-color: rgb(0, 0, 0);
 }
