@@ -87,20 +87,8 @@ html {
     z-index: 1000;
 }
 
-.popupsemana p {
-    margin-bottom: 10px;
-    color: #000000;
-}
-
-.popupsemana a {
-    color: #000000;
-
-}
-
-.popupsemana img {
-    display: flex;
-    height: 50%;
-    width: 50%;
+.popupsemana h2{
+font-size: 45px;
 }
 
 /* BARRA DE PESQUISA DENTRO DO POP-SEMANA */
@@ -224,16 +212,11 @@ html {
     z-index: 1000;
 }
 
-.popupconquer p {
-    margin-bottom: 10px;
-    color: #000000;
-}
-
-.popupconquer a {
-    color: #000000;
-   
+.popupconquer h2{
+font-size: 40px;
 
 }
+
 
 /* BARRA DE PESQUISA DENTRO DO POP-CONQUISTA */
 .search-bar-conquista {
@@ -256,22 +239,6 @@ html {
     cursor: pointer;
     font-size: 14px;
 }
-
-.popupajuda img {
-    display: inline;
-    width: 50%;
-    place-self: center;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.popupconquer img {
-    display: flex;
-    height: 50%;
-    width: 50%;
-}
-
 
 /* FINAL DA ABA CONQUISTA */
 
@@ -361,14 +328,8 @@ html {
     z-index: 1000;
 }
 
-.popupajuda p {
-    margin-bottom: 10px;
-    color: #000000;
-    text-align: justify;
-}
-
-.popupajuda a {
-    color: #000000;
+.popupajuda h2 {
+font-size: 40px;
 
 }
 
@@ -394,11 +355,7 @@ html {
     font-size: 14px;
 }
 
-.popupajuda img {
-    display: flex;
-    height: 50%;
-    width: 50%;
-}
+
 /* FINAL DA ABA AJUDA */
 
 /* PARTE RESPONSIVA */
