@@ -64,24 +64,27 @@ article h1 {
     color: black;
 }
 
-.btn3 {
+.btncoment   {
     display: flex;
     justify-content: end;
-    margin-left: 35vw;
+    margin-bottom: 10px;
+}
+
+.btn3 {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    border: none;
     border-radius: 3px;
     border: 1px solid rgb(175, 168, 168);
     background-color: white;
     transition: 0.2s;
     padding: 0px 5px;
-    cursor: pointer;
-    margin-bottom: 5px;
-    
 }
 
 .btn3:hover {
     background-color: rgb(175, 168, 168);
     color: black;
-
 }
 
 .blocoesquerda {
@@ -102,6 +105,7 @@ article h1 {
     display: flex;
     margin: 10px 10px;
     font-size: 1vw;
+    padding: 2px;
 }
 
 .comenta1 img,
@@ -136,6 +140,7 @@ aside {
     background-color: rgb(128, 128, 128, 0.137);
     width: 95%;
     margin-block-end: 50px;
+    padding: 30px 0;
 }
 
 .textinstituicao1,
@@ -144,22 +149,20 @@ aside {
     background-color: white;
     width: 100%;
     margin: 10px;
+    padding: 15px 10px;
 }
 
 .instituicao1 img,
-.instituicao2 img,
 .instituicao3 img {
     display: flex;
     border-radius: 1000%;
-
-
-   
-    
+    box-shadow: 15px -15px black;  
 }
 
-h3 {
-    margin-left: 50px;
-    font-display: ;
+.instituicao2 img  {
+    display: flex;
+    border-radius: 1000%;
+    box-shadow: 15px -15px black;
 
 }
 
