@@ -47,8 +47,6 @@
                         alt="Entrar">
                 </a>
     </header>
-
-
     <main>
 
         <!-- INICIO DA ABA PRÁTICAS -->
@@ -67,96 +65,105 @@
 
                 <button class="btnsemana" onclick="openPopupsemana()">Confira as práticas!</button>
 
-                <div class="popupsemana" id="popupsemana">
+            </div>
 
-                    <a href="#" onclick="closePopupsemana()">Fechar</a>
+            <div class="popupsemana" id="popupsemana">
+
+                <div class="X">
+                    <img onclick="closePopupsemana()" width="35px"
+                        src="https://user-images.githubusercontent.com/102264520/234979041-3fbc1d50-9ea4-4498-96e1-5cb78050895d.png"
+                        alt="">
                     <title>Barra de Pesquisa</title>
-                    <!-- ADICIONAR O SCRIPT DO BOTÃO DE PESQUISA -->
-                    <div class="search-bar-semana">
-                        <input type="text" id="search-input-semana" placeholder="...">
-                        <input type="submit" value="Pesquisar">
-                    </div>
-
-                    <img src="https://camo.githubusercontent.com/411e17b2507213eb97b6274ee78f511cb2f2a14513c6eae51cd671b0587103dd/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3939373535353733373439303337303631312f313130303935333334323234343536303933372f57686174734170705f496d6167655f323032332d30342d32345f61745f32322e31392e34322d72656d6f766562672d707265766965772e706e67"
-                        alt=" IMAGEM ILUSTRATIVA POPUPSEMANA">
-
-
-                    <H1> A Importância das práticas <br> de boa convivência na sociedade </H1>
-
-
-                    <p>As práticas de boa convivência desempenham um papel fundamental na construção de uma comunidade
-                        harmoniosa e na coesão social de uma sociedade. A maneira como nos relacionamos e interagimos
-                        com os outros reflete diretamente no ambiente em que vivemos, afetando tanto o bem-estar
-                        individual como o coletivo. Portanto, é imperativo reconhecer a importância dessas práticas e
-                        cultivá-las em nosso cotidiano.
-
-                        Uma comunidade bem-sucedida é aquela em que os membros se respeitam mutuamente, tratam-se com
-                        cortesia e consideração, independentemente de suas diferenças individuais. Isso implica em ouvir
-                        atentamente as opiniões dos outros, expressar nossas próprias ideias de forma respeitosa, buscar
-                        o consenso em situações conflituosas e sermos empáticos com as necessidades e sentimentos
-                        alheios. Essas atitudes promovem um ambiente acolhedor e seguro, estimulando a participação
-                        ativa de todos os indivíduos na construção de um bem comum.</p>
-
-                       
-                        <img src="https://blog.plaenge.com.br/wp-content/uploads/2022/06/Imagem2.png"
-                        alt=" IMAGEM ILUSTRATIVA POPUPSEMANA">
-
-
-                    <H2> Práticas fundamentais para boa convivência </H2>
-
-                    <p> 1:Respeito mútuo: Respeitar as diferenças de opinião, crenças, culturas e estilos de vida dos
-                        outros membros da comunidade.</p>
-
-                    <p> 2:Comunicação efetiva: Estabelecer canais abertos e honestos de comunicação, permitindo que as
-                        pessoas expressem suas preocupações, ideias e sugestões de forma clara e respeitosa.</p>
-
-                    <p> 3:Empatia: Ser capaz de se colocar no lugar dos outros e compreender suas perspectivas e
-                        sentimentos. Isso ajuda a promover a compreensão e a cooperação entre os membros da comunidade.
-                    </p>
-
-
-                    <p> 4:Colaboração: Trabalhar juntos em projetos e iniciativas comunitárias, compartilhando recursos
-                        e
-                        habilidades para benefício mútuo.</p>
-
-                    <p> 5:Solidariedade: Apoiar uns aos outros em tempos de necessidade, oferecendo ajuda prática,
-                        conselhos ou simplesmente demonstrando compaixão e apoio emocional.</p>
-
-                    <p> 6:Resolução pacífica de conflitos: Buscar soluções negociadas e pacíficas para os conflitos que
-                        possam surgir, evitando confrontos e comportamentos agressivos.</p>
-
-                    <p> 7:Responsabilidade pessoal: Assumir a responsabilidade por suas ações e comportamentos,
-                        reconhecendo o impacto que eles podem ter na comunidade como um todo.</p>
-
-                    <p> 8:Participação ativa: Contribuir de forma ativa e regular para os assuntos e atividades da
-                        comunidade, comparecendo a reuniões, dando feedback e compartilhando ideias.</p>
-
-                    <p> 9:Preservação do ambiente: Cuidar do meio ambiente local, evitando o desperdício, promovendo a
-                        reciclagem e adotando práticas sustentáveis.</p>
-
-                    <p> 10:Respeito pelas regras: Seguir as normas e regulamentos estabelecidos pela comunidade,
-                        incluindo
-                        leis locais, para garantir a segurança e a harmonia de todos os membros.</p>
-                    </p>
                 </div>
 
-                <!-- SCRIPT PARA ABRIR E FECHAR POPUP -->
-                <script>
-                    function openPopupsemana() {
-                        var popup = document.getElementById('popupsemana');
-                        const header = document.getElementById('header');
-                        popup.style.display = 'block';
-                        header.style.display = 'none';
-                    }
+                <!-- ADICIONAR O SCRIPT DO BOTÃO DE PESQUISA -->
+                <div class="search-bar-semana">
+                    <input type="text" id="search-input-semana" placeholder="Localizar...">
+                    <input type="submit" value="Pesquisar">
+                </div>
 
-                    function closePopupsemana() {
-                        var popup = document.getElementById('popupsemana');
-                        popup.style.display = 'none';
-                        header.style.display = 'flex';
-                    }
+                <div class="img1popsemana">
+                    <img src="https://camo.githubusercontent.com/411e17b2507213eb97b6274ee78f511cb2f2a14513c6eae51cd671b0587103dd/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3939373535353733373439303337303631312f313130303935333334323234343536303933372f57686174734170705f496d6167655f323032332d30342d32345f61745f32322e31392e34322d72656d6f766562672d707265766965772e706e67"
+                        alt=" IMAGEM ILUSTRATIVA POPUPSEMANA">
+                </div>
 
-                </script>
+                <h2> A Importância das práticas de boa convivência </h2>
+
+                <p>As práticas de boa convivência desempenham um papel fundamental na construção de uma comunidade
+                    harmoniosa e na coesão social de uma sociedade. A maneira como nos relacionamos e interagimos
+                    com os outros reflete diretamente no ambiente em que vivemos, afetando tanto o bem-estar
+                    individual como o coletivo. Portanto, é imperativo reconhecer a importância dessas práticas e
+                    cultivá-las em nosso cotidiano.
+
+                    Uma comunidade bem-sucedida é aquela em que os membros se respeitam mutuamente, tratam-se com
+                    cortesia e consideração, independentemente de suas diferenças individuais. Isso implica em ouvir
+                    atentamente as opiniões dos outros, expressar nossas próprias ideias de forma respeitosa, buscar
+                    o consenso em situações conflituosas e sermos empáticos com as necessidades e sentimentos
+                    alheios. Essas atitudes promovem um ambiente acolhedor e seguro, estimulando a participação
+                    ativa de todos os indivíduos na construção de um bem comum.</p>
+
+                <div class="img2popsemana">
+                    <img src="https://blog.plaenge.com.br/wp-content/uploads/2022/06/Imagem2.png"
+                        alt=" IMAGEM ILUSTRATIVA POPUPSEMANA2">
+                </div>
+
+                <H3> Práticas fundamentais para boa convivência </H3>
+
+                <p> 1-<b>Respeito mútuo</b>: Respeitar as diferenças de opinião, crenças, culturas e estilos de vida dos
+                    outros membros da comunidade.</p>
+
+                <p> 2-<b>Comunicação efetiva</b>: Estabelecer canais abertos e honestos de comunicação, permitindo que
+                    as
+                    pessoas expressem suas preocupações, ideias e sugestões de forma clara e respeitosa.</p>
+
+                <p> 3-<b>Empatia</b>: Ser capaz de se colocar no lugar dos outros e compreender suas perspectivas e
+                    sentimentos. Isso ajuda a promover a compreensão e a cooperação entre os membros da comunidade.
+                </p>
+
+                <p> 4-<b>Colaboração</b>: Trabalhar juntos em projetos e iniciativas comunitárias, compartilhando
+                    recursos
+                    e
+                    habilidades para benefício mútuo.</p>
+
+                <p> 5-<b>Solidariedade</b>: Apoiar uns aos outros em tempos de necessidade, oferecendo ajuda prática,
+                    conselhos ou simplesmente demonstrando compaixão e apoio emocional.</p>
+
+                <p> 6-<b>Resolução pacífica de conflitos</b>: Buscar soluções negociadas e pacíficas para os conflitos
+                    que
+                    possam surgir, evitando confrontos e comportamentos agressivos.</p>
+
+                <p> 7-<b>Responsabilidade pessoal</b>: Assumir a responsabilidade por suas ações e comportamentos,
+                    reconhecendo o impacto que eles podem ter na comunidade como um todo.</p>
+
+                <p> 8-<b>Participação ativa</b>: Contribuir de forma ativa e regular para os assuntos e atividades da
+                    comunidade, comparecendo a reuniões, dando feedback e compartilhando ideias.</p>
+
+                <p> 9-<b>Preservação do ambiente</b>: Cuidar do meio ambiente local, evitando o desperdício, promovendo
+                    a
+                    reciclagem e adotando práticas sustentáveis.</p>
+
+                <p> 10-<b>Respeito pelas regras</b>: Seguir as normas e regulamentos estabelecidos pela comunidade,
+                    incluindo
+                    leis locais, para garantir a segurança e a harmonia de todos os membros.</p>
+                </p>
+
             </div>
+
+            <!-- SCRIPT PARA ABRIR E FECHAR POPUP -->
+            <script>
+                function openPopupsemana() {
+                    var popup = document.getElementById('popupsemana');
+                    const header = document.getElementById('header');
+                    popup.style.display = 'block';
+                    header.style.display = 'none';
+                }
+
+                function closePopupsemana() {
+                    var popup = document.getElementById('popupsemana');
+                    popup.style.display = 'none';
+                    header.style.display = 'flex';
+                }
+            </script>
         </section>
 
 
@@ -173,7 +180,14 @@
                 <button class="btnconquer" onclick="openPopupconquer()">Participe dessa história!</button>
 
                 <div class="popupconquer" id="popupconquer">
-                    <a href="#" onclick="closePopupconquer()">Fechar</a>
+
+                    <div class="X2">
+                        <img onclick="closePopupconquer()" width="35px"
+                            src="https://user-images.githubusercontent.com/102264520/234979041-3fbc1d50-9ea4-4498-96e1-5cb78050895d.png"
+                            alt="">
+                        <title>Barra de Pesquisa</title>
+                    </div>
+
                     <title>Barra de Pesquisa</title>
 
                     <!-- ADICIONAR O SCRIPT DO BOTÃO DE PESQUISA -->
@@ -182,45 +196,59 @@
                         <input type="submit" value="Pesquisar">
                     </div>
 
+                    <div class="img1popconquer">
+                        <img src="https://camo.githubusercontent.com/411e17b2507213eb97b6274ee78f511cb2f2a14513c6eae51cd671b0587103dd/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3939373535353733373439303337303631312f313130303935333334323234343536303933372f57686174734170705f496d6167655f323032332d30342d32345f61745f32322e31392e34322d72656d6f766562672d707265766965772e706e67"
+                            alt=" IMAGEM ILUSTRATIVA POPUPSEMANA">
+                    </div>
+
+                    <h3> Momentos da comunidade </h3>
+
+                    <div class="elisa">
+                        <h4>Feira Cultural Noturna</h4>
+
+                        <div class="img2popconquer">
+                            <img width="600px"
+                                src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/blob/main/src/assets/imgs/praticas-conquistas-imagemcarrocel2.png?raw=true"
+                                alt="">
+                        </div>
+
+                        <p>A feira cultural noturna em nossa comunidade é um evento encantador que une e celebra a
+                            diversidade e a riqueza de nossa cultura local. À medida que o sol se põe e as luzes
+                            brilham, nossas ruas ganham vida, transformando-se em um ponto de encontro vibrante e
+                            acolhedor.</p>
+
+                        <div class="imgbruno">
+                            <img width="450px"
+                                src="https://user-images.githubusercontent.com/127517961/226222802-3643403b-2d53-4cd0-af17-ce98313f6e93.jpg"
+                                alt="">
+
+                            <p> Bruno, um jovem visionário e apaixonado por sua comunidade, decidiu criar algo único e
+                                especial: uma feira cultural noturna. Inspirado pela riqueza cultural e pela energia
+                                vibrante de sua cidade, ele se dedicou a transformar uma ideia em realidade.
+
+                                Com determinação e trabalho árduo, Bruno começou a reunir um grupo de pessoas
+                                entusiasmadas e talentosas que compartilhavam sua visão. Juntos, eles começaram a
+                                planejar todos os detalhes, desde a escolha do local até a seleção dos participantes.
+                            </p>
+                        </div>
 
 
-                    <H2> Lorem ipsum dolor sit amet consectetur adipisicing elit. </H2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis earum dignissimos veniam
-                        dolorum itaque suscipit, labore error ut amet, dolorem cumque a aperiam, culpa quidem sunt.
-                        Adipisci, excepturi iure possimus voluptates ipsa dignissimos illum commodi quae neque minus,
-                        laborum placeat odit voluptas magni fugiat labore nemo ratione, iste ducimus accusamus sint? Sit
-                        repellat, quo, consequatur illo iure quibusdam aliquam corrupti deserunt amet tempora libero
-                        eius, minus eveniet officiis fuga nobis! Consequatur quidem voluptatibus est sint cumque rem
-                        officia aliquid. Accusantium neque dignissimos sint magni, repudiandae debitis totam incidunt
-                        voluptas nemo alias fuga quae tempore? Nesciunt facere assumenda, at quidem deleniti eligendi
-                        natus quis. Commodi, dignissimos veniam aperiam veritatis assumenda in nulla ducimus tempora
-                        tenetur facilis eveniet maiores, quod impedit exercitationem aliquam praesentium aut libero ea a
-                        dicta suscipit quaerat fuga. Maiores dolorem voluptates tempora, at voluptatem numquam fugiat
-                        iure eos, et laborum animi cupiditate itaque mollitia quo voluptate saepe corporis! Doloremque
-                        nesciunt nemo delectus, ex distinctio odio voluptatem. Vitae, porro? Est dicta at, corrupti
-                        accusamus temporibus labore debitis quam, ducimus explicabo iure unde! Deleniti, ex molestiae.
-                        Doloremque praesentium laborum obcaecati iure accusamus dicta consequatur tempora facere dolorum
-                        eum iste eos saepe distinctio repellat, quasi quidem quae quos, a odit beatae!</p>
+                        <!-- ADICIONAR A PERSONA ELISA NA ABA CONQUISTAS -->
+                        <div class="textoelisa">
 
-                    <img src="https://www.clp.org.br/wp-content/uploads/2019/10/Imagem-5-Boas-Pr%C3%A1ticas.png?x65716"
-                        alt=" IMAGEM ILUSTRATIVA POPUPCONQUISTA">
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis earum dignissimos veniam
-                        dolorum itaque suscipit, labore error ut amet, dolorem cumque a aperiam, culpa quidem sunt.
-                        Adipisci, excepturi iure possimus voluptates ipsa dignissimos illum commodi quae neque minus,
-                        laborum placeat odit voluptas magni fugiat labore nemo ratione, iste ducimus accusamus sint? Sit
-                        repellat, quo, consequatur illo iure quibusdam aliquam corrupti deserunt amet tempora libero
-                        eius, minus eveniet officiis fuga nobis! Consequatur quidem voluptatibus est sint cumque rem
-                        officia aliquid. Accusantium neque dignissimos sint magni, repudiandae debitis totam incidunt
-                        voluptas nemo alias fuga quae tempore? Nesciunt facere assumenda, at quidem deleniti eligendi
-                        natus quis. Commodi, dignissimos veniam aperiam veritatis assumenda in nulla ducimus tempora
-                        tenetur facilis eveniet maiores, quod impedit exercitationem aliquam praesentium aut libero ea a
-                        dicta suscipit quaerat fuga. Maiores dolorem voluptates tempora, at voluptatem numquam fugiat
-                        iure eos, et laborum animi cupiditate itaque mollitia quo voluptate saepe corporis! Doloremque
-                        nesciunt nemo delectus, ex distinctio odio voluptatem. Vitae, porro? Est dicta at, corrupti
-                        accusamus temporibus labore debitis quam, ducimus explicabo iure unde! Deleniti, ex molestiae.
-                        Doloremque praesentium laborum obcaecati iure accusamus dicta consequatur tempora facere dolorum
-                        eum iste eos saepe distinctio repellat, quasi quidem quae quos, a odit beatae!</p>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="bruno"></div>
+                    <div class="paulo"></div>
+                    <div class="larissa"></div>
+                    <div class="Manuel"></div>
+
+
                 </div>
 
                 <!-- SCRIPT PARA ABRIR E FECHAR POPUP -->
@@ -251,8 +279,9 @@
 
         <!-- INICIO DA ABA AJUDA -->
         <section class="abaajuda" id="help" data-aos="fade-up">
+
             <aside id="textoajuda">
-                <h3>Como ajudar?</h3>
+                <h1>Como ajudar?</h1>
                 <p> <span> Todos nós temos responsabilidades sobre o ambiente em que vivemos, </span> <br> Descubra
                     maneiras de colaborar com sua sociedade.
                 </p>
@@ -261,8 +290,12 @@
 
                 <div class="popupajuda" id="popupajuda">
 
-                    <a href="#" onclick="closePopupajuda()">Fechar</a>
-                    <title>Barra de Pesquisa</title>
+                    <div class="X3">
+                        <img onclick="closePopupajuda()" width="35px"
+                            src="https://user-images.githubusercontent.com/102264520/234979041-3fbc1d50-9ea4-4498-96e1-5cb78050895d.png"
+                            alt="">
+                        <title>Barra de Pesquisa</title>
+                    </div>
 
                     <!-- ADICIONAR O SCRIPT DO BOTÃO DE PESQUISA -->
                     <div class="search-bar-ajuda">
@@ -270,64 +303,41 @@
                         <input type="submit" value="Pesquisar" onclick="searchAndNavigate()">
                     </div>
 
+                    <div class="img1popajuda">
+                        <img src="https://camo.githubusercontent.com/411e17b2507213eb97b6274ee78f511cb2f2a14513c6eae51cd671b0587103dd/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3939373535353733373439303337303631312f313130303935333334323234343536303933372f57686174734170705f496d6167655f323032332d30342d32345f61745f32322e31392e34322d72656d6f766562672d707265766965772e706e67"
+                            alt=" IMAGEM ILUSTRATIVA POPUPSEMANA">
+                    </div>
 
-                    <H3> Lorem ipsum dolor sit amet consectetur adipisicing elit. </H2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis earum dignissimos
-                            veniam
-                            dolorum itaque suscipit, labore error ut amet, dolorem cumque a aperiam, culpa quidem sunt.
-                            Adipisci, excepturi iure possimus voluptates ipsa dignissimos illum commodi quae neque
-                            minus,
-                            laborum placeat odit voluptas magni fugiat labore nemo ratione, iste ducimus accusamus sint?
-                            Sit
-                            repellat, quo, consequatur illo iure quibusdam aliquam corrupti deserunt amet tempora libero
-                            eius, minus eveniet officiis fuga nobis! Consequatur quidem voluptatibus est sint cumque rem
-                            officia aliquid. Accusantium neque dignissimos sint magni, repudiandae debitis totam
-                            incidunt
-                            voluptas nemo alias fuga quae tempore? Nesciunt facere assumenda, at quidem deleniti
-                            eligendi
-                            natus quis. Commodi, dignissimos veniam aperiam veritatis assumenda in nulla ducimus tempora
-                            tenetur facilis eveniet maiores, quod impedit exercitationem aliquam praesentium aut libero
-                            ea a
-                            dicta suscipit quaerat fuga. Maiores dolorem voluptates tempora, at voluptatem numquam
-                            fugiat
-                            iure eos, et laborum animi cupiditate itaque mollitia quo voluptate saepe corporis!
-                            Doloremque
-                            nesciunt nemo delectus, ex distinctio odio voluptatem. Vitae, porro? Est dicta at, corrupti
-                            accusamus temporibus labore debitis quam, ducimus explicabo iure unde! Deleniti, ex
-                            molestiae.
-                            Doloremque praesentium laborum obcaecati iure accusamus dicta consequatur tempora facere
-                            dolorum
-                            eum iste eos saepe distinctio repellat, quasi quidem quae quos, a odit beatae!</p>
+                    <div class="textopopajuda">
+                    <H2> Participe e colabore com sua comunidade </H2>
 
-                        <img src="https://www.clp.org.br/wp-content/uploads/2019/10/Imagem-5-Boas-Pr%C3%A1ticas.png?x65716"
-                            alt=" IMAGEM ILUSTRATIVA POPUPCONQUISTA">
+                    <p>Viver em uma comunidade vai além de simplesmente ocupar um espaço físico. É estar conectado com
+                        as pessoas ao seu redor, compartilhar experiências e se envolver ativamente no ambiente em que
+                        se vive. Uma maneira essencial de fortalecer esse vínculo é por meio da informação e
+                        participação ativa na comunidade.</p>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis earum dignissimos
-                            veniam
-                            dolorum itaque suscipit, labore error ut amet, dolorem cumque a aperiam, culpa quidem sunt.
-                            Adipisci, excepturi iure possimus voluptates ipsa dignissimos illum commodi quae neque
-                            minus,
-                            laborum placeat odit voluptas magni fugiat labore nemo ratione, iste ducimus accusamus sint?
-                            Sit
-                            repellat, quo, consequatur illo iure quibusdam aliquam corrupti deserunt amet tempora libero
-                            eius, minus eveniet officiis fuga nobis! Consequatur quidem voluptatibus est sint cumque rem
-                            officia aliquid. Accusantium neque dignissimos sint magni, repudiandae debitis totam
-                            incidunt
-                            voluptas nemo alias fuga quae tempore? Nesciunt facere assumenda, at quidem deleniti
-                            eligendi
-                            natus quis. Commodi, dignissimos veniam aperiam veritatis assumenda in nulla ducimus tempora
-                            tenetur facilis eveniet maiores, quod impedit exercitationem aliquam praesentium aut libero
-                            ea a
-                            dicta suscipit quaerat fuga. Maiores dolorem voluptates tempora, at voluptatem numquam
-                            fugiat
-                            iure eos, et laborum animi cupiditate itaque mollitia quo voluptate saepe corporis!
-                            Doloremque
-                            nesciunt nemo delectus, ex distinctio odio voluptatem. Vitae, porro? Est dicta at, corrupti
-                            accusamus temporibus labore debitis quam, ducimus explicabo iure unde! Deleniti, ex
-                            molestiae.
-                            Doloremque praesentium laborum obcaecati iure accusamus dicta consequatur tempora facere
-                            dolorum
-                            eum iste eos saepe distinctio repellat, quasi quidem quae quos, a odit beatae!</p>
+                    <p>Além de se informar, a participação ativa na comunidade é um ingrediente chave para o seu
+                        desenvolvimento saudável. Envolvendo-se em grupos, associações ou comitês locais, os moradores
+                        têm a oportunidade de compartilhar suas ideias, opiniões e habilidades. O engajamento pode
+                        ocorrer em diversas áreas, como educação, meio ambiente, cultura, esportes, saúde e assistência
+                        social. Cada indivíduo tem algo valioso para contribuir, seja através de suas habilidades
+                        profissionais, talentos artísticos, experiências de vida ou simplesmente oferecendo seu tempo e
+                        esforço.</p>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
 
                 <!-- SCRIPT PARA ABRIR E FECHAR POPUP -->
@@ -346,8 +356,6 @@
                         popup.style.display = 'none';
                         header.style.display = 'flex';
                     }
-
-
 
                 </script>
 

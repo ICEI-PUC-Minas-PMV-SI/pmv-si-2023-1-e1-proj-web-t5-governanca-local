@@ -17,6 +17,13 @@ html {
 }
 
 /* INCIO DA ABA SEMANA */
+
+.praticasdasemana {
+    display: flex;
+    padding: 100px 0;
+    height: 100vh;
+}
+
 #imagemsemana {
     display: flex;
     width: 50%;
@@ -54,7 +61,7 @@ html {
 
 .btnsemana {
     margin-top: 40px;
-    width: 50%;
+    width: 40%;
     height: 70px;
     border: 3px solid black;
     cursor: pointer;
@@ -71,8 +78,8 @@ html {
 }
 
 .popupsemana {
-    height: 90%;
     display: none;
+    height: 90%;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -87,37 +94,78 @@ html {
     z-index: 1000;
 }
 
-.popupsemana h2{
-font-size: 45px;
+.popupsemana h2 {
+    font-size: 30px;
+    background-color: #20b2aa;
+    display: flex;
+    align-items: center; 
+    font-display: center;
+    justify-content: center;
+}
+
+.popupsemana h3 {
+    font-size: 30px;
+    background-color: #20b2aa;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+.popupsemana p {
+    font-size: 20px;  
+}
+
+.img1popsemana {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.img2popsemana {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 /* BARRA DE PESQUISA DENTRO DO POP-SEMANA */
 .search-bar-semana {
+    display:flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
     background-color: #20b2aa;
 }
 
 .search-bar-semana input[type="text"] {
-    padding: 6px;
-    border: none;
+    padding: 8px;
     font-size: 14px;
-    width: 200px;
+    width: 250px;
+    margin: 10px;
+    border-color: #000000;
+    
 }
 
 .search-bar-semana input[type="submit"] {
-    padding: 6px 12px;
-    background-color: #000000;
-    color: white;
-    border: none;
+
+    padding: 9px 12px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     font-size: 14px;
+    border-color: #000000;
 }
 
-.praticasdasemana {
+.X {
+    margin-bottom: 10px;
+    cursor: pointer;
     display: flex;
-    padding: 100px 0;
-    height: 100vh;
+    justify-content: end;
+    font-size: 30px;
 }
+
 
 /* INICIO DA ABA DE CONQUISTA */
 .abaconquistas {
@@ -172,7 +220,7 @@ font-size: 45px;
     transition: .4s;
 }
 
-.imagemconquista img:hover{
+.imagemconquista img:hover {
     transform: scale(0.9);
     box-shadow: 6px 6px 1px gray;
 }
@@ -196,8 +244,8 @@ font-size: 45px;
 }
 
 .popupconquer {
-    height: 90%;
     display: none;
+    height: 90%;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -212,36 +260,86 @@ font-size: 45px;
     z-index: 1000;
 }
 
-.popupconquer h2{
-font-size: 40px;
+.popupconquer h3 {
+    font-size: 30px;
+    background-color: #20b2aa;
+    display: flex;
+    align-items: center; 
+    font-display: center;
+    justify-content: center;
+}
 
+.popupconquer h4 {
+    font-size: 20px;
+    display: flex;
+    align-items: center; 
+    font-display: center;
+    justify-content: center;
+}
+
+.popupconquer p {
+    font-size: 20px;  
+}
+
+.img1popconquer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.img2popconquer {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.imgbruno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 /* BARRA DE PESQUISA DENTRO DO POP-CONQUISTA */
 .search-bar-conquista {
+    display:flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
     background-color: #20b2aa;
 }
 
 .search-bar-conquista input[type="text"] {
-    padding: 6px;
-    border: none;
+    padding: 8px;
     font-size: 14px;
-    width: 200px;
+    width: 250px;
+    margin: 10px;
+    border-color: #000000;
+    
 }
 
 .search-bar-conquista input[type="submit"] {
-    padding: 6px 12px;
-    background-color: #000000;
-    color: white;
-    border: none;
+
+    padding: 9px 12px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     font-size: 14px;
+    border-color: #000000;
 }
 
-/* FINAL DA ABA CONQUISTA */
+.X2 {
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+}
 
+
+/* FINAL DA ABA CONQUISTA */
 .abaajuda {
     display: flex;
     height: 100vh;
@@ -258,7 +356,7 @@ font-size: 40px;
     height: 100vh;
 }
 
-#textoajuda h3 {
+#textoajuda h1 {
     display: center;
     text-align: justify;
     font-size: 35pt;
@@ -283,7 +381,7 @@ font-size: 40px;
 
 #imagemajuda img {
     width: 100%;
-    
+
 }
 
 #textoajuda p span {
@@ -312,8 +410,8 @@ font-size: 40px;
 }
 
 .popupajuda {
-    height: 90%;
     display: none;
+    height: 90%;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -329,10 +427,43 @@ font-size: 40px;
 }
 
 .popupajuda h2 {
-font-size: 40px;
+    font-size: 30px;
+    background-color: #20b2aa;
+    display: flex;
+    align-items: center; 
+    font-display: center;
+    justify-content: center;
+}
+
+.popupajuda h3 {
+    font-size: 20px;
+    display: flex;
+    align-items: center; 
+    font-display: center;
+    justify-content: center;
+}
+
+.img1popajuda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
+.img2popajuda {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.X3 {
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+}
 /* BARRA DE PESQUISA DENTRO DO POP-AJUDA */
 .search-bar-ajuda {
     padding: 10px;
@@ -386,6 +517,11 @@ font-size: 40px;
         height: 100%;
     }
 
+    .popupsemana img {
+        width: 100%;
+    }
+
+
     .btnsemana {
         width: 60%;
     }
@@ -405,12 +541,7 @@ font-size: 40px;
         margin: 0 auto;
     }
 
-    #textoconquista h2 {
-        margin: 10px 0;
-        font-size: 20pt;
-
-    }
-
+   
     .imagemconquista {
         display: flex;
         place-self: center;
@@ -438,7 +569,7 @@ font-size: 40px;
         padding: 0;
     }
 
-    
+
     #imagemajuda {
         display: flex;
         width: 80%;
@@ -454,6 +585,6 @@ font-size: 40px;
     }
 }
 
-::selection{
+::selection {
     background-color: #FAC710;
 }
