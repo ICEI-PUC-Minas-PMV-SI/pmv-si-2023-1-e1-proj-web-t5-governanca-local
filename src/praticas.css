@@ -166,6 +166,23 @@ html {
     font-size: 30px;
 }
 
+@media (max-width: 900px) {
+    .X {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        place-self: center;
+        width: 30px;
+    }
+
+    .search-bar-semana {
+        width: 100%;
+    }
+    .search-bar-semana input[type="text"] {
+        width: 50%;
+    }
+}
+
 
 /* INICIO DA ABA DE CONQUISTA */
 .abaconquistas {
@@ -301,6 +318,9 @@ html {
     align-items: center;
 }
 
+.imgbruno img {
+    border-radius: 1000px;
+}
 
 /* BARRA DE PESQUISA DENTRO DO POP-CONQUISTA */
 .search-bar-conquista {
@@ -338,6 +358,24 @@ html {
     font-size: 30px;
 }
 
+@media (max-width:900px) {
+    .imgbruno{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgbruno img {
+        width: 240px;
+    }
+
+    .search-bar-conquista input[type="text"] {
+        width: 50%;
+    }
+
+    .img2popconquer img{
+        width: 240px;
+    }
+}
 
 /* FINAL DA ABA CONQUISTA */
 .abaajuda {
@@ -474,7 +512,7 @@ html {
     padding: 6px;
     border: none;
     font-size: 14px;
-    width: 200px;
+    width: 180px;
 }
 
 .search-bar-ajuda input[type="submit"] {
