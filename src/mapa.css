@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:ital,wght@0,400;0,500;1,400&family=Tilt+Warp&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: aliceblue;
+}
+    nav {    
+        display: grid;   
+        width: 100%;    
+        grid-template-columns: 1fr 1fr 1fr;
+}
+
+    .navEsquerda {
+        display: flex;
+        flex-direction: row;
+        space-between
+        background-color: antiquewhite;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .navCentro {
+        display: flex;
+        flex-direction: row;
+        background-color: aqua;
+        grid-column: 2;
+        grid-row: 1;
+        justify-content: space-between;
+    }
+    .navDireita {
+        display: flex;
+        flex-direction: row;
+        background-color: aquamarine;
+        grid-column: 3;
+        grid-row: 1;
+        justify-content: end;
+    }
+    nav button {
+        margin: 0px 10px 0px 0px;
+    }
+    .navDireita button {
+        margin: 0px 0px 0px 10px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        background-color: azure;
+    }
+        aside {
+            display: flex;
+            flex-direction: column;
+            grid-column: 1;
+        }
+            aside ul{
+            display: block;
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            }
+                aside ul li{
+                display: inline-block;
+                }
+                    aside ul li a{
+                    color: black;
+                    text-decoration: none;
+                    display: block;
+                    transition: .5s;
+                    }
+                        aside ul li a:hover,
+                        aside ul li a.active{
+                        color: lightgray;
+                        }
+                            aside ul ul{
+                            opacity: 0;
+                            visibility: hidden;
+                            }
+                            aside ul li:hover > ul{
+                            opacity: 1;
+                            visibility: visible;
+                            transition: .3s linear;
+                            }
+                            aside ul ul li{
+                            display: list-item;
+                            margin: 0px 0px 0px 20px;
+                            border-top: none;
+                            color: black;
+                            text-decoration: none;
+
+                            }
+                            aside ul ul li a:hover{
+                                color: lightgray;
+    
+                            }
+                            aside ul ul ul{
+                            border-top: none;
+                            }
+                            aside ul ul ul li{
+                            position: relative;
+
+                            }
+                            aside ul ul li a i{
+
+                            }
+        .mapa {
+
+            position: relative;
+
+            background-color: lightgray;
+            width: 600px;
+            height: 500px;
+        }
+            .mapa iframe {
+                width: 100%;
+                height: 100%;
+            }
