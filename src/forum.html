@@ -51,17 +51,19 @@
             </div>
 
             <div class="blocoesquerda">
-                <p1>Últimos Comentários:</p1>
+             <h1>Últimos Comentários:</h1>
 
                 <div class="comenta1">
                     <div class="img1">
                         <img src="https://user-images.githubusercontent.com/127517961/226222802-3643403b-2d53-4cd0-af17-ce98313f6e93.jpg"
-                            alt="BrunodeCarvalho" srcset="" width="90px">
+                            alt="BrunodeCarvalho" srcset="" width="100px">
                     </div>
 
                     <div class="texto1">
-                        <h2>Bruno de Carvalho</h2>
-                        <span>há 2 horas atrás</span>
+                        <div class="aligntxt1">
+                            <p>Bruno de Carvalho</p>
+                            <span>há 2 horas atrás</span>
+                        </div>
                         <p>Pessoal, quem estiver indo pela avenida das alamedas é bom tomar <br>cuidado! Tem uma cratera
                             gigantesca lá, acabou com meu amortece...</p>
 
@@ -71,159 +73,168 @@
 
                 <div class="comenta2">
                     <div class="texto2">
-                        <h2>Manoel de Oliveira</h2>
+                        <div class="aligntxt2">
+                            <span>há 5 horas atrás</span>
+                            <p>Manoel de Oliveira</p>
+
+                        </div>
                         <p>Hoje gostaria de fazer um convite muito importante! Vamos fazer o dia D <br> da limpeza do
                             bairro. Nós vamos contar com o apoio do máximo...</p>
-                        <span>há 5 horas atrás</span>
+
                     </div>
 
                     <div class="img1">
                         <img src="https://user-images.githubusercontent.com/128436722/241592930-810c4cd2-2a7a-4668-b05e-d779d27d36a1.jpg"
-                            alt="ManoeldeOliveira" srcset="" width="90px">
+                            alt="ManoeldeOliveira" srcset="" width="100px">
                     </div>
                 </div>
 
                 <div class="comenta3">
                     <div class="img3">
                         <img src="https://user-images.githubusercontent.com/128329945/226661055-a731bb9d-e3fb-42c1-8f49-ad70df2a94b5.jpg"
-                            alt="LarissaGontijo" srcset="" width="90px">
+                            alt="LarissaGontijo" srcset="" width="100px">
                     </div>
+                
 
                     <div class="coment3">
-                        <div class="comentlarissa">
-                            <h2>Larissa Gontijo</h2>
-                            <p>Ontem passei por um perrengue danado, estava fazendo minha <br> caminhada matinal, quando
-                                quase fui atropelada na rua, pois não há...</p>
-                        </div>
-                        <span>há 1 dia atrás</span>
-                    </div>
-                </div>
-
-            <div class="butao3">    
-                <button class="btn3" onclick="openPopupcomentarios()">Ver Comentários</button>
-            </div>
-                <div class="popupcomentarios" id="popupcomentarios">
-                    <div class="X">
-                        <img onclick="closePopupcomentarios()" width="35px"
-                            src="https://user-images.githubusercontent.com/102264520/234979041-3fbc1d50-9ea4-4498-96e1-5cb78050895d.png"
-                            alt="">
-                        <title>Barra de Pesquisa</title>
-                    </div>
-    
-                    <div class="search-bar-semana">
-                        <input type="text" id="search-input-semana" placeholder="Localizar">
-                        <input type="submit" value="Pesquisar">
-                    </div>
-
-                    <div class="titulo">
-                        <h1>Sugestões, reivindicações e avisos dos usuários.</h1>
-                    </div>
-
-                    <div class="reparticaocomentario1">
-                        <div class="imagemcoment1">
-                            <img src="https://user-images.githubusercontent.com/127517961/226222802-3643403b-2d53-4cd0-af17-ce98313f6e93.jpg"
-                                alt="" width="100px">
-                        </div>
-                        <div class="textocoment1">
-                            <div class="cabecalhocoment">
-                                <p>Bruno de Carvalho</p>
-                                <span>há 2 horas atrás</span>
-                            </div>
-                            <p>Pessoal, quem estiver indo pela avenida das alamedas é bom tomar cuidado! Tem uma
-                                cratera
-                                gigantesca lá, acabou com meu amortecedor do meu carro. Precisamos ver o que pode
-                                ser
-                                feito para resolver a questão urgente!</p>
-                        </div>
-                    </div>
-
-                    <div class="reparticaocomentario2">
-                        <div class="textocoment2">
-                            <div class="cabecalhocoment">
-                                <p>Manoel de Oliveira</p>
-                                <span>há 5 horas atrás</span>
-                            </div>
-                            <p>Hoje gostaria de fazer um convite muito importante! Vamos fazer o dia D da limpeza do
-                                bairro. Nós vamos contar com o apoio do máximo de pessoas possível. Percebi que
-                                estão
-                                havendo enchentes no bairro e o motivo é a falta de atitudes assim.</p>
-                        </div>
-                        <div class="imagemcoment2">
-                            <img src="https://user-images.githubusercontent.com/128436722/241592930-810c4cd2-2a7a-4668-b05e-d779d27d36a1.jpg"
-                                alt="" width="100px">
-                        </div>
-                    </div>
-
-                    <div class="reparticaocomentario3">
-                        <div class="imagemcoment3">
-                            <img src="https://user-images.githubusercontent.com/112134718/226659525-9214e68c-0e13-4dac-9339-ea81751c110a.png"
-                                alt="" width="100px">
-                        </div>
-                        <div class="textocoment3">
-                            <div class="cabecalhocoment">
-                                <p>Paulo Ricardo</p>
-                                <span>há 15 horas atrás</span>
-                            </div>
-                            <p>Gostaria de sugerir uma vaquinha para comprarmos um filtro de descarga, doaremos ao
-                                seu
-                                Júlio, nosso querido vizinho que possui um caminhão, mas, que está gerando
-                                desconforto
-                                pelo excesso de fumaça, juntos podemos pessoal!!</p>
-                        </div>
-                    </div>
-
-                    <div class="reparticaocomentario4">
-                        <div class="textocoment4">
-                            <div class="cabecalhocoment">
+                        <div class="texto2">
+                            <div class="aligntxt3">
                                 <p>Larissa Gontijo</p>
                                 <span>há 1 dia atrás</span>
                             </div>
-                            <p>Ontem passei por um perrengue danado, estava fazendo minha caminhada matinal,
-                                quando
-                                quase fui atropelada na rua, pois não há uma sinalização descente neste bairro!
-                                Estou indignada como pode?</p>
-                        </div>
-                        
-                        <div class="imagemcoment4">
-                            <img src="https://user-images.githubusercontent.com/128329945/226661055-a731bb9d-e3fb-42c1-8f49-ad70df2a94b5.jpg"
-                                alt="" width="100px">
-                        </div>
-                    </div>
-                        <div class="reparticaocomentario5">
-                            <div class="imagemcoment5">
-                                <img src="https://user-images.githubusercontent.com/102264520/226626615-e1438119-0c53-46ae-a45c-031cf7672a58.jpg"
-                                    alt="" width="100px">
-                            </div>
-                            <div class="textocoment5">
-                                <div class="cabecalhocoment">
-                                    <p>Eliza Mascarenhas</p>
-                                    <span>há 1 dia e meio atrás</span>
-                                </div>
-                                <p>Não sei vocês mas estou muito preocupada com a segurança dos meus filhos
-                                    na
-                                    escola. Depois do que ocorreu semana passada em Blumenau estou tão
-                                    desconfortável. Deveríamos nos juntar e pagar um segurança o que acham?
-                                </p>
-                            </div>
+                            <p>Ontem passei por um perrengue danado, estava fazendo minha <br> caminhada matinal, quando
+                                quase fui atropelada na rua, pois não há...</p>
+                                
                         </div>
                     </div>
                 </div>
-                <!-- SCRIPT PARA ABRIR E FECHAR POPUP -->
-                <script>
-                    function openPopupcomentarios() {
-                        var popup = document.getElementById('popupcomentarios');
-                        const header = document.getElementById('header');
-                        popup.style.display = 'block';
-                        header.style.display = 'none';
-                    }
+            </div>
 
-                    function closePopupcomentarios() {
-                        var popup = document.getElementById('popupcomentarios');
-                        popup.style.display = 'none';
-                        header.style.display = 'flex';
-                    }
+            <div class="butao3">
+                <button class="btn3" onclick="openPopupcomentarios()">Ver Comentários</button>
+            </div>
+            <div class="popupcomentarios" id="popupcomentarios">
+                <div class="X">
+                    <img onclick="closePopupcomentarios()" width="35px"
+                        src="https://user-images.githubusercontent.com/102264520/234979041-3fbc1d50-9ea4-4498-96e1-5cb78050895d.png"
+                        alt="">
+                    <title>Barra de Pesquisa</title>
+                </div>
 
-                </script>
+                <div class="search-bar-semana">
+                    <input type="text" id="search-input-semana" placeholder="Localizar">
+                    <input type="submit" value="Pesquisar">
+                </div>
+
+                <div class="titulo">
+                    <h1>Sugestões, reivindicações e avisos dos usuários.</h1>
+                </div>
+
+                <div class="reparticaocomentario1">
+                    <div class="imagemcoment1">
+                        <img src="https://user-images.githubusercontent.com/127517961/226222802-3643403b-2d53-4cd0-af17-ce98313f6e93.jpg"
+                            alt="" width="100px">
+                    </div>
+                    <div class="textocoment1">
+                        <div class="cabecalhocoment">
+                            <p>Bruno de Carvalho</p>
+                            <span>há 2 horas atrás</span>
+                        </div>
+                        <p>Pessoal, quem estiver indo pela avenida das alamedas é bom tomar cuidado! Tem uma
+                            cratera
+                            gigantesca lá, acabou com meu amortecedor do meu carro. Precisamos ver o que pode
+                            ser
+                            feito para resolver a questão urgente!</p>
+                    </div>
+                </div>
+
+                <div class="reparticaocomentario2">
+                    <div class="textocoment2">
+                        <div class="cabecalhocoment">
+                            <p>Manoel de Oliveira</p>
+                            <span>há 5 horas atrás</span>
+                        </div>
+                        <p>Hoje gostaria de fazer um convite muito importante! Vamos fazer o dia D da limpeza do
+                            bairro. Nós vamos contar com o apoio do máximo de pessoas possível. Percebi que
+                            estão
+                            havendo enchentes no bairro e o motivo é a falta de atitudes assim.</p>
+                    </div>
+                    <div class="imagemcoment2">
+                        <img src="https://user-images.githubusercontent.com/128436722/241592930-810c4cd2-2a7a-4668-b05e-d779d27d36a1.jpg"
+                            alt="" width="100px">
+                    </div>
+                </div>
+
+                <div class="reparticaocomentario3">
+                    <div class="imagemcoment3">
+                        <img src="https://user-images.githubusercontent.com/112134718/226659525-9214e68c-0e13-4dac-9339-ea81751c110a.png"
+                            alt="" width="100px">
+                    </div>
+                    <div class="textocoment3">
+                        <div class="cabecalhocoment">
+                            <p>Paulo Ricardo</p>
+                            <span>há 15 horas atrás</span>
+                        </div>
+                        <p>Gostaria de sugerir uma vaquinha para comprarmos um filtro de descarga, doaremos ao
+                            seu
+                            Júlio, nosso querido vizinho que possui um caminhão, mas, que está gerando
+                            desconforto
+                            pelo excesso de fumaça, juntos podemos pessoal!!</p>
+                    </div>
+                </div>
+
+                <div class="reparticaocomentario4">
+                    <div class="textocoment4">
+                        <div class="cabecalhocoment">
+                            <p>Larissa Gontijo</p>
+                            <span>há 1 dia atrás</span>
+                        </div>
+                        <p>Ontem passei por um perrengue danado, estava fazendo minha caminhada matinal,
+                            quando
+                            quase fui atropelada na rua, pois não há uma sinalização descente neste bairro!
+                            Estou indignada como pode?</p>
+                    </div>
+
+                    <div class="imagemcoment4">
+                        <img src="https://user-images.githubusercontent.com/128329945/226661055-a731bb9d-e3fb-42c1-8f49-ad70df2a94b5.jpg"
+                            alt="" width="100px">
+                    </div>
+                </div>
+                <div class="reparticaocomentario5">
+                    <div class="imagemcoment5">
+                        <img src="https://user-images.githubusercontent.com/102264520/226626615-e1438119-0c53-46ae-a45c-031cf7672a58.jpg"
+                            alt="" width="100px">
+                    </div>
+                    <div class="textocoment5">
+                        <div class="cabecalhocoment">
+                            <p>Eliza Mascarenhas</p>
+                            <span>há 1 dia e meio atrás</span>
+                        </div>
+                        <p>Não sei vocês mas estou muito preocupada com a segurança dos meus filhos
+                            na
+                            escola. Depois do que ocorreu semana passada em Blumenau estou tão
+                            desconfortável. Deveríamos nos juntar e pagar um segurança o que acham?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- SCRIPT PARA ABRIR E FECHAR POPUP -->
+            <script>
+                function openPopupcomentarios() {
+                    var popup = document.getElementById('popupcomentarios');
+                    const header = document.getElementById('header');
+                    popup.style.display = 'block';
+                    header.style.display = 'none';
+                }
+
+                function closePopupcomentarios() {
+                    var popup = document.getElementById('popupcomentarios');
+                    popup.style.display = 'none';
+                    header.style.display = 'flex';
+                }
+
+            </script>
             </div>
         </article>
 
