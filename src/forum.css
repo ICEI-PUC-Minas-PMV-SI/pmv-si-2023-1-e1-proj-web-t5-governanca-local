@@ -129,7 +129,7 @@ article h1 {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    margin-bottom: px;
+    margin-bottom: 5px;
    
 }
 
@@ -310,7 +310,7 @@ article h1 {
     border-radius: 1000px;
     box-shadow: 10px -10px #7efc00;
     transition: .2s;
-    margin right: 0;
+    margin-right: 0;
 }
 
 .comenta1 img:hover,
