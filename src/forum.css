@@ -446,5 +446,23 @@ span {
 
 }
 
+.search-bar-semana input[type="text"] {
+    width: 120px;
+}
+
+.reparticaocomentario1, 
+.reparticaocomentario3,
+.reparticaocomentario5 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.reparticaocomentario2,
+.reparticaocomentario4 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+}
 
 }
