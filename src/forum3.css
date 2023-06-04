@@ -1,0 +1,55 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+form textarea{
+    resize: none;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    justify-content: start;
+}
+
+.textfield input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-top: 10px;
+}
+
+.enviar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.enviar input {
+    width: 10%;
+    border: none;
+    background-color: #7efc00;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 2px;
+    transition: .2s;
+
+}
+
+.enviar input:hover {
+    transform: scale(1.2);
+
+}
