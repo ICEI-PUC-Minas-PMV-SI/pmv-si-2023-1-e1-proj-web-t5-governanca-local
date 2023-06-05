@@ -148,6 +148,18 @@ span a:hover {
     color: black;
 }
 
+.btn-cadastro{
+    border: none;
+    outline: none;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #7efc00;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
 @media (max-width:900px) {
     .main-pg {
         display: flex;
@@ -176,14 +188,14 @@ span a:hover {
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
         overflow-y: hidden;
     }
 
     .botoes p {
         font-size: 9pt;
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 1px;
         width: 100%;
     }
 
@@ -200,6 +212,14 @@ span a:hover {
         width: 100%;
     }
 
+    .modal{
+        overflow-y: hidden;
+    }
+
+    #cadastro h3 {
+        display: none;
+    }
+
 }
 
 ::-webkit-scrollbar {
@@ -214,3 +234,72 @@ span a:hover {
   ::selection{
     background-color: rgba(128, 128, 128, 0.226);
   }
+
+.modal{
+    display: none;
+    height: 90%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#cadastro-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-self: center;
+    height: 80vh;
+}
+
+.form-group{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.form-group input {
+    padding: 4px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: 5px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.modal-footer button {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+    width: 50%;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    background-color: #DAA520;
+    border-radius: 2px;
+    transition: .2s;
+}
+
+.modal-footer button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(0.9);
+}
