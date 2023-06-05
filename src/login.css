@@ -15,7 +15,7 @@ body * {
 }
 
 header {
-    padding: 5px 5px;
+    padding-top: 10px;
     background-color: whitesmoke;
     display: flex;
     justify-content: center;
@@ -88,6 +88,7 @@ header li:hover{
 }
 
 .card-login h2 {
+    overflow-y: hidden;
     text-align: center;
     margin: 20px 0;
 }
