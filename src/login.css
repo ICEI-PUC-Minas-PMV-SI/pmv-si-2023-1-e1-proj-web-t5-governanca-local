@@ -214,10 +214,15 @@ span a:hover {
 
     .modal{
         overflow-y: hidden;
+        
     }
 
     #cadastro h3 {
         display: none;
+    }
+
+    .form-group input {
+        outline: none;
     }
 
 }
