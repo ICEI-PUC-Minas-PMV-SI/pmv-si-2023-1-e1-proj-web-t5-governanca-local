@@ -211,14 +211,15 @@ span a:hover {
     .botoes button {
         width: 100%;
     }
-
-    .modal{
+    
+    #modalcad{
         overflow-y: hidden;
-        
+        height: 83%;
+        width: 82%;
     }
 
     #cadastro h3 {
-        display: none;
+        font-size: 18px;
     }
 
     .form-group input {
@@ -250,7 +251,7 @@ span a:hover {
     background-color: #ffffff;
     border: 1px solid #000000;
     padding: 20px;
-    width: 70%;
+    width: 60%;
     align-items: center;
     justify-content: center;
     z-index: 1000;
