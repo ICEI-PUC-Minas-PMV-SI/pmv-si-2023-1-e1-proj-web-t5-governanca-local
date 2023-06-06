@@ -60,8 +60,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável | Artefato |
 |------|-----------------------------------------|----| ----| --------- |
-|RF-001| A aplicação Web permitirá o usuário se cadastrar | ALTA | Paulo, Pedro | login.html |
-|RF-002| A aplicação Web permitirá o usuário se logar   | ALTA | Paulo, Pedro | login.html | 
+|RF-001| A aplicação Web permitirá o usuário se cadastrar | ALTA | Paulo, Pedro, Lucas | login.html |
+|RF-002| A aplicação Web permitirá o usuário se logar   | ALTA | Paulo, Pedro, Lucas | login.html | 
 |RF-003| A aplicação Web permitirá apenas usuários devidamente cadastrados com acesso ao fórum   | ALTA  | Wesney | forum.html |
 |RF-004| A aplicação Web permitirá o usuário (cadastrado) criar, discutir em tópicos do fórum   | ALTA  | Wesney | forum.html |
 |RF-005| A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa | ALTA  | Victor | mapa.html |
@@ -69,7 +69,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| A aplicação Web contará com páginas estáticas contendo práticas de boas convivências, podendo ser acessada por usuários cadastrados ou não  | ALTA  | Gabriel | praticas.html |
 |RF-008| A aplicação Web terá um landing page   | ALTA  | Gabriel, Lucas, Paulo, Pedro, Victor, Wesney | index.html |
 |RF-009| A aplicação Web conterá uma aba sobre os criadores   | ALTA  |Pedro | index.html |
-|RF-010| A aplicação Web conterá uma área de sugestões para o site  | ALTA  | Wesney | forum.html  |
+|RF-010| A aplicação Web conterá uma área de sugestões para o site  | ALTA  | Wesney, Pedro | forum3.html  |
 |RF-011| A aplicação Web permitirá que o usuário tenha acesso atravéns do fórum a páginas externas para fins de doações, contribuições para a página e busca de empregos   | ALTA  | Wesney | forum.html |
 |RF-012| A aplicação Web contará com uma landing page exclusiva para cadastrados   | ALTA  | Pedro | paginalogada.html |
 
