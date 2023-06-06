@@ -36,7 +36,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-007| A aplicação Web contará com páginas estáticas contendo práticas de boas convivências, podendo ser acessada por usuários cadastrados ou não  | ALTA  | Gabriel | praticas.html |
 |RF-008| A aplicação Web terá um landing page   | ALTA  | Gabriel, Lucas, Paulo, Pedro, Victor, Wesney | index.html |
 |RF-009| A aplicação Web conterá uma aba sobre os criadores   | ALTA  |Pedro | index.html |
-|RF-010| A aplicação Web conterá uma área de sugestões para o site  | ALTA  | Wesney | forum.html  |
+|RF-010| A aplicação Web conterá uma área de sugestões para o site  | ALTA  | Wesney, Pedro | forum3.html  |
 |RF-011| A aplicação Web permitirá que o usuário tenha acesso atravéns do fórum a páginas externas para fins de doações, contribuições para a página e busca de empregos   | ALTA  | Wesney | forum.html |
 |RF-012| A aplicação Web contará com uma landing page exclusiva para cadastrados   | ALTA  | Pedro | paginalogada.html |
 
