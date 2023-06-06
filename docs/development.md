@@ -27,8 +27,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável | Artefato |
 |------|-----------------------------------------|----| ----| --------- |
-|RF-001| A aplicação Web permitirá o usuário se cadastrar | ALTA | Paulo, Pedro | login.html |
-|RF-002| A aplicação Web permitirá o usuário se logar   | ALTA | Paulo, Pedro | login.html | 
+|RF-001| A aplicação Web permitirá o usuário se cadastrar | ALTA | Paulo, Pedro, Lucas | login.html |
+|RF-002| A aplicação Web permitirá o usuário se logar   | ALTA | Paulo, Pedro, Lucas | login.html | 
 |RF-003| A aplicação Web permitirá apenas usuários devidamente cadastrados com acesso ao fórum   | ALTA  | Wesney | forum.html |
 |RF-004| A aplicação Web permitirá o usuário (cadastrado) criar, discutir em tópicos do fórum   | ALTA  | Wesney | forum.html |
 |RF-005| A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa | ALTA  | Victor | mapa.html |
