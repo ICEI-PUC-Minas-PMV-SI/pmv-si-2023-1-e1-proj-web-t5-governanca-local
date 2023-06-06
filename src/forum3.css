@@ -8,6 +8,7 @@ form {
 
 form textarea{
     resize: none;
+    height: auto;
     width: 100%;
     border-radius: 2px;
     border: 1px solid black;
