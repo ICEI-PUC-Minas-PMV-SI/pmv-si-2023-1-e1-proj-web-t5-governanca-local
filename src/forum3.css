@@ -51,5 +51,23 @@ form textarea{
 
 .enviar input:hover {
     transform: scale(1.2);
+}
 
+@media (max-width: 900px) {
+    form {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    form h1 {
+        font-size: 18pt;
+    }
+
+    .textfield {
+        width: 100%;
+    }
+
+    .enviar input {
+        width: 50%;
+    }
 }
