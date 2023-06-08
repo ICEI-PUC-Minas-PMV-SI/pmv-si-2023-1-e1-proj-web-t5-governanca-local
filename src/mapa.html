@@ -15,44 +15,57 @@
 </head>
 <body>
     <header>
-        <nav>
-            <section class="navEsquerda">
-                <button id="home">
-                    <a href="index.html"><img widht="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Home.png"></a>
-                </button>
-                <button id="Fórum">
-                    <a href="forum.html"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pessoas.png"></a>
-                </button>
-            </section>
-            <section class="navCentro">
-                <button id="search">
-                    <a href="#"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Lupa.png"></a>
-                </button>
-                <input type="text" id="mainSearchBar" placeholder="localizar">
-                <button id="filter">
-                    <a href="#"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/icon-filter.png"></a>
-                </button>
-            </section>
-            <section class="navDireita">
-                <button id="configs">
-                    <a href="conta.html"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/icon-configs.png"></a>
-                </button>
-                <button id="login">
-                    <a href="login.html"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Conta.png"></a>
-                </button>
-            </section>
+        <nav class="nav">
+            <div class="esquerda">
+                <ul>
+                    <li><a href="index.html"><img widht="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Home.png"></a></li>
+                </ul>
+            </div>
+            <div class="central">
+                <ul>
+                    <li><a href="forum.html"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pessoas.png"></a></li>
+                    <li><input type="text" id="mainSearchBar" placeholder="localizar"><a href="#"><img width="30" class="search-img" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Lupa.png"></a></li>
+                    <li><a href="#"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/icon-filter.png"></a></li>
+                </ul>
+            </div>
+            <div class="direita">
+                <ul>
+                    <li><a href="conta.html"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/icon-configs.png"></a></li>
+                    <li><a href="login.html"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Conta.png"></a></li>
+                </ul>
+            </div>
         </nav>
+
+        <nav class="mobile-menu">
+            <div class="top">
+                <ul>
+                    <li><a href="index.html"><img widht="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Home.png"></a></li>
+                    <li><a href="conta.html"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/icon-configs.png"></a></li>
+                    <li><a href="login.html"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Conta.png"></a></li>
+                    <li><a href="#"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/icon-filter.png"></a></li>
+                    <li><a href="forum.html"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pessoas.png"></a></li>
+                </ul>
+            </div>
+            <div class="down">
+                <ul>
+                    <li><input type="text" id="mainSearchBarMobile" placeholder="localizar"><a href="#"><img width="40" height="40" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Lupa.png"></a></li>
+                </ul>
+            </div>
+        </nav>
+
+
     </header>
     <main>
         <aside>
             <section class="secNegociosLocais">
+                <br>
                 <ul>
                     <li>
                         <a href="#">
                         <img width="30" height="30" id="icon-localStore" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/icon-localStore.png">
                         Negócios e Eventos locais<br>
                         </a>
-                    
+                        <br>
                 
                     <ul id="negociosLocais2">
                         <li><a href="#"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/icon-localStore.png">
@@ -66,26 +79,28 @@
                     </li>
                     </ul>
                 </ul>
-                    
-
             </section>
+            <br>
+            <br>
             <section class="sessaoPins">
+                <br>
                 <ul>
                     <li>
                         <a href="#"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pin.png">
                         Pin<br></a>
+                        <br>
                         <ul id="sessaoPins">
-                            <li><a href="#"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-plus.png">
+                            <li><a href="#"><img width="20" height="20" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-plus.png">
                                 Adicionar Pin<br></li></a>
-                            <li><a href="#"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-minus.png">
+                            <li><a href="#"><img width="20" height="20" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-minus.png">
                                 Remover Pin<br></li></a>
-                            <li><a href="#"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-heart.png">
+                            <li><a href="#"><img width="20" height="20" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-heart.png">
                                 Favoritados<br></li></a>
-                            <li><a href="#"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-flag.png">
+                            <li><a href="#"><img width="20" height="20" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-flag.png">
                                 Meus Pins<br></li></a>
-                            <li><a href="#"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-alert.png">
+                            <li><a href="#"><img width="20" height="20" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-alert.png">
                                 Alertas<br></li></a>
-                            <li><a href="#"><img width="30" height="30" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-info.png">
+                            <li><a href="#"><img width="20" height="20" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-info.png">
                                 Informativos<br></li></a>
                         </ul>
                     </li>

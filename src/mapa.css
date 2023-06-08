@@ -1,61 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:ital,wght@0,400;0,500;1,400&family=Tilt+Warp&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
 }
 header {
     background-color:#20b2aa;
-    padding: 10px 0;
+    width: 100%;
+    display: flex;
  }
-    nav {    
-        display: grid;   
-        width: 100%;    
-        grid-template-columns: 1fr 1fr 1fr;
+
+.mobile-menu{
+    display: none;
 }
 
-    .navEsquerda {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        grid-column: 1;
-        grid-row: 1;
-        margin-left: 20px;
-    }
-    .navCentro {
-        display: flex;
-        flex-direction: row;
-        grid-column: 2;
-        grid-row: 1;
-        justify-content: space-between;
-    }
-    .navDireita {
-        display: flex;
-        flex-direction: row;
-        grid-column: 3;
-        grid-row: 1;
-        justify-content: end;
-        margin-right: 20px;
-    }
-    nav button {
-        background-color: transparent;
-        border: none;
-        margin: 0px 10px 0px 0px;
-    }
-    
-    nav img {
-        cursor: pointer;
-        transition: .2s;
-    }
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 2px;
+    align-items: center;
 
-    nav img:hover{
-        filter: invert(1);
-        transform: scale(1.1);
-    }
+}
 
-    .navDireita button {
-        cursor: pointer;
-        margin: 0px 0px 0px 10px;
-    }
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 10px;
+}
+
+.esquerda ul {
+    display: flex;
+}
+
+.central ul{
+    display: flex;
+}
+
+.central ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainSearchBar {
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    width: 700px;
+}
+
+.direita ul {
+    display: flex;
+}
+
+
+.search-img {
+    position: relative;
+    z-index: 1000;
+    left: -32px;
+    top: 2px;
+}
+
+.nav ul li img {
+    transition: .2s ease-in-out;
+}
+
+.nav ul li img:hover{
+    filter: invert(1);
+    transform:scale(1.2);
+}
 
     main {
         display: grid;
@@ -137,39 +158,70 @@ header {
             margin-left: 20px;
         }
 
-        @media (max-width: 900px) {
+        @media (max-width: 1005px) {
 
-            header{
+            header {
                 display: flex;
                 flex-direction: column;
             }
 
-            header nav {
-                display: flex;
-                flex-direction: column;
-            }
-
-            main{
-                display: flex;
-                flex-direction: column;
-            }
-
-            aside{
-                margin: 0;
-            }
-
-            .mapa{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin: 0 auto;
-                width: 200px;
-                
-                place-self: center;
-            }
-
-            .sliderPeriodo {
+            .nav{
                 display: none;
             }
 
+            .mobile-menu{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .mobile-menu ul{
+                list-style: none;
+            }
+
+            .top{
+                display: flex;        
+                justify-content: center;
+                align-items: center;
+                place-self: center;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .top ul{
+                display: flex;
+                margin-top: 20px;
+                gap: 30px;
+            }
+
+            .down{
+                display: flex;        
+                justify-content: center;
+                align-items: center;
+                place-self: center;
+                width: 100vw;
+                margin-bottom: 20px;
+            }
+
+            .down ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .down ul li {
+                display: flex;
+                align-items: center;
+            }
+
+            .down ul li img {
+                margin-left: 10px;
+            }
+            #mainSearchBarMobile{
+                display: flex;
+                width: 50vw;
+                padding: 10px;
+            }
         }
