@@ -40,12 +40,14 @@
     </header>
 
 
-    <form action="">
+    <form action="https://api.staticforms.xyz/submit" method="post">
         <h1> Mande uma mensagem para a gente! </h1>
-
+        
+        <input type="hidden" name="accessKey" value="106e7c40-f410-4240-9613-c15027f480cb">
+        
         <div class="textfield">
             <label for="Nome">Nome:</label>
-            <input type="text" name="Nome" id="Nome" placeholder="..." required>
+            <input type="text" name="name" id="Nome" placeholder="..." required>
         </div>
 
         <div class="textfield">
@@ -55,17 +57,18 @@
 
         <div class="textfield">
             <label for="nmr">Telefone:</label>
-            <input type="tel" name="nmr" id="nmr" placeholder="Número s/símbolo">
+            <input type="tel" name="phone" id="nmr" placeholder="Número s/símbolo">
         </div>
 
         <div class="text">
-            <textarea name="textos" id="" cols="60" rows="8" placeholder="..." required maxlength="488"></textarea>
+            <textarea name="message" cols="60" rows="8" placeholder="..." required maxlength="488"></textarea>
         </div>
 
         <div class="enviar">
-            <input type="submit" value="Enviar">
+            <input type="hidden" name="redirectTo" value="https://pmv-si-2023-1-e1-proj-web-t5-governanca-local-jary.vercel.app/forum.html">
+            <input type="submit" value="Enviar"/>
         </div>
-
+        
     </form>
 
     <footer>
