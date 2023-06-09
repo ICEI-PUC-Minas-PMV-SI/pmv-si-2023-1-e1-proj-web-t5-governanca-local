@@ -20,7 +20,7 @@ html {
 
 .praticasdasemana {
     display: flex;
-    padding: 100px 0;
+    padding: 60px 0;
     height: 100vh;
 }
 
@@ -188,7 +188,7 @@ html {
 .abaconquistas {
     display: flex;
     background-color: whitesmoke;
-    height: 105vh;
+    height: 90vh;
 }
 
 #textoconquista {
@@ -381,7 +381,7 @@ html {
 .abaajuda {
     display: flex;
     height: 100vh;
-    padding: 100px 0;
+    padding: 110px 0;
 
 }
 
