@@ -71,10 +71,6 @@ function login(){
 
 }
 
-if (localStorage.getItem('token') == null) {
-    window.location.href = 'login.html'
-}
-
 
 function logout(){
     localStorage.removeItem('token');
