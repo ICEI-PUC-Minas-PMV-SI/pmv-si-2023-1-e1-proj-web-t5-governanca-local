@@ -57,6 +57,10 @@ input {
     width: 50%;
 }
 
+.genero{
+  margin-bottom: 15px;
+}
+
 .submitbtn{
   background-color: #20b3ab;
   border: gray;
