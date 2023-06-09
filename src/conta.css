@@ -45,6 +45,7 @@
 
 label {
     font-weight: 800;
+    display: flex;
 }
 
 form {

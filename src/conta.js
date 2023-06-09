@@ -21,6 +21,6 @@ cep.addEventListener('focusout', async () =>{
     cidade.value = responseCep.localidade;
     estado.value = responseCep.uf;
 
-    span.innerHTML = responseCep.bairro;
+    span.innerHTML = responseCep.bairro + ", " + responseCep.localidade;
 
 })
