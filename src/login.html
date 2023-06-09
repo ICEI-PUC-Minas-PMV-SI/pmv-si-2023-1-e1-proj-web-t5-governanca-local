@@ -29,24 +29,24 @@
         <article class="pg-direita">
             <div class="card-login">
                 <h2>Entre Agora!</h2>
-                <form id="login-form" class="form" method="post">
+                <form id="login-form" class="form">
                     <div class="inputs">
                         <label for="email">E-mail</label>
                         <input type="email" id="loginn" placeholder="Insira seu e-mail"  name="email">
                     </div>
                     <div class="inputs">
                         <label for="senha">Senha</label>
-                        <input type="password" id="senha" placeholder="Insira sua senha">
+                        <input type="password" id="senhaLogin" placeholder="Insira sua senha">
                     </div>
                     <div class="botoes">
                         <p> Não possui conta? <br> <span><button type="button" class="btn-cadastro" onclick="openmodal()"> Criar agora! </button></span> </p>
-                        <input type="button" class="entrar" value="Entrar" onclick="location.href='paginalogada.html'">
+                        <input type="button" class="entrar" value="Entrar" onclick="login()">
                     </div>
                 </form>
             </div>
                     <div class="modal" id="modalcad">
                         <div id="cadastro-box">
-                            <form id="cadastro" method="post">
+                            <form id="cadastro">
                                 <h3 class="text-center text-info">Sinta-se à vontade por aqui! </h3>
                                 <div class="form-group">
                                     <label for="nome" class="text-info">Nome completo:</label>
@@ -66,7 +66,7 @@
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn btn-secondary" onclick="closemodal()">Cancelar</button>
-                                  <button type="submit" id="btn_salvar" class="salvar" onclick="salvaLogin()">Salvar</button>
+                                  <button type="submit" id="btn_salvar" class="salvar" onclick="cadastrar()"> Cadastrar </button>
                                 </div>
                             </form>
                         </div>
@@ -127,6 +127,7 @@
         // document.getElementById ('btn_salvar').addEventListener ('click', salvaLogin);        
     </script> -->
 
+    <script src="login.js"></script>
  <script>
 
     function openmodal(){
