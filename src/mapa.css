@@ -161,7 +161,7 @@ header {
 
 #map {
     width: 100%;
-    height: 90vh;
+    height: 80vh;
 }
 
 
@@ -231,4 +231,12 @@ header {
                 width: 50vw;
                 padding: 10px;
             }
+
+            #map {
+                width: 100%;
+                height: 70vh;
+            }
+
+
+
         }
