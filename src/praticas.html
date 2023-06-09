@@ -79,7 +79,7 @@
                 <!-- ADICIONAR O SCRIPT DO BOTÃO DE PESQUISA -->
                 <div class="search-bar-semana">
                     <input type="text" id="search-input-semana" placeholder="Localizar...">
-                    <input type="submit" value="Pesquisar">
+                    <input type="submit" value="Pesquisar" onclick="pesquisar()">
                 </div>
 
                 <div class="img1popsemana">
@@ -87,9 +87,9 @@
                         alt=" IMAGEM ILUSTRATIVA POPUPSEMANA">
                 </div>
 
-                <h2> A Importância das práticas de boa convivência </h2>
+                <h2 id=""> A Importância das práticas de boa convivência </h2>
 
-                <p>As práticas de boa convivência desempenham um papel fundamental na construção de uma comunidade
+                <p id="texto">As práticas de boa convivência desempenham um papel fundamental na construção de uma comunidade
                     harmoniosa e na coesão social de uma sociedade. A maneira como nos relacionamos e interagimos
                     com os outros reflete diretamente no ambiente em que vivemos, afetando tanto o bem-estar
                     individual como o coletivo. Portanto, é imperativo reconhecer a importância dessas práticas e
@@ -107,42 +107,42 @@
                         alt=" IMAGEM ILUSTRATIVA POPUPSEMANA2">
                 </div>
 
-                <H3> Práticas fundamentais para boa convivência </H3>
+                <h3 id="p2"> Práticas fundamentais para boa convivência </h3>
 
-                <p> 1-<b>Respeito mútuo</b>: Respeitar as diferenças de opinião, crenças, culturas e estilos de vida dos
+                <p id="p2"> 1-<b>Respeito mútuo</b>: Respeitar as diferenças de opinião, crenças, culturas e estilos de vida dos
                     outros membros da comunidade.</p>
 
-                <p> 2-<b>Comunicação efetiva</b>: Estabelecer canais abertos e honestos de comunicação, permitindo que
+                <p id="p2"> 2-<b>Comunicação efetiva</b>: Estabelecer canais abertos e honestos de comunicação, permitindo que
                     as
                     pessoas expressem suas preocupações, ideias e sugestões de forma clara e respeitosa.</p>
 
-                <p> 3-<b>Empatia</b>: Ser capaz de se colocar no lugar dos outros e compreender suas perspectivas e
+                <p id="p2"> 3-<b>Empatia</b>: Ser capaz de se colocar no lugar dos outros e compreender suas perspectivas e
                     sentimentos. Isso ajuda a promover a compreensão e a cooperação entre os membros da comunidade.
                 </p>
 
-                <p> 4-<b>Colaboração</b>: Trabalhar juntos em projetos e iniciativas comunitárias, compartilhando
+                <p id="p3"> 4-<b>Colaboração</b>: Trabalhar juntos em projetos e iniciativas comunitárias, compartilhando
                     recursos
                     e
                     habilidades para benefício mútuo.</p>
 
-                <p> 5-<b>Solidariedade</b>: Apoiar uns aos outros em tempos de necessidade, oferecendo ajuda prática,
+                <p id="p3"> 5-<b>Solidariedade</b>: Apoiar uns aos outros em tempos de necessidade, oferecendo ajuda prática,
                     conselhos ou simplesmente demonstrando compaixão e apoio emocional.</p>
 
-                <p> 6-<b>Resolução pacífica de conflitos</b>: Buscar soluções negociadas e pacíficas para os conflitos
+                <p id="p2"> 6-<b>Resolução pacífica de conflitos</b>: Buscar soluções negociadas e pacíficas para os conflitos
                     que
                     possam surgir, evitando confrontos e comportamentos agressivos.</p>
 
-                <p> 7-<b>Responsabilidade pessoal</b>: Assumir a responsabilidade por suas ações e comportamentos,
+                <p id="p2"> 7-<b>Responsabilidade pessoal</b>: Assumir a responsabilidade por suas ações e comportamentos,
                     reconhecendo o impacto que eles podem ter na comunidade como um todo.</p>
 
-                <p> 8-<b>Participação ativa</b>: Contribuir de forma ativa e regular para os assuntos e atividades da
+                <p id="p2"> 8-<b>Participação ativa</b>: Contribuir de forma ativa e regular para os assuntos e atividades da
                     comunidade, comparecendo a reuniões, dando feedback e compartilhando ideias.</p>
 
-                <p> 9-<b>Preservação do ambiente</b>: Cuidar do meio ambiente local, evitando o desperdício, promovendo
+                <p id="p2"> 9-<b>Preservação do ambiente</b>: Cuidar do meio ambiente local, evitando o desperdício, promovendo
                     a
                     reciclagem e adotando práticas sustentáveis.</p>
 
-                <p> 10-<b>Respeito pelas regras</b>: Seguir as normas e regulamentos estabelecidos pela comunidade,
+                <p id="p2"> 10-<b>Respeito pelas regras</b>: Seguir as normas e regulamentos estabelecidos pela comunidade,
                     incluindo
                     leis locais, para garantir a segurança e a harmonia de todos os membros.</p>
                 </p>
@@ -163,7 +163,23 @@
                     popup.style.display = 'none';
                     header.style.display = 'flex';
                 }
+
+                
+                function pesquisar(){
+                    const p = document.getElementById('texto');
+                    let input = document.getElementById('search-input-semana').value;
+
+                    if (input !== "") {
+                        let regExp = new RegExp(input, "gi");
+                        p.innerHTML = (p.textContent).replaceAll(regExp, "<mark>$&</mark>");
+                    }
+
+                }
+
+
             </script>
+
+
         </section>
 
 
@@ -191,9 +207,9 @@
                     <title>Barra de Pesquisa</title>
 
                     <!-- ADICIONAR O SCRIPT DO BOTÃO DE PESQUISA -->
-                    <div class="search-bar-conquista">
+                    <div class="search-bar-conquista" >
                         <input type="text" id="search-input-conquista" placeholder="...">
-                        <input type="submit" value="Pesquisar">
+                        <input type="submit" value="Pesquisar" onclick="pesquisar2()">
                     </div>
 
                     <div class="img1popconquer">
@@ -204,7 +220,7 @@
                     <h3> Momentos da comunidade </h3>
 
                     <div class="elisa">
-                        <h4>Feira Cultural Noturna</h4>
+                        <h4 id="texto22">Feira Cultural Noturna</h4>
 
                         <div class="img2popconquer">
                             <img width="400px"
@@ -212,7 +228,7 @@
                                 alt="">
                         </div>
 
-                        <p>A feira cultural noturna em nossa comunidade é um evento encantador que une e celebra a
+                        <p  id="texto23">A feira cultural noturna em nossa comunidade é um evento encantador que une e celebra a
                             diversidade e a riqueza de nossa cultura local. À medida que o sol se põe e as luzes
                             brilham, nossas ruas ganham vida, transformando-se em um ponto de encontro vibrante e
                             acolhedor.</p>
@@ -267,6 +283,17 @@
                         header.style.display = 'flex';
                     }
 
+                function pesquisar2(){
+                    const p = document.getElementById('texto23');
+                    let input = document.getElementById('search-input-conquista').value;
+
+                    if (input !== "") {
+                        let regExp = new RegExp(input, "gi");
+                        p.innerHTML = (p.textContent).replaceAll(regExp, "<mark>$&</mark>");
+                    }
+
+                }
+
                 </script>
             </aside>
 
@@ -300,7 +327,7 @@
                     <!-- ADICIONAR O SCRIPT DO BOTÃO DE PESQUISA -->
                     <div class="search-bar-ajuda">
                         <input type="text" id="search-input-ajuda" placeholder="...">
-                        <input type="submit" value="Pesquisar" onclick="searchAndNavigate()">
+                        <input type="submit" value="Pesquisar" onclick="pesquisar()">
                     </div>
 
                     <div class="img1popajuda">
@@ -311,12 +338,11 @@
                     <div class="textopopajuda">
                     <H2> Participe e colabore com sua comunidade </H2>
 
-                    <p>Viver em uma comunidade vai além de simplesmente ocupar um espaço físico. É estar conectado com
+                    <p id="texto3">Viver em uma comunidade vai além de simplesmente ocupar um espaço físico. É estar conectado com
                         as pessoas ao seu redor, compartilhar experiências e se envolver ativamente no ambiente em que
                         se vive. Uma maneira essencial de fortalecer esse vínculo é por meio da informação e
-                        participação ativa na comunidade.</p>
-
-                    <p>Além de se informar, a participação ativa na comunidade é um ingrediente chave para o seu
+                        participação ativa na comunidade.<br> <br>
+                        Além de se informar, a participação ativa na comunidade é um ingrediente chave para o seu
                         desenvolvimento saudável. Envolvendo-se em grupos, associações ou comitês locais, os moradores
                         têm a oportunidade de compartilhar suas ideias, opiniões e habilidades. O engajamento pode
                         ocorrer em diversas áreas, como educação, meio ambiente, cultura, esportes, saúde e assistência
@@ -325,17 +351,6 @@
                         esforço.</p>
 
                     </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
                 </div>
@@ -356,6 +371,18 @@
                         popup.style.display = 'none';
                         header.style.display = 'flex';
                     }
+
+                    function pesquisar(){
+                    const p = document.getElementById('texto3');
+                    let input = document.getElementById('search-input-ajuda').value;
+
+                    if (input !== "") {
+                        let regExp = new RegExp(input, "gi");
+                        p.innerHTML = (p.textContent).replaceAll(regExp, "<mark>$&</mark>");
+                    }
+
+                }
+
 
                 </script>
 
