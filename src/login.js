@@ -46,30 +46,40 @@ function login(){
 
     listaUser = JSON.parse(localStorage.getItem('listaUser'))
 
-    listaUser.forEach((item) => {
-        if(loginn.value == item.userCad && senhaLogin.value == item.senhaCad){
-            userValid = {
-                nome: item.nomeCad,
-                user: item.userCad,
-                senha: item.senhaCad
-            }
-        }
-
-    })
-
-    if (loginn.value == userValid.user && senhaLogin.value == userValid.senha) {
-        window.location.href = 'paginalogada.html'
-
-        let token = Math.random().toString(32).substring(2);
-        localStorage.setItem('token', token);
-
-        localStorage.setItem('userlogado', JSON.stringify(userValid));
-
+    if (loginn.value == "" || senhaLogin == "") {
+        alert("Você precisa preencher os campos!");
     } else {
-        alert("Usuário ou senha incorretos.")
+        listaUser.forEach((item) => {
+            if(loginn.value == item.userCad && senhaLogin.value == item.senhaCad){
+                userValid = {
+                    nome: item.nomeCad,
+                    user: item.userCad,
+                    senha: item.senhaCad
+                }
+            }
+    
+        })
+    
+        if(loginn.value == userValid.user && senhaLogin.value == userValid.senha) {
+            window.location.href = 'paginalogada.html'
+    
+            let token = Math.random().toString(32).substring(2);
+            localStorage.setItem('token', token);
+    
+            localStorage.setItem('userlogado', JSON.stringify(userValid));
+            console.log(token);
+    
+        } else {
+            alert("Usuário ou senha incorretos.");
+        }
     }
-
 }
+
+
+
+    
+
+
 
 
 function logout(){
