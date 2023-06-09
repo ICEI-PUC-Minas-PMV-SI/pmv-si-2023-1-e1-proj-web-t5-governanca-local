@@ -86,14 +86,18 @@ input {
 
 .submitbtn{
   background-color: #20b3ab;
+  cursor: pointer;
   border: gray;
+  display: flex;
+  place-self: center;
+  justify-content: center;
   width: 20%;
   padding: 5px;
-  cursor: pointer;
-  border-radius: 3px;
-  font-family: 'Poppins';
-  font-weight: 700;
+  margin: 0;
   margin-top: 8px;
+  font-weight: 700;
+  font-family: 'Poppins';
+  border-radius: 3px;
   transition: .2s;
 }
 
