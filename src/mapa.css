@@ -251,6 +251,7 @@ header {
                     background-color: #ffffff;
                     border: 1px solid #000000;
                     padding: 18px;
+                    border-radius: 2px;
                     width: 70%;
                     align-items: center;
                     justify-content: center;
