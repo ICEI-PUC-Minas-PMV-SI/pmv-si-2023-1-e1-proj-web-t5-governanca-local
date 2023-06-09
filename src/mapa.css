@@ -15,6 +15,10 @@ header {
     display: flex;
  }
 
+ #aviso-mobile {
+    display: none;
+ }
+
 .mobile-menu{
     display: none;
 }
@@ -165,7 +169,7 @@ header {
 }
 
 
-        @media (max-width: 1005px) {
+        @media (max-width: 800px) {
 
             header {
                 display: flex;
@@ -237,6 +241,36 @@ header {
                 height: 70vh;
             }
 
+            #aviso-mobile{
+                    display: block;
+                    height: 80%;
+                    position: fixed;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: #ffffff;
+                    border: 1px solid #000000;
+                    padding: 18px;
+                    width: 70%;
+                    align-items: center;
+                    justify-content: center;
+                    overflow-y: scroll;
+                    z-index: 10000;
+                    text-align: center;
+            }
 
+            #aviso-mobile p {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                place-self: center;
+                align-items: center;
+            }
+
+            .X3{
+                display: flex;
+                justify-content: end;
+                margin-bottom: 5px;
+            }
 
         }
