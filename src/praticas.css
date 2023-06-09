@@ -579,7 +579,16 @@ html {
         margin: 0 auto;
     }
 
+    #textoconquista h2 {
+        width: 100%;
+        font-size: 31pt;
+        margin: 40px 0;
+    }
    
+    #textoconquista p {
+        margin: 0 5px;
+    }
+
     .imagemconquista {
         display: flex;
         place-self: center;
@@ -623,6 +632,39 @@ html {
     }
 }
 
+#btnsubir{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    display: flex;
+  }
+  
+  #btnsubir button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  #btnsubir button img {
+    transition: .1s;
+  }
+  
+  #btnsubir button img:hover{
+    border-radius: 1000px;
+    border: 3px solid black;
+    transform: scale(1.2);
+  }
+  
+  @media (max-width: 900px) {
+    #btnsubir img {
+      width: 35px;
+    }
+  }
+
+
+
+  
 ::selection {
     background-color: #FAC710;
 }
