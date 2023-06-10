@@ -142,8 +142,13 @@ function closePopup(){
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.js"></script>
+
 <script>
     var map = L.map('map').setView([51.505, -0.09], 13);
+    var editableLayers = new L.FeatureGroup();
+    map.addLayer(editableLayers);
 
     googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
         maxZoom: 20,
@@ -173,5 +178,29 @@ function closePopup(){
         you.bindPopup("Você está aqui!").openPopup();
     }
 
+
+    var drawnFeatures = new L.featureGroup();
+    map.addLayer(drawnFeatures);
+
+    var drawControl = new L.Control.Draw({
+        position: "topright",
+        edit: {
+            featureGroup: drawnFeatures,
+            remove: false
+        }
+    });
+
+    map.addControl(drawControl);
+
+    
+    //Estudar e para localstorage
+        map.on("draw:created", function(e){
+            var type = e.layerType;
+            var layer = e.layer;
+            drawnFeatures.addLayer(layer);
+        });
+
+        
+    
 
 </script>
