@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:ital,wght@0,400;0,500;1,400&family=Tilt+Warp&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    background-color: #20b3ab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    width: 50%;
+    text-align: center;
+    box-shadow: -20px 20px black;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.texto {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto p {
+    font-size: 3vh;
+}
+
+span {
+    color: gray;
+    font-size: 20pt;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 30%;
+}
+
+.btns input {
+    width: 50%;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    transition: .2s ease-out;
+}
+
+.btns input:hover {
+    background-color: #20b3ab;
+    color: black;
+}
+
+@media (max-width: 900px) {
+
+    .card {
+        height: auto;
+        width: 80%;
+        box-shadow: -7px 7px black;
+    }
+
+    .texto {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto p {
+        font-size: 15pt;
+    }
+    
+    span {
+        font-size: 15pt;
+    }
+    
+    .btns {
+        height: auto;
+    }
+
+    .btns input {
+        width: 90%;
+    }
+
+}
