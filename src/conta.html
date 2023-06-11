@@ -52,11 +52,11 @@
             <h2>Sobre Você</h2>
             <div class="icones">
                 <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a0682cbcf31678aa61f3f7246cb85e4b7055cd7e/src/src/Icons/feminino.png"
-                    alt="Ícone Feminino" width="300px">
+                    alt="Ícone Feminino" id="fem" width="300px">
                 <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a0682cbcf31678aa61f3f7246cb85e4b7055cd7e/src/src/Icons/masculino.png"
-                    alt="Ícone Masculino" width="300px">
+                    alt="Ícone Masculino" id="mas" width="300px">
                 <img src="https://user-images.githubusercontent.com/127517961/243020729-226d7d9f-68f6-4cf5-90fd-da38fd910b5a.png"
-                    alt="Ícone Outros">
+                    alt="Ícone Outros" id="outros">
             </div>
             </div>
             <div class="localidade">
@@ -70,8 +70,7 @@
             <div class="primeirasecao">
                 <form class="genero">
                     <label for="sexo">Sexo: <strong>*</strong> </label>
-                    <select name="sexo" id="#" required>
-                        <option value="">Selecione seu sexo</option>
+                    <select name="sexo" id="sexo" required>
                         <option value="feminino">Feminino</option>
                         <option value="masculino">Masculino</option>
                         <option value="outro">Outro</option>
@@ -102,47 +101,19 @@
                     <input type="text" id="cep" onkeypress="$(this).mask('00000-000')">
                     <small>Formato: 00000-000</small><br>
                     <label for="rua">Rua: *</label>
-                    <input type="text" id="rua" name="rua" required><br>
+                    <input type="text" id="rua" name="rua" readonly required><br>
                     <label for="nrua">Numero: *</label>
                     <input type="number" id="nrua" name="nrua" required><br>
                     <label for="bairro">Bairro: *</label>
-                    <input type="text" id="bairro" name="bairro" required><br>
+                    <input type="text" id="bairro" name="bairro" readonly required><br>
                     <label for="cidade">Cidade: *</label>
-                    <input type="text" id="cidade" name="cidade" required><br>
+                    <input type="text" id="cidade" name="cidade" readonly required><br>
                     <label for="estado">Estado: *</label>
-                    <select id="estado" name="estado">
-                        <option value="acre">Acre - AC</option>
-                        <option value="alagoas">Alagoas - AL</option>
-                        <option value="amapa">Amapá - AP</option>
-                        <option value="amazonas">Amazonas - AM</option>
-                        <option value="bahia">Bahia - BA</option>
-                        <option value="ceara">Ceará - CE</option>
-                        <option value="distritofederal">Distrito Federal - DF</option>
-                        <option value="espiritosanto">Espírito Santo - ES</option>
-                        <option value="goias">Goiás - GO</option>
-                        <option value="maranhao">Maranhão - MA</option>
-                        <option value="matogrosso">Mato Grosso - MT</option>
-                        <option value="matogrossodosul">Mato Grosso do Sul - MS</option>
-                        <option value="minasgerais">Minas Gerais - MG</option>
-                        <option value="para">Pará - PA</option>
-                        <option value="paraiba">Paraíba - PB</option>
-                        <option value="parana">Paraná - PR</option>
-                        <option value="pernambuco">Pernambuco - PE</option>
-                        <option value="piaui">Piauí - PI</option>
-                        <option value="roraima">Roraima - RR</option>
-                        <option value="rondonia">Rondônia - RO</option>
-                        <option value="riodejaneiro">Rio de Janeiro - RJ</option>
-                        <option value="riograndedonorte">Rio Grande do Norte - RN</option>
-                        <option value="riograndedosul">Rio Grande do Sul - RS</option>
-                        <option value="santacatarina">Santa Catarina - SC</option>
-                        <option value="saopaulo">São Paulo - SP</option>
-                        <option value="sergipe">Sergipe - SE</option>
-                        <option value="tocantins">Tocantins - TO</option>
-                    </select>
+                    <input type="text" id="estado" name="estado" readonly required><br>
             </div>
 
             <input type="submit" value="Salvar" class="submitbtn">
-            </form>
+        </form>
         </article>
     </main>
 
@@ -171,6 +142,32 @@
             localStorage.removeItem('token');
             window.location.href = 'index.html'
         }
+
+        let sexo = document.getElementById('sexo');
+        let fem = document.getElementById('fem');
+        let mas = document.getElementById('mas');
+        let outros = document.getElementById('outros');
+
+
+        sexo.addEventListener("mouseout", ()=>{
+            
+            if (sexo.value == "feminino"){
+                fem.style.display = 'block';
+                mas.style.display = 'none';
+                outros.style.display = 'none';
+                
+            } else if (sexo.value == "masculino") {
+                mas.style.display = 'block';
+                outros.style.display = 'none';
+                fem.style.display = 'none';
+
+            } else if (sexo.value == 'outro') {
+                outros.style.display = 'block';
+                fem.style.display = 'none';
+                mas.style.display = 'none';
+            }
+        })
+
 
     </script>
 

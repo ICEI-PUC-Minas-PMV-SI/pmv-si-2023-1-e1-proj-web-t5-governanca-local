@@ -1,51 +1,51 @@
-
-
-.gridline1{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr;
-    width: 100%;
-    background-color: #f5f5f5;
-    padding: 30px 0;
-  }
+.gridline1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 30px 0;
+}
 
 .gridline1 h2 {
-    text-align: center;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row: 1;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
 }
-  .icones {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      grid-column: 1;
-      margin-bottom: 50px;
-    }
-    .icones img {
-      width: 30%;
-      display: flex;
-    }
 
-  .localidade{
-      display: grid;
-      width: 100%;
-      grid-column: 2;
-      align-items: center;
-      justify-content: center;
-      place-self: center;
-      align-self: center;
-    }
-  
-      #bairroflex {
-      text-align: center;
-      font-size: 30pt;
-      font-weight: 800;
-    }
+.icones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1;
+  margin-bottom: 50px;
+}
+
+.icones img {
+  width: 30%;
+  display: flex;
+}
+
+.localidade {
+  display: grid;
+  width: 100%;
+  grid-column: 2;
+  align-items: center;
+  justify-content: center;
+  place-self: center;
+  align-self: center;
+}
+
+#bairroflex {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: 800;
+}
 
 label {
-    font-weight: 800;
-    display: flex;
+  font-weight: 800;
+  display: flex;
 }
 
 form {
@@ -58,15 +58,15 @@ form {
 }
 
 input {
-    outline: none;
-    padding: 2px;
-    border: none;
-    border-bottom: 1px solid black;
-    margin-bottom: 5px;
-    width: 50%;
+  outline: none;
+  padding: 2px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+  width: 50%;
 }
 
-.genero{
+.genero {
   margin-bottom: 15px;
   display: flex;
   flex-direction: column;
@@ -85,7 +85,7 @@ input {
   width: 100%;
 }
 
-.submitbtn{
+.submitbtn {
   background-color: #20b3ab;
   cursor: pointer;
   border: gray;
@@ -102,111 +102,134 @@ input {
   transition: .2s;
 }
 
-.submitbtn:hover{
+.submitbtn:hover {
   background-color: #fac710;
 }
 
-.sobre{
+.sobre {
   display: block;
   text-align: center;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
+
 .formulario {
   background-color: white;
   display: grid;
   grid-template-columns: 50% 50%;
   margin: 40px;
 }
+
+.primeirasecao {
+  grid-column: 1;
+  background-color: white;
+}
+
+.segundasecao {
+  grid-column: 2;
+  background-color: white;
+}
+
+select {
+  background-color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  width: 50%;
+  margin-bottom: 15px;
+  border-radius: 2px;
+  padding: 3px;
+  font-weight: 800;
+
+}
+
+
+@media (max-width: 900px) {
+  .gridline1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    background-color: #f5f5f5;
+  }
+
+  .gridline1 h2 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .icones {
+    display: flex;
+    grid-row: 2;
+    align-items: center;
+    grid-column: 1;
+    align-content: center;
+  }
+
+  .icones img {
+    width: 30%;
+    display: flex;
+    grid-column: 1;
+    align-items: center;
+    align-content: center;
+  }
+
+  #descricao {
+    grid-row: 2;
+  }
+
+  .localidade {
+    display: flex;
+    width: 100%;
+    grid-row: 3;
+    grid-column: 1;
+
+  }
+
+  #bairroflex {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  #bairroflex h1 {
+    text-align: center;
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .formulario {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 100%;
+    align-items: center;
+    margin: 20px;
+    grid-column: 1;
+
+  }
+
   .primeirasecao {
     grid-column: 1;
     background-color: white;
+    align-items: center;
   }
+
   .segundasecao {
-    grid-column: 2;
-    background-color:white;
+    grid-column: 1;
+    background-color: white;
+    align-items: center;
   }
-  @media (max-width: 900px) {
-    .gridline1 {
-      display: grid;
-      grid-template-columns: 100%;
-      grid-template-rows: 1fr 1fr 1fr;
-      width: 100%;
-      background-color: #f5f5f5;
-    }
 
-    .gridline1 h2 {
-        grid-row: 1;
-        grid-column: 1;
-    }
-      .icones {
-        display: flex;
-        grid-row: 2;
-        align-items: center;
-        grid-column: 1;
-        align-content: center;
-      }
-      .icones img {
-        width: 30%;
-        display: flex;
-        grid-column: 1;
-        align-items: center;
-        align-content: center;
-      }
-    #descricao{
-      grid-row: 2;
-      }
+  label {
+    font-weight: 800;
+  }
 
-    .localidade{
-        display: flex;
-        width: 100%;
-        grid-row: 3;
-        grid-column: 1;
-
-      }
-    
-      #bairroflex{
-        grid-row: 3;
-        grid-column: 1;
-      }
-        #bairroflex h1 {
-        text-align: center;
-        grid-row: 3;
-        grid-column: 1;
-      }
-    .formulario {
-      background-color: white;
-      display: flex;
-      flex-direction: column;
-      grid-template-columns: 100%;
-      align-items: center;
-      margin: 20px;
-      grid-column: 1;
-      
-    }
-      .primeirasecao {
-        grid-column: 1;
-        background-color:white;
-        align-items: center;
-      }
-      .segundasecao {
-        grid-column: 1;
-        background-color:white;
-        align-items: center;
-      }
-
-      label {
-        font-weight: 800;
-    }
-    
-    input {
-        outline: none;
-        padding: 2px;
-        border: none;
-        border-bottom: 1px solid black;
-        margin-bottom: 5px;
-        width: 100%;
-    }
-    }
-  
+  input {
+    outline: none;
+    padding: 2px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+}
