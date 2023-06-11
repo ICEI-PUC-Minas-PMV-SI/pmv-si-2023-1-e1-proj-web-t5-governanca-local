@@ -232,4 +232,8 @@ select {
     margin-bottom: 5px;
     width: 100%;
   }
+
+  select {
+    width: 100%;
+  }
 }
