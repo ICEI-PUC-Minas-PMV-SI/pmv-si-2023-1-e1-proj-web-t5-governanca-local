@@ -236,4 +236,9 @@ select {
   select {
     width: 100%;
   }
+
+   #bairroflex {
+    font-size: 7vw;
+    margin: 0 auto;
+  }
 }
