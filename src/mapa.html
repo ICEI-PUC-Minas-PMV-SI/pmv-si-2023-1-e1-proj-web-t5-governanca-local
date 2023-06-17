@@ -192,15 +192,33 @@ function closePopup(){
 
     map.addControl(drawControl);
 
-    
-    //Estudar e para localstorage
-        map.on("draw:created", function(e){
-            var type = e.layerType;
-            var layer = e.layer;
+    // map.on("draw:created", function(e){
+    //     var type = e.layerType;
+    //     var layer = e.layer;
+    //     drawnFeatures.addLayer(layer);
+    // });
+
+    map.on("draw:created", function(e) {
+    var type = e.layerType;
+    var layer = e.layer;
+    drawnFeatures.addLayer(layer);
+
+    // Obtém todos os marcadores desenhados
+    var drawnMarkers = drawnFeatures.toGeoJSON();
+
+    // Salva a lista de marcadores no localStorage
+    localStorage.setItem("drawnMarkers", JSON.stringify(drawnMarkers));
+});
+
+var savedMarkers = localStorage.getItem("drawnMarkers");
+if (savedMarkers) {
+    savedMarkers = JSON.parse(savedMarkers);
+
+    // Converte os marcadores GeoJSON em camadas do Leaflet e adiciona ao mapa
+    L.geoJSON(savedMarkers, {
+        onEachFeature: function(feature, layer) {
             drawnFeatures.addLayer(layer);
-        });
-
-    // Adicionar Pins Caracterizados
-    
-
+        }
+    });
+}
 </script>
