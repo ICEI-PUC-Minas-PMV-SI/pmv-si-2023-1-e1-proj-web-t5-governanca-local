@@ -143,6 +143,29 @@ select {
 
 }
 
+.confirm {
+  display: none;
+  height: auto;
+  text-align: center;
+  font-size: 8pt;
+  position: fixed;
+  left: 50%;
+  top: 85%;
+  color: green;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: 5px;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+  z-index: 1000;
+}
+
+.X img {
+  cursor: pointer;
+}
 
 @media (max-width: 900px) {
   .gridline1 {

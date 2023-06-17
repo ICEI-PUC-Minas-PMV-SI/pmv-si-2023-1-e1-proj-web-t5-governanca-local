@@ -10,6 +10,7 @@ const dtnascimento = document.getElementById('dtnascimento');
 const cpf = document.getElementById('cpf');
 const complemento = document.getElementById('complemento');
 const nrua = document.getElementById('nrua');
+const sexo2 = document.getElementById('sexo').value;
 
 cep.addEventListener('focusout', async () =>{
 
@@ -47,23 +48,48 @@ function salvarDados(){
             rua: rua.value,
             bairro: bairro.value,
             cidade: cidade.value,
-            estado: estado.value
+            estado: estado.value,
+            complemento: complemento.value,
+            numero: nrua.value,
+            sexo: sexo2.value
           });
           
-          localStorage.setItem('dadosUser', JSON.stringify(dadosUser));
+          localStorage.setItem('dadosUser', JSON.stringify(dadosUser));   
+          
+            let bloco = document.getElementById('bloco')
+            bloco.style.display = "block";
+}
 }
 
-if (localStorage.getItem('dadosUser')) {
-    var dadosSalvos = JSON.parse(localStorage.getItem('dadosUser'));
-    
-    var nomeSalvo = dadosSalvos[0].firstNome;
-    var sobrenomeSalvo = dadosSalvos[0].secName;
-    var ruaSalva = dadosSalvos[0].rua;
-    
-    document.getElementById('pnome').value = nomeSalvo;
-    document.getElementById('snome').value = sobrenomeSalvo;
-    document.getElementById('rua').value = ruaSalva;
-  }
-
-
+function closePopup(){
+    bloco.style.display = "none"
 }
+
+var dadosSalvos = JSON.parse(localStorage.getItem('dadosUser'));
+var firstNomeSalvo = dadosSalvos[0].firstNome;
+var snomeNomeSalvo = dadosSalvos[0].secName;
+var dtNascSalvo = dadosSalvos[0].dtNasc;
+var CPFSalvo = dadosSalvos[0].cpf;
+var cepSalvo = dadosSalvos[0].cep;
+var ruaSalvo = dadosSalvos[0].rua;
+var bairroSalvo = dadosSalvos[0].bairro;
+var cidadeSalvo = dadosSalvos[0].cidade;
+var estadoSalvo = dadosSalvos[0].estado;
+var complementoSalvo = dadosSalvos[0].complemento;
+var numeroSalvo = dadosSalvos[0].numero;
+var sexoSalvo = dadosSalvos[0].sexo;
+
+console.log(sexoSalvo);
+
+pnome.value = firstNomeSalvo;
+snome.value = snomeNomeSalvo
+dtnascimento.value = dtNascSalvo;
+cpf.value = CPFSalvo;
+cep.value = cepSalvo;
+rua.value = ruaSalvo;
+bairro.value = bairroSalvo;
+cidade.value = cidadeSalvo;
+estado.value = estadoSalvo;
+complemento.value = complementoSalvo;
+nrua.value = numeroSalvo;
+
