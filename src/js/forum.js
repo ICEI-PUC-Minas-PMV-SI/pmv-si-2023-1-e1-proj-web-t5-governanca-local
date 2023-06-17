@@ -12,6 +12,7 @@ if (textarea.value == "") {
     });
     
     localStorage.setItem('comentarioUser', JSON.stringify(comentarioUser));   
+    location.reload()
     
 }
 }
@@ -23,8 +24,8 @@ var mensagem2 = mensagemSalva[1].mensagem;
 
 let campo = document.getElementById('coment');
 let pessoa = document.getElementById('pessoa');
-campo.innerHTML = mensagem;
 pessoa.innerHTML = userlogado.nome;
+campo.innerHTML = mensagem;
 
 // Fazer i++ dos comentários
 
