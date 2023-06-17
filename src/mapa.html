@@ -123,6 +123,159 @@
         </div>
     </footer>
 
+    <script>
+
+    </script>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.js"></script>
+
+    <script>
+        var map = L.map('map').setView([51.505, -0.09], 13);
+        var editableLayers = new L.FeatureGroup();
+        map.addLayer(editableLayers);
+    
+        googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+            maxZoom: 20,
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+        }).addTo(map);
+    
+        if (!navigator.geolocation) {
+            alert("Seu navegador não suporta o mapa.");
+        } else {
+            navigator.geolocation.getCurrentPosition(getPosition);
+        }
+    
+        function getPosition(position) {
+            console.log(position);
+            var lat = position.coords.latitude;
+            var long = position.coords.longitude;
+            var accuracy = position.coords.accuracy;
+    
+            var customIcon = L.icon({
+                iconUrl: "https://user-images.githubusercontent.com/127517961/234951279-05563307-fd89-4605-afa7-48e678a3de7a.png",  // Substitua pela URL da imagem personalizada
+                iconSize: [32, 32],  // Substitua pelo tamanho do ícone desejado
+                iconAnchor: [16, 32],  // Substitua pela âncora do ícone desejado
+                popupAnchor: [0, -32],  // Substitua pela âncora do popup desejado
+            });
+    
+            var you = L.marker([lat, long], { icon: customIcon });
+            var circle = L.circle([lat, long], { radius: accuracy });
+    
+            var featureGroup = L.featureGroup([you, circle]).addTo(map);
+    
+            map.fitBounds(featureGroup.getBounds());
+            console.log(lat, long, accuracy);
+    
+            you.bindPopup("Você está aqui!").openPopup();
+        }
+    
+        var drawnFeatures = new L.featureGroup();
+        map.addLayer(drawnFeatures);
+    
+        var drawControl = new L.Control.Draw({
+            position: "topright",
+            edit: {
+                featureGroup: drawnFeatures,
+                remove: true
+            },
+            draw: {
+                marker: {
+                    // Configuração para marcadores
+                    icon: L.icon({
+                        iconUrl: localStorage.getItem("iconUrl") || 'https://user-images.githubusercontent.com/127517961/246614766-957a73f3-93c4-4a65-9a88-9670b8044c9f.png',  // Substitua pelo caminho para o ícone do marcador desejado
+                        iconSize: [32, 32],  // Substitua pelo tamanho do ícone do marcador desejado
+                        iconAnchor: [16, 32],  // Substitua pela âncora do ícone do marcador desejado
+                        popupAnchor: [0, -32],  // Substitua pela âncora do popup do marcador desejado
+                    })
+                },
+                polyline: {
+                    color: "red",
+                    weight: 2
+                },
+                polygon: {
+                    color: "blue",
+                    fillColor: "lightblue",
+                    fillOpacity: 0.4,
+                    weight: 2
+                },
+                // Outras opções de estilo para as geometrias desejadas...
+            }
+        });
+    
+        map.addControl(drawControl);
+    
+        map.on("draw:created", function(e) {
+            var type = e.layerType;
+            var layer = e.layer;
+            drawnFeatures.addLayer(layer);
+    
+            // Obtém todos os marcadores desenhados
+            var drawnMarkers = drawnFeatures.toGeoJSON();
+    
+            // Salva a lista de marcadores no localStorage
+            localStorage.setItem("drawnMarkers", JSON.stringify(drawnMarkers));
+        });
+    
+        map.on("draw:deleted", function(e) {
+            var deletedLayers = e.layers;
+    
+            deletedLayers.eachLayer(function(layer) {
+                drawnFeatures.removeLayer(layer);
+            });
+    
+            // Obtém os marcadores restantes do grupo de features
+            var remainingMarkers = drawnFeatures.toGeoJSON();
+    
+            // Atualiza o localStorage com os marcadores restantes
+            localStorage.setItem("drawnMarkers", JSON.stringify(remainingMarkers));
+        });
+    
+        map.on("draw:edited", function(e) {
+    var editedLayers = e.layers;
+
+    editedLayers.eachLayer(function(layer) {
+        // Atualiza o marcador editado no grupo de features
+        drawnFeatures.addLayer(layer);
+
+        // Obtém todos os marcadores desenhados após a edição
+        var updatedMarkers = drawnFeatures.toGeoJSON();
+
+        // Atualiza o localStorage com os marcadores atualizados
+        localStorage.setItem("drawnMarkers", JSON.stringify(updatedMarkers));
+    });
+});
+
+        var savedMarkers = localStorage.getItem("drawnMarkers");
+        if (savedMarkers) {
+            savedMarkers = JSON.parse(savedMarkers);
+    
+            // Converte os marcadores GeoJSON em camadas do Leaflet
+            var loadedLayers = L.geoJSON(savedMarkers);
+    
+            // Adiciona as camadas ao grupo de features e ao mapa
+            loadedLayers.eachLayer(function(layer) {
+                drawnFeatures.addLayer(layer);
+                map.addLayer(layer);
+    
+                // Adiciona o bindPopup nos marcadores carregados
+                if (layer instanceof L.Marker) {
+                    layer.bindPopup("Isto é um buraco");
+                }
+            });
+        }
+    </script>
+    
+    
+    
+    
+    
+    
+    
+
 
 </body>
 
@@ -139,95 +292,3 @@ function closePopup(){
 </script>
 
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.js"></script>
-
-    <script>
-        var map = L.map('map').setView([51.505, -0.09], 13);
-        var editableLayers = new L.FeatureGroup();
-        map.addLayer(editableLayers);
-
-        googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
-            maxZoom: 20,
-            subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
-        }).addTo(map);
-
-        if (!navigator.geolocation) {
-            alert("Seu browser não suporta o Mapa")
-        } else {
-            navigator.geolocation.getCurrentPosition(getPosition);
-        }
-
-        function getPosition(position) {
-            console.log(position);
-            var lat = position.coords.latitude;
-            var long = position.coords.longitude;
-            var accuracy = position.coords.accuracy;
-
-            var you = L.marker([lat, long])
-            var circle = L.circle([lat, long], { radius: accuracy })
-
-            var featureGroup = L.featureGroup([you, circle]).addTo(map);
-
-            map.fitBounds(featureGroup.getBounds());
-            console.log(lat, long, accuracy);
-
-            you.bindPopup("Você está aqui!").openPopup();
-        }
-
-        var drawnFeatures = new L.featureGroup();
-        map.addLayer(drawnFeatures);
-
-        var drawControl = new L.Control.Draw({
-            position: "topright",
-            edit: {
-                featureGroup: drawnFeatures,
-                remove: true
-            }
-        });
-
-        map.addControl(drawControl);
-
-        map.on("draw:created", function(e) {
-            var type = e.layerType;
-            var layer = e.layer;
-            drawnFeatures.addLayer(layer);
-
-            // Obtém todos os marcadores desenhados
-            var drawnMarkers = drawnFeatures.toGeoJSON();
-
-            // Salva a lista de marcadores no localStorage
-            localStorage.setItem("drawnMarkers", JSON.stringify(drawnMarkers));
-        });
-
-        map.on("draw:deleted", function(e) {
-            var deletedLayers = e.layers;
-
-            deletedLayers.eachLayer(function(layer) {
-                drawnFeatures.removeLayer(layer);
-            });
-
-            // Obtém os marcadores restantes do grupo de features
-            var remainingMarkers = drawnFeatures.toGeoJSON();
-
-            // Atualiza o localStorage com os marcadores restantes
-            localStorage.setItem("drawnMarkers", JSON.stringify(remainingMarkers));
-        });
-
-        var savedMarkers = localStorage.getItem("drawnMarkers");
-        if (savedMarkers) {
-            savedMarkers = JSON.parse(savedMarkers);
-
-            // Converte os marcadores GeoJSON em camadas do Leaflet
-            var loadedLayers = L.geoJSON(savedMarkers);
-
-            // Adiciona as camadas ao grupo de features e ao mapa
-            loadedLayers.eachLayer(function(layer) {
-                drawnFeatures.addLayer(layer);
-                map.addLayer(layer);
-            });
-        }
-    </script>
