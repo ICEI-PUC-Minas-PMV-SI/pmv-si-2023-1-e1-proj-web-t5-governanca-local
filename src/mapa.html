@@ -145,80 +145,89 @@ function closePopup(){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.js"></script>
 
-<script>
-    var map = L.map('map').setView([51.505, -0.09], 13);
-    var editableLayers = new L.FeatureGroup();
-    map.addLayer(editableLayers);
+    <script>
+        var map = L.map('map').setView([51.505, -0.09], 13);
+        var editableLayers = new L.FeatureGroup();
+        map.addLayer(editableLayers);
 
-    googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
-        maxZoom: 20,
-        subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
-    }).addTo(map);
+        googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+            maxZoom: 20,
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+        }).addTo(map);
 
-    if (!navigator.geolocation) {
-        alert("Seu browser não suporta o Mapa")
-    } else {
-        navigator.geolocation.getCurrentPosition(getPosition);
-    }
-
-    function getPosition(position) {
-        console.log(position);
-        var lat = position.coords.latitude;
-        var long = position.coords.longitude;
-        var accuracy = position.coords.accuracy;
-
-        var you = L.marker([lat, long])
-        var circle = L.circle([lat, long], { radius: accuracy })
-
-        var featureGroup = L.featureGroup([you, circle]).addTo(map);
-
-        map.fitBounds(featureGroup.getBounds());
-        console.log(lat, long, accuracy);
-
-        you.bindPopup("Você está aqui!").openPopup();
-    }
-
-
-    var drawnFeatures = new L.featureGroup();
-    map.addLayer(drawnFeatures);
-
-    var drawControl = new L.Control.Draw({
-        position: "topright",
-        edit: {
-            featureGroup: drawnFeatures,
-            remove: true
+        if (!navigator.geolocation) {
+            alert("Seu browser não suporta o Mapa")
+        } else {
+            navigator.geolocation.getCurrentPosition(getPosition);
         }
-    });
 
-    map.addControl(drawControl);
+        function getPosition(position) {
+            console.log(position);
+            var lat = position.coords.latitude;
+            var long = position.coords.longitude;
+            var accuracy = position.coords.accuracy;
 
-    // map.on("draw:created", function(e){
-    //     var type = e.layerType;
-    //     var layer = e.layer;
-    //     drawnFeatures.addLayer(layer);
-    // });
+            var you = L.marker([lat, long])
+            var circle = L.circle([lat, long], { radius: accuracy })
 
-    map.on("draw:created", function(e) {
-    var type = e.layerType;
-    var layer = e.layer;
-    drawnFeatures.addLayer(layer);
+            var featureGroup = L.featureGroup([you, circle]).addTo(map);
 
-    // Obtém todos os marcadores desenhados
-    var drawnMarkers = drawnFeatures.toGeoJSON();
+            map.fitBounds(featureGroup.getBounds());
+            console.log(lat, long, accuracy);
 
-    // Salva a lista de marcadores no localStorage
-    localStorage.setItem("drawnMarkers", JSON.stringify(drawnMarkers));
-});
+            you.bindPopup("Você está aqui!").openPopup();
+        }
 
-var savedMarkers = localStorage.getItem("drawnMarkers");
-if (savedMarkers) {
-    savedMarkers = JSON.parse(savedMarkers);
+        var drawnFeatures = new L.featureGroup();
+        map.addLayer(drawnFeatures);
 
-    // Converte os marcadores GeoJSON em camadas do Leaflet e adiciona ao mapa
-    L.geoJSON(savedMarkers, {
-        onEachFeature: function(feature, layer) {
+        var drawControl = new L.Control.Draw({
+            position: "topright",
+            edit: {
+                featureGroup: drawnFeatures,
+                remove: true
+            }
+        });
+
+        map.addControl(drawControl);
+
+        map.on("draw:created", function(e) {
+            var type = e.layerType;
+            var layer = e.layer;
             drawnFeatures.addLayer(layer);
+
+            // Obtém todos os marcadores desenhados
+            var drawnMarkers = drawnFeatures.toGeoJSON();
+
+            // Salva a lista de marcadores no localStorage
+            localStorage.setItem("drawnMarkers", JSON.stringify(drawnMarkers));
+        });
+
+        map.on("draw:deleted", function(e) {
+            var deletedLayers = e.layers;
+
+            deletedLayers.eachLayer(function(layer) {
+                drawnFeatures.removeLayer(layer);
+            });
+
+            // Obtém os marcadores restantes do grupo de features
+            var remainingMarkers = drawnFeatures.toGeoJSON();
+
+            // Atualiza o localStorage com os marcadores restantes
+            localStorage.setItem("drawnMarkers", JSON.stringify(remainingMarkers));
+        });
+
+        var savedMarkers = localStorage.getItem("drawnMarkers");
+        if (savedMarkers) {
+            savedMarkers = JSON.parse(savedMarkers);
+
+            // Converte os marcadores GeoJSON em camadas do Leaflet
+            var loadedLayers = L.geoJSON(savedMarkers);
+
+            // Adiciona as camadas ao grupo de features e ao mapa
+            loadedLayers.eachLayer(function(layer) {
+                drawnFeatures.addLayer(layer);
+                map.addLayer(layer);
+            });
         }
-    });
-}
-</script>
+    </script>
