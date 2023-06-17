@@ -47,7 +47,7 @@
             <h1>Deixe aqui suas sugestões, reivindicações e avisos!</h1>
             <textarea name="Comentários" id="sendcoment" cols="80" rows="4" placeholder="Digite Aqui..."></textarea>
             <div class="btn2">
-                <input type="button" value="Enviar comentário">
+                <input type="button" value="Enviar comentário" onclick="enviarComentario()">
             </div>
 
             <div class="blocoesquerda">
@@ -217,6 +217,18 @@
                         </p>
                     </div>
                 </div>
+                <div class="textocoment6" id="textocoment6">
+                    <div class="cabecalhocomenta">
+                        <p id="pessoa"></p>
+                        <span id="coment"></span>
+                    </div>
+                </div>
+                <div id="textocoment7">
+                    <p id="pessoa"></p>
+                    <span id="comentario2"></span>
+                </div>
+                <div id="textocoment8"></div>
+                <div id="textocoment9"></div>
             </div>
             </div>
             <!-- SCRIPT PARA ABRIR E FECHAR POPUP -->
@@ -225,13 +237,11 @@
                     var popup = document.getElementById('popupcomentarios');
                     const header = document.getElementById('header');
                     popup.style.display = 'block';
-                    header.style.display = 'none';
                 }
 
                 function closePopupcomentarios() {
                     var popup = document.getElementById('popupcomentarios');
                     popup.style.display = 'none';
-                    header.style.display = 'flex';
                 }
 
             </script>
@@ -311,6 +321,8 @@
             </a>
         </div>
     </footer>
+
+    <script src="./js/forum.js"></script>
 </body>
 
 </html>
