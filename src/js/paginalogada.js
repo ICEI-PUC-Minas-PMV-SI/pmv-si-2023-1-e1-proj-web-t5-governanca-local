@@ -6,4 +6,4 @@ if (localStorage.getItem('token') == null) {
 }
 
 let textologado = document.getElementById('textologado');
-textologado.innerHTML = 'Seja bem vindo, ' + userlogado.nome;
+textologado.innerHTML = 'Seja bem-vindo(a), ' + userlogado.nome;
