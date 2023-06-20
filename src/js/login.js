@@ -63,6 +63,7 @@ function login(){
         if(loginn.value == userValid.user && senhaLogin.value == userValid.senha) {
             window.location.href = './paginalogada.html'
     
+            // Criação de Token
             let token = Math.random().toString(32).substring(2);
             localStorage.setItem('token', token);
     

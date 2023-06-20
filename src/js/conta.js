@@ -1,3 +1,4 @@
+// Variáveis dos inputs
 const cep = document.getElementById('cep');
 const rua = document.getElementById('rua');
 const bairro = document.getElementById('bairro');
@@ -12,6 +13,8 @@ const complemento = document.getElementById('complemento');
 const nrua = document.getElementById('nrua');
 const sexo2 = document.getElementById('sexo').value;
 
+
+// API que absorve os dados
 cep.addEventListener('focusout', async () =>{
 
     const response = await fetch(`https://viacep.com.br/ws/${cep.value}/json/`)
@@ -32,6 +35,7 @@ cep.addEventListener('focusout', async () =>{
 
 })
 
+// LocalStorage dos dados
 function salvarDados(){
     let dadosUser = JSON.parse(localStorage.getItem('dadosUser') || '[]')
 
@@ -65,6 +69,7 @@ function closePopup(){
     bloco.style.display = "none"
 }
 
+// LocalStorage dos dados
 var dadosSalvos = JSON.parse(localStorage.getItem('dadosUser'));
 var firstNomeSalvo = dadosSalvos[0].firstNome;
 var snomeNomeSalvo = dadosSalvos[0].secName;
@@ -79,7 +84,7 @@ var complementoSalvo = dadosSalvos[0].complemento;
 var numeroSalvo = dadosSalvos[0].numero;
 var sexoSalvo = dadosSalvos[0].sexo;
 
-console.log(sexoSalvo);
+
 
 pnome.value = firstNomeSalvo;
 snome.value = snomeNomeSalvo
