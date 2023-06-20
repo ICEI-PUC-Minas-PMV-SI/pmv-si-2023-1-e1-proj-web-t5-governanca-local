@@ -1,0 +1,41 @@
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-marker {
+    background-image: none; /* Remover o marcador padrão */
+    position: relative;
+    padding: 0;
+}
+
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-marker:before {
+    content: "";
+    display: inline-block;
+    background-image: url('https://user-images.githubusercontent.com/127517961/246614766-957a73f3-93c4-4a65-9a88-9670b8044c9f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px; 
+    height: 20px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-circlemarker {
+    background-image: none; /* Remover o marcador padrão */
+    position: relative;
+    padding: 0;
+}
+
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-circlemarker:before {
+    content: "";
+    display: inline-block;
+    background-image: url('https://user-images.githubusercontent.com/127517961/246980633-50704f5c-62a9-4044-b750-b9c4a76e8527.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px; 
+    height: 20px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
