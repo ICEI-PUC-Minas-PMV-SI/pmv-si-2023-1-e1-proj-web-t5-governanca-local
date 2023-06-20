@@ -11,8 +11,8 @@
     <link rel="shortcut icon"
         href="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png"
         type="image/x-icon">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
 </head>
 
 <body>
@@ -123,59 +123,62 @@
         </div>
     </footer>
 
-    <script>
 
-    </script>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.js"></script>
+<!-- Scripts de funcionamento do Mapa -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
 
     <script>
+        // Adiciona o mapa + variáveis de edição
         var map = L.map('map').setView([51.505, -0.09], 13);
         var editableLayers = new L.FeatureGroup();
         map.addLayer(editableLayers);
-    
-        googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+
+        // Utiliza o visual do Google Maps
+        var googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
             maxZoom: 20,
             subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
         }).addTo(map);
-    
+
+        // Se o navegador suportar a API de Mapa, executar o else
         if (!navigator.geolocation) {
             alert("Seu navegador não suporta o mapa.");
         } else {
             navigator.geolocation.getCurrentPosition(getPosition);
         }
-    
+
+        // Puxar localização do usuário
         function getPosition(position) {
             console.log(position);
             var lat = position.coords.latitude;
             var long = position.coords.longitude;
             var accuracy = position.coords.accuracy;
-    
+
             var customIcon = L.icon({
                 iconUrl: "https://user-images.githubusercontent.com/127517961/234951279-05563307-fd89-4605-afa7-48e678a3de7a.png",  // Substitua pela URL da imagem personalizada
                 iconSize: [32, 32],  // Substitua pelo tamanho do ícone desejado
                 iconAnchor: [16, 32],  // Substitua pela âncora do ícone desejado
                 popupAnchor: [0, -32],  // Substitua pela âncora do popup desejado
             });
-    
+
             var you = L.marker([lat, long], { icon: customIcon });
             var circle = L.circle([lat, long], { radius: accuracy });
-    
+
             var featureGroup = L.featureGroup([you, circle]).addTo(map);
-    
+
+            // Responsável por dar zoom na localização do Usuário
             map.fitBounds(featureGroup.getBounds());
             console.log(lat, long, accuracy);
-    
+
             you.bindPopup("Você está aqui!").openPopup();
         }
-    
+
+        // Adiciona menu de edição
         var drawnFeatures = new L.featureGroup();
         map.addLayer(drawnFeatures);
-    
+
+        // Configuração menu de edição do toolbar
         var drawControl = new L.Control.Draw({
             position: "topright",
             edit: {
@@ -184,83 +187,82 @@
             },
             draw: {
                 marker: {
-                    // Configuração para marcadores
+                    // Configuração para marcador PIN
                     icon: L.icon({
                         iconUrl: localStorage.getItem("iconUrl") || 'https://user-images.githubusercontent.com/127517961/246614766-957a73f3-93c4-4a65-9a88-9670b8044c9f.png',  // Substitua pelo caminho para o ícone do marcador desejado
-                        iconSize: [32, 32],  // Substitua pelo tamanho do ícone do marcador desejado
-                        iconAnchor: [16, 32],  // Substitua pela âncora do ícone do marcador desejado
-                        popupAnchor: [0, -32],  // Substitua pela âncora do popup do marcador desejado
+                        iconSize: [32, 32],
+                        iconAnchor: [16, 32],
+                        popupAnchor: [0, -32],
                     })
                 },
                 polyline: {
                     color: "red",
                     weight: 2
                 },
-                polygon: {
-                    color: "blue",
-                    fillColor: "lightblue",
-                    fillOpacity: 0.4,
-                    weight: 2
-                },
-                // Outras opções de estilo para as geometrias desejadas...
+                polygon: false,
+                circle: false
             }
         });
-    
+
+        // Adiciona ao controle do Mapa
         map.addControl(drawControl);
-    
+
+        // O que fazer com os elementos criados
         map.on("draw:created", function(e) {
             var type = e.layerType;
             var layer = e.layer;
             drawnFeatures.addLayer(layer);
-    
+
             // Obtém todos os marcadores desenhados
             var drawnMarkers = drawnFeatures.toGeoJSON();
-    
+
             // Salva a lista de marcadores no localStorage
             localStorage.setItem("drawnMarkers", JSON.stringify(drawnMarkers));
         });
-    
+
+        // O que fazer com os elementos deletados
         map.on("draw:deleted", function(e) {
             var deletedLayers = e.layers;
-    
+
             deletedLayers.eachLayer(function(layer) {
                 drawnFeatures.removeLayer(layer);
             });
-    
+
             // Obtém os marcadores restantes do grupo de features
             var remainingMarkers = drawnFeatures.toGeoJSON();
-    
+
             // Atualiza o localStorage com os marcadores restantes
             localStorage.setItem("drawnMarkers", JSON.stringify(remainingMarkers));
         });
-    
+
+        // O que fazer com os elementos editados
         map.on("draw:edited", function(e) {
-    var editedLayers = e.layers;
+            var editedLayers = e.layers;
 
-    editedLayers.eachLayer(function(layer) {
-        // Atualiza o marcador editado no grupo de features
-        drawnFeatures.addLayer(layer);
+            editedLayers.eachLayer(function(layer) {
+                // Atualiza o marcador editado no grupo de features
+                drawnFeatures.addLayer(layer);
+            });
 
-        // Obtém todos os marcadores desenhados após a edição
-        var updatedMarkers = drawnFeatures.toGeoJSON();
+            // Obtém todos os marcadores desenhados após a edição
+            var updatedMarkers = drawnFeatures.toGeoJSON();
 
-        // Atualiza o localStorage com os marcadores atualizados
-        localStorage.setItem("drawnMarkers", JSON.stringify(updatedMarkers));
-    });
-});
+            // Atualiza o localStorage com os marcadores atualizados
+            localStorage.setItem("drawnMarkers", JSON.stringify(updatedMarkers));
+        });
 
         var savedMarkers = localStorage.getItem("drawnMarkers");
         if (savedMarkers) {
             savedMarkers = JSON.parse(savedMarkers);
-    
+
             // Converte os marcadores GeoJSON em camadas do Leaflet
             var loadedLayers = L.geoJSON(savedMarkers);
-    
+
             // Adiciona as camadas ao grupo de features e ao mapa
             loadedLayers.eachLayer(function(layer) {
                 drawnFeatures.addLayer(layer);
                 map.addLayer(layer);
-    
+
                 // Adiciona o bindPopup nos marcadores carregados
                 if (layer instanceof L.Marker) {
                     layer.bindPopup("Isto é um buraco");
@@ -269,13 +271,6 @@
         }
     </script>
     
-    
-    
-    
-    
-    
-    
-
 
 </body>
 
@@ -283,6 +278,8 @@
 
 <script>
 
+
+// Pop-Up Mobile
 function closePopup(){
     const popup = document.getElementById('aviso-mobile');
 
