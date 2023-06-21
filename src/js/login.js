@@ -1,18 +1,19 @@
 // DEFINIÇÃO DAS VARIÁVEIS DO CADASTRO
 
-
 let nome = document.getElementById('txt_nome');
 let email = document.getElementById('txt_email');
 let senha = document.getElementById('txt_senha');
 let senha2 = document.getElementById('txt_senha2');
+let btnSalvar = document.getElementById('btnSalvar');
 
 // CADASTRO DO USUÁRIO
 
-function cadastrar (){
+function cadastrar(){
 
-    if (senha.value == senha2.value) {
-        let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
-        
+    if  (nome.value == "" || email.value == "" || senha.value == "" || senha2.value == "") {
+        alert("Certifique-se que todos os campos foram devidamente preenchidos.");
+    } else if (senha.value == senha2.value) {
+        let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')    
     listaUser.push (
         {
             nomeCad: nome.value,
@@ -22,13 +23,24 @@ function cadastrar (){
     )
 
         localStorage.setItem('listaUser', JSON.stringify(listaUser))
-
-    } else {
+        location.reload();
+    }
+     else {
         alert("As senhas não se conferem");
     }
 
 }
 
+
+senha2.addEventListener('keyup', () => {
+
+    if (senha2.value != senha.value) {
+        senha2.setAttribute('style', 'outline-color: red');
+    } else {
+        senha2.setAttribute('style', 'outline-color: green');
+    }
+
+})
 
 // LOGIN DO USUÁRIO
 
