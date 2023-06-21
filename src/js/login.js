@@ -5,24 +5,29 @@ let email = document.getElementById('txt_email');
 let senha = document.getElementById('txt_senha');
 let senha2 = document.getElementById('txt_senha2');
 let btnSalvar = document.getElementById('btnSalvar');
-
+let msg = document.getElementById('msgcadastro');
 // CADASTRO DO USUÁRIO
 
 function cadastrar(){
-
+    
     if  (nome.value == "" || email.value == "" || senha.value == "" || senha2.value == "") {
         alert("Certifique-se que todos os campos foram devidamente preenchidos.");
     } else if (senha.value == senha2.value) {
         let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')    
-    listaUser.push (
-        {
-            nomeCad: nome.value,
-            userCad: email.value,
-            senhaCad: senha.value
-        }
-    )
+        listaUser.push (
+            {
+                nomeCad: nome.value,
+                userCad: email.value,
+                senhaCad: senha.value
+            }
+            )
+            
+            localStorage.setItem('listaUser', JSON.stringify(listaUser));
+            
+            // Mensagem de cadastro com sucesso
+            msg.setAttribute('style', 'background-color: #7efc00');
+            msg.innerHTML = "<strong> Cadastrado com sucesso! </strong>"
 
-        localStorage.setItem('listaUser', JSON.stringify(listaUser));
 
         // Delay de 1s após efetuar cadastro
         setTimeout(() => {

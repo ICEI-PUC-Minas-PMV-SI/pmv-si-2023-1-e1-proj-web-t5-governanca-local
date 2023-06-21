@@ -310,3 +310,8 @@ span a:hover {
 ::selection {
     background-color: rgba(128, 128, 128, 0.226);
 }
+
+#msgcadastro{
+    text-align: center;
+    color: white;
+}
