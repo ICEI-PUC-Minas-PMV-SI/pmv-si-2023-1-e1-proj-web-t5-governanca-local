@@ -22,8 +22,13 @@ function cadastrar(){
         }
     )
 
-        localStorage.setItem('listaUser', JSON.stringify(listaUser))
-        location.reload();
+        localStorage.setItem('listaUser', JSON.stringify(listaUser));
+
+        // Delay de 1s após efetuar cadastro
+        setTimeout(() => {
+            location.reload();
+          }, 1000);
+   
     }
      else {
         alert("As senhas não se conferem");
@@ -32,6 +37,7 @@ function cadastrar(){
 }
 
 
+// Verificador automático do confirmar senha
 senha2.addEventListener('keyup', () => {
 
     if (senha2.value != senha.value) {
@@ -40,7 +46,7 @@ senha2.addEventListener('keyup', () => {
         senha2.setAttribute('style', 'outline-color: green');
     }
 
-})
+});
 
 // LOGIN DO USUÁRIO
 
