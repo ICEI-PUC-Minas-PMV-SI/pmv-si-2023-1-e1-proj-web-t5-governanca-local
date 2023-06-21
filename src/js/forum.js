@@ -1,4 +1,11 @@
 let textarea = document.getElementById('sendcoment');
+let spn = document.getElementById('spn');
+
+var dadosSalvos = JSON.parse(localStorage.getItem('dadosUser'));
+var bairroSalvo = dadosSalvos[0].bairro;
+
+spn.setAttribute('style', 'font-style: normal')
+spn.innerHTML = bairroSalvo;
 
 
 function enviarComentario(){

@@ -474,4 +474,26 @@ span {
     margin-bottom: 10px;
 }
 
+#spn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+}
+
+#spn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style:oblique;
+    margin: auto;
+    font-weight: 700;
+    font-size: 20pt;
+
+}
+
+::selection {
+    background-color: #fac710;
 }
