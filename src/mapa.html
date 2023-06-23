@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Governança Local</title>
-    <link rel="stylesheet" href="./css/mapa.css">
-    <link rel="stylesheet" href="./css/footerglobal.css">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Mapa | Governança Local</title>
     <link rel="shortcut icon"
-        href="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png"
-        type="image/x-icon">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
-        <link rel="stylesheet" href="./css/draw.css">
+    href="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png"
+    type="image/x-icon">
+    <link rel="stylesheet" href="./css/draw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <link href="https://unpkg.com/@maptiler/geocoding-control@0.0.92/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+    <link rel="stylesheet" href="./css/footerglobal.css">
+    <link rel="stylesheet" href="./css/mapa.css">
+
 </head>
 
 <body>
@@ -81,8 +81,6 @@
                 </ul>
             </div>
         </nav>
-
-
     </header>
     <main>
 
@@ -94,198 +92,174 @@
             </div>
             <div class="aviso">
                 <h1>Ops... só um aviso!</h1>
-                <p>Me parece que você está na versão Mobile, e por isso, caso o seu navegador não tenha avisado, é preciso ligar o GPS do seu aparelho! <br>
+                <p>Me parece que você está na versão Mobile, e por isso, caso o seu navegador não tenha avisado, é
+                    preciso ligar o GPS do seu aparelho! <br>
                     <strong>Caso já esteja, atualize a página e feche esse pop-up.</strong>
                 </p>
             </div>
-            
-        </div>
-
-        <div id="map"></div>
-
-    </main>
-
-    <footer>
-        <img width="100" class="footer-logo-gov-local"
-            src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png"
-            alt="logo do projeto governança local">
-        <h1>© Governança Local </h1>
-        <div class="imagensfooter">
-            <a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local"> <img
-                    width="100" class="footer-logo-github"
-                    src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-github.png"
-                    alt="GitHub">
-            </a>
-
-            <a href="https://www.pucminas.br/main/Paginas/default.aspx"><img width="100" class="footer-logo-pucminas"
-                    src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-pucminas.png"
-                    alt="logo da PUC-Minas">
-            </a>
-        </div>
-    </footer>
+            </div>
+            <div id="map">
+            </div>
 
 
+        <footer>
+            <img width="100" class="footer-logo-gov-local"
+                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png"
+                alt="logo do projeto governança local">
+            <h1>© Governança Local </h1>
+            <div class="imagensfooter">
+                <a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local"> <img
+                        width="100" class="footer-logo-github"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-github.png"
+                        alt="GitHub">
+                </a>
 
-<!-- Scripts de funcionamento do Mapa -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+                <a href="https://www.pucminas.br/main/Paginas/default.aspx"><img width="100"
+                        class="footer-logo-pucminas"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-pucminas.png"
+                        alt="logo da PUC-Minas">
+                </a>
+            </div>
+        </footer>
 
-<script>
-    // Adiciona o mapa + variáveis de edição
-    var map = L.map('map').setView([51.505, -0.09], 13);
-    var editableLayers = new L.FeatureGroup();
-    map.addLayer(editableLayers);
 
-    // Utiliza o visual do Google Maps
-    var googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.8.0/leaflet.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+        <script src="https://unpkg.com/@maptiler/geocoding-control@0.0.92/leaflet.umd.js"></script>
+        <script>
+            const key = 'CMskOdFMQ9sot9xN9SO9';
+            const map = L.map('map').setView([49.2125578, 16.62662018], 14);
+
+            L.tileLayer(`https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=${key}`, {
+                tileSize: 512,
+                zoomOffset: -1,
+                minZoom: 1,
+                attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a>',
+                crossOrigin: true
+            }).addTo(map);
+
+            L.control.maptilerGeocoding({ apiKey: key, iconsBaseUrl: "https://unpkg.com/@maptiler/geocoding-control@0.0.92/icons/" }).addTo(map);
+
+            if (!navigator.geolocation) {
+                alert("Seu navegador não suporta o mapa.");
+            } else {
+                navigator.geolocation.getCurrentPosition(getPosition);
+            }
+
+            var googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
         maxZoom: 20,
         subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
     }).addTo(map);
 
-    // Se o navegador suportar a API de Mapa, executar o else
-    if (!navigator.geolocation) {
-        alert("Seu navegador não suporta o mapa.");
-    } else {
-        navigator.geolocation.getCurrentPosition(getPosition);
-    }
+            function getPosition(position) {
+                var lat = position.coords.latitude;
+                var long = position.coords.longitude;
+                var accuracy = position.coords.accuracy;
 
-    // Puxar localização do usuário
-    function getPosition(position) {
-        console.log(position);
-        var lat = position.coords.latitude;
-        var long = position.coords.longitude;
-        var accuracy = position.coords.accuracy;
-
-        var customIcon = L.icon({
-            iconUrl: "https://user-images.githubusercontent.com/127517961/234951279-05563307-fd89-4605-afa7-48e678a3de7a.png",  // Substitua pela URL da imagem personalizada
-            iconSize: [32, 32],  // Substitua pelo tamanho do ícone desejado
-            iconAnchor: [16, 32],  // Substitua pela âncora do ícone desejado
-            popupAnchor: [0, -32],  // Substitua pela âncora do popup desejado
-        });
-
-        var you = L.marker([lat, long], { icon: customIcon });
-        var circle = L.circle([lat, long], { radius: accuracy });
-
-        var featureGroup = L.featureGroup([you, circle]).addTo(map);
-
-        // Responsável por dar zoom na localização do Usuário
-        map.fitBounds(featureGroup.getBounds());
-        console.log(lat, long, accuracy);
-
-        you.bindPopup("Você está aqui!").openPopup();
-    }
-
-    // Adiciona menu de edição
-    var drawnFeatures = new L.featureGroup();
-    map.addLayer(drawnFeatures);
-
-    // Configuração menu de edição do toolbar
-    var drawControl = new L.Control.Draw({
-        position: "topright",
-        edit: {
-            featureGroup: drawnFeatures,
-            remove: true
-        },
-        draw: {
-            marker: {
-                // Configuração para marcador PIN
-                icon: L.icon({
-                    iconUrl: localStorage.getItem("iconUrl") || 'https://user-images.githubusercontent.com/127517961/246614766-957a73f3-93c4-4a65-9a88-9670b8044c9f.png',  // Substitua pelo caminho para o ícone do marcador desejado
+                var customIcon = L.icon({
+                    iconUrl: "https://user-images.githubusercontent.com/127517961/234951279-05563307-fd89-4605-afa7-48e678a3de7a.png",
                     iconSize: [32, 32],
                     iconAnchor: [16, 32],
-                    popupAnchor: [0, -32],
-                })
-            },
-            polyline: {
-                color: 'red',
-                weight: 2
-            },
-            polygon: false,
-            circle: false
-        }
-    });
+                    popupAnchor: [0, -32]
+                });
 
-    // Adiciona ao controle do Mapa
-    map.addControl(drawControl);
+                var you = L.marker([lat, long], { icon: customIcon });
+                var circle = L.circle([lat, long], { radius: accuracy });
 
-    // O que fazer com os elementos criados
-    map.on("draw:created", function(e) {
-        var type = e.layerType;
-        var layer = e.layer;
-        drawnFeatures.addLayer(layer);
+                var featureGroup = L.featureGroup([you, circle]).addTo(map);
+                map.fitBounds(featureGroup.getBounds());
 
-        if (layer instanceof L.Circle) {
-            layer.bindPopup("Isto é um círculo").openPopup();
-        }
-
-        // Obtém todos os marcadores desenhados
-        var drawnMarkers = drawnFeatures.toGeoJSON();
-
-        // Salva a lista de marcadores no localStorage
-        localStorage.setItem("drawnMarkers", JSON.stringify(drawnMarkers));
-    });
-
-    // O que fazer com os elementos deletados
-    map.on("draw:deleted", function(e) {
-        var deletedLayers = e.layers;
-
-        deletedLayers.eachLayer(function(layer) {
-            drawnFeatures.removeLayer(layer);
-        });
-
-        // Obtém os marcadores restantes do grupo de features
-        var remainingMarkers = drawnFeatures.toGeoJSON();
-
-        // Atualiza o localStorage com os marcadores restantes
-        localStorage.setItem("drawnMarkers", JSON.stringify(remainingMarkers));
-    });
-
-    // O que fazer com os elementos editados
-    map.on("draw:edited", function(e) {
-        var editedLayers = e.layers;
-
-        editedLayers.eachLayer(function(layer) {
-            // Atualiza o marcador editado no grupo de features
-            drawnFeatures.addLayer(layer);
-        });
-
-        // Obtém todos os marcadores desenhados após a edição
-        var updatedMarkers = drawnFeatures.toGeoJSON();
-
-        // Atualiza o localStorage com os marcadores atualizados
-        localStorage.setItem("drawnMarkers", JSON.stringify(updatedMarkers));
-    });
-
-    var savedMarkers = localStorage.getItem("drawnMarkers");
-    if (savedMarkers) {
-        savedMarkers = JSON.parse(savedMarkers);
-
-        // Converte os marcadores GeoJSON em camadas do Leaflet
-        var loadedLayers = L.geoJSON(savedMarkers, {
-            pointToLayer: function(geoJsonPoint, latlng) {
-                if (geoJsonPoint.properties && geoJsonPoint.properties.shape === "circle") {
-                    var circleMarker = L.circle(latlng);
-                    circleMarker.bindPopup("Isto é um círculo").openPopup();
-                    return circleMarker;
-                } else {
-                    return L.marker(latlng);
-                }
+                you.bindPopup("Você está aqui!").openPopup();
             }
-        });
 
-        // Adiciona as camadas ao grupo de features e ao mapa
-        loadedLayers.eachLayer(function(layer) {
-            drawnFeatures.addLayer(layer);
-            map.addLayer(layer);
-        });
-    }
-</script>
-    
+            var drawnFeatures = new L.FeatureGroup();
+            map.addLayer(drawnFeatures);
 
+            var drawControl = new L.Control.Draw({
+                position: "bottomright",
+                edit: {
+                    featureGroup: drawnFeatures,
+                    remove: true
+                },
+                draw: {
+                    marker: {
+                        icon: L.icon({
+                            iconUrl: "https://user-images.githubusercontent.com/127517961/246614766-957a73f3-93c4-4a65-9a88-9670b8044c9f.png",
+                            iconSize: [32, 32],
+                            iconAnchor: [16, 32],
+                            popupAnchor: [0, -32]
+                        })
+                    },
+                    polyline: {
+                        color: 'red',
+                        weight: 2
+                    },
+                    polygon: false,
+                    circle: false
+                }
+            });
+
+            map.addControl(drawControl);
+
+            map.on("draw:created", function (e) {
+                var layer = e.layer;
+                drawnFeatures.addLayer(layer);
+
+                if (layer instanceof L.Circle) {
+                    layer.bindPopup("Isto é um círculo").openPopup();
+                }
+
+                var drawnMarkers = drawnFeatures.toGeoJSON();
+                localStorage.setItem("drawnMarkers", JSON.stringify(drawnMarkers));
+            });
+
+            map.on("draw:deleted", function (e) {
+                var deletedLayers = e.layers;
+
+                deletedLayers.eachLayer(function (layer) {
+                    drawnFeatures.removeLayer(layer);
+                });
+
+                var remainingMarkers = drawnFeatures.toGeoJSON();
+                localStorage.setItem("drawnMarkers", JSON.stringify(remainingMarkers));
+            });
+
+            map.on("draw:edited", function (e) {
+                var editedLayers = e.layers;
+
+                editedLayers.eachLayer(function (layer) {
+                    drawnFeatures.addLayer(layer);
+                });
+
+                var updatedMarkers = drawnFeatures.toGeoJSON();
+                localStorage.setItem("drawnMarkers", JSON.stringify(updatedMarkers));
+            });
+
+            var savedMarkers = localStorage.getItem("drawnMarkers");
+            if (savedMarkers) {
+                savedMarkers = JSON.parse(savedMarkers);
+
+                var loadedLayers = L.geoJSON(savedMarkers, {
+                    pointToLayer: function (geoJsonPoint, latlng) {
+                        if (geoJsonPoint.properties && geoJsonPoint.properties.shape === "circle") {
+                            var circleMarker = L.circle(latlng);
+                            circleMarker.bindPopup("Isto é um círculo").openPopup();
+                            return circleMarker;
+                        } else {
+                            return L.marker(latlng);
+                        }
+                    }
+                });
+
+                loadedLayers.eachLayer(function (layer) {
+                    drawnFeatures.addLayer(layer);
+                    map.addLayer(layer);
+                });
+            }
+        </script>
 </body>
 
 </html>
-
 <script>
 
 
@@ -297,5 +271,3 @@ function closePopup(){
 }
 
 </script>
-
-
