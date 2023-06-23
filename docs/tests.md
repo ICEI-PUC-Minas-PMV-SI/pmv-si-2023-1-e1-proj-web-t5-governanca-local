@@ -24,35 +24,139 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
-
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Acesso à landing page**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Procedimento**  | 1) Entre na URL do site.
+**Requisitos associados** | RF-008, RF-009 e RNF-001
+**Resultado esperado** | Acesso ao site.
+**Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+
+**Caso de Teste** | **CT02 - Cadastro**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
+**Procedimento**  | 1) Entre na URL do site. <br> 2) O futuro usuário deve clicar na opção "Entrar" no menu. <br> 3) O usuário deverá cliclar no botão "Criar Agora!" <br> 4) O usuário deverá preencher os campos "Nome completo", "E-mail", "senha", bem como sua confirmação. <br> 5) Clicar no botão de "Cadastrar" para efetivar o cadastro.
+**Requisitos associados** | RF-001 e RNF-001
+**Resultado esperado** | Criação de conta
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro: Nome, E-mail e Senha.
+**Resultado obtido** | Cadastrado.
+
+**Caso de Teste** | **CT03 - Login**
+ :--------------: | ------------
+**Procedimento**  | 1) Após criada a conta, preencher campos "e-mail" e "senha" com as informações criadas. <br> 2) Clicar no botão "Entrar". <br> 3) Acesso à página central somente para usuários cadastrados.
+**Requisitos associados** | RF-002, RF-012 e RNF-001
+**Resultado esperado** | Login na plataforma.
+**Dados de entrada** | Dados de email e senha, bem como sua validação.
+**Resultado obtido** | Autenticado com sucesso.
+
+**Caso de Teste** | **CT04 - Acessar o conteúdo de boas práticas de convivência**
+ :--------------: | ------------
+**Procedimento**  | 1) Acessar a URL do site. <br> 2) Encontrar o botão de direcionamento para o conteúdo.
+**Requisitos associados** | RF-007 e RNF-001
+**Resultado esperado** | Acesso às práticas.
+**Dados de entrada** | Nenhum.
+**Resultado obtido** | Acesso ao conteúdo de práticas dde boas convivências. 
+
+**Caso de Teste** | **CT05 - Acessar o Mapa e utilizar suas ferramentas**
+ :--------------: | ------------
+**Procedimento**  | 1) Acessar a URL do site. <br> 2) Encontrar o botão de direcionamento para o conteúdo. <br> 3) Ao entrar, aceitar o acesso à localização pelo navegador <br> 4) Para utilizar os devidos marcadores, clicar e arrastar para a área desejada. <br> 5) Ao posicionar o pin, os ícones lápis e lixeira, respectivamente: edição e deleção, são habilitados.
+**Requisitos associados** | RF-005, RF-006 e RNF-001
+**Resultado esperado** | Acesso ao mapa.
+**Dados de entrada** | Localização do usuário.
+**Resultado obtido** | Acesso ao mapa. 
+
+**Caso de Teste** | **CT06 - Ferramentas do mapa: Editar pins**
+ :--------------: | ------------
+**Procedimento**  | 1) Clique no ícone de lápis. <br> 2) Após isso, a edição de localidade do pin está ativada. <br> 3) Arraste até o novo local desejado. <br> 4) Ao concluir, clique em "Salvar".
+**Requisitos associados** | RF-005, RF-006 e RNF-001
+**Resultado esperado** | Acesso à funcionalidade de edição de marcadores.
+**Dados de entrada** | Localização e Marcadores do usuário.
+**Resultado obtido** | Edição de localidade do pin. 
+
+**Caso de Teste** | **CT07 - Ferramentas do mapa: Deleção de pins **
+ :--------------: | ------------
+**Procedimento**  | 1) Clique no ícone de lixeira. <br> 2) Após isso, a deleção de localidade do pin está ativada. <br> 3) Clique no ícone que deseja deletar. <br> 4) Ao concluir, clique em "Salvar".
+**Requisitos associados** |RF-005, RF-006 e RNF-001
+**Resultado esperado** | Acesso à funcionalidade de edição de marcadores.
+**Dados de entrada** | Localização e Marcadores do usuário.
+**Resultado obtido** | Deleção de localidade do pin. 
+
+**Caso de Teste** | **CT08 - Fórum **
+ :--------------: | ------------
+**Procedimento**  | 1) Após o login, acesse o botão "Fórum". <br> 2) Aparecerá os campos de criar comentário, acessar todos os comentário, links de utilidade pública e sugestões para o site.
+**Requisitos associados** | RF-003, RF-004, RF-010, RF-011 e RNF-001
+**Resultado esperado** | Acesso ao fórum e suas ferramentas.
+**Dados de entrada** | Dados previamente subscritos durante a criação da conta.
+**Resultado obtido** | Acesso ao fórum. 
+
+**Caso de Teste** | **CT09 - Criar comentário **
+ :--------------: | ------------
+**Procedimento**  | 1) Escreva seu comentário no campo de texto <br> 2) Clique em "Enviar comentário"
+**Requisitos associados** | RF-003, RF-004, RF-010, RF-011 e RNF-001
+**Resultado esperado** | Acesso ao fórum e suas ferramentas.
+**Dados de entrada** | Dados previamente subscritos durante a criação da conta.
+**Resultado obtido** | Criação de comentários. 
+
+**Caso de Teste** | **CT10 - Enviar sugestões para os criadores **
+ :--------------: | ------------
+**Procedimento**  | 1) No fórum, clique no texto "Clique aqui e colabore agora mesmo!" <br> 2) Preencha os campos "Nome", "E-mail de contato", "telefone - opcional" e a mensagem <br> 3) Clique em "Enviar"
+**Requisitos associados** | RF-010	e RNF-001
+**Resultado esperado** | Direcionamento de sugestões.
+**Dados de entrada** | "Nome", "E-mail de contato", "telefone - opcional" e a mensagem.
+**Resultado obtido** | Envio de sugestão. 
 
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
+|*Caso de Teste*                                 |*CT01 - Acesso à landing page*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
+|Requisito Associado | RF-008 - 	A aplicação Web terá um landing page <br> RF-009 - A aplicação Web conterá uma aba sobre os criadores. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
 |Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
 
-|*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
+|*Caso de Teste*                                 |*CT02 - Cadastro*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
+|Requisito Associado | RF-001	- A aplicação Web permitirá o usuário se cadastrar. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT03 - Login*                                         |
+|---|---|
+|Requisito Associado | RF-002	- A aplicação Web permitirá o usuário se logar <br> RF-012	- A aplicação Web contará com uma landing page exclusiva para cadastrados <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT04 - Acessar o conteúdo de boas práticas de convivência*                                         |
+|---|---|
+|Requisito Associado | RF-007	A aplicação Web contará com páginas estáticas contendo práticas de boas convivências, podendo ser acessada por usuários cadastrados ou não. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT05 - Acessar o Mapa e utilizar suas ferramentas*                                         |
+|---|---|
+|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT06 - Ferramentas do mapa: Editar pins*                                         |
+|---|---|
+|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT07 - Ferramentas do mapa: Deleção de pins*                                         |
+|---|---|
+|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT08 - Fórum*                                         |
+|---|---|
+|Requisito Associado | RF-003 - A aplicação Web permitirá apenas usuários devidamente cadastrados com acesso ao fórum. <br> RF-004 - A aplicação Web permitirá o usuário (cadastrado) criar, discutir em tópicos do fórum. <br> RF-010 - A aplicação Web conterá uma área de sugestões para o site.	<br> RF-011 - A aplicação Web permitirá que o usuário tenha acesso atravéns do fórum a páginas externas para fins de doações, contribuições para a página e busca de empregos. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT09 - Criar comentário*                                         |
+|---|---|
+|Requisito Associado | RF-003 - A aplicação Web permitirá apenas usuários devidamente cadastrados com acesso ao fórum. <br> RF-004 - A aplicação Web permitirá o usuário (cadastrado) criar, discutir em tópicos do fórum. <br> RF-010 - A aplicação Web conterá uma área de sugestões para o site.	<br> RF-011 - A aplicação Web permitirá que o usuário tenha acesso atravéns do fórum a páginas externas para fins de doações, contribuições para a página e busca de empregos. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT10 - Enviar sugestões para os criadores*                                         |
+|---|---|
+|Requisito Associado | RF-010 - A aplicação Web conterá uma área de sugestões para o site <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 
