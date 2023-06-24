@@ -81,7 +81,12 @@
             </div>
         </div>
         <div class="info">
-            oi
+            <ul>
+                <li><img src="https://user-images.githubusercontent.com/127517961/246614766-957a73f3-93c4-4a65-9a88-9670b8044c9f.png" alt="Buraco" width="20px"> Mapear buracos </li>
+                <li><img src="https://user-images.githubusercontent.com/127517961/246980633-50704f5c-62a9-4044-b750-b9c4a76e8527.png" alt="Eventos" width="20px"> Mapear eventos locais </li>
+                <li><img src="https://user-images.githubusercontent.com/127517961/248502860-cee835e2-c3a7-4ea7-9536-19069fdc9c5d.png" alt="Lixo" width="20px"> Mapear lixo e(ou) outros </li>
+                <li><img src="https://user-images.githubusercontent.com/127517961/248513867-dce67624-4d87-47a6-9664-cf635b4302d1.png" alt="Ruas" width="20px"> Demarcar ruas interditadas </li>
+            </ul>
 
         </div>
 
@@ -115,11 +120,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
         <script src="https://unpkg.com/@maptiler/geocoding-control@0.0.92/leaflet.umd.js"></script>
         <script>
-            // Key de acesso ao search
             const key = 'CMskOdFMQ9sot9xN9SO9';
             const map = L.map('map').setView([49.2125578, 16.62662018], 14);
-        
-            // Search
+
             L.tileLayer(`https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=${key}`, {
                 tileSize: 512,
                 zoomOffset: -1,
@@ -127,48 +130,44 @@
                 attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a>',
                 crossOrigin: true
             }).addTo(map);
-        
+
             L.control.maptilerGeocoding({ apiKey: key, iconsBaseUrl: "https://unpkg.com/@maptiler/geocoding-control@0.0.92/icons/" }).addTo(map);
-        
+
             if (!navigator.geolocation) {
                 alert("Seu navegador não suporta o mapa.");
             } else {
                 navigator.geolocation.getCurrentPosition(getPosition);
             }
-        
-            // Adiciona layout do Google Maps
+
             var googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
-                maxZoom: 20,
-                subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
-            }).addTo(map);
-        
+        maxZoom: 20,
+        subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+    }).addTo(map);
+
             function getPosition(position) {
                 var lat = position.coords.latitude;
                 var long = position.coords.longitude;
                 var accuracy = position.coords.accuracy;
-        
-                // Seta imagem personalizada ao ícone de localização do usuário
+
                 var customIcon = L.icon({
                     iconUrl: "https://user-images.githubusercontent.com/127517961/234951279-05563307-fd89-4605-afa7-48e678a3de7a.png",
                     iconSize: [32, 32],
-                    iconAnchor: [16, 32]
+                    iconAnchor: [16, 32],
+                    popupAnchor: [0, -32]
                 });
-        
+
                 var you = L.marker([lat, long], { icon: customIcon });
                 var circle = L.circle([lat, long], { radius: accuracy });
-        
-                // Dá zoom na localidade do usuário
+
                 var featureGroup = L.featureGroup([you, circle]).addTo(map);
                 map.fitBounds(featureGroup.getBounds());
-        
+
                 you.bindPopup("Você está aqui!").openPopup();
             }
-        
-            // Adiciona ao painel de edição
+
             var drawnFeatures = new L.FeatureGroup();
             map.addLayer(drawnFeatures);
-        
-            // Configuração do paonel de edição: marcadores, linha e retângulo.
+
             var drawControl = new L.Control.Draw({
                 position: "topleft",
                 edit: {
@@ -180,7 +179,8 @@
                         icon: L.icon({
                             iconUrl: "https://user-images.githubusercontent.com/127517961/246614766-957a73f3-93c4-4a65-9a88-9670b8044c9f.png",
                             iconSize: [32, 32],
-                            iconAnchor: [16, 32]
+                            iconAnchor: [16, 32],
+                            popupAnchor: [0, -32]
                         })
                     },
                     polyline: {
@@ -188,101 +188,67 @@
                         weight: 2
                     },
                     polygon: false,
-                    circle: false,
+                    circle: false
                 }
             });
-        
+
             map.addControl(drawControl);
-        
-            // Para todos os elementos criados:
+
             map.on("draw:created", function (e) {
                 var layer = e.layer;
-                var copyLayer;
-        
-                if (layer instanceof L.Rectangle) {
-                    copyLayer = L.rectangle(layer.getLatLngs(), layer.options);
-                    copyLayer.bindPopup("Isto é um retângulo (lixo)").openPopup();
-                } else if (layer instanceof L.CircleMarker) {
-                    copyLayer = L.circleMarker(layer.getLatLng(), layer.options);
-                    copyLayer.bindPopup("Isto é um círculo (buraco)").openPopup();
-                } else if (layer instanceof L.Marker) {
-                    copyLayer = L.marker(layer.getLatLng(), layer.options);
-                    copyLayer.bindPopup("Isto é um marcador");
+                drawnFeatures.addLayer(layer);
+
+                if (layer instanceof L.Circle) {
+                    layer.bindPopup("Isto é um círculo").openPopup();
                 }
-        
-                drawnFeatures.addLayer(copyLayer);
-        
-                // Salva as criações no localstorage
+
                 var drawnMarkers = drawnFeatures.toGeoJSON();
                 localStorage.setItem("drawnMarkers", JSON.stringify(drawnMarkers));
             });
-        
-            // Para todos os elementos deletados:
+
             map.on("draw:deleted", function (e) {
                 var deletedLayers = e.layers;
-        
+
                 deletedLayers.eachLayer(function (layer) {
                     drawnFeatures.removeLayer(layer);
                 });
-        
-                // Salva as deleções no localstorage
+
                 var remainingMarkers = drawnFeatures.toGeoJSON();
                 localStorage.setItem("drawnMarkers", JSON.stringify(remainingMarkers));
             });
-        
-            // Para todos os elementos editados:
+
             map.on("draw:edited", function (e) {
                 var editedLayers = e.layers;
-        
+
                 editedLayers.eachLayer(function (layer) {
                     drawnFeatures.addLayer(layer);
                 });
-        
-                // Salva as alterações no localstorage
+
                 var updatedMarkers = drawnFeatures.toGeoJSON();
                 localStorage.setItem("drawnMarkers", JSON.stringify(updatedMarkers));
             });
-        
+
             var savedMarkers = localStorage.getItem("drawnMarkers");
             if (savedMarkers) {
                 savedMarkers = JSON.parse(savedMarkers);
-        
-                // Carrega as posições dos pins
+
                 var loadedLayers = L.geoJSON(savedMarkers, {
                     pointToLayer: function (geoJsonPoint, latlng) {
-                        var layer;
-                        if (geoJsonPoint.properties && geoJsonPoint.properties.shape === "rectangle") {
-                            layer = L.rectangle(latlng);
-                            layer.bindPopup("Área de evento! (lixo)");
-                        } else if (geoJsonPoint.properties && geoJsonPoint.properties.shape === "circlemarker") {
-                            layer = L.circleMarker(latlng);
-                            layer.bindPopup("Área de evento! (buraco)");
-                        } else if (geoJsonPoint.properties && geoJsonPoint.properties.shape === "marker") {
-                            layer = L.marker(latlng);
-                            layer.bindPopup("Isto é um marcador");
+                        if (geoJsonPoint.properties && geoJsonPoint.properties.shape === "circle") {
+                            var circleMarker = L.circle(latlng);
+                            circleMarker.bindPopup("Isto é um círculo").openPopup();
+                            return circleMarker;
                         } else {
-                            layer = L.marker(latlng);
+                            return L.marker(latlng);
                         }
-        
-                        drawnFeatures.addLayer(layer);
-                        map.addLayer(layer);
-        
-                        // Abre o popup do layer atual
-                        layer.on('add', function () {
-                            this.openPopup();
-                        });
-        
-                        return layer;
                     }
                 });
-            }
-        
-            // Abrir os pop-ups dos marcadores ao carregar a página
-            map.on('load', function () {
-                drawnFeatures.eachLayer(function (layer) {
-                    layer.openPopup();
+
+                loadedLayers.eachLayer(function (layer) {
+                    drawnFeatures.addLayer(layer);
+                    map.addLayer(layer);
                 });
-            });
+            }
         </script>
         
 </body>

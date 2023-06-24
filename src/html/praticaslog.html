@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PUC-Minas - SI - Eixo 1 - Projeto Governança Local</title>
+    <link rel="stylesheet" href="../css/footerglobal.css">
+    <link rel="stylesheet" href="../css/header2.css">
+    <link rel="stylesheet" href="../css/praticas.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon"
+        href="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png"
+        type="image/x-icon">
+
+</head>
+
+<body>
+
+    <header id="header">
+        <button class="left-button">
+            <a href="idxlogado.html"><img widht="30" height="30"
+                    src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Home.png"
+                    alt="Home"></a>
+
+            <div>
+                <button class="center-button">
+                    <a href="../index.html#sobre"><img widht="30" height="30"
+                            src="https://user-images.githubusercontent.com/127517961/234959722-b351f518-23ea-4d90-bce4-0227c61167f5.png"
+                            alt="Sobre"></a>
+
+                    <button class="center-button">
+                        <a href="../mapa.html"><img widht="30" height="30"
+                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pin.png"
+                                alt="Mapa"></a>
+
+                        <button class="center-button">
+                            <a href="../forum.html"><img widht="30" height="30"
+                                    src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pessoas.png"
+                                    alt="Fórum"></a>
+            </div>
+
+            <button class="right-button">
+                <a href="../conta.html"> <img widht="30" height="30"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Conta.png"
+                        alt="Entrar">
+                </a>
+    </header>
+    <main>
+
+        <!-- INICIO DA ABA PRÁTICAS -->
+        <section class="praticasdasemana" id="week" data-aos="fade-up">
+            <aside id="imagemsemana">
+                <img width="450"
+                    src=https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/blob/main/src/assets/imgs/Pr%C3%A1ticas-semana-imagem.png?raw=true
+                    alt="Imagem da semana">
+            </aside>
+
+            <div id="textosemana">
+                <h1>Práticas da semana</h1>
+                <p> A boa convivência transforma o ambiente, <br> sua prática desenvolve o coletivo e individual de cada
+                    um.
+                </p>
+
+                <button class="btnsemana" onclick="openPopupsemana()">Confira as práticas!</button>
+
+            </div>
+
+            <div class="popupsemana" id="popupsemana">
+
+                <div class="X">
+                    <img onclick="closePopupsemana()" width="35px"
+                        src="https://user-images.githubusercontent.com/102264520/234979041-3fbc1d50-9ea4-4498-96e1-5cb78050895d.png"
+                        alt="">
+                    <title>Barra de Pesquisa</title>
+                </div>
+
+                <!-- ADICIONAR O SCRIPT DO BOTÃO DE PESQUISA -->
+                <div class="search-bar-semana">
+                    <input type="text" id="search-input-semana" placeholder="Localizar...">
+                    <input type="submit" value="Pesquisar" onclick="pesquisar()">
+                </div>
+
+                <div class="img1popsemana">
+                    <img src="https://camo.githubusercontent.com/411e17b2507213eb97b6274ee78f511cb2f2a14513c6eae51cd671b0587103dd/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3939373535353733373439303337303631312f313130303935333334323234343536303933372f57686174734170705f496d6167655f323032332d30342d32345f61745f32322e31392e34322d72656d6f766562672d707265766965772e706e67"
+                        alt=" IMAGEM ILUSTRATIVA POPUPSEMANA">
+                </div>
+
+                <h2 id=""> A Importância das práticas de boas convivências </h2>
+
+                <p id="texto">As práticas de boa convivência desempenham um papel fundamental na construção de uma
+                    comunidade
+                    harmoniosa e na coesão social de uma sociedade. A maneira como nos relacionamos e interagimos
+                    com os outros reflete diretamente no ambiente em que vivemos, afetando tanto o bem-estar
+                    individual como o coletivo. Portanto, é imperativo reconhecer a importância dessas práticas e
+                    cultivá-las em nosso cotidiano.
+
+                    Uma comunidade bem-sucedida é aquela em que os membros se respeitam mutuamente, tratam-se com
+                    cortesia e consideração, independentemente de suas diferenças individuais. Isso implica em ouvir
+                    atentamente as opiniões dos outros, expressar nossas próprias ideias de forma respeitosa, buscar
+                    o consenso em situações conflituosas e sermos empáticos com as necessidades e sentimentos
+                    alheios. Essas atitudes promovem um ambiente acolhedor e seguro, estimulando a participação
+                    ativa de todos os indivíduos na construção de um bem comum.</p>
+
+                <div class="img2popsemana">
+                    <img src="https://blog.plaenge.com.br/wp-content/uploads/2022/06/Imagem2.png"
+                        alt=" IMAGEM ILUSTRATIVA POPUPSEMANA2">
+                </div>
+
+                <h3 id="p2"> Práticas fundamentais para boa convivência </h3>
+
+                <p id="p2"> 1-<b>Respeito mútuo</b>: Respeitar as diferenças de opinião, crenças, culturas e estilos de
+                    vida dos
+                    outros membros da comunidade.</p>
+
+                <p id="p2"> 2-<b>Comunicação efetiva</b>: Estabelecer canais abertos e honestos de comunicação,
+                    permitindo que
+                    as
+                    pessoas expressem suas preocupações, ideias e sugestões de forma clara e respeitosa.</p>
+
+                <p id="p2"> 3-<b>Empatia</b>: Ser capaz de se colocar no lugar dos outros e compreender suas
+                    perspectivas e
+                    sentimentos. Isso ajuda a promover a compreensão e a cooperação entre os membros da comunidade.
+                </p>
+
+                <p id="p3"> 4-<b>Colaboração</b>: Trabalhar juntos em projetos e iniciativas comunitárias,
+                    compartilhando
+                    recursos
+                    e
+                    habilidades para benefício mútuo.</p>
+
+                <p id="p3"> 5-<b>Solidariedade</b>: Apoiar uns aos outros em tempos de necessidade, oferecendo ajuda
+                    prática,
+                    conselhos ou simplesmente demonstrando compaixão e apoio emocional.</p>
+
+                <p id="p2"> 6-<b>Resolução pacífica de conflitos</b>: Buscar soluções negociadas e pacíficas para os
+                    conflitos
+                    que
+                    possam surgir, evitando confrontos e comportamentos agressivos.</p>
+
+                <p id="p2"> 7-<b>Responsabilidade pessoal</b>: Assumir a responsabilidade por suas ações e
+                    comportamentos,
+                    reconhecendo o impacto que eles podem ter na comunidade como um todo.</p>
+
+                <p id="p2"> 8-<b>Participação ativa</b>: Contribuir de forma ativa e regular para os assuntos e
+                    atividades da
+                    comunidade, comparecendo a reuniões, dando feedback e compartilhando ideias.</p>
+
+                <p id="p2"> 9-<b>Preservação do ambiente</b>: Cuidar do meio ambiente local, evitando o desperdício,
+                    promovendo
+                    a
+                    reciclagem e adotando práticas sustentáveis.</p>
+
+                <p id="p2"> 10-<b>Respeito pelas regras</b>: Seguir as normas e regulamentos estabelecidos pela
+                    comunidade,
+                    incluindo
+                    leis locais, para garantir a segurança e a harmonia de todos os membros.</p>
+                </p>
+
+            </div>
+
+            <!-- SCRIPT PARA ABRIR E FECHAR POPUP -->
+            <script>
+                function openPopupsemana() {
+                    var popup = document.getElementById('popupsemana');
+                    const header = document.getElementById('header');
+                    popup.style.display = 'block';
+                    header.style.display = 'none';
+                }
+
+                function closePopupsemana() {
+                    var popup = document.getElementById('popupsemana');
+                    popup.style.display = 'none';
+                    header.style.display = 'flex';
+                }
+
+
+                function pesquisar() {
+                    const p = document.getElementById('texto');
+                    let input = document.getElementById('search-input-semana').value;
+
+                    if (input !== "") {
+                        let regExp = new RegExp(input, "gi");
+                        p.innerHTML = (p.textContent).replaceAll(regExp, "<mark>$&</mark>");
+                    }
+
+                }
+
+
+            </script>
+
+
+        </section>
+
+
+        <!-- INICIO DA ABA CONQUISTAS -->
+        <section class="abaconquistas" id="conquer" data-aos="fade-in">
+
+            <aside id="textoconquista">
+
+                <h2>Conquistas da comunidade</h2>
+                <p> <span> comunidades são feitas de momentos, </span> <br> Faça parte das conquistas
+                    alcançadas por todos e para todos.
+                </p>
+
+                <button class="btnconquer" onclick="openPopupconquer()">Participe dessa história!</button>
+
+                <div class="popupconquer" id="popupconquer">
+
+                    <div class="X2">
+                        <img onclick="closePopupconquer()" width="35px"
+                            src="https://user-images.githubusercontent.com/102264520/234979041-3fbc1d50-9ea4-4498-96e1-5cb78050895d.png"
+                            alt="">
+                        <title>Barra de Pesquisa</title>
+                    </div>
+
+                    <title>Barra de Pesquisa</title>
+
+                    <!-- ADICIONAR O SCRIPT DO BOTÃO DE PESQUISA -->
+                    <div class="search-bar-conquista">
+                        <input type="text" id="search-input-conquista" placeholder="...">
+                        <input type="submit" value="Pesquisar" onclick="pesquisar2()">
+                    </div>
+
+                    <div class="img1popconquer">
+                        <img src="https://camo.githubusercontent.com/411e17b2507213eb97b6274ee78f511cb2f2a14513c6eae51cd671b0587103dd/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3939373535353733373439303337303631312f313130303935333334323234343536303933372f57686174734170705f496d6167655f323032332d30342d32345f61745f32322e31392e34322d72656d6f766562672d707265766965772e706e67"
+                            alt=" IMAGEM ILUSTRATIVA POPUPSEMANA" width="240px">
+                    </div>
+
+                    <h3> Momentos da comunidade </h3>
+
+                    <div class="elisa">
+                        <h4 id="texto22">Feira Cultural Noturna</h4>
+
+                        <div class="img2popconquer">
+                            <img width="400px"
+                                src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/blob/main/src/assets/imgs/praticas-conquistas-imagemcarrocel2.png?raw=true"
+                                alt="">
+                        </div>
+
+                        <p id="texto23">A feira cultural noturna em nossa comunidade é um evento encantador que une e
+                            celebra a
+                            diversidade e a riqueza de nossa cultura local. À medida que o sol se põe e as luzes
+                            brilham, nossas ruas ganham vida, transformando-se em um ponto de encontro vibrante e
+                            acolhedor.</p>
+
+                        <div class="imgbruno">
+                            <img width="300px"
+                                src="https://user-images.githubusercontent.com/127517961/226222802-3643403b-2d53-4cd0-af17-ce98313f6e93.jpg"
+                                alt="">
+
+                            <p> Bruno, um jovem visionário e apaixonado por sua comunidade, decidiu criar algo único e
+                                especial: uma feira cultural noturna. Inspirado pela riqueza cultural e pela energia
+                                vibrante de sua cidade, ele se dedicou a transformar uma ideia em realidade.
+
+                                Com determinação e trabalho árduo, Bruno começou a reunir um grupo de pessoas
+                                entusiasmadas e talentosas que compartilhavam sua visão. Juntos, eles começaram a
+                                planejar todos os detalhes, desde a escolha do local até a seleção dos participantes.
+                            </p>
+                        </div>
+
+
+                        <!-- ADICIONAR A PERSONA ELISA NA ABA CONQUISTAS -->
+                        <div class="textoelisa">
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="bruno"></div>
+                    <div class="paulo"></div>
+                    <div class="larissa"></div>
+                    <div class="Manuel"></div>
+
+
+                </div>
+
+                <!-- SCRIPT PARA ABRIR E FECHAR POPUP -->
+                <script>
+                    function openPopupconquer() {
+                        var popup = document.getElementById('popupconquer');
+                        const header = document.getElementById('header');
+                        popup.style.display = 'block';
+                        header.style.display = 'none';
+
+                    }
+
+                    function closePopupconquer() {
+                        var popup = document.getElementById('popupconquer');
+                        popup.style.display = 'none';
+                        header.style.display = 'flex';
+                    }
+
+                    function pesquisar2() {
+                        const p = document.getElementById('texto23');
+                        let input = document.getElementById('search-input-conquista').value;
+
+                        if (input !== "") {
+                            let regExp = new RegExp(input, "gi");
+                            p.innerHTML = (p.textContent).replaceAll(regExp, "<mark>$&</mark>");
+                        }
+
+                    }
+
+                </script>
+            </aside>
+
+            <article class="imagemconquista">
+                <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/blob/main/src/assets/imgs/praticas-conquistas-imagemcarrocel2.png?raw=true"
+                    alt="">
+            </article>
+        </section>
+
+
+        <!-- INICIO DA ABA AJUDA -->
+        <section class="abaajuda" id="help" data-aos="fade-up">
+
+            <aside id="textoajuda">
+                <h1>Como ajudar?</h1>
+                <p> <span> Todos nós temos responsabilidades sobre o ambiente em que vivemos, </span> <br> Descubra
+                    maneiras de colaborar com sua sociedade.
+                </p>
+
+                <button class="btnajuda" onclick="openPopupajuda()">Faça sua parte!</button>
+
+                <div class="popupajuda" id="popupajuda">
+
+                    <div class="X3">
+                        <img onclick="closePopupajuda()" width="35px"
+                            src="https://user-images.githubusercontent.com/102264520/234979041-3fbc1d50-9ea4-4498-96e1-5cb78050895d.png"
+                            alt="">
+                        <title>Barra de Pesquisa</title>
+                    </div>
+
+                    <!-- ADICIONAR O SCRIPT DO BOTÃO DE PESQUISA -->
+                    <div class="search-bar-ajuda">
+                        <input type="text" id="search-input-ajuda" placeholder="...">
+                        <input type="submit" value="Pesquisar" onclick="pesquisar()">
+                    </div>
+
+                    <div class="img1popajuda">
+                        <img src="https://camo.githubusercontent.com/411e17b2507213eb97b6274ee78f511cb2f2a14513c6eae51cd671b0587103dd/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3939373535353733373439303337303631312f313130303935333334323234343536303933372f57686174734170705f496d6167655f323032332d30342d32345f61745f32322e31392e34322d72656d6f766562672d707265766965772e706e67"
+                            alt=" IMAGEM ILUSTRATIVA POPUPSEMANA" width="240px">
+                    </div>
+
+                    <div class="textopopajuda">
+                        <H2> Participe e colabore com sua comunidade </H2>
+
+                        <p id="texto3">Viver em uma comunidade vai além de simplesmente ocupar um espaço físico. É estar
+                            conectado com
+                            as pessoas ao seu redor, compartilhar experiências e se envolver ativamente no ambiente em
+                            que
+                            se vive. Uma maneira essencial de fortalecer esse vínculo é por meio da informação e
+                            participação ativa na comunidade.<br> <br>
+                            Além de se informar, a participação ativa na comunidade é um ingrediente chave para o seu
+                            desenvolvimento saudável. Envolvendo-se em grupos, associações ou comitês locais, os
+                            moradores
+                            têm a oportunidade de compartilhar suas ideias, opiniões e habilidades. O engajamento pode
+                            ocorrer em diversas áreas, como educação, meio ambiente, cultura, esportes, saúde e
+                            assistência
+                            social. Cada indivíduo tem algo valioso para contribuir, seja através de suas habilidades
+                            profissionais, talentos artísticos, experiências de vida ou simplesmente oferecendo seu
+                            tempo e
+                            esforço.</p>
+
+                    </div>
+
+
+                </div>
+
+                <!-- SCRIPT PARA ABRIR E FECHAR POPUP -->
+                <script>
+                    function openPopupajuda() {
+                        const header = document.getElementById('header');
+                        var popup = document.getElementById('popupajuda');
+                        popup.style.display = 'block';
+                        header.style.display = 'none';
+
+                    }
+
+
+                    function closePopupajuda() {
+                        var popup = document.getElementById('popupajuda');
+                        popup.style.display = 'none';
+                        header.style.display = 'flex';
+                    }
+
+                    function pesquisar() {
+                        const p = document.getElementById('texto3');
+                        let input = document.getElementById('search-input-ajuda').value;
+
+                        if (input !== "") {
+                            let regExp = new RegExp(input, "gi");
+                            p.innerHTML = (p.textContent).replaceAll(regExp, "<mark>$&</mark>");
+                        }
+
+                    }
+
+
+                </script>
+
+            </aside>
+
+            <div id="imagemajuda">
+                <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/blob/main/src/assets/imgs/pr%C3%A1ticas-ajudar-desenho.png?raw=true"
+                    alt="Imagem ajuda" width="450px">
+            </div>
+        </section>
+        <!-- FINAL DA ABA AJUDA -->
+
+        <div id="btnsubir">
+            <button><img
+                    src="https://user-images.githubusercontent.com/127517961/241408771-b4efb048-a1f2-468c-8bea-941154a690d8.png"
+                    alt="UpBTN" width="50px"></button>
+        </div>
+
+    </main>
+    <footer>
+        <img width="100" class="footer-logo-gov-local"
+            src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png"
+            alt="logo do projeto governança local">
+        <h1>© Governança Local</h1>
+        <div class="imagensfooter">
+            <a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local"> <img
+                    width="100" class="footer-logo-github"
+                    src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-github.png"
+                    alt="GitHub">
+            </a>
+
+            <a href="https://www.pucminas.br/main/Paginas/default.aspx"><img width="100" class="footer-logo-pucminas"
+                    src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-pucminas.png"
+                    alt="logo da PUC-Minas">
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        // Resgata a lista de usuários cadastrados
+        let userlogado = JSON.parse(localStorage.getItem('userlogado'));
+
+
+        // Método de autenticação - Caso não tenha o token, vá para aviso.html
+        if (localStorage.getItem('token') == null) {
+            window.location.href = 'aviso.html'
+        }
+    </script>
+
+    <script>
+        const btn = document.getElementById("btnsubir");
+
+        btn.addEventListener("click", function () {
+            window.scrollTo(0, 0);
+        });
+
+
+        function ocultarBtn() {
+            if (window.scrollY > 500) {
+                btn.style.display = "flex"
+            } else {
+                btn.style.display = "none"
+            }
+        }
+        document.addEventListener('scroll', ocultarBtn);
+        ocultarBtn();
+    </script>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

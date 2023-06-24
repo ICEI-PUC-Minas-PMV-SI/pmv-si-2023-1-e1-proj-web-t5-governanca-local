@@ -1,3 +1,11 @@
+// Resgata a lista de usuários cadastrados
+let userlogado = JSON.parse(localStorage.getItem('userlogado'));
+
+
+// Método de autenticação - Caso não tenha o token, vá para aviso.html
+if (localStorage.getItem('token') == null) {
+    window.location.href = 'html/aviso.html'
+}
 // Variáveis dos inputs
 const cep = document.getElementById('cep');
 const rua = document.getElementById('rua');

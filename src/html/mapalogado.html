@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Mapa | Governança Local</title>
+    <link rel="shortcut icon"
+        href="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="../css/draw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <link href="https://unpkg.com/@maptiler/geocoding-control@0.0.92/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+    <link rel="stylesheet" href="../css/footerglobal.css">
+    <link rel="stylesheet" href="../css/mapa.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="esquerda">
+                <ul>
+                    <li><a href="../paginalogada.html"><img widht="30" height="30"
+                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Home.png"></a>
+                    </li>
+                    <li><a href="forum.html"><img width="30" height="30"
+                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pessoas.png"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="direita">
+                <ul>
+                    <li><a href="praticaslog.html"><img width="30" height="30"
+                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a320ac9e1d7e7b46f4d2bfcab7e85d8bcbc39349/src/src/Icons/ecologia.png"></a>
+                    </li>
+                    <li><a href="../conta.html"><img width="30" height="30"
+                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Conta.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="mobile-menu">
+            <div class="top">
+                <ul>
+                    <li><a href="../paginalogada.html"><img widht="30" height="30"
+                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Home.png"></a>
+                    </li>
+                    <li><a href="praticaslog.html"><img width="30" height="30"
+                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a320ac9e1d7e7b46f4d2bfcab7e85d8bcbc39349/src/src/Icons/ecologia.png"></a>
+                    </li>
+                    <li><a href="forum.html"><img width="30" height="30"
+                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pessoas.png"></a>
+                    </li>
+                    <li><a href="../conta.html"><img width="30" height="30"
+                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Conta.png"></a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+
+        <div id="aviso-mobile">
+            <div class="X3">
+                <img onclick="closePopup()" width="35px"
+                    src="https://user-images.githubusercontent.com/102264520/234979041-3fbc1d50-9ea4-4498-96e1-5cb78050895d.png"
+                    alt="">
+            </div>
+            <div class="aviso">
+                <h1>Ops... só um aviso!</h1>
+                <p>Me parece que você está na versão Mobile, e por isso, caso o seu navegador não tenha avisado, é
+                    preciso ligar o GPS do seu aparelho! <br>
+                    <strong>Caso já esteja, atualize a página e feche esse pop-up.</strong>
+                </p>
+            </div>
+        </div>
+        <div class="info">
+            <ul>
+                <li><img src="https://user-images.githubusercontent.com/127517961/246614766-957a73f3-93c4-4a65-9a88-9670b8044c9f.png"
+                        alt="Buraco" width="20px"> Mapear buracos </li>
+                <li><img src="https://user-images.githubusercontent.com/127517961/246980633-50704f5c-62a9-4044-b750-b9c4a76e8527.png"
+                        alt="Eventos" width="20px"> Mapear eventos locais </li>
+                <li><img src="https://user-images.githubusercontent.com/127517961/248502860-cee835e2-c3a7-4ea7-9536-19069fdc9c5d.png"
+                        alt="Lixo" width="20px"> Mapear lixo e(ou) outros </li>
+                <li><img src="https://user-images.githubusercontent.com/127517961/248513867-dce67624-4d87-47a6-9664-cf635b4302d1.png"
+                        alt="Ruas" width="20px"> Demarcar ruas interditadas </li>
+            </ul>
+
+        </div>
+
+
+        <div id="map">
+        </div>
+
+
+        <footer>
+            <img width="100" class="footer-logo-gov-local"
+                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png"
+                alt="logo do projeto governança local">
+            <h1>© Governança Local </h1>
+            <div class="imagensfooter">
+                <a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local"> <img
+                        width="100" class="footer-logo-github"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-github.png"
+                        alt="GitHub">
+                </a>
+
+                <a href="https://www.pucminas.br/main/Paginas/default.aspx"><img width="100"
+                        class="footer-logo-pucminas"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-pucminas.png"
+                        alt="logo da PUC-Minas">
+                </a>
+            </div>
+        </footer>
+        <script> // Resgata a lista de usuários cadastrados
+            let userlogado = JSON.parse(localStorage.getItem('userlogado'));
+
+
+            // Método de autenticação - Caso não tenha o token, vá para aviso.html
+            if (localStorage.getItem('token') == null) {
+                window.location.href = 'html/aviso.html'
+            }</script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.8.0/leaflet.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+        <script src="https://unpkg.com/@maptiler/geocoding-control@0.0.92/leaflet.umd.js"></script>
+        <script>
+            const key = 'CMskOdFMQ9sot9xN9SO9';
+            const map = L.map('map').setView([49.2125578, 16.62662018], 14);
+
+            L.tileLayer(`https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=${key}`, {
+                tileSize: 512,
+                zoomOffset: -1,
+                minZoom: 1,
+                attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a>',
+                crossOrigin: true
+            }).addTo(map);
+
+            L.control.maptilerGeocoding({ apiKey: key, iconsBaseUrl: "https://unpkg.com/@maptiler/geocoding-control@0.0.92/icons/" }).addTo(map);
+
+            if (!navigator.geolocation) {
+                alert("Seu navegador não suporta o mapa.");
+            } else {
+                navigator.geolocation.getCurrentPosition(getPosition);
+            }
+
+            var googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+                maxZoom: 20,
+                subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+            }).addTo(map);
+
+            function getPosition(position) {
+                var lat = position.coords.latitude;
+                var long = position.coords.longitude;
+                var accuracy = position.coords.accuracy;
+
+                var customIcon = L.icon({
+                    iconUrl: "https://user-images.githubusercontent.com/127517961/234951279-05563307-fd89-4605-afa7-48e678a3de7a.png",
+                    iconSize: [32, 32],
+                    iconAnchor: [16, 32],
+                    popupAnchor: [0, -32]
+                });
+
+                var you = L.marker([lat, long], { icon: customIcon });
+                var circle = L.circle([lat, long], { radius: accuracy });
+
+                var featureGroup = L.featureGroup([you, circle]).addTo(map);
+                map.fitBounds(featureGroup.getBounds());
+
+                you.bindPopup("Você está aqui!").openPopup();
+            }
+
+            var drawnFeatures = new L.FeatureGroup();
+            map.addLayer(drawnFeatures);
+
+            var drawControl = new L.Control.Draw({
+                position: "topleft",
+                edit: {
+                    featureGroup: drawnFeatures,
+                    remove: true
+                },
+                draw: {
+                    marker: {
+                        icon: L.icon({
+                            iconUrl: "https://user-images.githubusercontent.com/127517961/246614766-957a73f3-93c4-4a65-9a88-9670b8044c9f.png",
+                            iconSize: [32, 32],
+                            iconAnchor: [16, 32],
+                            popupAnchor: [0, -32]
+                        })
+                    },
+                    polyline: {
+                        color: 'red',
+                        weight: 2
+                    },
+                    polygon: false,
+                    circle: false
+                }
+            });
+
+            map.addControl(drawControl);
+
+            map.on("draw:created", function (e) {
+                var layer = e.layer;
+                drawnFeatures.addLayer(layer);
+
+                if (layer instanceof L.Circle) {
+                    layer.bindPopup("Isto é um círculo").openPopup();
+                }
+
+                var drawnMarkers = drawnFeatures.toGeoJSON();
+                localStorage.setItem("drawnMarkers", JSON.stringify(drawnMarkers));
+            });
+
+            map.on("draw:deleted", function (e) {
+                var deletedLayers = e.layers;
+
+                deletedLayers.eachLayer(function (layer) {
+                    drawnFeatures.removeLayer(layer);
+                });
+
+                var remainingMarkers = drawnFeatures.toGeoJSON();
+                localStorage.setItem("drawnMarkers", JSON.stringify(remainingMarkers));
+            });
+
+            map.on("draw:edited", function (e) {
+                var editedLayers = e.layers;
+
+                editedLayers.eachLayer(function (layer) {
+                    drawnFeatures.addLayer(layer);
+                });
+
+                var updatedMarkers = drawnFeatures.toGeoJSON();
+                localStorage.setItem("drawnMarkers", JSON.stringify(updatedMarkers));
+            });
+
+            var savedMarkers = localStorage.getItem("drawnMarkers");
+            if (savedMarkers) {
+                savedMarkers = JSON.parse(savedMarkers);
+
+                var loadedLayers = L.geoJSON(savedMarkers, {
+                    pointToLayer: function (geoJsonPoint, latlng) {
+                        if (geoJsonPoint.properties && geoJsonPoint.properties.shape === "circle") {
+                            var circleMarker = L.circle(latlng);
+                            circleMarker.bindPopup("Isto é um círculo").openPopup();
+                            return circleMarker;
+                        } else {
+                            return L.marker(latlng);
+                        }
+                    }
+                });
+
+                loadedLayers.eachLayer(function (layer) {
+                    drawnFeatures.addLayer(layer);
+                    map.addLayer(layer);
+                });
+            }
+        </script>
+
+</body>
+
+</html>
+<script>
+
+
+    // Pop-Up Mobile
+    function closePopup() {
+        const popup = document.getElementById('aviso-mobile');
+
+        popup.style.display = "none"
+    }
+
+</script>
