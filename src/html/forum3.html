@@ -97,10 +97,14 @@
         let userlogado = JSON.parse(localStorage.getItem('userlogado'));
 
 
-        // Método de autenticação - Caso não tenha o token, vá para aviso.html
+        // Método de autenticação - Caso não tenha o token, vá para aviso.html // 
         if (localStorage.getItem('token') == null) {
             window.location.href = 'aviso.html'
         }
+
+
+
+
     </script>
 
 </body>
