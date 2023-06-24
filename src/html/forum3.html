@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
         href="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png"
         type="image/x-icon">
 </head>
+
 <body>
     <header>
         <button class="left-button">
@@ -42,10 +44,11 @@
 
     <form action="https://formsubmit.co/govlocal2023@outlook.com" method="POST">
         <h1> Mande uma mensagem para a gente! </h1>
-        
+
         <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://pmv-si-2023-1-e1-proj-web-t5-governanca-local-jary.vercel.app/forum.html">
-        
+        <input type="hidden" name="_next"
+            value="https://pmv-si-2023-1-e1-proj-web-t5-governanca-local-jary.vercel.app/forum.html">
+
         <div class="textfield">
             <label for="Nome">Nome: *</label>
             <input type="text" name="name" id="Nome" placeholder="..." required>
@@ -68,7 +71,7 @@
         <div class="enviar">
             <input type="submit" value="Enviar">
         </div>
-        
+
     </form>
 
     <footer>
@@ -77,19 +80,29 @@
             alt="logo do projeto governança local">
         <h1>© Governança Local</h1>
         <div class="imagensfooter">
-             <a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local"> <img width="100" class="footer-logo-github"
-                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-github.png"
-                alt="GitHub">
+            <a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local"> <img
+                    width="100" class="footer-logo-github"
+                    src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-github.png"
+                    alt="GitHub">
             </a>
-            
+
             <a href="https://www.pucminas.br/main/Paginas/default.aspx"><img width="100" class="footer-logo-pucminas"
-                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-pucminas.png"
-                alt="logo da PUC-Minas">
+                    src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/logo-pucminas.png"
+                    alt="logo da PUC-Minas">
             </a>
         </div>
     </footer>
 
+    <script>
+        let userlogado = JSON.parse(localStorage.getItem('userlogado'));
 
+
+        // Método de autenticação - Caso não tenha o token, vá para aviso.html
+        if (localStorage.getItem('token') == null) {
+            window.location.href = 'aviso.html'
+        }
+    </script>
 
 </body>
+
 </html>
