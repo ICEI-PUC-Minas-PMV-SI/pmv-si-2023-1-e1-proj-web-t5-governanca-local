@@ -108,12 +108,11 @@ html {
 }
 
 #textopraticas {
-  grid-template-columns: 1fr 20px 1fr;
-  grid-template-rows: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  width: 50%;
 }
 
 .btn {
@@ -133,9 +132,9 @@ html {
 }
 
 #textopraticas h2 {
-  font-size: 35pt;
+  font-size: 3vw;
   text-align: center;
-  margin: 100px;
+  margin-bottom: 70px;
 }
 
 @media (max-width: 900px) {
@@ -359,11 +358,19 @@ Sessão do MAPA da Landing Page */
 /* Fim parte Pedro Nunes*/
 /* Início Wesney*/
 
+#forumforum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
 /* LucasTeste */
 #forumforum h2 {
   font-size: 3vw;
   text-align: center;
-  margin: 100px;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 900px) {
