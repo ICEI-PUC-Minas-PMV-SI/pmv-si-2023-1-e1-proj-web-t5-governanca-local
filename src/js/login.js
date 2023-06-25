@@ -93,7 +93,7 @@ function login(){
             localStorage.setItem('userlogado', JSON.stringify(userValid));
             console.log(token);
     
-        } else {
+        } else if (loginn.value !== userValid.user || senhaLogin.value !== userValid.senh){
             alert("Usuário ou senha incorretos.");
         }
     }
