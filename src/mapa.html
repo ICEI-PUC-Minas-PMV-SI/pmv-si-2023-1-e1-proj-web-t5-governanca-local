@@ -21,20 +21,20 @@
         <nav class="nav">
             <div class="esquerda">
                 <ul>
-                    <li><a href="index.html"><img widht="30" height="30"
+                    <li><a href="index.html"><img widht="50" height="50"
                                 src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Home.png"></a>
                     </li>
-                    <li><a href="forum.html"><img width="30" height="30"
+                    <li><a href="forum.html"><img width="50" height="50"
                                 src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pessoas.png"></a>
                     </li>
                 </ul>
             </div>
             <div class="direita">
                 <ul>
-                    <li><a href="conta.html"><img width="30" height="30"
-                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/icon-configs.png"></a>
+                    <li><a href="html/praticas.html"><img width="50" height="50"
+                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a320ac9e1d7e7b46f4d2bfcab7e85d8bcbc39349/src/src/Icons/ecologia.png"></a>
                     </li>
-                    <li><a href="login.html"><img width="30" height="30"
+                    <li><a href="login.html"><img width="50" height="50"
                                 src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Conta.png"></a>
                     </li>
                 </ul>
@@ -44,20 +44,17 @@
         <nav class="mobile-menu">
             <div class="top">
                 <ul>
-                    <li><a href="index.html"><img widht="30" height="30"
+                    <li><a href="index.html"><img widht="40" height="40"
                                 src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Home.png"></a>
                     </li>
-                    <li><a href="conta.html"><img width="30" height="30"
-                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/icon-configs.png"></a>
+                    <li><a href="forum.html"><img width="40" height="40"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pessoas.png"></a>
                     </li>
-                    <li><a href="login.html"><img width="30" height="30"
+                    <li><a href="html/praticas.html"><img width="40" height="40"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a320ac9e1d7e7b46f4d2bfcab7e85d8bcbc39349/src/src/Icons/ecologia.png"></a>
+                    </li>
+                    <li><a href="login.html"><img width="40" height="40"
                                 src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Conta.png"></a>
-                    </li>
-                    <li><a href="#"><img width="30" height="30"
-                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/icon-filter.png"></a>
-                    </li>
-                    <li><a href="forum.html"><img width="30" height="30"
-                                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pessoas.png"></a>
                     </li>
                 </ul>
             </div>
@@ -65,7 +62,6 @@
         </nav>
     </header>
     <main>
-
         <div id="aviso-mobile">
             <div class="X3">
                 <img onclick="closePopup()" width="35px"
@@ -80,6 +76,10 @@
                 </p>
             </div>
         </div>
+        <div class="avs">
+            <h1>Atenção, por não ter feito login, a funcionalidade do mapa se estende apenas à sua visualização.</h1>
+            <p>Para utilizar suas features, faça <span><a href="login.html">login</a></span> antes!</p>
+        </div>
         <div class="info">
             <ul>
                 <li><img src="https://user-images.githubusercontent.com/127517961/246614766-957a73f3-93c4-4a65-9a88-9670b8044c9f.png" alt="Buraco" width="20px"> Mapear buracos </li>
@@ -93,6 +93,8 @@
 
         <div id="map">
         </div>
+
+
 
 
         <footer>
@@ -168,31 +170,31 @@
             var drawnFeatures = new L.FeatureGroup();
             map.addLayer(drawnFeatures);
 
-            var drawControl = new L.Control.Draw({
-                position: "topleft",
-                edit: {
-                    featureGroup: drawnFeatures,
-                    remove: true
-                },
-                draw: {
-                    marker: {
-                        icon: L.icon({
-                            iconUrl: "https://user-images.githubusercontent.com/127517961/246614766-957a73f3-93c4-4a65-9a88-9670b8044c9f.png",
-                            iconSize: [32, 32],
-                            iconAnchor: [16, 32],
-                            popupAnchor: [0, -32]
-                        })
-                    },
-                    polyline: {
-                        color: 'red',
-                        weight: 2
-                    },
-                    polygon: false,
-                    circle: false
-                }
-            });
+            // var drawControl = new L.Control.Draw({
+            //     position: "topleft",
+            //     edit: {
+            //         featureGroup: drawnFeatures,
+            //         remove: true
+            //     },
+            //     draw: {
+            //         marker: {
+            //             icon: L.icon({
+            //                 iconUrl: "https://user-images.githubusercontent.com/127517961/246614766-957a73f3-93c4-4a65-9a88-9670b8044c9f.png",
+            //                 iconSize: [32, 32],
+            //                 iconAnchor: [16, 32],
+            //                 popupAnchor: [0, -32]
+            //             })
+            //         },
+            //         polyline: {
+            //             color: 'red',
+            //             weight: 2
+            //         },
+            //         polygon: false,
+            //         circle: false
+            //     }
+            // });
 
-            map.addControl(drawControl);
+            // map.addControl(drawControl);
 
             map.on("draw:created", function (e) {
                 var layer = e.layer;
