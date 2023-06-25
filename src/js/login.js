@@ -87,13 +87,13 @@ function login(){
             window.location.href = './paginalogada.html'
     
             // Criação de Token
-            let token = Math.random().toString(32).substring(2);
+            let token = Math.random().toString(16).substring(2);
             localStorage.setItem('token', token);
     
             localStorage.setItem('userlogado', JSON.stringify(userValid));
             console.log(token);
     
-        } else if (loginn.value !== userValid.user || senhaLogin.value !== userValid.senh){
+        } else if (loginn.value !== "" || senhaLogin.value !== "" ){
             alert("Usuário ou senha incorretos.");
         }
     }
