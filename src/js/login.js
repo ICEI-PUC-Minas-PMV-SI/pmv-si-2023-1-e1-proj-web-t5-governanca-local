@@ -79,6 +79,8 @@ function login(){
                     user: item.userCad,
                     senha: item.senhaCad
                 }
+            } else {
+                alert("Usuário ou senha incorretos.");
             }
     
         })
@@ -93,9 +95,7 @@ function login(){
             localStorage.setItem('userlogado', JSON.stringify(userValid));
             console.log(token);
     
-        } else {
-            alert("Usuário ou senha incorretos.");
-        }
+        } 
     }
 }
 
