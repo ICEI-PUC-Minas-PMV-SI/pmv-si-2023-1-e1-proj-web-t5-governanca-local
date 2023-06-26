@@ -23,11 +23,11 @@ const sexo2 = document.getElementById('sexo').value;
 
 
 // API que absorve os dados
-cep.addEventListener('focusout', async () =>{
+cep.addEventListener('focusout', async () => {
 
     const response = await fetch(`https://viacep.com.br/ws/${cep.value}/json/`)
 
-    if(!response.ok){
+    if (!response.ok) {
         throw await response.json();
     }
 
@@ -43,66 +43,67 @@ cep.addEventListener('focusout', async () =>{
 
 })
 
-// LocalStorage dos dados
-function salvarDados(){
-    let dadosUser = JSON.parse(localStorage.getItem('dadosUser') || '[]')
-
-
-    if (pnome.value == "" || snome.value == "" || dtnascimento.value == "" || cpf.value == "" || cep.value == "" || rua.value == "" || bairro.value == "" || cidade.value == "" || estado.value == ""  ) {
-        alert("Por favor, complete todos os campos.")
+// LocalStorage dos dados dos inputs
+function salvarDados() {
+    // Criação do localStorage 'dadosUser'
+    let dadosUser = JSON.parse(localStorage.getItem('dadosUser') || '[]');
+  
+    if (pnome.value == "" || snome.value == "" || dtnascimento.value == "" || cpf.value == "" || cep.value == "" || rua.value == "" || bairro.value == "" || cidade.value == "" || estado.value == "") {
+      alert("Por favor, complete todos os campos.");
     } else {
-        dadosUser.push({
-            firstNome: pnome.value,
-            secName: snome.value,
-            dtNasc: dtnascimento.value,
-            cpf: cpf.value,
-            cep: cep.value,
-            rua: rua.value,
-            bairro: bairro.value,
-            cidade: cidade.value,
-            estado: estado.value,
-            complemento: complemento.value,
-            numero: nrua.value,
-            sexo: sexo2.value
-          });
-          
-          localStorage.setItem('dadosUser', JSON.stringify(dadosUser));   
-          
-            let bloco = document.getElementById('bloco')
-            bloco.style.display = "block";
-}
-}
+      // Criando um novo "array"/objeto para a última edição dos campos
+      let dadosSet = {
+        pnome: pnome.value,
+        snome: snome.value,
+        dtnascimento: dtnascimento.value,
+        cpf: cpf.value,
+        cep: cep.value,
+        rua: rua.value,
+        bairro: bairro.value,
+        cidade: cidade.value,
+        estado: estado.value,
+        complemento: complemento.value,
+        nrua: nrua.value
+      };
+  
+      // Atualizando o localStorage 'DadosSet' com a última edição dos campos
+      localStorage.setItem('DadosSet', JSON.stringify(dadosSet));
+  
+      // Adicionando os dados do usuário ao localStorage 'dadosUser'
+      dadosUser.push(dadosSet);
+      localStorage.setItem('dadosUser', JSON.stringify(dadosUser));
+  
+      let bloco = document.getElementById('bloco');
+      bloco.style.display = "block";
+    }
+  }
+  
+  // Setando a última alteração e conservação dos dados atualizados
+  function carregarUltimaEdicao() {
+    let dadosSet = JSON.parse(localStorage.getItem('DadosSet'));
+  
+    if (dadosSet) {
+      pnome.value = dadosSet.pnome;
+      snome.value = dadosSet.snome;
+      dtnascimento.value = dadosSet.dtnascimento;
+      cpf.value = dadosSet.cpf;
+      cep.value = dadosSet.cep;
+      rua.value = dadosSet.rua;
+      bairro.value = dadosSet.bairro;
+      cidade.value = dadosSet.cidade;
+      estado.value = dadosSet.estado;
+      complemento.value = dadosSet.complemento;
+      nrua.value = dadosSet.nrua;
+    }
+  }
+  
+  // Carregando a última alteração do usuário ao dar f5 na página
+  carregarUltimaEdicao();
 
-function closePopup(){
+function closePopup() {
     bloco.style.display = "none"
 }
 
-// LocalStorage dos dados
-var dadosSalvos = JSON.parse(localStorage.getItem('dadosUser'));
-var firstNomeSalvo = dadosSalvos[0].firstNome;
-var snomeNomeSalvo = dadosSalvos[0].secName;
-var dtNascSalvo = dadosSalvos[0].dtNasc;
-var CPFSalvo = dadosSalvos[0].cpf;
-var cepSalvo = dadosSalvos[0].cep;
-var ruaSalvo = dadosSalvos[0].rua;
-var bairroSalvo = dadosSalvos[0].bairro;
-var cidadeSalvo = dadosSalvos[0].cidade;
-var estadoSalvo = dadosSalvos[0].estado;
-var complementoSalvo = dadosSalvos[0].complemento;
-var numeroSalvo = dadosSalvos[0].numero;
-var sexoSalvo = dadosSalvos[0].sexo;
 
 
-
-pnome.value = firstNomeSalvo;
-snome.value = snomeNomeSalvo
-dtnascimento.value = dtNascSalvo;
-cpf.value = CPFSalvo;
-cep.value = cepSalvo;
-rua.value = ruaSalvo;
-bairro.value = bairroSalvo;
-cidade.value = cidadeSalvo;
-estado.value = estadoSalvo;
-complemento.value = complementoSalvo;
-nrua.value = numeroSalvo;
 

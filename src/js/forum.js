@@ -1,8 +1,8 @@
 let textarea = document.getElementById('sendcoment');
 let spn = document.getElementById('spn');
 
-var dadosSalvos = JSON.parse(localStorage.getItem('dadosUser'));
-var bairroSalvo = dadosSalvos[0].bairro;
+let dadosSet = JSON.parse(localStorage.getItem('DadosSet'));
+var bairroSalvo = dadosSet.bairro;
 
 spn.setAttribute('style', 'font-style: normal')
 spn.innerHTML = bairroSalvo;
