@@ -1,5 +1,6 @@
 let textarea = document.getElementById('sendcoment');
 let spn = document.getElementById('spn');
+let btnupar = document.getElementById('btnupar');
 
 let dadosSet = JSON.parse(localStorage.getItem('DadosSet'));
 var bairroSalvo = dadosSet.bairro;
@@ -19,24 +20,34 @@ if (textarea.value == "") {
     });
     
     localStorage.setItem('comentarioUser', JSON.stringify(comentarioUser));   
-    location.reload()
+    btnupar.addEventListener('click', function(){
+
+        let userlogado = JSON.parse(localStorage.getItem('userlogado'));
+
+
+
+        var comentario = textarea.value; 
+        var espacoComent = document.createElement('div');
+        var nomeComent = document.createElement('span');
+            espacoComent.innerText = comentario;
+            nomeComent.innerText = userlogado.nome;
+            document.getElementById('sectioncoment').appendChild(nomeComent).appendChild(espacoComent); // Adiciona os comentários dentro do 'comments-container'
+           
+            textarea.value = ''; // Limpa o campo de entrada de comentários
+
+
+            location.reload()
+
+    });
+
     
 }
 }
 
-var mensagemSalva = JSON.parse(localStorage.getItem('comentarioUser'));
-let userlogado = JSON.parse(localStorage.getItem('userlogado'));
-var mensagem = mensagemSalva[0].mensagem;
-var mensagem2 = mensagemSalva[1].mensagem;
 
-let campo = document.getElementById('coment');
-let pessoa = document.getElementById('pessoa');
-pessoa.innerHTML = userlogado.nome;
-campo.innerHTML = mensagem;
 
 // Fazer i++ dos comentários
 
-let campo2 = document.getElementById('comentario2');
-campo2.innerHTML = mensagem2;
+
 
 

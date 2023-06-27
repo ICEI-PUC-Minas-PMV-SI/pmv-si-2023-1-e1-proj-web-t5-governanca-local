@@ -47,7 +47,7 @@
             <h1>Deixe aqui suas sugestões, reivindicações e avisos!</h1>
             <textarea name="Comentários" id="sendcoment" cols="80" rows="4" placeholder="Digite Aqui..."></textarea>
             <div class="btn2">
-                <input type="button" value="Enviar comentário" onclick="enviarComentario()">
+                <input type="button" value="Enviar comentário" id="btnupar" onclick="enviarComentario()">
             </div>
 
             <div class="blocoesquerda">
@@ -217,20 +217,17 @@
                         </p>
                     </div>
                 </div>
-                <div class="textocoment6" id="textocoment6">
-                    <div class="cabecalhocomenta">
-                        <p id="pessoa"></p>
-                        <span id="coment"></span>
-                    </div>
+
+                <div id="sectioncoment">
+
                 </div>
-                <div id="textocoment7">
-                    <p id="pessoa"></p>
-                    <span id="comentario2"></span>
-                </div>
-                <div id="textocoment8"></div>
-                <div id="textocoment9"></div>
+
             </div>
             </div>
+
+
+
+
             <!-- SCRIPT PARA ABRIR E FECHAR POPUP -->
             <script>
                 function openPopupcomentarios() {
