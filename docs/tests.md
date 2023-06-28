@@ -203,14 +203,14 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
-
+| 1             | Você é uma pessoa que deseja navegar no mapa e reportar um buraco em sua rua. Encontre a sessão do mapa e insira um alerta de buraco. |
+| 2             | Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem. |
+| 3             | Você é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Login e realize seu cadastro. |
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Você é uma pessoa que deseja navegar no mapa e reportar um buraco em sua rua. Encontre a sessão do mapa e insira um alerta de buraco.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -228,7 +228,7 @@ Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site u
 
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -244,7 +244,21 @@ Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,0
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
+Cenário 3: Você é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Login e realize seu cadastro.
 
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 22.54 segundos                          |
+| 2       | SIM             | 5                    | 31.42 segundos                          |
+| 3       | SIM             | 5                    | 36.21 segundos                          |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+
+
+    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
+    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
+    tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
 
 ## Avaliação dos Testes de Usabilidade
