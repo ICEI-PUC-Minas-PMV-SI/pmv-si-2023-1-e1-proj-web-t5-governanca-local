@@ -2,6 +2,10 @@ let textarea = document.getElementById('sendcoment');
 let spn = document.getElementById('spn');
 let btnupar = document.getElementById('btnupar');
 
+if (localStorage.getItem('token' == null)) {
+    window.location.href = 'html/aviso.html'
+}
+
 let dadosSet = JSON.parse(localStorage.getItem('DadosSet'));
 var bairroSalvo = dadosSet.bairro;
 
@@ -32,7 +36,7 @@ if (textarea.value == "") {
         // var imgComent = 
         espacoComent.innerHTML= comentario;
         nomeComent.innerHTML = userlogado.nome;
-        document.getElementById('sectioncoment').appendChild(espacoComent).appendChild(nomeComent); // Adiciona os comentários dentro do 'comments-container'
+        document.getElementById('sectioncoment').appendChild(espacoComent).appendChild(nomeComent); // Adiciona os comentários dentro da div criada
         
         // textarea.value = ''; // Limpa o campo de entrada de comentários
         
@@ -41,7 +45,7 @@ if (textarea.value == "") {
 
     });
 
-    
+
 }
 }
 

@@ -106,22 +106,28 @@ article h1 {
 
 }
 
-.btn2 input {
+button {
     display: flex;
+    align-items: center;
+    border: 1px solid gray;
     cursor: pointer;
-    justify-content: center;
-    border: none;
-    border-radius: 3px;
-    border: 1px solid rgb(175, 168, 168);
     background-color: white;
-    transition: 0.2s;
-    padding: 0px 5px;
+    outline: none;
+    padding: 5px 5px;
+    justify-content: space-between;
+    border-radius: 4px;
 }
 
-.btn2 input:hover {
+button img {
+    margin-right: 4px;
+}
+
+.btn2 button:hover {
     background-color: rgb(175, 168, 168);
     color: black;
 }
+
+
 
 /*BOTÃO DO POP-UP*/
 
