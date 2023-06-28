@@ -497,3 +497,23 @@ span {
 ::selection {
     background-color: #fac710;
 }
+
+#sectioncoment div {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #e6e6e6;
+    padding: 5px;
+ 
+}
+
+#sectioncoment span {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #e6e6e6;
+    font-weight: 800;
+    font-style: normal;
+}
