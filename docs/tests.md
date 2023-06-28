@@ -112,52 +112,52 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT01 - Acesso à landing page*                                         |
 |---|---|
 |Requisito Associado | RF-008 - 	A aplicação Web terá um landing page <br> RF-009 - A aplicação Web conterá uma aba sobre os criadores. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/19MSu3LInt7ZSjB2fJxupNvNiCUSxqA-y/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT02 - Cadastro*                                         |
 |---|---|
 |Requisito Associado | RF-001	- A aplicação Web permitirá o usuário se cadastrar. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/19oGx8y191OAlCiwnQviHQEnjPR9xBQOy/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT03 - Login*                                         |
 |---|---|
 |Requisito Associado | RF-002	- A aplicação Web permitirá o usuário se logar <br> RF-012	- A aplicação Web contará com uma landing page exclusiva para cadastrados <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/19qU59DH-STE8Va63Yafgzotibu7VnJW3/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT04 - Acessar o conteúdo de boas práticas de convivência*                                         |
 |---|---|
 |Requisito Associado | RF-007	A aplicação Web contará com páginas estáticas contendo práticas de boas convivências, podendo ser acessada por usuários cadastrados ou não. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/19w2IfbMIKGnHuW0t6z3PCMAtt08CcDwL/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT05 - Acessar o Mapa e utilizar suas ferramentas*                                         |
 |---|---|
 |Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1-xiubK9xmVLQ64qgBTXLB9LiljKFoqeG/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT06 - Ferramentas do mapa: Editar pins*                                         |
 |---|---|
 |Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1UzlOqETFvKsXXRpnOhvbiAFcHcwOcU6W/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT07 - Ferramentas do mapa: Deleção de pins*                                         |
 |---|---|
 |Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/18xN4PMQ7anLAVsE81ig8GYJ6I42-3FW9/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT08 - Fórum*                                         |
 |---|---|
 |Requisito Associado | RF-003 - A aplicação Web permitirá apenas usuários devidamente cadastrados com acesso ao fórum. <br> RF-004 - A aplicação Web permitirá o usuário (cadastrado) criar, discutir em tópicos do fórum. <br> RF-010 - A aplicação Web conterá uma área de sugestões para o site.	<br> RF-011 - A aplicação Web permitirá que o usuário tenha acesso atravéns do fórum a páginas externas para fins de doações, contribuições para a página e busca de empregos. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1NwAR7KZil1N341fV_JF76hwNs5r15-RW/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT09 - Criar comentário*                                         |
 |---|---|
 |Requisito Associado | RF-003 - A aplicação Web permitirá apenas usuários devidamente cadastrados com acesso ao fórum. <br> RF-004 - A aplicação Web permitirá o usuário (cadastrado) criar, discutir em tópicos do fórum. <br> RF-010 - A aplicação Web conterá uma área de sugestões para o site.	<br> RF-011 - A aplicação Web permitirá que o usuário tenha acesso atravéns do fórum a páginas externas para fins de doações, contribuições para a página e busca de empregos. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1y4Z_15LJPIYlWDOnsvH0sbILu-O9x7q2/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT10 - Enviar sugestões para os criadores*                                         |
 |---|---|
 |Requisito Associado | RF-010 - A aplicação Web conterá uma área de sugestões para o site <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1mItJ53eM12FdcKIjNSJAnQw_B_ktK15y/view?usp=sharing | 
 
 
 ## Avaliação dos Testes de Software
