@@ -159,9 +159,8 @@
                 });
 
                 var you = L.marker([lat, long], { icon: customIcon });
-                var circle = L.circle([lat, long], { radius: accuracy });
 
-                var featureGroup = L.featureGroup([you, circle]).addTo(map);
+                var featureGroup = L.featureGroup([you]).addTo(map);
                 map.fitBounds(featureGroup.getBounds());
 
                 you.bindPopup("Você está aqui!").openPopup();
