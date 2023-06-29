@@ -203,9 +203,10 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja navegar no mapa e reportar um buraco em sua rua. Encontre a sessão do mapa e insira um alerta de buraco. |
-| 2             | Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem. |
-| 3             | Você é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Login e realize seu cadastro. |
+| 1             | Você é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Login e realize seu cadastro. |
+| 2             | Você é uma pessoa que deseja navegar no mapa e reportar um buraco em sua rua. Encontre a sessão do mapa e insira um alerta de buraco. |
+| 3             | Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem. |
+
 
 
 ## Registro de Testes de Usabilidade
