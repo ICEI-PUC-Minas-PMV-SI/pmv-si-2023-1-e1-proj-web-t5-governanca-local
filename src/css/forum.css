@@ -19,7 +19,7 @@ article {
     width: 50%;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 article h1 {
@@ -79,7 +79,7 @@ article h1 {
     width: 50%;
     font-size: 12px;
     margin-right: 10px;
-    
+
 }
 
 .aligntxt2 span {
@@ -94,7 +94,7 @@ article h1 {
 .texto3 p {
     display: flex;
     margin: 5px;
-    
+
 }
 
 .btn2 {
@@ -138,10 +138,10 @@ button img {
     align-items: center;
     width: 50%;
 
-   
+
 }
 
-.btn3   {
+.btn3 {
     display: flex;
     cursor: pointer;
     justify-content: center;
@@ -214,7 +214,7 @@ button img {
 .imagemcoment2,
 .imagemcoment3,
 .imagemcoment4,
-.imagemcoment5  {
+.imagemcoment5 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -249,7 +249,7 @@ button img {
 }
 
 .search-bar-semana {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px 10px;
@@ -325,7 +325,7 @@ button img {
 .comenta1 img:hover,
 .comenta2 img:hover,
 .comenta3 img:hover {
-    transform: scale(0.9) ;
+    transform: scale(0.9);
 }
 
 
@@ -339,6 +339,7 @@ aside {
     flex-direction: column;
     width: 50%;
 }
+
 .headloc {
     display: flex;
     justify-content: end;
@@ -373,10 +374,10 @@ aside {
     display: flex;
     border-radius: 1000%;
     box-shadow: 15px -15px #7efc00;
-    transition: .2s;  
+    transition: .2s;
 }
 
-.instituicao2 img  {
+.instituicao2 img {
     display: flex;
     border-radius: 1000%;
     box-shadow: -15px -15px #7efc00;
@@ -462,41 +463,59 @@ span {
         margin: 0;
         width: 96%;
 
-}
+    }
 
-.search-bar-semana input[type="text"] {
-    width: 120px;
-}
+    .search-bar-semana input[type="text"] {
+        width: 120px;
+    }
 
-.reparticaocomentario1, 
-.reparticaocomentario3,
-.reparticaocomentario5 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
+    .reparticaocomentario1,
+    .reparticaocomentario3,
+    .reparticaocomentario5 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
 
-.reparticaocomentario2,
-.reparticaocomentario4 {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-bottom: 10px;
+    .reparticaocomentario2,
+    .reparticaocomentario4 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+    }
+
+    #spn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .btnss {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .btn2 {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+     button {
+        width: 60%;
+
+    }
+
+
 }
 
 #spn {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-}
-
-#spn {
-    display: flex;
     align-items: center;
     justify-content: center;
-    font-style:oblique;
+    font-style: oblique;
     margin: auto;
     font-weight: 700;
     font-size: 20pt;
@@ -521,7 +540,7 @@ span {
     width: 100%;
     background-color: #e6e6e6;
     padding: 5px;
- 
+
 }
 
 #sectioncoment aside {
@@ -545,6 +564,4 @@ span {
     justify-content: space-around;
     align-items: center;
     margin: 10px 0;
-
-
 }
