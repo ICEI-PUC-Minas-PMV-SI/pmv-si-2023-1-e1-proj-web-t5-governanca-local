@@ -101,8 +101,8 @@ article h1 {
     display: flex;
     width: 100%;
     justify-content: end;
-    margin-right: 30px;
-    margin-bottom: 8px;
+    align-items: center;
+
 
 }
 
@@ -114,7 +114,8 @@ button {
     background-color: white;
     outline: none;
     padding: 5px 5px;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 10px;
     border-radius: 4px;
 }
 
@@ -134,8 +135,9 @@ button img {
 .butao3 {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    align-items: center;
+    width: 50%;
+
    
 }
 
@@ -150,6 +152,7 @@ button img {
     background-color: white;
     transition: 0.2s;
     padding: 5px 10px;
+    width: 150%;
 }
 
 .X {
@@ -504,6 +507,13 @@ span {
     background-color: #fac710;
 }
 
+#sectioncoment {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+
+}
+
 #sectioncoment div {
     display: flex;
     flex-direction: column-reverse;
@@ -514,12 +524,27 @@ span {
  
 }
 
+#sectioncoment aside {
+    display: flex;
+    font-style: italic;
+    width: 100%;
+}
+
 #sectioncoment span {
     display: flex;
-    flex-direction: column;
-    margin-top: 10px;
     width: 100%;
+    margin-top: 10px;
     background-color: #e6e6e6;
     font-weight: 800;
     font-style: normal;
+}
+
+.btnss {
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+
+
 }

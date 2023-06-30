@@ -17,12 +17,12 @@
 <body>
     <header>
         <button class="left-button">
-            <a href="index.html"><img widht="30" height="30"
+            <a href="html/idxlogado.html"><img widht="30" height="30"
                     src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Home.png"></a>
 
             <div>
                 <button class="center-button">
-                    <a href="html/praticas.html"><img widht="30" height="30"
+                    <a href="html/praticaslog.html"><img widht="30" height="30"
                             src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a320ac9e1d7e7b46f4d2bfcab7e85d8bcbc39349/src/src/Icons/ecologia.png"></a>
 
                     <button class="center-button">
@@ -30,13 +30,13 @@
                                 src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pin.png"></a>
 
                         <button class="center-button">
-                            <a href="index.html#sobre"><img widht="30" height="30"
+                            <a href="html/idxlogado.html#sobre"><img widht="30" height="30"
                                     src="https://user-images.githubusercontent.com/127517961/234959722-b351f518-23ea-4d90-bce4-0227c61167f5.png"
                                     alt="Sobre"></a>
             </div>
 
             <button class="right-button">
-                <a href="login.html"> <img widht="30" height="30"
+                <a href="conta.html"> <img widht="30" height="30"
                         src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Conta.png">
                 </a>
     </header>
@@ -46,15 +46,21 @@
         <article>
             <h1>Deixe aqui suas sugestões, reivindicações e avisos!</h1>
             <textarea name="Comentários" id="sendcoment" cols="80" rows="4" placeholder="Digite Aqui..."></textarea>
-            <div class="btn2">
-               <button id="btnupar" onclick="enviarComentario()">
-                <img src="https://user-images.githubusercontent.com/127517961/249608279-f156c576-2a4b-471d-a177-09afca64d4e9.png" alt="Comentar" width="18px">
-                <p>Enviar Comentário</p>
-            </button>
+            <div class="btnss">
+                <div class="butao3">
+                    <button class="btn3" onclick="openPopupcomentarios()">Ver Comentários</button>
+                </div>
+                <div class="btn2">
+                    <button id="btnupar" onclick="enviarComentario()">
+                        <img src="https://user-images.githubusercontent.com/127517961/249608279-f156c576-2a4b-471d-a177-09afca64d4e9.png"
+                            alt="Comentar" width="18px">
+                        <p>Enviar Comentário</p>
+                    </button>
+                </div>
             </div>
 
             <div class="blocoesquerda">
-             <h1> Comentários Fixados:</h1>
+                <h1> Comentários Fixados:</h1>
 
                 <div class="comenta1">
                     <div class="img1">
@@ -97,7 +103,7 @@
                         <img src="https://user-images.githubusercontent.com/128329945/226661055-a731bb9d-e3fb-42c1-8f49-ad70df2a94b5.jpg"
                             alt="LarissaGontijo" srcset="" width="100px">
                     </div>
-                
+
 
                     <div class="coment3">
                         <div class="texto2">
@@ -107,30 +113,28 @@
                             </div>
                             <p>Ontem passei por um perrengue danado, estava fazendo minha <br> caminhada matinal, quando
                                 quase fui atropelada na rua, pois não há...</p>
-                                
+
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="butao3">
-                <button class="btn3" onclick="openPopupcomentarios()">Ver Comentários</button>
-            </div>
+
             <div class="popupcomentarios" id="popupcomentarios">
                 <div class="X">
                     <img onclick="closePopupcomentarios()" width="35px"
                         src="https://user-images.githubusercontent.com/102264520/234979041-3fbc1d50-9ea4-4498-96e1-5cb78050895d.png"
                         alt="">
-                    <title>Barra de Pesquisa</title>
+
                 </div>
 
-                <div class="search-bar-semana">
-                    <input type="text" id="search-input-semana" placeholder="Localizar">
-                    <input type="submit" value="Pesquisar">
-                </div>
 
                 <div class="titulo">
                     <h1>Sugestões, reivindicações e avisos dos usuários.</h1>
+                </div>
+
+                <div id="sectioncoment">
+
                 </div>
 
                 <div class="reparticaocomentario1">
@@ -221,9 +225,7 @@
                     </div>
                 </div>
 
-                <div id="sectioncoment">
 
-                </div>
 
             </div>
             </div>
