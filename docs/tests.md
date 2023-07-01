@@ -207,7 +207,7 @@ Cenário 1: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
+| 1  Jess | SIM             | 5                    | 33.60 segundos                  |
 | 2       | SIM             | 5                    | 17.11 segundos                  |
 | 3       | SIM             | 5                    | 39.09 segundos                  |
 |  |  |  |  |
@@ -217,6 +217,7 @@ Cenário 1: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
     Não tive dificuldades e acho que ficou bem intuitivo.
+    Jess: Muito claro e intuitivo.
 
 
 
