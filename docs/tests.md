@@ -189,12 +189,12 @@ Comentário: "Funcionou perfeitamente. Consigo remover e editar. Senti falta de 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: VVocê é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Login e realize seu cadastro.
+Cenário 1: Você é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Login e realize seu cadastro.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1  Jess | SIM             | 5                    | 33.60 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
+| 1 Jess  | SIM             | 5                    | 33.60 segundos                  |
+| 2 Waldir| SIM             | 5                    | 19.31 segundos                  |
 | 3       | SIM             | 5                    | 39.09 segundos                  |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 28.02 segundos                           |
@@ -204,6 +204,7 @@ Cenário 1: VVocê é uma pessoa que deseja se cadastrar. Encontre no site a ses
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
     Não tive dificuldades e acho que ficou bem intuitivo.
     Jess: Muito claro e intuitivo.
+    Waldir: Tranquilo e objetivo, ele criaria no banner princpal uma chamada mais fácil
 
 
 
@@ -212,7 +213,7 @@ Cenário 2: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1 Jess  | SIM             | 4.5                  | 35.32 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
+| 2 Waldir| SIM             | 5                    | 18.36 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
@@ -223,13 +224,14 @@ Cenário 2: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
     Jess: Não ficou claro no icone do bluraco se era pra apertar em cima ou ao lado.
+    Waldir: No painel do mapa ele achou que o botão de mapear fosse em cima.
 
 Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1 Jess  | SIM             | 5                    | 22.11 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
+| 2 Waldir| SIM             | 5                    | 32.43 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
@@ -240,6 +242,7 @@ Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontr
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
     Jess: Claro e intuitivo
+    Waldir: Colocar texto indicando o que é, recomendou utilizar o sweetalert para qualquer coisa de Popup e alerta https://sweetalert2.github.io/v10.html#examples.
 
 
 Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu bairro. Ache o conteúdo de boas práticas de convivências.
@@ -247,7 +250,7 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1 Jess  | SIM             | 5                    | 07.21 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
+| 2 Waldir| SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
@@ -257,7 +260,8 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
-    Jess: Achou legal e bacana
+    Jess: Achou legal e bacana;
+    Waldir: Colocar texto na barra dos Ícones;
 
 
 ## Avaliação dos Testes de Usabilidade
