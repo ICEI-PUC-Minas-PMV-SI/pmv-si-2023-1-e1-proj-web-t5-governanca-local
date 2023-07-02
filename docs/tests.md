@@ -195,7 +195,7 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar. Encontre no site a sess
 |---------|-----------------|----------------------|---------------------------------|
 | 1 Jess  | SIM             | 5                    | 33.60 segundos                  |
 | 2 Waldir| SIM             | 5                    | 19.31 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 3 Marcelo| SIM             | 5                    | 37.57 segundos                  |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 28.02 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 26.03 segundos |
@@ -205,6 +205,7 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar. Encontre no site a sess
     Não tive dificuldades e acho que ficou bem intuitivo.
     Jess: Muito claro e intuitivo.
     Waldir: Tranquilo e objetivo, ele criaria no banner princpal uma chamada mais fácil
+    Marcelo: utilizar o Autocomplete do nome, o cadastro foi tranquilo
 
 
 
@@ -214,7 +215,7 @@ Cenário 2: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
 |---------|-----------------|----------------------|---------------------------------|
 | 1 Jess  | SIM             | 4.5                  | 35.32 segundos                          |
 | 2 Waldir| SIM             | 5                    | 18.36 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 3 Marcelo | SIM             | 4.5                    | 54.90 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 27.43 segundos |
@@ -225,14 +226,15 @@ Cenário 2: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
     Jess: Não ficou claro no icone do bluraco se era pra apertar em cima ou ao lado.
     Waldir: No painel do mapa ele achou que o botão de mapear fosse em cima.
+    Marcelo: Colocar um tooltip, mensagem que ao passar o mouse em cima mostrar o que o botão faz, sugeriu colcoar no cartão do mapa: "Acompanhe e contribue com o mapa do seu bairro".
 
 Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1 Jess  | SIM             | 5                    | 22.11 segundos                          |
-| 2 Waldir| SIM             | 5                    | 32.43 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 2 Waldir| SIM             | 3                    | 32.43 segundos                          |
+| 3 Marcelo | SIM             | 5                    | 26.71 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 15.07 segundos |
@@ -243,6 +245,7 @@ Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontr
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
     Jess: Claro e intuitivo
     Waldir: Colocar texto indicando o que é, recomendou utilizar o sweetalert para qualquer coisa de Popup e alerta https://sweetalert2.github.io/v10.html#examples.
+    Marcelo: Foi fácil e intuitivo
 
 
 Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu bairro. Ache o conteúdo de boas práticas de convivências.
@@ -251,7 +254,7 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
 |---------|-----------------|----------------------|---------------------------------|
 | 1 Jess  | SIM             | 5                    | 07.21 segundos                          |
 | 2 Waldir| SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 3 Marcelo | SIM             | 5                    | 11.73 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 3 segundos |
@@ -262,6 +265,7 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
     Jess: Achou legal e bacana;
     Waldir: Colocar texto na barra dos Ícones;
+    Marcelo: Bem rápido;
 
 
 ## Avaliação dos Testes de Usabilidade
