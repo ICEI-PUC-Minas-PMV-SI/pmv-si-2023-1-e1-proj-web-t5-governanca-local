@@ -189,7 +189,7 @@ Comentário: "Funcionou perfeitamente. Consigo remover e editar. Senti falta de 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja navegar no mapa e reportar um buraco em sua rua. Encontre a sessão do mapa e insira um alerta de buraco.
+Cenário 1: VVocê é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Login e realize seu cadastro.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -207,11 +207,11 @@ Cenário 1: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
 
 
 
-Cenário 2: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem.
+Cenário 2: Você é uma pessoa que deseja navegar no mapa e reportar um buraco em sua rua. Encontre a sessão do mapa e insira um alerta de buraco.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1 Jess  | SIM             | 5                    | 22.11 segundos                          |
+| 1 Jess  | SIM             | 4.5                  | 35.32 segundos                          |
 | 2       | SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
@@ -222,12 +222,13 @@ Cenário 2: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontr
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Jess: Não ficou claro no icone do bluraco se era pra apertar em cima ou ao lado.
 
-Cenário 3: Você é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Login e realize seu cadastro.
+Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
+| 1 Jess  | SIM             | 5                    | 22.11 segundos                          |
 | 2       | SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
@@ -238,13 +239,14 @@ Cenário 3: Você é uma pessoa que deseja se cadastrar. Encontre no site a sess
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Jess: Claro e intuitivo
 
 
 Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu bairro. Ache o conteúdo de boas práticas de convivências.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
+| 1       | SIM             | 5                    | 07.21 segundos                          |
 | 2       | SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
@@ -255,6 +257,7 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Jess: Achou legal e bacana
 
 
 ## Avaliação dos Testes de Usabilidade
