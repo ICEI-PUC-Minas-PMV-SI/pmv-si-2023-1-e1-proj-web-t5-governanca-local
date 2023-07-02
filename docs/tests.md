@@ -51,7 +51,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT04 - Acessar o conteúdo de boas práticas de convivência**
  :--------------: | ------------
-**Procedimento**  | 1) Acessar a URL do site. <br> 2) Encontrar o botão de direcionamento para o conteúdo.
+**Procedimento**  | 1) Acessar a URL do site. <br> 2) Encontrar o botão de direcionamento "Práticas: Clique aqui".
 **Requisitos associados** | RF-007 e RNF-001
 **Resultado esperado** | Acesso às práticas.
 **Dados de entrada** | Nenhum.
@@ -59,7 +59,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT05 - Acessar o Mapa e utilizar suas ferramentas**
  :--------------: | ------------
-**Procedimento**  | 1) Acessar a URL do site. <br> 2) Encontrar o botão de direcionamento para o conteúdo. <br> 3) Ao entrar, aceitar o acesso à localização pelo navegador <br> 4) Para utilizar os devidos marcadores, clicar e arrastar para a área desejada. <br> 5) Ao posicionar o pin, os ícones lápis e lixeira, respectivamente: edição e deleção, são habilitados.
+**Procedimento**  | 1) Acessar a URL do site. <br> 2) Fazer Cadastro/login <br> 3) Encontrar o botão de direcionamento para o conteúdo. <br> 4) Ao entrar, aceitar o acesso à localização pelo navegador <br> 5) Para utilizar os devidos marcadores, clicar e arrastar para a área desejada. <br> 6) Ao posicionar o pin, os ícones lápis e lixeira, respectivamente: edição e deleção, são habilitados.
 **Requisitos associados** | RF-005, RF-006 e RNF-001
 **Resultado esperado** | Acesso ao mapa.
 **Dados de entrada** | Localização do usuário.
@@ -67,7 +67,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT06 - Ferramentas do mapa: Editar pins**
  :--------------: | ------------
-**Procedimento**  | 1) Clique no ícone de lápis. <br> 2) Após isso, a edição de localidade do pin está ativada. <br> 3) Arraste até o novo local desejado. <br> 4) Ao concluir, clique em "Salvar".
+**Procedimento**  | 1) Acessar a URL do site. <br> 2) Fazer Cadastro/login <br> 3) Encontrar o botão de direcionamento para o conteúdo. <br> 4) Ao entrar, aceitar o acesso à localização pelo navegador <br> 5) Clique no ícone de lápis. <br> 6) Após isso, a edição de localidade do pin está ativada. <br> 7) Arraste até o novo local desejado. <br> 8) Ao concluir, clique em "Salvar".
 **Requisitos associados** | RF-005, RF-006 e RNF-001
 **Resultado esperado** | Acesso à funcionalidade de edição de marcadores.
 **Dados de entrada** | Localização e Marcadores do usuário.
@@ -75,7 +75,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT07 - Ferramentas do mapa: Deleção de pins **
  :--------------: | ------------
-**Procedimento**  | 1) Clique no ícone de lixeira. <br> 2) Após isso, a deleção de localidade do pin está ativada. <br> 3) Clique no ícone que deseja deletar. <br> 4) Ao concluir, clique em "Salvar".
+**Procedimento**  | 1) Acessar a URL do site. <br> 2) Fazer Cadastro/login <br> 3) Encontrar o botão de direcionamento para o conteúdo. <br> 4) Ao entrar, aceitar o acesso à localização pelo navegador <br> 5) Crie um marcador <br> 6) Clique no ícone de lixeira. <br> 7) Após isso, a deleção de localidade do pin está ativada. <br> 8) Clique no ícone que deseja deletar. <br> 4) Ao concluir, clique em "Salvar".
 **Requisitos associados** |RF-005, RF-006 e RNF-001
 **Resultado esperado** | Acesso à funcionalidade de edição de marcadores.
 **Dados de entrada** | Localização e Marcadores do usuário.
@@ -83,7 +83,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT08 - Fórum **
  :--------------: | ------------
-**Procedimento**  | 1) Após o login, acesse o botão "Fórum". <br> 2) Aparecerá os campos de criar comentário, acessar todos os comentário, links de utilidade pública e sugestões para o site.
+**Procedimento**  | 1) Após o login, acesse o botão "Fórum". <br> 2) Aparecerá os campos de criar comentário, acessar todos os comentários, links de utilidade pública e sugestões para o site.
 **Requisitos associados** | RF-003, RF-004, RF-010, RF-011 e RNF-001
 **Resultado esperado** | Acesso ao fórum e suas ferramentas.
 **Dados de entrada** | Dados previamente subscritos durante a criação da conta.
@@ -91,7 +91,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT09 - Criar comentário **
  :--------------: | ------------
-**Procedimento**  | 1) Escreva seu comentário no campo de texto <br> 2) Clique em "Enviar comentário"
+**Procedimento**  | 1) Entre na URL do site <br> 2) Faça cadastro/login <br> 3) Encontre o botão direcionador para o fórum <br> 4) Escreva seu comentário no campo de texto <br> 5) Clique em "Enviar comentário"
 **Requisitos associados** | RF-003, RF-004, RF-010, RF-011 e RNF-001
 **Resultado esperado** | Acesso ao fórum e suas ferramentas.
 **Dados de entrada** | Dados previamente subscritos durante a criação da conta.
@@ -99,7 +99,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT10 - Enviar sugestões para os criadores **
  :--------------: | ------------
-**Procedimento**  | 1) No fórum, clique no texto "Clique aqui e colabore agora mesmo!" <br> 2) Preencha os campos "Nome", "E-mail de contato", "telefone - opcional" e a mensagem <br> 3) Clique em "Enviar"
+**Procedimento**  | 1) Entre na URL do site <br> 2) Faça cadastro/login <br> 3) Encontre o botão direcionador para o fórum <br> 4) Clique no texto "Clique aqui e colabore agora mesmo!" <br> 5) Preencha os campos "Nome", "E-mail de contato", "telefone - opcional" e a mensagem <br> 6) Clique em "Enviar"
 **Requisitos associados** | RF-010	e RNF-001
 **Resultado esperado** | Direcionamento de sugestões.
 **Dados de entrada** | "Nome", "E-mail de contato", "telefone - opcional" e a mensagem.
@@ -167,28 +167,14 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
+<strong> Usuário 1: </strong> Busca por conteúdos que promovem uma melhoria no contato social urbano (práticas de boas convivências). Tempo necessário para tal ação: 8 segundos. Tempo necessário por um especialista: 3 segundos. 
+Comentário: "Aplicação bem intuitiva, não precisou que fizesse login para acessar o conteúdo. Conteúdo muito bom, porém ainda são poucos". Nota: 4/5
 
-Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
+<strong> Usuário 2: </strong> Busca por interagir com pessoas (fórum). Tempo necessário para tal ação: 37 segundos. Tempo necessário por um especialista: 27.4 segundos. 
+Comentário: "Funciona direitinho, porém a página do fórum contém bastante informação. Não contém opções de like/deslike e denunciar". Nota: 3.8/5
 
-Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
-
-Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
-
-Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
-
-1. Péssimo; 
-2. Ruim; 
-3. Regular; 
-4. Bom; 
-5. Ótimo.
-
-Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
-
-Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
-
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+<strong> Usuário 3: </strong> Gostaria de anexar um buraco no mapa do seu bairro. Tempo necessário para tal ação: 43 segundos. Tempo necessário por um especialista: 26.3 segundos. 
+Comentário: "Funcionou perfeitamente. Consigo remover e editar. Senti falta de uma explicação de como posicionar os marcadores. Sugiro alguns gifs fazendo tais ações". Nota: 4.3/5
 
 
 ## Cenários de Teste de Usabilidade
@@ -212,7 +198,7 @@ Cenário 1: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
 | 3       | SIM             | 5                    | 39.09 segundos                  |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 26.03 segundos |
 
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
@@ -230,7 +216,7 @@ Cenário 2: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontr
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 27.43 segundos |
 
 
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
@@ -246,7 +232,7 @@ Cenário 3: Você é uma pessoa que deseja se cadastrar. Encontre no site a sess
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 15.07 segundos |
 
 
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
@@ -263,7 +249,7 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 3 segundos |
 
 
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
