@@ -206,6 +206,7 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar. Encontre no site a sess
     Jess: Muito claro e intuitivo.
     Waldir: Tranquilo e objetivo, ele criaria no banner princpal uma chamada mais fácil
     Marcelo: utilizar o Autocomplete do nome, o cadastro foi tranquilo
+    Jorge: Fácil e prático.
 
 
 
@@ -223,9 +224,10 @@ Cenário 2: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
 
 
     Comentários dos usuários: 
-    Jess: Não ficou claro no icone do bluraco se era pra apertar em cima ou ao lado.
+    Jess: Não ficou claro no icone do buraco se era pra apertar em cima ou ao lado.
     Waldir: No painel do mapa ele achou que o botão de mapear fosse em cima.
     Marcelo: Colocar um tooltip, mensagem que ao passar o mouse em cima mostrar o que o botão faz, sugeriu colcoar no cartão do mapa: "Acompanhe e contribue com o mapa do seu bairro".
+    Jorge: Ficou um pouco confuso mas entendeu o objetivo do mapa.
 
 Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem.
 
@@ -244,7 +246,7 @@ Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontr
     Jess: Claro e intuitivo
     Waldir: Colocar texto indicando o que é, recomendou utilizar o sweetalert para qualquer coisa de Popup e alerta https://sweetalert2.github.io/v10.html#examples.
     Marcelo: Foi fácil e intuitivo
-    Jorge: Apesar de ser leigo em tecnologia, achou o site prático até mesmo para pessoas com baixo conhecimento tecnológico.
+    Jorge: Apesar de ser leigo em tecnologia, achou interessante a abordagem dos problemas através de coments.
 
 
 Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu bairro. Ache o conteúdo de boas práticas de convivências.
@@ -264,6 +266,7 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
     Jess: Achou legal e bacana;
     Waldir: Colocar texto na barra dos Ícones;
     Marcelo: Bem rápido;
+    Jorge: Elogiou a iniciativa das boas práticas.
 
 
 ## Avaliação dos Testes de Usabilidade
