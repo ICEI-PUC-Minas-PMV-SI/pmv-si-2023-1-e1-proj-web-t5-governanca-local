@@ -162,7 +162,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Particularmente, gostamos muito do nosso primeiro projeto, tendo como forte o visual 
 
 
 # Testes de Usabilidade
@@ -196,6 +196,7 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar. Encontre no site a sess
 | 1 Jess  | SIM             | 5                    | 33.60 segundos                  |
 | 2 Waldir| SIM             | 5                    | 19.31 segundos                  |
 | 3 Marcelo| SIM             | 5                    | 37.57 segundos                  |
+| 4 Jorge | SIM             | 4.5                    | 54.90 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 30.16 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 26.03 segundos |
@@ -215,6 +216,7 @@ Cenário 2: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
 | 1 Jess  | SIM             | 4.5                  | 35.32 segundos                          |
 | 2 Waldir| SIM             | 5                    | 18.36 segundos                          |
 | 3 Marcelo | SIM             | 4.5                    | 54.90 segundos                          |
+| 4 Jorge| SIM             | 4.5                    | 54.90 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 4.66               | 36.19 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 27.43 segundos |
@@ -232,6 +234,7 @@ Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontr
 | 1 Jess  | SIM             | 5                    | 22.11 segundos                          |
 | 2 Waldir| SIM             | 3                    | 32.43 segundos                          |
 | 3 Marcelo | SIM             | 5                    | 26.71 segundos                          |
+| 4 Jorge | SIM             | 4.5                    | 54.90 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 27.08 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 15.07 segundos |
@@ -250,6 +253,7 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
 | 1 Jess  | SIM             | 5                    | 07.21 segundos                          |
 | 2 Waldir| SIM             | 5                    | 31.42 segundos                          |
 | 3 Marcelo | SIM             | 5                    | 11.73 segundos                          |
+| 4 Jorge | SIM             | 4.5                    | 54.90 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 16.78 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 3 segundos |
