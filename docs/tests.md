@@ -246,7 +246,7 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 07.21 segundos                          |
+| 1 Jess  | SIM             | 5                    | 07.21 segundos                          |
 | 2       | SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
