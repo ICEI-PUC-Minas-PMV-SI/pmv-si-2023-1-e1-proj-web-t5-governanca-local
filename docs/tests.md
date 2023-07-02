@@ -51,7 +51,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT04 - Acessar o conteúdo de boas práticas de convivência**
  :--------------: | ------------
-**Procedimento**  | 1) Acessar a URL do site. <br> 2) Encontrar o botão de direcionamento para o conteúdo.
+**Procedimento**  | 1) Acessar a URL do site. <br> 2) Encontrar o botão de direcionamento "Práticas: Clique aqui".
 **Requisitos associados** | RF-007 e RNF-001
 **Resultado esperado** | Acesso às práticas.
 **Dados de entrada** | Nenhum.
@@ -59,31 +59,31 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT05 - Acessar o Mapa e utilizar suas ferramentas**
  :--------------: | ------------
-**Procedimento**  | 1) Acessar a URL do site. <br> 2) Encontrar o botão de direcionamento para o conteúdo. <br> 3) Ao entrar, aceitar o acesso à localização pelo navegador <br> 4) Para utilizar os devidos marcadores, clicar e arrastar para a área desejada. <br> 5) Ao posicionar o pin, os ícones lápis e lixeira, respectivamente: edição e deleção, são habilitados.
-**Requisitos associados** | RF-005, RF-006 e RNF-001
+**Procedimento**  | 1) Acessar a URL do site. <br> 2) Fazer Cadastro/login <br> 3) Encontrar o botão de direcionamento para o conteúdo. <br> 4) Ao entrar, aceitar o acesso à localização pelo navegador <br> 5) Para utilizar os devidos marcadores, clicar e arrastar para a área desejada. <br> 6) Ao posicionar o pin, os ícones lápis e lixeira, respectivamente: edição e deleção, são habilitados.
+**Requisitos associados** | RF-005, RF-006, RNF-001 e RNF-002
 **Resultado esperado** | Acesso ao mapa.
 **Dados de entrada** | Localização do usuário.
 **Resultado obtido** | Acesso ao mapa. 
 
 **Caso de Teste** | **CT06 - Ferramentas do mapa: Editar pins**
  :--------------: | ------------
-**Procedimento**  | 1) Clique no ícone de lápis. <br> 2) Após isso, a edição de localidade do pin está ativada. <br> 3) Arraste até o novo local desejado. <br> 4) Ao concluir, clique em "Salvar".
-**Requisitos associados** | RF-005, RF-006 e RNF-001
+**Procedimento**  | 1) Acessar a URL do site. <br> 2) Fazer Cadastro/login <br> 3) Encontrar o botão de direcionamento para o conteúdo. <br> 4) Ao entrar, aceitar o acesso à localização pelo navegador <br> 5) Clique no ícone de lápis. <br> 6) Após isso, a edição de localidade do pin está ativada. <br> 7) Arraste até o novo local desejado. <br> 8) Ao concluir, clique em "Salvar".
+**Requisitos associados** | RF-005, RF-006, RNF-001 e RNF-002
 **Resultado esperado** | Acesso à funcionalidade de edição de marcadores.
 **Dados de entrada** | Localização e Marcadores do usuário.
 **Resultado obtido** | Edição de localidade do pin. 
 
 **Caso de Teste** | **CT07 - Ferramentas do mapa: Deleção de pins **
  :--------------: | ------------
-**Procedimento**  | 1) Clique no ícone de lixeira. <br> 2) Após isso, a deleção de localidade do pin está ativada. <br> 3) Clique no ícone que deseja deletar. <br> 4) Ao concluir, clique em "Salvar".
-**Requisitos associados** |RF-005, RF-006 e RNF-001
+**Procedimento**  | 1) Acessar a URL do site. <br> 2) Fazer Cadastro/login <br> 3) Encontrar o botão de direcionamento para o conteúdo. <br> 4) Ao entrar, aceitar o acesso à localização pelo navegador <br> 5) Crie um marcador <br> 6) Clique no ícone de lixeira. <br> 7) Após isso, a deleção de localidade do pin está ativada. <br> 8) Clique no ícone que deseja deletar. <br> 4) Ao concluir, clique em "Salvar".
+**Requisitos associados** |RF-005, RF-006, RNF-001 e RNF-002
 **Resultado esperado** | Acesso à funcionalidade de edição de marcadores.
 **Dados de entrada** | Localização e Marcadores do usuário.
 **Resultado obtido** | Deleção de localidade do pin. 
 
 **Caso de Teste** | **CT08 - Fórum **
  :--------------: | ------------
-**Procedimento**  | 1) Após o login, acesse o botão "Fórum". <br> 2) Aparecerá os campos de criar comentário, acessar todos os comentário, links de utilidade pública e sugestões para o site.
+**Procedimento**  | 1) Após o login, acesse o botão "Fórum". <br> 2) Aparecerá os campos de criar comentário, acessar todos os comentários, links de utilidade pública e sugestões para o site.
 **Requisitos associados** | RF-003, RF-004, RF-010, RF-011 e RNF-001
 **Resultado esperado** | Acesso ao fórum e suas ferramentas.
 **Dados de entrada** | Dados previamente subscritos durante a criação da conta.
@@ -91,7 +91,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT09 - Criar comentário **
  :--------------: | ------------
-**Procedimento**  | 1) Escreva seu comentário no campo de texto <br> 2) Clique em "Enviar comentário"
+**Procedimento**  | 1) Entre na URL do site <br> 2) Faça cadastro/login <br> 3) Encontre o botão direcionador para o fórum <br> 4) Escreva seu comentário no campo de texto <br> 5) Clique em "Enviar comentário"
 **Requisitos associados** | RF-003, RF-004, RF-010, RF-011 e RNF-001
 **Resultado esperado** | Acesso ao fórum e suas ferramentas.
 **Dados de entrada** | Dados previamente subscritos durante a criação da conta.
@@ -99,7 +99,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT10 - Enviar sugestões para os criadores **
  :--------------: | ------------
-**Procedimento**  | 1) No fórum, clique no texto "Clique aqui e colabore agora mesmo!" <br> 2) Preencha os campos "Nome", "E-mail de contato", "telefone - opcional" e a mensagem <br> 3) Clique em "Enviar"
+**Procedimento**  | 1) Entre na URL do site <br> 2) Faça cadastro/login <br> 3) Encontre o botão direcionador para o fórum <br> 4) Clique no texto "Clique aqui e colabore agora mesmo!" <br> 5) Preencha os campos "Nome", "E-mail de contato", "telefone - opcional" e a mensagem <br> 6) Clique em "Enviar"
 **Requisitos associados** | RF-010	e RNF-001
 **Resultado esperado** | Direcionamento de sugestões.
 **Dados de entrada** | "Nome", "E-mail de contato", "telefone - opcional" e a mensagem.
@@ -131,17 +131,17 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*CT05 - Acessar o Mapa e utilizar suas ferramentas*                                         |
 |---|---|
-|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
+|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. <br> RNF-002	A aplicação Web será integrada à uma API de localização e mapa |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1-xiubK9xmVLQ64qgBTXLB9LiljKFoqeG/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT06 - Ferramentas do mapa: Editar pins*                                         |
 |---|---|
-|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
+|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. <br> RNF-002	A aplicação Web será integrada à uma API de localização e mapa |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1UzlOqETFvKsXXRpnOhvbiAFcHcwOcU6W/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT07 - Ferramentas do mapa: Deleção de pins*                                         |
 |---|---|
-|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
+|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. <br> RNF-002	A aplicação Web será integrada à uma API de localização e mapa|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/18xN4PMQ7anLAVsE81ig8GYJ6I42-3FW9/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT08 - Fórum*                                         |
@@ -162,41 +162,19 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-
-
-## Testes de unidade automatizados (Opcional)
-
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
+Particularmente, gostamos muito do nosso primeiro projeto, tendo como forte o visual 
 
 
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
+<strong> Usuário 1: </strong> Busca por conteúdos que promovem uma melhoria no contato social urbano (práticas de boas convivências). Tempo necessário para tal ação: 8 segundos. Tempo necessário por um especialista: 3 segundos. 
+Comentário: "Aplicação bem intuitiva, não precisou que fizesse login para acessar o conteúdo. Conteúdo muito bom, porém ainda são poucos". Nota: 4/5
 
-Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
+<strong> Usuário 2: </strong> Busca por interagir com pessoas (fórum). Tempo necessário para tal ação: 37 segundos. Tempo necessário por um especialista: 27.4 segundos. 
+Comentário: "Funciona direitinho, porém a página do fórum contém bastante informação. Não contém opções de like/deslike e denunciar". Nota: 3.8/5
 
-Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
-
-Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
-
-Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
-
-1. Péssimo; 
-2. Ruim; 
-3. Regular; 
-4. Bom; 
-5. Ótimo.
-
-Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
-
-Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
-
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+<strong> Usuário 3: </strong> Gostaria de anexar um buraco no mapa do seu bairro. Tempo necessário para tal ação: 43 segundos. Tempo necessário por um especialista: 26.3 segundos. 
+Comentário: "Funcionou perfeitamente. Consigo remover e editar. Senti falta de uma explicação de como posicionar os marcadores. Sugiro alguns gifs fazendo tais ações". Nota: 4.3/5
 
 
 ## Cenários de Teste de Usabilidade
@@ -206,72 +184,94 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 1             | Você é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Login e realize seu cadastro. |
 | 2             | Você é uma pessoa que deseja navegar no mapa e reportar um buraco em sua rua. Encontre a sessão do mapa e insira um alerta de buraco. |
 | 3             | Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem. |
-
+| 4             | Você é uma pessoa que deseja melhorar o ambiente coletivo do seu bairro. Ache o conteúdo de boas práticas de convivências. |
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja navegar no mapa e reportar um buraco em sua rua. Encontre a sessão do mapa e insira um alerta de buraco.
+Cenário 1: Você é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Login e realize seu cadastro.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1 Jess  | SIM             | 5                    | 33.60 segundos                  |
+| 2 Waldir| SIM             | 5                    | 19.31 segundos                  |
+| 3 Marcelo| SIM             | 5                    | 37.57 segundos                  |
+| 4 Jorge | SIM             | 4.5                    | 54.90 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%           | 5                | 30.16 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 26.03 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: 
+    Jess: Muito claro e intuitivo.
+    Waldir: Tranquilo e objetivo, ele criaria no banner princpal uma chamada mais fácil
+    Marcelo: utilizar o Autocomplete do nome, o cadastro foi tranquilo
 
 
 
-
-Cenário 2: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem.
+Cenário 2: Você é uma pessoa que deseja navegar no mapa e reportar um buraco em sua rua. Encontre a sessão do mapa e insira um alerta de buraco.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1 Jess  | SIM             | 4.5                  | 35.32 segundos                          |
+| 2 Waldir| SIM             | 5                    | 18.36 segundos                          |
+| 3 Marcelo | SIM             | 4.5                    | 54.90 segundos                          |
+| 4 Jorge| SIM             | 4.5                    | 54.90 segundos                          |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 4.66               | 36.19 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 27.43 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: 
+    Jess: Não ficou claro no icone do bluraco se era pra apertar em cima ou ao lado.
+    Waldir: No painel do mapa ele achou que o botão de mapear fosse em cima.
+    Marcelo: Colocar um tooltip, mensagem que ao passar o mouse em cima mostrar o que o botão faz, sugeriu colcoar no cartão do mapa: "Acompanhe e contribue com o mapa do seu bairro".
 
-Cenário 3: Você é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Login e realize seu cadastro.
+Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1 Jess  | SIM             | 5                    | 22.11 segundos                          |
+| 2 Waldir| SIM             | 3                    | 32.43 segundos                          |
+| 3 Marcelo | SIM             | 5                    | 26.71 segundos                          |
+| 4 Jorge | SIM             | 4.5                    | 54.90 segundos                          |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 5                | 27.08 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 15.07 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: 
+    Jess: Claro e intuitivo
+    Waldir: Colocar texto indicando o que é, recomendou utilizar o sweetalert para qualquer coisa de Popup e alerta https://sweetalert2.github.io/v10.html#examples.
+    Marcelo: Foi fácil e intuitivo
+
+
+Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu bairro. Ache o conteúdo de boas práticas de convivências.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1 Jess  | SIM             | 5                    | 07.21 segundos                          |
+| 2 Waldir| SIM             | 5                    | 31.42 segundos                          |
+| 3 Marcelo | SIM             | 5                    | 11.73 segundos                          |
+| 4 Jorge | SIM             | 4.5                    | 54.90 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 16.78 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 3 segundos |
+
+
+    Comentários dos usuários:
+    Jess: Achou legal e bacana;
+    Waldir: Colocar texto na barra dos Ícones;
+    Marcelo: Bem rápido;
 
 
 ## Avaliação dos Testes de Usabilidade
 
+A partir dos dados recebidos e analisados, a aplicação atinge um grau de usabilidade satisfatório, especialmente pelo fato de todos os usuários terem conseguido fazer os cenários propostos. É também o caso dos testes de usabilidade subjetivos baseados na LGPD, onde foi possível medir notas entre 3.8 à 4.3 de um total de 5. 
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Paralelamente, foi registrado uma descrepância (em alguns casos mais notáveis do que outros) acerca do tempo gasto entre especialista e "clientes", sendo o maior o cenário 4: "Ache o conteúdo de boas práticas de convivências". 
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
-
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+Tendo em vista a discrepância, estaremos acolhendo as sugestões dos usuários, em especial no mapa, especificando detalhadamente, através de Gifs, o processo de registro de marcadores no mapa. Além disso, buscaremos colocar legendas sobre cada ícone do Header, promovendo um facilitador no tempo de um usuário recente. Como melhoria, também fica otimizar e modernizar o 'conta.html'.
 
 
 
