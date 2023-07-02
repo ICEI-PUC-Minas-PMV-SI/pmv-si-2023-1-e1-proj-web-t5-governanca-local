@@ -162,8 +162,9 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 ## Avaliação dos Testes de Software
 
-Particularmente, gostamos muito do nosso primeiro projeto, tendo como forte o visual 
+Particularmente, gostamos muito do nosso primeiro projeto, tendo como forte o visual mais minimalista e intuitivo. São também pontos positivos a combinação de APIs.
 
+De pontos a serem melhorados, a falta de instrução do mapa, as limitações do localstorage e a grande quantidade de itens para atualizar informações do usuário.
 
 # Testes de Usabilidade
 
