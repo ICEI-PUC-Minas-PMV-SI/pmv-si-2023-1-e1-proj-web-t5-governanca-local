@@ -60,7 +60,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT05 - Acessar o Mapa e utilizar suas ferramentas**
  :--------------: | ------------
 **Procedimento**  | 1) Acessar a URL do site. <br> 2) Fazer Cadastro/login <br> 3) Encontrar o botão de direcionamento para o conteúdo. <br> 4) Ao entrar, aceitar o acesso à localização pelo navegador <br> 5) Para utilizar os devidos marcadores, clicar e arrastar para a área desejada. <br> 6) Ao posicionar o pin, os ícones lápis e lixeira, respectivamente: edição e deleção, são habilitados.
-**Requisitos associados** | RF-005, RF-006 e RNF-001
+**Requisitos associados** | RF-005, RF-006, RNF-001 e RNF-002
 **Resultado esperado** | Acesso ao mapa.
 **Dados de entrada** | Localização do usuário.
 **Resultado obtido** | Acesso ao mapa. 
@@ -68,7 +68,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT06 - Ferramentas do mapa: Editar pins**
  :--------------: | ------------
 **Procedimento**  | 1) Acessar a URL do site. <br> 2) Fazer Cadastro/login <br> 3) Encontrar o botão de direcionamento para o conteúdo. <br> 4) Ao entrar, aceitar o acesso à localização pelo navegador <br> 5) Clique no ícone de lápis. <br> 6) Após isso, a edição de localidade do pin está ativada. <br> 7) Arraste até o novo local desejado. <br> 8) Ao concluir, clique em "Salvar".
-**Requisitos associados** | RF-005, RF-006 e RNF-001
+**Requisitos associados** | RF-005, RF-006, RNF-001 e RNF-002
 **Resultado esperado** | Acesso à funcionalidade de edição de marcadores.
 **Dados de entrada** | Localização e Marcadores do usuário.
 **Resultado obtido** | Edição de localidade do pin. 
@@ -76,7 +76,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT07 - Ferramentas do mapa: Deleção de pins **
  :--------------: | ------------
 **Procedimento**  | 1) Acessar a URL do site. <br> 2) Fazer Cadastro/login <br> 3) Encontrar o botão de direcionamento para o conteúdo. <br> 4) Ao entrar, aceitar o acesso à localização pelo navegador <br> 5) Crie um marcador <br> 6) Clique no ícone de lixeira. <br> 7) Após isso, a deleção de localidade do pin está ativada. <br> 8) Clique no ícone que deseja deletar. <br> 4) Ao concluir, clique em "Salvar".
-**Requisitos associados** |RF-005, RF-006 e RNF-001
+**Requisitos associados** |RF-005, RF-006, RNF-001 e RNF-002
 **Resultado esperado** | Acesso à funcionalidade de edição de marcadores.
 **Dados de entrada** | Localização e Marcadores do usuário.
 **Resultado obtido** | Deleção de localidade do pin. 
@@ -131,17 +131,17 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*CT05 - Acessar o Mapa e utilizar suas ferramentas*                                         |
 |---|---|
-|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. |
+|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. <br> RNF-002	A aplicação Web será integrada à uma API de localização e mapa |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1-xiubK9xmVLQ64qgBTXLB9LiljKFoqeG/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT06 - Ferramentas do mapa: Editar pins*                                         |
 |---|---|
-|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
+|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. <br> RNF-002	A aplicação Web será integrada à uma API de localização e mapa |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1UzlOqETFvKsXXRpnOhvbiAFcHcwOcU6W/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT07 - Ferramentas do mapa: Deleção de pins*                                         |
 |---|---|
-|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel.|
+|Requisito Associado | RF-005	- A aplicação Web permitirá o usuário (cadastrado ou não) ter acesso a todas notificações do seu mapa. <br> RF-006 -	A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa. <br> RNF-001 - O sistema deve ser responsivo para rodar em um dispositivos móvel. <br> RNF-002	A aplicação Web será integrada à uma API de localização e mapa|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/18xN4PMQ7anLAVsE81ig8GYJ6I42-3FW9/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT08 - Fórum*                                         |
