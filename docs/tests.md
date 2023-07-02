@@ -199,7 +199,7 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar. Encontre no site a sess
 | 3 Marcelo| SIM             | 5                    | 37.57 segundos                  |
 | 4 Jorge | SIM             | 5                    | 25.45 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 30.16 segundos                           |
+| **Média**     | 100%           | 5                | 28.98 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 26.03 segundos |
 
 
@@ -220,7 +220,7 @@ Cenário 2: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
 | 3 Marcelo | SIM             | 4.5                    | 54.90 segundos                          |
 | 4 Jorge| SIM             | 4                    | 51.20 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.66               | 36.19 segundos                           |
+| **Média**     | 100%           | 4.66               | 39,94 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 27.43 segundos |
 
 
@@ -239,7 +239,7 @@ Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontr
 | 3 Marcelo | SIM             | 5                    | 26.71 segundos                          |
 | 4 Jorge | SIM             | 4.5                    | 32.23 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 27.08 segundos                           |
+| **Média**     | 100%           | 5                | 28,37 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 15.07 segundos |
 
 
@@ -259,7 +259,7 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
 | 3 Marcelo | SIM             | 5                    | 11.73 segundos                          |
 | 4 Jorge | SIM             | 4                    | 10.52 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 16.78 segundos                           |
+| **Média**     | 100%           | 5                | 15,22 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 3 segundos |
 
 
