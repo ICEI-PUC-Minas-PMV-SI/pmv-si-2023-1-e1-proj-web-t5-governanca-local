@@ -197,12 +197,11 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar. Encontre no site a sess
 | 2 Waldir| SIM             | 5                    | 19.31 segundos                  |
 | 3 Marcelo| SIM             | 5                    | 37.57 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
+| **Média**     | 100%           | 5                | 30.16 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 26.03 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: 
     Jess: Muito claro e intuitivo.
     Waldir: Tranquilo e objetivo, ele criaria no banner princpal uma chamada mais fácil
     Marcelo: utilizar o Autocomplete do nome, o cadastro foi tranquilo
@@ -217,13 +216,11 @@ Cenário 2: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
 | 2 Waldir| SIM             | 5                    | 18.36 segundos                          |
 | 3 Marcelo | SIM             | 4.5                    | 54.90 segundos                          |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Média**     | 100%           | 4.66               | 36.19 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 27.43 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: 
     Jess: Não ficou claro no icone do bluraco se era pra apertar em cima ou ao lado.
     Waldir: No painel do mapa ele achou que o botão de mapear fosse em cima.
     Marcelo: Colocar um tooltip, mensagem que ao passar o mouse em cima mostrar o que o botão faz, sugeriu colcoar no cartão do mapa: "Acompanhe e contribue com o mapa do seu bairro".
@@ -236,13 +233,11 @@ Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontr
 | 2 Waldir| SIM             | 3                    | 32.43 segundos                          |
 | 3 Marcelo | SIM             | 5                    | 26.71 segundos                          |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Média**     | 100%           | 5                | 27.08 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 15.07 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: 
     Jess: Claro e intuitivo
     Waldir: Colocar texto indicando o que é, recomendou utilizar o sweetalert para qualquer coisa de Popup e alerta https://sweetalert2.github.io/v10.html#examples.
     Marcelo: Foi fácil e intuitivo
@@ -256,13 +251,11 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
 | 2 Waldir| SIM             | 5                    | 31.42 segundos                          |
 | 3 Marcelo | SIM             | 5                    | 11.73 segundos                          |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Média**     | 100%           | 5                | 16.78 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 3 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários:
     Jess: Achou legal e bacana;
     Waldir: Colocar texto na barra dos Ícones;
     Marcelo: Bem rápido;
@@ -270,14 +263,11 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
 
 ## Avaliação dos Testes de Usabilidade
 
+A partir dos dados recebidos e analisados, a aplicação atinge um grau de usabilidade satisfatório, especialmente pelo fato de todos os usuários terem conseguido fazer os cenários propostos. É também o caso dos testes de usabilidade subjetivos baseados na LGPD, onde foi possível medir notas entre 3.8 à 4.3 de um total de 5. 
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Paralelamente, foi registrado uma descrepância (em alguns casos mais notáveis do que outros) acerca do tempo gasto entre especialista e "clientes", sendo o maior o cenário 4: "Ache o conteúdo de boas práticas de convivências". 
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
-
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+Tendo em vista a discrepância, estaremos acolhendo as sugestões dos usuários, em especial no mapa, especificando detalhadamente, através de Gifs, o processo de registro de marcadores no mapa. Além disso, buscaremos colocar legendas sobre cada ícone do Header, promovendo um facilitador no tempo de um usuário recente. Como melhoria, também fica otimizar e modernizar o 'conta.html'.
 
 
 
