@@ -244,6 +244,7 @@ Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontr
     Jess: Claro e intuitivo
     Waldir: Colocar texto indicando o que é, recomendou utilizar o sweetalert para qualquer coisa de Popup e alerta https://sweetalert2.github.io/v10.html#examples.
     Marcelo: Foi fácil e intuitivo
+    Jorge: Apesar de ser leigo em tecnologia, achou o site prático até mesmo para pessoas com baixo conhecimento tecnológico.
 
 
 Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu bairro. Ache o conteúdo de boas práticas de convivências.
