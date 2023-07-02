@@ -211,7 +211,7 @@ Cenário 2: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontr
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
+| 1 Jess  | SIM             | 5                    | 22.11 segundos                          |
 | 2       | SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
