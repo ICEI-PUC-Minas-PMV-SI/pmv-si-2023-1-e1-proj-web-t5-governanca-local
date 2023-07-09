@@ -19,7 +19,6 @@ O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apr
 
 ![2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/assets/128436722/a15b85d0-d53e-41bc-bfec-c58a67f3901f)
 ![3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/assets/128436722/fe4e4b6c-f281-4615-bc29-7db67416cf8e)
-![3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/assets/128436722/a957f99b-737f-4859-a717-acf21121cf49)
 ![4](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/assets/128436722/6877e1ad-d83a-4a0f-bd3d-b31261b0f4bb)
 ![5](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/assets/128436722/c3208ee6-eab2-4481-ac44-e2cdfa7a67dc)
 ![6](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/assets/128436722/601077cf-f64d-4ca4-b830-c930832c517f)
