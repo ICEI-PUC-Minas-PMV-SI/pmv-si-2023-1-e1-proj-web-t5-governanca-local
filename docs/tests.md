@@ -194,20 +194,20 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar. Encontre no site a sess
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1 Jess  | SIM             | 5                    | 33.60 segundos                  |
-| 2 Waldir| SIM             | 5                    | 19.31 segundos                  |
-| 3 Marcelo| SIM             | 5                    | 37.57 segundos                  |
-| 4 Jorge | SIM             | 5                    | 25.45 segundos                          |
+| 1   | SIM             | 5                    | 33.60 segundos                  |
+| 2 | SIM             | 5                    | 19.31 segundos                  |
+| 3| SIM             | 5                    | 37.57 segundos                  |
+| 4  | SIM             | 5                    | 25.45 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 28.98 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 26.03 segundos |
 
 
     Comentários dos usuários: 
-    Jess: Muito claro e intuitivo.
-    Waldir: Tranquilo e objetivo, ele criaria no banner princpal uma chamada mais fácil
-    Marcelo: utilizar o Autocomplete do nome, o cadastro foi tranquilo
-    Jorge: Fácil e prático.
+    1: Muito claro e intuitivo.
+    2r: Tranquilo e objetivo, ele criaria no banner princpal uma chamada mais fácil
+    3: utilizar o Autocomplete do nome, o cadastro foi tranquilo
+    4: Fácil e prático.
 
 
 
@@ -215,29 +215,29 @@ Cenário 2: Você é uma pessoa que deseja navegar no mapa e reportar um buraco 
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1 Jess  | SIM             | 4.5                  | 35.32 segundos                          |
-| 2 Waldir| SIM             | 5                    | 18.36 segundos                          |
-| 3 Marcelo | SIM             | 4.5                    | 54.90 segundos                          |
-| 4 Jorge| SIM             | 4                    | 51.20 segundos                          |
+| 1   | SIM             | 4.5                  | 35.32 segundos                          |
+| 2 | SIM             | 5                    | 18.36 segundos                          |
+| 3  | SIM             | 4.5                    | 54.90 segundos                          |
+| 4 | SIM             | 4                    | 51.20 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 4.66               | 39,94 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 27.43 segundos |
 
 
     Comentários dos usuários: 
-    Jess: Não ficou claro no icone do buraco se era pra apertar em cima ou ao lado.
-    Waldir: No painel do mapa ele achou que o botão de mapear fosse em cima.
-    Marcelo: Colocar um tooltip, mensagem que ao passar o mouse em cima mostrar o que o botão faz, sugeriu colcoar no cartão do mapa: "Acompanhe e contribue com o mapa do seu bairro".
-    Jorge: Ficou um pouco confuso mas entendeu o objetivo do mapa.
+    1: Não ficou claro no icone do buraco se era pra apertar em cima ou ao lado.
+    2: No painel do mapa ele achou que o botão de mapear fosse em cima.
+    3: Colocar um tooltip, mensagem que ao passar o mouse em cima mostrar o que o botão faz, sugeriu colcoar no cartão do mapa: "Acompanhe e contribue com o mapa do seu bairro".
+    4: Ficou um pouco confuso mas entendeu o objetivo do mapa.
 
 Cenário 3: Você é uma pessoa que deseja fazer uma postagem no fórum. Encontre no site o fórum e faça uma postagem.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1 Jess  | SIM             | 5                    | 22.11 segundos                          |
-| 2 Waldir| SIM             | 3                    | 32.43 segundos                          |
-| 3 Marcelo | SIM             | 5                    | 26.71 segundos                          |
-| 4 Jorge | SIM             | 4.5                    | 32.23 segundos                          |
+| 1   | SIM             | 5                    | 22.11 segundos                          |
+| 2 | SIM             | 3                    | 32.43 segundos                          |
+| 3  | SIM             | 5                    | 26.71 segundos                          |
+| 4  | SIM             | 4.5                    | 32.23 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 28,37 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 15.07 segundos |
@@ -254,20 +254,20 @@ Cenário 4: Você é uma pessoa que deseja melhorar o ambiente coletivo do seu b
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1 Jess  | SIM             | 5                    | 07.21 segundos                          |
-| 2 Waldir| SIM             | 5                    | 31.42 segundos                          |
-| 3 Marcelo | SIM             | 5                    | 11.73 segundos                          |
-| 4 Jorge | SIM             | 4                    | 10.52 segundos                          |
+| 1   | SIM             | 5                    | 07.21 segundos                          |
+| 2 | SIM             | 5                    | 31.42 segundos                          |
+| 3  | SIM             | 5                    | 11.73 segundos                          |
+| 4  | SIM             | 4                    | 10.52 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 15,22 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 3 segundos |
 
 
     Comentários dos usuários:
-    Jess: Achou legal e bacana;
-    Waldir: Colocar texto na barra dos Ícones;
-    Marcelo: Bem rápido;
-    Jorge: Elogiou a iniciativa das boas práticas.
+    1: Achou legal e bacana;
+    2: Colocar texto na barra dos Ícones;
+    3: Bem rápido;
+    4: Elogiou a iniciativa das boas práticas.
 
 
 ## Avaliação dos Testes de Usabilidade
