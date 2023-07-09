@@ -7,15 +7,6 @@ Neste projeto serão realizados dois tipos de testes:
 
 Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o documento [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/).
 
-A documentação dos testes é dividida nas seguintes seções:
-
- - [Plano de Testes de Software](#plano-de-testes-de-software)
- - [Registro dos Testes de Software](#registro-dos-testes-de-software)
- - [Avaliação dos Testes de Software](#avaliação-dos-testes-de-software)
- - [Cenários de Teste de Usabilidade](#cenários-de-teste-de-usabilidade)
- - [Registro dos Testes de Usabilidade](#registro-dos-testes-de-usabilidade)
- - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
-
 # Teste de Software
 
 Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software.
