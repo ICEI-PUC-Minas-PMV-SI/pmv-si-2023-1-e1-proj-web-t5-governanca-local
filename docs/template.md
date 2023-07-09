@@ -682,8 +682,8 @@ footer h1 {
 ![GL - Vetorizada](https://user-images.githubusercontent.com/128436722/234724914-6e5d3711-f001-4c06-8183-66de50f0bf36.svg)
 </div>
 
-Nossa Logotipo, tem em sua essência a imagem de uma cidadezinha ao qual as casas nos fazem lembrar os pequenos e acolhedores bairros locais. Por cima da cidadezinha três (03) símbolos
-que simbolizam ideais, coletividade e positividade. Além do nome abaixo Governança Local que tem por simbologia a autonomia local bem como as boas iniciativas.
+A Logotipo, tem em sua essência a imagem de uma cidadezinha ao qual as casas nos fazem lembrar os pequenos e acolhedores bairros locais. Por cima da cidadezinha três (03) símbolos
+que simbolizam ideais, coletividade e positividade. Além do nome abaixo Governança Local que tem por simbologia a autonomia da comunidade bem como suas boas iniciativas.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ## Cores
