@@ -1,6 +1,6 @@
 # Governança Local
 <div align="center" text-align="center">
-<img src="https://cdn.discordapp.com/attachments/997555737490370611/1100953342244560937/WhatsApp_Image_2023-04-24_at_22.19.42-removebg-preview.png" alt="Image" width="300px"> 
+<img src="https://user-images.githubusercontent.com/112134718/234735939-7e71a594-769a-42b7-897e-99c0340e0137.png" alt="Image" width="300px"> 
 
 `CURSO: Sistemas de Informação`
 
